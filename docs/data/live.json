@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T20:29:30Z",
+ "generated_at": "2026-09-19T20:33:17Z",
  "matches": [
   {
    "cb_id": 170951,
@@ -115,14 +115,12 @@
    "cb_id": 171737,
    "teams": "WPR v DOL",
    "teams_full": "Western Province v Dolphins",
-   "state": "In Progress",
-   "status": "Day 3: 3rd Session - Western Province trail by 3 runs",
+   "state": "Stumps",
+   "status": "Day 3: Stumps - Western Province lead by 113 runs",
    "series": "CSA Four-Day Series Division One 2026-27",
    "format": "TEST",
    "date": "2026-09-17",
-   "start_ms": 1789632000000,
-   "last_ball_min": 437.5,
-   "balls_flowing": false
+   "start_ms": 1789632000000
   },
   {
    "cb_id": 171747,
@@ -198,13 +196,13 @@
    "prices": {
     "Zimbabwe": {
      "bid": 0.11,
-     "ask": 0.12,
-     "mid": 0.11499999999999999
+     "ask": 0.119,
+     "mid": 0.11449999999999999
     },
     "Australia": {
-     "bid": 0.88,
+     "bid": 0.881,
      "ask": 0.89,
-     "mid": 0.885
+     "mid": 0.8855
     }
    }
   },
@@ -216,14 +214,14 @@
    "state": "Preview",
    "prices": {
     "Pakistan Women": {
-     "bid": 0.34,
+     "bid": 0.33,
      "ask": 0.36,
-     "mid": 0.35
+     "mid": 0.345
     },
     "Sri Lanka Women": {
      "bid": 0.64,
-     "ask": 0.66,
-     "mid": 0.65
+     "ask": 0.67,
+     "mid": 0.655
     }
    }
   },
@@ -319,7 +317,7 @@
    "cb_id": 171737,
    "teams": "Western Province v Dolphins",
    "series": "CSA Four-Day Series Division One 2026-27",
-   "state": "In Progress",
+   "state": "Stumps",
    "date": "2026-09-17",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -363,7 +361,7 @@
   "seen_total": 25,
   "ever_paired": 5,
   "balls_flowing": 0,
-  "state_says_live": 1
+  "state_says_live": 0
  },
  "trader": {
   "state": "in_progress",
@@ -371,7 +369,7 @@
   "run_number": 2,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35466535898",
   "started_at": "2026-09-19T20:09:47Z",
-  "elapsed_s": 1183,
+  "elapsed_s": 1410,
   "runs_total": 2
  }
 }
