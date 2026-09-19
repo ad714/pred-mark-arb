@@ -99,7 +99,9 @@ th{text-align:left; font-weight:500; color:var(--faint); font-size:11.5px;
   letter-spacing:.05em; text-transform:uppercase; padding:0 14px 9px 0; white-space:nowrap}
 td{padding:9px 14px 9px 0; border-top:1px solid var(--edge); vertical-align:top}
 td.n{font-family:var(--mono); font-variant-numeric:tabular-nums; white-space:nowrap}
-th:last-child,td:last-child{width:100%; padding-right:0}
+th.wide,td.wide{width:100%}
+tr.cont td{border-top:0}
+tr.cont td:first-child{color:transparent}
 tbody tr:hover td{background:var(--raise)}
 .muted{color:var(--dim)}
 .empty{background:var(--panel); border-radius:3px; padding:20px 22px; color:var(--dim); margin-top:22px}
@@ -121,6 +123,7 @@ footer{margin-top:clamp(56px,9vw,104px); padding-block:26px 48px;
       <span class="beat" id="beat" data-idle>collector <b id="tstate">checking</b></span>
       <span>run <b class="num" id="trun">-</b></span>
       <span>elapsed <b class="num" id="telapsed">-</b></span>
+      <span id="nextwrap">next <b class="num" id="tnext">-</b></span>
       <span><a id="trunlink" href="https://github.com/ad714/pred-mark-arb/actions">open run</a></span>
     </div>
   </div>
@@ -226,7 +229,7 @@ footer{margin-top:clamp(56px,9vw,104px); padding-block:26px 48px;
   <dl class="grid" id="covstats">
     <div class="cell"><dt>Fixtures seen</dt><dd>-</dd></div>
     <div class="cell"><dt>Ever paired</dt><dd>-</dd></div>
-    <div class="cell"><dt>In play now</dt><dd>-</dd></div>
+    <div class="cell"><dt>Exact name match</dt><dd>-</dd></div>
     <div class="cell"><dt>Wickets timed</dt><dd>-</dd></div>
   </dl>
   <div class="scroll" id="covbox"><div class="empty"><b>Loading the registry</b>If this line
@@ -365,13 +368,24 @@ function renderLive(d){
   if(t.url){ document.getElementById("trunlink").href = t.url; }
 
   const pairs = d.pairings || [], matches = d.matches || [];
+  const flowing = matches.filter(m => m.balls_flowing);
+  const nf = d.next_fixture;
+  if(nf && nf.start_ms && !flowing.length){
+    const mins = Math.max(0, Math.round((nf.start_ms - Date.now()) / 60000));
+    $("#tnext").textContent = (mins >= 60 ? Math.floor(mins / 60) + "h" + String(mins % 60).padStart(2, "0") : mins + "m");
+    document.getElementById("nextwrap").title = nf.teams_full + " starts then";
+  } else {
+    document.getElementById("nextwrap").style.display = flowing.length ? "none" : "";
+    $("#tnext").textContent = flowing.length ? "-" : "none";
+  }
   if(pairs.length){
     const rows = [];
     for(const p of pairs){
       const entries = Object.entries(p.prices || {});
       entries.forEach(function(pair, i){
-        rows.push('<tr><td class="n">' + (i ? "" : esc(p.cb_id)) + '</td>' +
-          '<td class="muted">' + (i ? "" : esc(p.question)) + '</td>' +
+        rows.push('<tr' + (i ? ' class="cont"' : '') + '><td class="n">' +
+          esc(p.state || p.cb_id) + '</td>' +
+          '<td class="muted wide">' + (i ? "" : esc(p.question)) + '</td>' +
           '<td>' + esc(pair[0]) + '</td>' +
           '<td class="n">' + n2(pair[1].bid) + '</td>' +
           '<td class="n">' + n2(pair[1].ask) + '</td>' +
@@ -379,8 +393,13 @@ function renderLive(d){
       });
     }
     document.getElementById("pairbox").innerHTML =
-      '<div class="scroll"><table><caption>Paired right now: a live match matched to a two outcome Polymarket book.</caption>' +
-      '<thead><tr><th>Match</th><th>Market</th><th>Outcome</th><th>Bid</th><th>Ask</th><th>Mid</th></tr></thead><tbody>' +
+      '<div class="scroll"><table><caption>' +
+      (flowing.length
+        ? 'Balls are being bowled. These books are being watched for wickets right now.'
+        : 'No ball has landed recently, so the collector is armed and idle. These fixtures ' +
+          'are already matched to a book and will be watched the moment play starts.') +
+      '</caption><thead><tr><th>Match</th><th class="wide">Market</th><th>Outcome</th><th>Bid</th>' +
+      '<th>Ask</th><th>Mid</th></tr></thead><tbody>' +
       rows.join("") + '</tbody></table></div>';
   } else {
     const why = (d.unpaired || []).map(u =>
@@ -395,10 +414,16 @@ function renderLive(d){
   }
 
   document.getElementById("matchbox").innerHTML = matches.length ?
-    '<table><caption>In play on the feed.</caption><thead><tr><th>Teams</th><th>State</th>' +
-    '<th>Format</th><th>Series</th></tr></thead><tbody>' +
+    '<table><caption>On the feed and not yet finished. A state of In Progress is not proof ' +
+    'that anyone is bowling: Cricbuzz keeps it set between days of a multi day match, so the ' +
+    'last ball column is the real test.</caption><thead><tr><th>Teams</th><th>State</th>' +
+    '<th>Last ball</th><th>Format</th><th class="wide">Series</th></tr></thead><tbody>' +
     matches.map(m => '<tr><td class="n">' + esc(m.teams) + '</td><td class="n">' + esc(m.state) +
-      '</td><td class="muted">' + esc(m.format) + '</td><td class="muted">' + esc(m.series) +
+      '</td><td class="n" style="color:' + (m.balls_flowing ? "#8fae6a" : "inherit") + '">' +
+      (m.last_ball_min === null || m.last_ball_min === undefined ? '<span class="muted">-</span>'
+        : m.last_ball_min < 90 ? Math.round(m.last_ball_min) + "m ago"
+        : Math.round(m.last_ball_min / 60) + "h ago") +
+      '</td><td class="muted">' + esc(m.format) + '</td><td class="muted wide">' + esc(m.series) +
       '</td></tr>').join("") + '</tbody></table>' : "";
 }
 
@@ -425,7 +450,7 @@ function renderResults(d){
   const w = d.wickets || [];
   document.getElementById("wicketbox").innerHTML = w.length ?
     '<table><caption>Newest first. A skip is still a timed wicket.</caption><thead><tr>' +
-    '<th>Time</th><th>Lag</th><th>Match</th><th>Ball</th><th>Outcome</th></tr></thead><tbody>' +
+    '<th>Time</th><th>Lag</th><th>Match</th><th>Ball</th><th class="wide">Outcome</th></tr></thead><tbody>' +
     w.slice(0, 60).map(x => '<tr><td class="n muted">' + esc(x.iso) + '</td>' +
       '<td class="n" style="color:' + (x.lag_s < 15 ? "#8fae6a" : x.lag_s < 20 ? "#e0a53f" : "#c4735a") +
       '">' + x.lag_s + 's</td><td class="n muted">' + esc(x.slug) + '</td>' +
@@ -452,7 +477,7 @@ function renderBasket(d){
 
   document.getElementById("basketbox").innerHTML =
     '<table><caption>Top of the latest scan. Dark legs cannot be bought at any price.</caption>' +
-    '<thead><tr><th>Event</th><th>Net</th><th>Capital</th><th>Return</th><th>Per share</th>' +
+    '<thead><tr><th class="wide">Event</th><th>Net</th><th>Capital</th><th>Return</th><th>Per share</th>' +
     '<th>Buyable</th><th>Dark</th><th>Days</th></tr></thead><tbody>' +
     (L.top || []).map(x => '<tr><td>' +
       (x.url ? '<a href="' + esc(x.url) + '">' + esc(x.event) + '</a>' : esc(x.event)) +
@@ -486,17 +511,18 @@ function renderCoverage(d){
     String(a.teams_full || "").localeCompare(String(b.teams_full || "")));
   const paired = rows.filter(r => r.paired_slug);
   const wickets = rows.reduce((n, r) => n + (r.wickets_timed || 0), 0);
-  const live = rows.filter(r => r.last_state === "In Progress" || r.last_state === "Innings Break");
+  const live = rows.filter(r => r.paired_slug && Number(r.paired_score) >= 1);
   document.getElementById("covstats").innerHTML =
     '<div class="cell"><dt>Fixtures seen</dt><dd>' + rows.length + '</dd></div>' +
     '<div class="cell"><dt>Ever paired</dt><dd>' + paired.length +
       '</dd><small>matched to a market</small></div>' +
-    '<div class="cell"><dt>In play now</dt><dd>' + live.length + '</dd></div>' +
+    '<div class="cell"><dt>Exact name match</dt><dd>' + live.length +
+      '</dd><small>both teams scored 1.00</small></div>' +
     '<div class="cell"><dt>Wickets timed</dt><dd>' + wickets + '</dd></div>';
 
   box.innerHTML = '<table><caption>Newest fixture first. Score is the weaker of the two team ' +
     'name matches, and 1.00 means both names matched exactly.</caption><thead><tr>' +
-    '<th>Date</th><th>Match</th><th>Format</th><th>State</th><th>Wkts</th>' +
+    '<th>Date</th><th class="wide">Match</th><th>Format</th><th>State</th><th>Wkts</th>' +
     '<th>Polymarket market</th></tr></thead><tbody>' +
     rows.map(r => '<tr>' +
       '<td class="n muted">' + esc(r.date) + '</td>' +

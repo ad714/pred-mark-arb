@@ -14,6 +14,7 @@ import dns_bypass
 import paper_trade
 import watch
 from record_cricket import extract_matches, HEADERS, LIVE_SCORES_URL
+from record_commentary import decode_blob, extract_balls, commentary_url
 
 dns_bypass.install()
 
@@ -111,6 +112,20 @@ def registry_update(matches, pairings, diagnostics, wicket_counts):
     return book
 
 
+STALE_BALL_MINUTES = 25
+
+
+def minutes_since_last_ball(session, cb_id):
+    try:
+        html = session.get(commentary_url(cb_id), headers=HEADERS, timeout=15).text
+        stamps = [b.get("timestamp") for b in extract_balls(decode_blob(html)) if b.get("timestamp")]
+        if not stamps:
+            return None
+        return round((time.time() * 1000 - max(stamps)) / 60000, 1)
+    except Exception:
+        return None
+
+
 def live_view(wicket_counts):
     session = requests.Session()
     matches = []
@@ -126,18 +141,28 @@ def live_view(wicket_counts):
                 "teams": f"{team1} v {team2}",
                 "teams_full": f"{full1} v {full2}",
                 "state": info.get("state"),
+                "status": info.get("status"),
                 "series": info.get("seriesName"),
                 "format": info.get("matchFormat"),
                 "date": str(paper_trade.match_date(match) or ""),
+                "start_ms": int(info["startDate"]) if info.get("startDate") else None,
             })
+
+        for row in matches:
+            if row["state"] in paper_trade.LIVE_STATES:
+                row["last_ball_min"] = minutes_since_last_ball(session, row["cb_id"])
+                row["balls_flowing"] = (row["last_ball_min"] is not None
+                                        and row["last_ball_min"] <= STALE_BALL_MINUTES)
     except Exception as exc:
         print(f"cricbuzz live view failed: {type(exc).__name__}: {exc}")
 
+    states_by_id = {m["cb_id"]: m["state"] for m in matches}
     pairings, diagnostics = [], []
     try:
-        found = paper_trade.build_pairings(session, paper_trade.PAIR_MIN_PRICE,
-                                           paper_trade.PAIR_MAX_PRICE,
-                                           diagnostics=diagnostics)
+        found = paper_trade.build_pairings(
+            session, paper_trade.PAIR_MIN_PRICE, paper_trade.PAIR_MAX_PRICE,
+            diagnostics=diagnostics,
+            states=("In Progress", "Innings Break", "Toss", "Stumps", "Preview"))
         for slug, pairing in found.items():
             prices = {}
             for outcome, token in pairing["outcomes"].items():
@@ -152,6 +177,7 @@ def live_view(wicket_counts):
                 "cb_id": pairing["cb_id"],
                 "question": pairing["question"],
                 "score": pairing.get("score"),
+                "state": states_by_id.get(pairing["cb_id"]),
                 "prices": prices,
             })
     except Exception as exc:
@@ -160,16 +186,25 @@ def live_view(wicket_counts):
     book = registry_update(matches, pairings, diagnostics, wicket_counts)
     tracked = [r for r in book.values() if r.get("paired_slug")]
 
-    live_states = ("In Progress", "Innings Break")
+    paired_ids = {p["cb_id"] for p in pairings}
+    upcoming = sorted(
+        (m for m in matches
+         if m.get("start_ms") and m["cb_id"] in paired_ids
+         and m["start_ms"] > time.time() * 1000),
+        key=lambda m: m["start_ms"])
+
     return {
         "generated_at": now_iso(),
         "matches": [m for m in matches if m["state"] != "Complete"],
         "pairings": pairings,
         "unpaired": diagnostics,
+        "next_fixture": upcoming[0] if upcoming else None,
         "coverage": {
             "seen_total": len(book),
             "ever_paired": len(tracked),
-            "live_now": sum(1 for m in matches if m["state"] in live_states),
+            "balls_flowing": sum(1 for m in matches if m.get("balls_flowing")),
+            "state_says_live": sum(1 for m in matches
+                                   if m["state"] in paper_trade.LIVE_STATES),
         },
         "trader": trader_state(),
     }

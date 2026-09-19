@@ -1,144 +1,320 @@
 {
- "generated_at": "2026-09-19T20:27:48Z",
+ "generated_at": "2026-09-19T20:29:30Z",
  "matches": [
   {
    "cb_id": 170951,
    "teams": "INDW v BANW",
    "teams_full": "India Women v Bangladesh Women",
    "state": "Preview",
+   "status": "Match starts at Sep 20, 05:00 GMT",
    "series": "Women's Asian Games 2026",
    "format": "T20",
-   "date": "2026-09-20"
+   "date": "2026-09-20",
+   "start_ms": 1789880400000
   },
   {
    "cb_id": 152753,
    "teams": "ZIM v AUS",
    "teams_full": "Zimbabwe v Australia",
    "state": "Preview",
+   "status": "Match starts at Sep 20, 07:30 GMT",
    "series": "Australia tour of Zimbabwe 2026",
    "format": "ODI",
-   "date": "2026-09-20"
+   "date": "2026-09-20",
+   "start_ms": 1789889400000
   },
   {
    "cb_id": 170943,
    "teams": "PAKW v SLW",
    "teams_full": "Pakistan Women v Sri Lanka Women",
    "state": "Preview",
+   "status": "Match starts at Sep 20, 00:00 GMT",
    "series": "Women's Asian Games 2026",
    "format": "T20",
-   "date": "2026-09-20"
+   "date": "2026-09-20",
+   "start_ms": 1789862400000
   },
   {
    "cb_id": 171267,
    "teams": "JPN v HKC",
    "teams_full": "Japan v Hong Kong, China",
    "state": "Preview",
+   "status": "Match starts at Sep 20, 01:00 GMT",
    "series": "Hong Kong, China tour of Japan 2026",
    "format": "T20",
-   "date": "2026-09-20"
+   "date": "2026-09-20",
+   "start_ms": 1789866000000
   },
   {
    "cb_id": 169440,
    "teams": "ECR v BFW",
    "teams_full": "Edinburgh Castle Rockers v Belfast Wolves",
    "state": "Preview",
+   "status": "Match starts at Sep 20, 13:15 GMT",
    "series": "ETPL 2026",
    "format": "T20",
-   "date": "2026-09-20"
+   "date": "2026-09-20",
+   "start_ms": 1789910100000
   },
   {
    "cb_id": 172401,
    "teams": "MPR v SWD",
    "teams_full": "Mpumalanga Rhinos v South Western Districts",
    "state": "Preview",
+   "status": "Match starts at Sep 20, 07:00 GMT",
    "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
    "format": "ODI",
-   "date": "2026-09-20"
+   "date": "2026-09-20",
+   "start_ms": 1789887600000
   },
   {
    "cb_id": 172390,
    "teams": "NCAPE v LIMPO",
    "teams_full": "Northern Cape v Limpopo",
    "state": "Preview",
+   "status": "Match starts at Sep 20, 08:00 GMT",
    "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
    "format": "ODI",
-   "date": "2026-09-20"
+   "date": "2026-09-20",
+   "start_ms": 1789891200000
   },
   {
    "cb_id": 172397,
    "teams": "ESTORM v BOR",
    "teams_full": "Eastern Storm v Border",
    "state": "Preview",
+   "status": "Match starts at Sep 20, 08:00 GMT",
    "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
    "format": "ODI",
-   "date": "2026-09-20"
+   "date": "2026-09-20",
+   "start_ms": 1789891200000
   },
   {
    "cb_id": 167057,
    "teams": "WA v TAS",
    "teams_full": "Western Australia v Tasmania",
    "state": "Preview",
+   "status": "Match starts at Sep 20, 06:00 GMT",
    "series": "Australia Domestic One-Day Cup 2026-27",
    "format": "ODI",
-   "date": "2026-09-20"
-  },
-  {
-   "cb_id": 171757,
-   "teams": "WAR v TIT",
-   "teams_full": "Warriors v Titans",
-   "state": "Stumps",
-   "series": "CSA Four-Day Series Division One 2026-27",
-   "format": "TEST",
-   "date": "2026-09-17"
+   "date": "2026-09-20",
+   "start_ms": 1789884000000
   },
   {
    "cb_id": 171727,
    "teams": "NWEST v BOL",
    "teams_full": "North West - Eastvaal Renault Dragons v Boland",
    "state": "Stumps",
+   "status": "Day 3: Stumps - Boland trail by 210 runs",
    "series": "CSA Four-Day Series Division One 2026-27",
    "format": "TEST",
-   "date": "2026-09-17"
+   "date": "2026-09-17",
+   "start_ms": 1789632000000
   },
   {
    "cb_id": 171737,
    "teams": "WPR v DOL",
    "teams_full": "Western Province v Dolphins",
    "state": "In Progress",
+   "status": "Day 3: 3rd Session - Western Province trail by 3 runs",
    "series": "CSA Four-Day Series Division One 2026-27",
    "format": "TEST",
-   "date": "2026-09-17"
+   "date": "2026-09-17",
+   "start_ms": 1789632000000,
+   "last_ball_min": 437.5,
+   "balls_flowing": false
   },
   {
    "cb_id": 171747,
    "teams": "KNG v LIONS",
    "teams_full": "Knights v Lions",
    "state": "Stumps",
+   "status": "Day 3: Stumps (No play on day 3 due to wet outfield)",
    "series": "CSA Four-Day Series Division One 2026-27",
    "format": "TEST",
-   "date": "2026-09-17"
+   "date": "2026-09-17",
+   "start_ms": 1789632000000
+  },
+  {
+   "cb_id": 171757,
+   "teams": "WAR v TIT",
+   "teams_full": "Warriors v Titans",
+   "state": "Stumps",
+   "status": "Day 3: Stumps (No play on day 3 due to wet outfield)",
+   "series": "CSA Four-Day Series Division One 2026-27",
+   "format": "TEST",
+   "date": "2026-09-17",
+   "start_ms": 1789632000000
   },
   {
    "cb_id": 144090,
    "teams": "LEIC v MDX",
    "teams_full": "Leicestershire v Middlesex",
    "state": "Preview",
+   "status": "Match starts at Sep 20, 10:00 GMT",
    "series": "England Domestic One-Day Cup",
    "format": "ODI",
-   "date": "2026-09-20"
+   "date": "2026-09-20",
+   "start_ms": 1789898400000
   },
   {
    "cb_id": 155617,
    "teams": "INDWA v AUSWA",
    "teams_full": "India A Women v Australia A Women",
    "state": "Preview",
+   "status": "Match starts at Sep 20, 08:30 GMT",
    "series": "Australia A Women tour of India 2026",
    "format": "ODI",
-   "date": "2026-09-20"
+   "date": "2026-09-20",
+   "start_ms": 1789893000000
   }
  ],
- "pairings": [],
+ "pairings": [
+  {
+   "slug": "crint-bgdw-indw-2026-09-20",
+   "cb_id": 170951,
+   "question": "Asian Games Women: Bangladesh Women vs India Women",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Bangladesh Women": {
+     "bid": 0.04,
+     "ask": 0.07,
+     "mid": 0.05500000000000001
+    },
+    "India Women": {
+     "bid": 0.93,
+     "ask": 0.96,
+     "mid": 0.9450000000000001
+    }
+   }
+  },
+  {
+   "slug": "crint-zwe-aus-2026-09-20",
+   "cb_id": 152753,
+   "question": "Australia Tour of Zimbabwe ODIs: Zimbabwe vs Australia",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Zimbabwe": {
+     "bid": 0.11,
+     "ask": 0.12,
+     "mid": 0.11499999999999999
+    },
+    "Australia": {
+     "bid": 0.88,
+     "ask": 0.89,
+     "mid": 0.885
+    }
+   }
+  },
+  {
+   "slug": "crint-pakw-lkaw-2026-09-19",
+   "cb_id": 170943,
+   "question": "Asian Games Women: Pakistan Women vs Sri Lanka Women",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Pakistan Women": {
+     "bid": 0.34,
+     "ask": 0.36,
+     "mid": 0.35
+    },
+    "Sri Lanka Women": {
+     "bid": 0.64,
+     "ask": 0.66,
+     "mid": 0.65
+    }
+   }
+  },
+  {
+   "slug": "cricetpl-edi-bel-2026-09-20",
+   "cb_id": 169440,
+   "question": "European T20 Premier League: Edinburgh Castle Rockers vs Belfast Wolves",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Edinburgh Castle Rockers": {
+     "bid": 0.52,
+     "ask": 0.58,
+     "mid": 0.55
+    },
+    "Belfast Wolves": {
+     "bid": 0.42,
+     "ask": 0.48,
+     "mid": 0.44999999999999996
+    }
+   }
+  },
+  {
+   "slug": "cricodc-lei-mid-2026-09-20",
+   "cb_id": 144090,
+   "question": "Metro Bank One Day Cup: Leicestershire vs Middlesex",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Leicestershire": {
+     "bid": 0.54,
+     "ask": 0.57,
+     "mid": 0.5549999999999999
+    },
+    "Middlesex": {
+     "bid": 0.43,
+     "ask": 0.46,
+     "mid": 0.445
+    }
+   }
+  }
+ ],
  "unpaired": [
+  {
+   "cb_id": 171267,
+   "teams": "Japan v Hong Kong, China",
+   "series": "Hong Kong, China tour of Japan 2026",
+   "state": "Preview",
+   "date": "2026-09-20",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 172401,
+   "teams": "Mpumalanga Rhinos v South Western Districts",
+   "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
+   "state": "Preview",
+   "date": "2026-09-20",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 172390,
+   "teams": "Northern Cape v Limpopo",
+   "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
+   "state": "Preview",
+   "date": "2026-09-20",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 172397,
+   "teams": "Eastern Storm v Border",
+   "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
+   "state": "Preview",
+   "date": "2026-09-20",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 167057,
+   "teams": "Western Australia v Tasmania",
+   "series": "Australia Domestic One-Day Cup 2026-27",
+   "state": "Preview",
+   "date": "2026-09-20",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 171727,
+   "teams": "North West - Eastvaal Renault Dragons v Boland",
+   "series": "CSA Four-Day Series Division One 2026-27",
+   "state": "Stumps",
+   "date": "2026-09-17",
+   "reason": "no open two outcome cricket market to compare against"
+  },
   {
    "cb_id": 171737,
    "teams": "Western Province v Dolphins",
@@ -146,12 +322,48 @@
    "state": "In Progress",
    "date": "2026-09-17",
    "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 171747,
+   "teams": "Knights v Lions",
+   "series": "CSA Four-Day Series Division One 2026-27",
+   "state": "Stumps",
+   "date": "2026-09-17",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 171757,
+   "teams": "Warriors v Titans",
+   "series": "CSA Four-Day Series Division One 2026-27",
+   "state": "Stumps",
+   "date": "2026-09-17",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 155617,
+   "teams": "India A Women v Australia A Women",
+   "series": "Australia A Women tour of India 2026",
+   "state": "Preview",
+   "date": "2026-09-20",
+   "reason": "no open two outcome cricket market to compare against"
   }
  ],
+ "next_fixture": {
+  "cb_id": 170943,
+  "teams": "PAKW v SLW",
+  "teams_full": "Pakistan Women v Sri Lanka Women",
+  "state": "Preview",
+  "status": "Match starts at Sep 20, 00:00 GMT",
+  "series": "Women's Asian Games 2026",
+  "format": "T20",
+  "date": "2026-09-20",
+  "start_ms": 1789862400000
+ },
  "coverage": {
   "seen_total": 25,
-  "ever_paired": 0,
-  "live_now": 1
+  "ever_paired": 5,
+  "balls_flowing": 0,
+  "state_says_live": 1
  },
  "trader": {
   "state": "in_progress",
@@ -159,7 +371,7 @@
   "run_number": 2,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35466535898",
   "started_at": "2026-09-19T20:09:47Z",
-  "elapsed_s": 1082,
+  "elapsed_s": 1183,
   "runs_total": 2
  }
 }

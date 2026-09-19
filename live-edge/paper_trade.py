@@ -132,13 +132,14 @@ def best_outcome(team_name, outcomes):
     return best if score >= MIN_NAME_SCORE else None
 
 
-def build_pairings(session, min_price, max_price, diagnostics=None):
+def build_pairings(session, min_price, max_price, diagnostics=None, states=None):
     html = session.get(LIVE_SCORES_URL, headers=HEADERS, timeout=20).text
     matches = extract_matches(html)
+    wanted = states or LIVE_STATES
     live = {
         mid: m
         for mid, m in matches.items()
-        if m["matchInfo"].get("state") in LIVE_STATES
+        if m["matchInfo"].get("state") in wanted
     }
     live_days = {match_date(m) for m in live.values()} - {None}
 
