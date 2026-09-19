@@ -23,6 +23,8 @@ NAME_CASES = [
 ]
 
 DATE_CASES = [
+    ("crint-pakw-lkaw-2026-09-19", "2026-09-20", True),
+    ("crint-bgdw-indw-2026-09-20", "2026-09-20", True),
     ("crint-gbr-lka-2026-09-24", "2026-09-19", False),
     ("crint-gbr-lka-2026-09-19", "2026-09-19", True),
     ("crint-zwe-aus-2026-09-20", "2026-09-20", True),
@@ -47,6 +49,12 @@ def main():
         if agrees != should_agree:
             failures.append(
                 f"date {slug} vs {day}: got {agrees}, expected {should_agree}")
+
+    if pt.MAX_DATE_DRIFT_DAYS < 1:
+        failures.append(
+            "MAX_DATE_DRIFT_DAYS must stay at 1 or more: Polymarket dates slugs in US "
+            "eastern time, so a fixture starting just after midnight UTC carries the "
+            "previous day in its slug")
 
     if pt.slug_date("not-a-slug") is not None:
         failures.append("slug_date should return None when there is no date")
