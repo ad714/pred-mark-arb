@@ -7,7 +7,7 @@ on:
         description: minutes to run before stopping
         default: "58"
   schedule:
-    - cron: "2 * * * *"
+    - cron: "*/20 * * * *"
 
 concurrency:
   group: paper-trader
@@ -15,6 +15,7 @@ concurrency:
 
 permissions:
   contents: read
+  actions: read
 
 jobs:
   run:
@@ -35,6 +36,19 @@ jobs:
       - name: preflight
         run: python deploy/preflight.py
 
+      - name: carry the paper balance forward
+        id: money
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          last=$(gh run list -w "paper trader" -s completed -L 1                    --json databaseId --jq '.[0].databaseId' 2>/dev/null || true)
+          if [ -n "$last" ]; then
+            gh run download "$last" --dir prev 2>/dev/null || true
+          fi
+          BANKROLL=$(python deploy/carry_balance.py prev)
+          echo "bankroll=$BANKROLL" >> "$GITHUB_OUTPUT"
+          echo "paper balance carried forward: $BANKROLL"
+
       - name: paper trade
         working-directory: live-edge
         env:
@@ -43,7 +57,7 @@ jobs:
           mkdir -p "$GITHUB_WORKSPACE/results/paper"
           timeout "${MINUTES}m" python -u paper_trade.py \
             --out "$GITHUB_WORKSPACE/results/paper" \
-            --bankroll 5 --stake 1 --hold 60 \
+            --bankroll ${{ steps.money.outputs.bankroll }} --stake 1 --hold 60 \
             --min-price 0.25 --max-price 0.75 --max-detect-lag 60 \
             2>&1 | tee "$GITHUB_WORKSPACE/results/paper/console.log" || true
 
