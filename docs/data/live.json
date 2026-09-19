@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T21:29:07Z",
+ "generated_at": "2026-09-19T22:19:19Z",
  "matches": [
   {
    "cb_id": 170951,
@@ -177,13 +177,13 @@
    "prices": {
     "Bangladesh Women": {
      "bid": 0.04,
-     "ask": 0.06,
-     "mid": 0.05
+     "ask": 0.07,
+     "mid": 0.05500000000000001
     },
     "India Women": {
-     "bid": 0.94,
+     "bid": 0.93,
      "ask": 0.96,
-     "mid": 0.95
+     "mid": 0.9450000000000001
     }
    }
   },
@@ -215,13 +215,13 @@
    "prices": {
     "Pakistan Women": {
      "bid": 0.33,
-     "ask": 0.35,
-     "mid": 0.33999999999999997
+     "ask": 0.37,
+     "mid": 0.35
     },
     "Sri Lanka Women": {
-     "bid": 0.65,
+     "bid": 0.63,
      "ask": 0.67,
-     "mid": 0.66
+     "mid": 0.65
     }
    }
   },
@@ -233,14 +233,14 @@
    "state": "Preview",
    "prices": {
     "Edinburgh Castle Rockers": {
-     "bid": 0.51,
-     "ask": 0.54,
-     "mid": 0.525
+     "bid": 0.52,
+     "ask": 0.58,
+     "mid": 0.55
     },
     "Belfast Wolves": {
-     "bid": 0.46,
-     "ask": 0.49,
-     "mid": 0.475
+     "bid": 0.42,
+     "ask": 0.48,
+     "mid": 0.44999999999999996
     }
    }
   },
@@ -252,14 +252,14 @@
    "state": "Preview",
    "prices": {
     "Leicestershire": {
-     "bid": 0.54,
-     "ask": 0.57,
-     "mid": 0.5549999999999999
+     "bid": 0.53,
+     "ask": 0.55,
+     "mid": 0.54
     },
     "Middlesex": {
-     "bid": 0.43,
-     "ask": 0.46,
-     "mid": 0.445
+     "bid": 0.45,
+     "ask": 0.47,
+     "mid": 0.45999999999999996
     }
    }
   }
@@ -369,7 +369,7 @@
   "run_number": 4,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35470535238",
   "started_at": "2026-09-19T21:28:51Z",
-  "elapsed_s": 16,
+  "elapsed_s": 3028,
   "elapsed_means": "running for",
   "runs_total": 4
  }
