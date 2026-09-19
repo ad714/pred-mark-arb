@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T20:22:32Z",
+ "generated_at": "2026-09-19T20:27:48Z",
  "matches": [
   {
    "cb_id": 170951,
@@ -83,10 +83,19 @@
    "date": "2026-09-20"
   },
   {
+   "cb_id": 171757,
+   "teams": "WAR v TIT",
+   "teams_full": "Warriors v Titans",
+   "state": "Stumps",
+   "series": "CSA Four-Day Series Division One 2026-27",
+   "format": "TEST",
+   "date": "2026-09-17"
+  },
+  {
    "cb_id": 171727,
    "teams": "NWEST v BOL",
    "teams_full": "North West - Eastvaal Renault Dragons v Boland",
-   "state": "In Progress",
+   "state": "Stumps",
    "series": "CSA Four-Day Series Division One 2026-27",
    "format": "TEST",
    "date": "2026-09-17"
@@ -104,15 +113,6 @@
    "cb_id": 171747,
    "teams": "KNG v LIONS",
    "teams_full": "Knights v Lions",
-   "state": "Stumps",
-   "series": "CSA Four-Day Series Division One 2026-27",
-   "format": "TEST",
-   "date": "2026-09-17"
-  },
-  {
-   "cb_id": 171757,
-   "teams": "WAR v TIT",
-   "teams_full": "Warriors v Titans",
    "state": "Stumps",
    "series": "CSA Four-Day Series Division One 2026-27",
    "format": "TEST",
@@ -140,14 +140,6 @@
  "pairings": [],
  "unpaired": [
   {
-   "cb_id": 171727,
-   "teams": "North West - Eastvaal Renault Dragons v Boland",
-   "series": "CSA Four-Day Series Division One 2026-27",
-   "state": "In Progress",
-   "date": "2026-09-17",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
    "cb_id": 171737,
    "teams": "Western Province v Dolphins",
    "series": "CSA Four-Day Series Division One 2026-27",
@@ -159,7 +151,7 @@
  "coverage": {
   "seen_total": 25,
   "ever_paired": 0,
-  "live_now": 2
+  "live_now": 1
  },
  "trader": {
   "state": "in_progress",
@@ -167,7 +159,7 @@
   "run_number": 2,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35466535898",
   "started_at": "2026-09-19T20:09:47Z",
-  "elapsed_s": 766,
+  "elapsed_s": 1082,
   "runs_total": 2
  }
 }
