@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wicket Lag</title>
+<meta name="description" content="Measuring whether a free cricket feed reaches you before Polymarket reprices a wicket.">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=zodiak@400,700&display=swap">
+<style>
+:root{
+  color-scheme: dark;
+  --ink:#0a0d09; --panel:#11150f; --raise:#161b13; --edge:#1f2719;
+  --text:#e8eade; --dim:#98a18c; --faint:#616a59;
+  --sodium:#e0a53f; --clay:#a05c48; --field:#8fae6a;
+  --display:Zodiak,"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+  --ui:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --mono:ui-monospace,"SF Mono","Cascadia Mono","Segoe UI Mono","Roboto Mono",monospace;
+  --gut:clamp(16px,4vw,56px);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--ink); color:var(--text);
+  font-family:var(--ui); font-size:15px; line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1100px; margin:0 auto; padding-inline:var(--gut)}
+a{color:var(--text); text-decoration-color:var(--faint); text-underline-offset:3px}
+a:hover{text-decoration-color:var(--sodium)}
+:focus-visible{outline:2px solid var(--sodium); outline-offset:3px}
+.num{font-family:var(--mono); font-variant-numeric:tabular-nums}
+
+header{padding-block:22px 0}
+.bar{display:flex; flex-wrap:wrap; gap:14px 22px; align-items:baseline; justify-content:space-between}
+.mark{font-family:var(--display); font-size:19px; letter-spacing:.01em}
+.mark span{color:var(--faint)}
+.state{display:flex; flex-wrap:wrap; gap:8px 18px; align-items:baseline;
+  font-family:var(--mono); font-size:12.5px; color:var(--dim)}
+.state b{font-weight:400; color:var(--text)}
+.beat{color:var(--field)}
+.beat[data-idle]{color:var(--faint)}
+.track{height:2px; background:var(--edge); margin-top:14px; border-radius:2px; overflow:hidden}
+.track i{display:block; height:100%; width:0; background:var(--faint); border-radius:2px}
+@media(prefers-reduced-motion:no-preference){
+  .track i{animation:fill 60s linear infinite}
+}
+@keyframes fill{from{width:0}to{width:100%}}
+
+.lede{padding-block:clamp(34px,7vw,74px) 0; display:grid; gap:clamp(20px,4vw,34px)}
+h1{
+  font-family:var(--display); font-weight:400;
+  font-size:clamp(34px,6vw,66px); line-height:1.04; letter-spacing:-.02em;
+  margin:0; max-width:21ch; text-wrap:balance;
+}
+h1 em{font-style:italic; color:var(--sodium); padding-right:.09em}
+.readout{display:flex; flex-wrap:wrap; align-items:flex-end; gap:clamp(18px,4vw,46px)}
+.big{font-family:var(--display); font-weight:400; line-height:.82;
+  font-size:clamp(74px,15vw,150px); letter-spacing:-.03em;
+  font-variant-numeric:tabular-nums; display:flex; align-items:baseline; gap:.06em}
+.big u{text-decoration:none; font-size:.26em; color:var(--dim); letter-spacing:0; font-family:var(--ui)}
+.verdict{max-width:42ch; color:var(--dim); margin:0}
+.verdict strong{color:var(--text); font-weight:600}
+
+figure{margin:clamp(26px,5vw,44px) 0 0}
+.chart{overflow-x:auto; padding-block:4px}
+.chart svg{display:block; width:100%; min-width:880px; height:auto; overflow:visible}
+figcaption{margin-top:16px; color:var(--faint); font-size:13px; max-width:66ch}
+
+section{padding-block:clamp(52px,9vw,104px) 0}
+h2{font-family:var(--display); font-weight:400; font-size:clamp(23px,3.4vw,33px);
+  letter-spacing:-.01em; margin:0 0 6px; text-wrap:balance}
+.sub{color:var(--faint); font-size:13.5px; margin:0 0 26px; max-width:62ch}
+
+.grid{display:grid; gap:1px; background:var(--edge); border-radius:3px; overflow:hidden;
+  grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); margin:0}
+.cell{background:var(--panel); padding:16px 18px 18px; display:flex; flex-direction:column; gap:5px}
+.cell dt{color:var(--faint); font-size:11.5px; letter-spacing:.06em; text-transform:uppercase}
+.cell dd{margin:0; font-family:var(--mono); font-size:clamp(20px,3vw,27px);
+  font-variant-numeric:tabular-nums; line-height:1.15}
+.cell small{color:var(--faint); font-size:12px; font-family:var(--ui)}
+.pos{color:var(--field)} .neg{color:var(--clay)}
+
+.scroll{overflow-x:auto; margin-top:22px; border-radius:3px}
+table{border-collapse:collapse; width:100%; min-width:520px; font-size:13.5px}
+caption{text-align:left; color:var(--faint); font-size:12.5px; padding-bottom:10px}
+th{text-align:left; font-weight:500; color:var(--faint); font-size:11.5px;
+  letter-spacing:.05em; text-transform:uppercase; padding:0 14px 9px 0; white-space:nowrap}
+td{padding:9px 14px 9px 0; border-top:1px solid var(--edge); vertical-align:top}
+td.n{font-family:var(--mono); font-variant-numeric:tabular-nums; white-space:nowrap}
+th:last-child,td:last-child{width:100%; padding-right:0}
+tbody tr:hover td{background:var(--raise)}
+.muted{color:var(--dim)}
+.empty{background:var(--panel); border-radius:3px; padding:20px 22px; color:var(--dim); margin-top:22px}
+.empty b{color:var(--text); font-weight:600; display:block; margin-bottom:4px}
+
+footer{margin-top:clamp(56px,9vw,104px); padding-block:26px 48px;
+  border-top:1px solid var(--edge); color:var(--faint); font-size:13px}
+.foot{display:flex; flex-wrap:wrap; gap:10px clamp(20px,4vw,52px)}
+@media(max-width:560px){ table{min-width:440px} }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+<header>
+  <div class="bar">
+    <div class="mark">Wicket Lag <span>/ live-edge</span></div>
+    <div class="state">
+      <span class="beat" id="beat" data-idle>collector <b id="tstate">checking</b></span>
+      <span>run <b class="num" id="trun">-</b></span>
+      <span>elapsed <b class="num" id="telapsed">-</b></span>
+      <span><a id="trunlink" href="https://github.com/ad714/pred-mark-arb/actions">open run</a></span>
+    </div>
+  </div>
+  <div class="track"><i></i></div>
+</header>
+
+<div class="lede">
+  <h1>Does the free feed <em>beat</em> the book?</h1>
+  <div class="readout">
+    <div class="big"><span id="median">0</span><u id="unit">wickets</u></div>
+    <p class="verdict" id="verdict">Median gap between a ball being stamped on Cricbuzz and this
+      collector holding it. Polymarket repriced in roughly 15 seconds on the one clean
+      measurement, so anything under that line is a head start, and anything past 20 is the
+      gap the project notes already wrote down as the thesis failing.</p>
+  </div>
+</div>
+
+<figure>
+<div class="chart">
+<svg viewBox="0 0 1000 132" role="img" aria-labelledby="scaleTitle">
+  <title id="scaleTitle">Detect lag in seconds for every wicket seen on a paired match</title>
+  <rect x="40" y="30" width="225" height="56" fill="#8fae6a" opacity=".10"/>
+  <polygon points="346,30 484,30 490,36 490,80 484,86 346,86 340,80 340,36"
+           fill="#a05c48" opacity=".17"/>
+  <line x1="265" y1="24" x2="265" y2="86" stroke="#8fae6a" stroke-width="1.5"
+        stroke-dasharray="3 4" opacity=".55"/>
+  <text x="265" y="17" fill="#8fae6a" font-family="ui-monospace, monospace" font-size="11"
+        text-anchor="middle" opacity=".9">15s reprice</text>
+  <text x="415" y="17" fill="#a05c48" font-family="ui-monospace, monospace" font-size="11"
+        text-anchor="middle">dead band</text>
+  <g id="plot"></g>
+  <line x1="40" y1="86" x2="940" y2="86" stroke="#1f2719" stroke-width="2" stroke-linecap="round"/>
+  <g font-family="ui-monospace, monospace" font-size="11" fill="#616a59" text-anchor="middle">
+    <line x1="40"  y1="86" x2="40"  y2="93" stroke="#1f2719" stroke-width="2"/>
+    <line x1="190" y1="86" x2="190" y2="93" stroke="#1f2719" stroke-width="2"/>
+    <line x1="340" y1="86" x2="340" y2="93" stroke="#1f2719" stroke-width="2"/>
+    <line x1="490" y1="86" x2="490" y2="93" stroke="#1f2719" stroke-width="2"/>
+    <line x1="640" y1="86" x2="640" y2="93" stroke="#1f2719" stroke-width="2"/>
+    <line x1="790" y1="86" x2="790" y2="93" stroke="#1f2719" stroke-width="2"/>
+    <line x1="940" y1="86" x2="940" y2="93" stroke="#1f2719" stroke-width="2"/>
+    <text x="40"  y="108">0</text>
+    <text x="190" y="108">10</text>
+    <text x="340" y="108">20</text>
+    <text x="490" y="108">30</text>
+    <text x="640" y="108">40</text>
+    <text x="790" y="108">50</text>
+    <text x="940" y="108">60</text>
+    <text x="972" y="108">60+</text>
+    <text x="490" y="126">seconds from ball timestamp to collector receipt</text>
+  </g>
+</svg>
+</div>
+<figcaption id="plotcap">Each mark is one wicket on a match paired to a live Polymarket book.
+  Wickets past 60 seconds sit in the overflow at the right; the collector gates those out
+  rather than trading them.</figcaption>
+</figure>
+
+<section id="live">
+  <h2>What it is watching now</h2>
+  <p class="sub">Recomputed every 15 minutes by the publisher, independently of the collector,
+    using the same pairing code the collector runs.</p>
+  <div id="pairbox"></div>
+  <div class="scroll" id="matchbox"></div>
+</section>
+
+<section id="result">
+  <h2>Every wicket it has timed</h2>
+  <p class="sub">A zero-move round trip loses about 3 cents on the dollar to the spread, so a
+    wicket has to move the book further than that to be worth taking.</p>
+  <dl class="grid" id="tradestats"></dl>
+  <div class="scroll" id="wicketbox"></div>
+</section>
+
+<section id="basket">
+  <h2>Basket arb, scanned every six hours</h2>
+  <p class="sub">A separate question on the same box: does any negRisk event let you buy every
+    outcome for under a dollar. Dark legs are outcomes nobody will sell at any price.</p>
+  <dl class="grid" id="basketstats"></dl>
+  <div class="scroll" id="basketbox"></div>
+</section>
+
+<footer>
+  <div class="foot">
+    <span>Paper only. No funds, no signing, no orders placed.</span>
+    <span><a href="https://github.com/ad714/pred-mark-arb">ad714/pred-mark-arb</a></span>
+    <span>data <span class="num" id="stamp">-</span></span>
+  </div>
+</footer>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const X = s => 40 + (Math.max(0, Math.min(60, s)) / 60) * 900;
+const esc = s => String(s === null || s === undefined ? "" : s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const n2 = v => (v === null || v === undefined) ? "-" : Number(v).toFixed(2);
+const ago = s => s === null || s === undefined ? "-" : s < 90 ? s + "s" : Math.floor(s / 60) + "m" + String(s % 60).padStart(2, "0");
+
+async function get(name){
+  try{
+    const r = await fetch("data/" + name + "?t=" + Date.now(), {cache: "no-store"});
+    return r.ok ? await r.json() : null;
+  }catch(e){ return null; }
+}
+
+function plotLag(lag){
+  if(!lag || !lag.n){
+    document.getElementById("plotcap").textContent =
+      "No wicket has been timed yet. The collector records one every time a wicket falls on a match it has paired to a live Polymarket book.";
+    return;
+  }
+  const marks = [];
+  let over = 0;
+  for(const v of lag.values){
+    if(v > 60){ over++; continue; }
+    const x = X(v).toFixed(1);
+    marks.push('<line x1="' + x + '" y1="86" x2="' + x + '" y2="48" stroke="#98a18c" stroke-width="2" stroke-linecap="round" opacity=".7"/>');
+  }
+  for(let i = 0; i < over; i++){
+    const col = i % 4, row = Math.floor(i / 4);
+    marks.push('<circle cx="' + (958 + col * 7) + '" cy="' + (82 - row * 7) + '" r="2.4" fill="#616a59"/>');
+  }
+  if(lag.median <= 60){
+    const mx = X(lag.median).toFixed(1);
+    marks.push('<line x1="' + mx + '" y1="88" x2="' + mx + '" y2="34" stroke="#e0a53f" stroke-width="3" stroke-linecap="round"/>');
+    marks.push('<circle cx="' + mx + '" cy="34" r="3.5" fill="#e0a53f"/>');
+  }
+  document.getElementById("plot").innerHTML = marks.join("");
+  document.getElementById("plotcap").textContent =
+    lag.n + " wicket" + (lag.n === 1 ? "" : "s") + " timed. Fastest " + lag.min + "s, median " +
+    lag.median + "s, ninetieth percentile " + lag.p90 + "s, slowest " + lag.max + "s." +
+    (over ? " " + over + " past 60 seconds, gated out rather than traded." : "");
+}
+
+function verdict(lag){
+  if(!lag || !lag.n){
+    $("#median").textContent = "0";
+    $("#unit").textContent = "wickets";
+    $("#verdict").innerHTML = "<strong>Nothing timed yet.</strong> The collector logs a lag " +
+      "every time a wicket falls on a match it has paired to a live Polymarket book. The " +
+      "median of those lags lands here, against the roughly 15 seconds Polymarket took to " +
+      "reprice on the one clean measurement.";
+    return;
+  }
+  const m = lag.median, n = lag.n, w = n === 1 ? "wicket" : "wickets";
+  $("#median").textContent = m.toFixed(1);
+  $("#unit").textContent = "s";
+  let line;
+  if(m < 15){
+    line = "<strong>Ahead of the reprice.</strong> The feed is reaching this collector " + m +
+      "s after the ball, inside the roughly 15 seconds Polymarket took to move. That is the " +
+      "shape an edge would have, on " + n + " " + w + " so far.";
+  } else if(m < 20){
+    line = "<strong>Marginal.</strong> " + m + "s sits just past the roughly 15 seconds " +
+      "Polymarket took to reprice, so little or no head start survives once the 3 cent " +
+      "spread is paid. " + n + " " + w + " measured.";
+  } else {
+    line = "<strong>Inside the dead band.</strong> At " + m + "s the feed arrives after " +
+      "Polymarket has already moved, which is the outcome the project notes wrote down in " +
+      "advance as the thesis failing. " + n + " " + w + " measured.";
+  }
+  $("#verdict").innerHTML = line;
+}
+
+function renderLive(d){
+  if(!d){
+    document.getElementById("pairbox").innerHTML =
+      '<div class="empty"><b>Live view unavailable</b>The publisher has not written data yet.</div>';
+    return;
+  }
+  $("#stamp").textContent = d.generated_at || "-";
+
+  const t = d.trader || {};
+  const running = t.state === "in_progress" || t.state === "queued";
+  const beat = document.getElementById("beat");
+  $("#tstate").textContent = running ? "running" : (t.state || "idle");
+  if(running){ beat.removeAttribute("data-idle"); } else { beat.setAttribute("data-idle", ""); }
+  $("#trun").textContent = t.run_number ? "#" + t.run_number : "-";
+  $("#telapsed").textContent = ago(t.elapsed_s);
+  if(t.url){ document.getElementById("trunlink").href = t.url; }
+
+  const pairs = d.pairings || [], matches = d.matches || [];
+  if(pairs.length){
+    const rows = [];
+    for(const p of pairs){
+      const entries = Object.entries(p.prices || {});
+      entries.forEach(function(pair, i){
+        rows.push('<tr><td class="n">' + (i ? "" : esc(p.cb_id)) + '</td>' +
+          '<td class="muted">' + (i ? "" : esc(p.question)) + '</td>' +
+          '<td>' + esc(pair[0]) + '</td>' +
+          '<td class="n">' + n2(pair[1].bid) + '</td>' +
+          '<td class="n">' + n2(pair[1].ask) + '</td>' +
+          '<td class="n">' + n2(pair[1].mid) + '</td></tr>');
+      });
+    }
+    document.getElementById("pairbox").innerHTML =
+      '<div class="scroll"><table><caption>Paired right now: a live match matched to a two outcome Polymarket book.</caption>' +
+      '<thead><tr><th>Match</th><th>Market</th><th>Outcome</th><th>Bid</th><th>Ask</th><th>Mid</th></tr></thead><tbody>' +
+      rows.join("") + '</tbody></table></div>';
+  } else {
+    document.getElementById("pairbox").innerHTML =
+      '<div class="empty"><b>Nothing paired at this moment</b>' + matches.length +
+      ' match' + (matches.length === 1 ? "" : "es") + ' in play on the feed, none carrying a two ' +
+      'outcome Polymarket book. Polymarket lists internationals and the big franchise leagues, ' +
+      'not domestic first class cricket, so long stretches read empty here.</div>';
+  }
+
+  document.getElementById("matchbox").innerHTML = matches.length ?
+    '<table><caption>In play on the feed.</caption><thead><tr><th>Teams</th><th>State</th>' +
+    '<th>Format</th><th>Series</th></tr></thead><tbody>' +
+    matches.map(m => '<tr><td class="n">' + esc(m.teams) + '</td><td>' + esc(m.state) +
+      '</td><td class="muted">' + esc(m.format) + '</td><td class="muted">' + esc(m.series) +
+      '</td></tr>').join("") + '</tbody></table>' : "";
+}
+
+function renderResults(d){
+  if(!d) return;
+  plotLag(d.lag);
+  verdict(d.lag);
+  const t = d.trades || {n: 0, wins: 0, realized: 0};
+  const sign = v => v > 0 ? "pos" : v < 0 ? "neg" : "";
+  const move = t.median_mid_move;
+  document.getElementById("tradestats").innerHTML =
+    '<div class="cell"><dt>Wickets timed</dt><dd>' + ((d.lag && d.lag.n) || 0) + '</dd></div>' +
+    '<div class="cell"><dt>Trades closed</dt><dd>' + t.n + '</dd><small>' + t.wins + ' won</small></div>' +
+    '<div class="cell"><dt>Realized</dt><dd class="' + sign(t.realized) + '">' +
+      (t.realized > 0 ? "+" : "") + Number(t.realized || 0).toFixed(4) + '</dd><small>paper dollars</small></div>' +
+    '<div class="cell"><dt>Median mid move</dt><dd class="' + sign(move) + '">' +
+      (move === null || move === undefined ? "-" : (move > 0 ? "+" : "") + move.toFixed(4)) +
+      '</dd><small>needs to beat 0.03</small></div>';
+
+  const w = d.wickets || [];
+  document.getElementById("wicketbox").innerHTML = w.length ?
+    '<table><caption>Newest first. A skip is still a timed wicket.</caption><thead><tr>' +
+    '<th>Time</th><th>Lag</th><th>Match</th><th>Ball</th><th>Outcome</th></tr></thead><tbody>' +
+    w.slice(0, 60).map(x => '<tr><td class="n muted">' + esc(x.iso) + '</td>' +
+      '<td class="n" style="color:' + (x.lag_s < 15 ? "#8fae6a" : x.lag_s < 20 ? "#e0a53f" : "#a05c48") +
+      '">' + x.lag_s + 's</td><td class="n muted">' + esc(x.slug) + '</td>' +
+      '<td class="n">' + esc(x.over_ball) + '</td><td>' +
+      (x.action === "open" ? "entered" : '<span class="muted">' + esc(x.reason || "skipped") + '</span>') +
+      '</td></tr>').join("") + '</tbody></table>' :
+    '<div class="empty"><b>No wickets timed yet</b>Records appear here within an hour of a wicket falling on a paired match.</div>';
+}
+
+function renderBasket(d){
+  if(!d || !d.latest){
+    document.getElementById("basketbox").innerHTML =
+      '<div class="empty"><b>No scan recorded yet</b>The scan runs every six hours.</div>';
+    return;
+  }
+  const L = d.latest, scans = (d.history || []).length;
+  document.getElementById("basketstats").innerHTML =
+    '<div class="cell"><dt>Events scanned</dt><dd>' + (L.events_scanned || "-") + '</dd></div>' +
+    '<div class="cell"><dt>Ladders walked</dt><dd>' + (L.candidates || "-") + '</dd></div>' +
+    '<div class="cell"><dt>Complete baskets</dt><dd>' + (L.complete_n || 0) +
+      '</dd><small>every outcome buyable</small></div>' +
+    '<div class="cell"><dt>Best complete net</dt><dd>' + Number(L.best_complete_net || 0).toFixed(2) +
+      '</dd><small>' + scans + ' scan' + (scans === 1 ? "" : "s") + ' logged</small></div>';
+
+  document.getElementById("basketbox").innerHTML =
+    '<table><caption>Top of the latest scan. Dark legs cannot be bought at any price.</caption>' +
+    '<thead><tr><th>Event</th><th>Net</th><th>Capital</th><th>Return</th><th>Per share</th>' +
+    '<th>Buyable</th><th>Dark</th><th>Days</th></tr></thead><tbody>' +
+    (L.top || []).map(x => '<tr><td>' +
+      (x.url ? '<a href="' + esc(x.url) + '">' + esc(x.event) + '</a>' : esc(x.event)) +
+      '</td>' +
+      '<td class="n">' + Number(x.net).toFixed(2) + '</td>' +
+      '<td class="n muted">' + Number(x.capital).toFixed(2) + '</td>' +
+      '<td class="n">' + (x.return_pct === null || x.return_pct === undefined ? "-" : Number(x.return_pct).toFixed(1) + "%") + '</td>' +
+      '<td class="n">' + (x.per_share === null || x.per_share === undefined ? "-" : Number(x.per_share).toFixed(3)) + '</td>' +
+      '<td class="n muted">' + (x.buyable === null || x.buyable === undefined ? "-" : x.buyable) + '</td>' +
+      '<td class="n" style="color:' + (x.dark ? "#a05c48" : "inherit") + '">' + (x.dark || 0) + '</td>' +
+      '<td class="n muted">' + (x.days === null || x.days === undefined ? "-" : Math.round(x.days)) + '</td>' +
+      '</tr>').join("") + '</tbody></table>';
+}
+
+const seen = {};
+function fresh(key, value){
+  const stamp = JSON.stringify(value);
+  if(seen[key] === stamp) return false;
+  seen[key] = stamp;
+  return true;
+}
+
+async function load(){
+  const files = ["live.json", "results.json", "basket.json"];
+  const render = [renderLive, renderResults, renderBasket];
+  const got = await Promise.all(files.map(get));
+  got.forEach((data, i) => { if(fresh(files[i], data)) render[i](data); });
+}
+load();
+setInterval(load, 60000);
+</script>
+</body>
+</html>

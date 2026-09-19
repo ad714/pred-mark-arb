@@ -5,9 +5,9 @@ on:
     inputs:
       minutes:
         description: minutes to run before stopping
-        default: "340"
+        default: "58"
   schedule:
-    - cron: "5 0,6,12,18 * * *"
+    - cron: "2 * * * *"
 
 concurrency:
   group: paper-trader
@@ -16,7 +16,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 355
+    timeout-minutes: 66
     steps:
       - uses: actions/checkout@v4
 
@@ -32,7 +32,7 @@ jobs:
       - name: paper trade
         working-directory: live-edge
         env:
-          MINUTES: ${{ github.event.inputs.minutes || '340' }}
+          MINUTES: ${{ github.event.inputs.minutes || '58' }}
         run: |
           mkdir -p "$GITHUB_WORKSPACE/results/paper"
           timeout "${MINUTES}m" python -u paper_trade.py \

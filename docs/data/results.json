@@ -1,0 +1,15 @@
+{
+ "generated_at": "2026-09-19T20:06:39Z",
+ "lag": {
+  "n": 0
+ },
+ "trades": {
+  "n": 0,
+  "wins": 0,
+  "realized": 0,
+  "median_mid_move": null,
+  "recent": []
+ },
+ "skips": {},
+ "wickets": []
+}

@@ -2,6 +2,7 @@
 !/.gitignore
 !/.github/
 !/deploy/
+!/docs/
 !/live-edge/
 !/market-scanner/
 

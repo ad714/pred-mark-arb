@@ -1,0 +1,64 @@
+name: publish dashboard
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_run:
+    workflows: ["paper trader", "basket scan"]
+    types: [completed]
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install --quiet requests
+
+      - name: collect recent artifacts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p artifacts
+          for wf in "paper trader" "basket scan"; do
+            for id in $(gh run list -w "$wf" -s completed -L 6 \
+                          --json databaseId --jq '.[].databaseId'); do
+              gh run download "$id" --dir "artifacts/$id" 2>/dev/null || true
+            done
+          done
+          find artifacts -type f | head -30
+
+      - name: build dashboard data
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python deploy/build_dashboard.py artifacts
+
+      - name: commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "no change"
+            exit 0
+          fi
+          git commit -q -m "chore: refresh dashboard data"
+          for attempt in 1 2 3; do
+            git pull --rebase --quiet origin main && git push --quiet origin main && exit 0
+            sleep 5
+          done
+          exit 1

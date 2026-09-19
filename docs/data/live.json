@@ -1,0 +1,57 @@
+{
+ "generated_at": "2026-09-19T20:07:12Z",
+ "matches": [
+  {
+   "cb_id": 171727,
+   "teams": "NWEST v BOL",
+   "state": "In Progress",
+   "series": "CSA Four-Day Series Division One 2026-27",
+   "format": "TEST"
+  },
+  {
+   "cb_id": 171737,
+   "teams": "WPR v DOL",
+   "state": "In Progress",
+   "series": "CSA Four-Day Series Division One 2026-27",
+   "format": "TEST"
+  },
+  {
+   "cb_id": 171747,
+   "teams": "KNG v LIONS",
+   "state": "Stumps",
+   "series": "CSA Four-Day Series Division One 2026-27",
+   "format": "TEST"
+  },
+  {
+   "cb_id": 171757,
+   "teams": "WAR v TIT",
+   "state": "Stumps",
+   "series": "CSA Four-Day Series Division One 2026-27",
+   "format": "TEST"
+  },
+  {
+   "cb_id": 172047,
+   "teams": "ESTORM v BOR",
+   "state": "In Progress",
+   "series": "CSA Three-Day Series Division Two 2026-27",
+   "format": "TEST"
+  },
+  {
+   "cb_id": 172057,
+   "teams": "MPR v SWD",
+   "state": "In Progress",
+   "series": "CSA Three-Day Series Division Two 2026-27",
+   "format": "TEST"
+  }
+ ],
+ "pairings": [],
+ "trader": {
+  "state": "in_progress",
+  "conclusion": null,
+  "run_number": 1,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35465520333",
+  "started_at": "2026-09-19T19:49:23Z",
+  "elapsed_s": 1070,
+  "runs_total": 1
+ }
+}
