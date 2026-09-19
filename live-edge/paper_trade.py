@@ -1,4 +1,5 @@
 import argparse
+import datetime
 import json
 import re
 import sys
@@ -16,14 +17,67 @@ from record_commentary import decode_blob, extract_balls, commentary_url, ParseF
 GAMMA_EVENTS = "https://gamma-api.polymarket.com/events"
 CLOB_BOOK = "https://clob.polymarket.com/book"
 WICKET_TOKENS = {"wicket"}
-STOP_WORDS = {"the", "cricket", "match", "men", "women", "womens", "mens", "team"}
-PAIR_MIN_PRICE = 0.10
-PAIR_MAX_PRICE = 0.90
+STOP_WORDS = {"the", "cricket", "match", "men", "mens", "team"}
+QUAL_WORDS = {
+    "women": "w", "womens": "w", "w": "w",
+    "under": "u19", "u19": "u19", "19": "u19", "19s": "u19", "u19s": "u19",
+    "a": "second", "b": "second", "ii": "second", "2nd": "second",
+    "emerging": "emerging", "legends": "legends", "masters": "legends",
+}
+MIN_NAME_SCORE = 0.5
+MAX_DATE_DRIFT_DAYS = 1
+LIVE_STATES = ("In Progress", "Innings Break")
+SLUG_DATE = re.compile(r"-(\d{4}-\d{2}-\d{2})$")
+PAIR_MIN_PRICE = 0.02
+PAIR_MAX_PRICE = 0.98
 
 
-def norm_tokens(name):
-    words = re.findall(r"[a-z0-9]+", (name or "").lower())
-    return {w for w in words if w not in STOP_WORDS}
+def split_name(name):
+    base, quals = [], set()
+    for word in re.findall(r"[a-z0-9]+", (name or "").lower()):
+        if word in QUAL_WORDS:
+            quals.add(QUAL_WORDS[word])
+        elif word not in STOP_WORDS:
+            base.append(word)
+    return set(base), quals
+
+
+def name_score(left, right):
+    left_base, left_quals = split_name(left)
+    right_base, right_quals = split_name(right)
+    if left_quals != right_quals or not left_base or not right_base:
+        return 0.0
+    shared = left_base & right_base
+    if not shared:
+        return 0.0
+    return len(shared) / len(left_base | right_base)
+
+
+def slug_date(slug):
+    found = SLUG_DATE.search(slug or "")
+    if not found:
+        return None
+    try:
+        return datetime.date.fromisoformat(found.group(1))
+    except ValueError:
+        return None
+
+
+def match_date(cb_match):
+    raw = (cb_match.get("matchInfo") or {}).get("startDate")
+    if not raw:
+        return None
+    try:
+        return datetime.datetime.fromtimestamp(
+            int(raw) / 1000, datetime.timezone.utc).date()
+    except (ValueError, OSError):
+        return None
+
+
+def dates_agree(day, cb_day):
+    if day is None or cb_day is None:
+        return True
+    return abs((day - cb_day).days) <= MAX_DATE_DRIFT_DAYS
 
 
 def resolve_tokens(session, slug):
@@ -70,51 +124,95 @@ def team_full_names(cb_match):
 
 
 def best_outcome(team_name, outcomes):
-    target = norm_tokens(team_name)
-    best, score = None, 0
+    best, score = None, 0.0
     for outcome in outcomes:
-        overlap = len(target & norm_tokens(outcome))
-        if overlap > score:
-            best, score = outcome, overlap
-    return best if score > 0 else None
+        current = name_score(team_name, outcome)
+        if current > score:
+            best, score = outcome, current
+    return best if score >= MIN_NAME_SCORE else None
 
 
-def build_pairings(session, min_price, max_price):
+def build_pairings(session, min_price, max_price, diagnostics=None):
     html = session.get(LIVE_SCORES_URL, headers=HEADERS, timeout=20).text
     matches = extract_matches(html)
     live = {
         mid: m
         for mid, m in matches.items()
-        if m["matchInfo"].get("state") in ("In Progress", "Innings Break")
+        if m["matchInfo"].get("state") in LIVE_STATES
     }
+    live_days = {match_date(m) for m in live.values()} - {None}
 
     candidates = watch.discover(min_price, max_price)
-    pairings = {}
+    markets = {}
     for slug, cand in candidates.items():
-        if not cand["competitive"]:
+        if not cand["competitive"] or cand["closed"]:
+            continue
+        day = slug_date(slug)
+        if live_days and day and not any(dates_agree(day, d) for d in live_days):
             continue
         resolved = resolve_tokens(session, slug)
-        if not resolved:
+        if not resolved or len(resolved["outcomes"]) != 2:
             continue
-        outcomes = resolved["outcomes"]
-        if len(outcomes) != 2:
-            continue
+        markets[slug] = resolved
 
-        for mid, cb_match in live.items():
-            full1, full2 = team_full_names(cb_match)
-            o1 = best_outcome(full1, outcomes)
-            o2 = best_outcome(full2, outcomes)
-            if not o1 or not o2 or o1 == o2:
+    scored, closest = [], {}
+    for mid, cb_match in live.items():
+        cb_day = match_date(cb_match)
+        full1, full2 = team_full_names(cb_match)
+        for slug, resolved in markets.items():
+            outcomes = resolved["outcomes"]
+            pick1 = max(outcomes, key=lambda o: name_score(full1, o))
+            pick2 = max(outcomes, key=lambda o: name_score(full2, o))
+            raw = min(name_score(full1, pick1), name_score(full2, pick2))
+            if raw > closest.get(mid, (0.0, None))[0]:
+                closest[mid] = (raw, slug)
+            if not dates_agree(slug_date(slug), cb_day):
                 continue
-            pairings[slug] = {
+            one = best_outcome(full1, outcomes)
+            two = best_outcome(full2, outcomes)
+            if not one or not two or one == two:
+                continue
+            scored.append((raw, mid, slug, resolved, one, two, full1, full2))
+
+    scored.sort(key=lambda row: -row[0])
+    pairings, taken_matches, taken_slugs = {}, set(), set()
+    for raw, mid, slug, resolved, one, two, full1, full2 in scored:
+        if mid in taken_matches or slug in taken_slugs:
+            continue
+        taken_matches.add(mid)
+        taken_slugs.add(slug)
+        pairings[slug] = {
+            "cb_id": mid,
+            "slug": slug,
+            "question": resolved["question"],
+            "outcomes": resolved["outcomes"],
+            "full_to_outcome": {full1: one, full2: two},
+            "short_to_full": short_to_full(matches[mid]),
+            "score": round(raw, 3),
+        }
+
+    if diagnostics is not None:
+        for mid, cb_match in live.items():
+            if mid in taken_matches:
+                continue
+            best_raw, best_slug = closest.get(mid, (0.0, None))
+            info = cb_match["matchInfo"]
+            full1, full2 = team_full_names(cb_match)
+            if best_slug is None:
+                why = "no open two outcome cricket market to compare against"
+            elif best_raw < MIN_NAME_SCORE:
+                why = f"closest market {best_slug} only scored {best_raw:.2f} on team names"
+            else:
+                why = f"{best_slug} matched on names but its date does not fit this fixture"
+            diagnostics.append({
                 "cb_id": mid,
-                "slug": slug,
-                "question": resolved["question"],
-                "outcomes": outcomes,
-                "full_to_outcome": {full1: o1, full2: o2},
-                "short_to_full": short_to_full(cb_match),
-            }
-            break
+                "teams": f"{full1} v {full2}",
+                "series": info.get("seriesName"),
+                "state": info.get("state"),
+                "date": str(match_date(cb_match) or ""),
+                "reason": why,
+            })
+
     return pairings
 
 
@@ -314,6 +412,7 @@ class PaperTrader:
                 "recv_ms": recv_ms,
                 "iso": time.strftime("%H:%M:%S", time.gmtime(recv_ms / 1000)),
                 "slug": pairing["slug"],
+                "cb_id": pairing["cb_id"],
                 "over_ball": ball.get("ballMetric"),
                 "cb_ms": ball.get("timestamp"),
                 "reason": reason,

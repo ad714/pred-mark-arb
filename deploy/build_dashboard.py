@@ -64,33 +64,80 @@ def trader_state():
     }
 
 
-def live_view():
+def registry_update(matches, pairings, diagnostics, wicket_counts):
+    path = DATA / "matches.json"
+    book = {}
+    if path.exists():
+        try:
+            book = json.loads(path.read_text(encoding="utf-8")).get("matches", {})
+        except ValueError:
+            book = {}
+
+    stamp = now_iso()
+    paired_by_id = {p["cb_id"]: p for p in pairings}
+    reason_by_id = {d["cb_id"]: d["reason"] for d in diagnostics}
+
+    for entry in matches:
+        key = str(entry["cb_id"])
+        row = book.get(key) or {
+            "cb_id": entry["cb_id"],
+            "first_seen": stamp,
+            "states": [],
+        }
+        row.update({
+            "teams": entry["teams"],
+            "teams_full": entry.get("teams_full"),
+            "series": entry.get("series"),
+            "format": entry.get("format"),
+            "date": entry.get("date"),
+            "last_seen": stamp,
+            "last_state": entry.get("state"),
+        })
+        if entry.get("state") and entry["state"] not in row["states"]:
+            row["states"].append(entry["state"])
+        hit = paired_by_id.get(entry["cb_id"])
+        if hit:
+            row["paired_slug"] = hit["slug"]
+            row["paired_score"] = hit.get("score")
+            row["paired_question"] = hit.get("question")
+            row.pop("unpaired_reason", None)
+        elif entry["cb_id"] in reason_by_id and "paired_slug" not in row:
+            row["unpaired_reason"] = reason_by_id[entry["cb_id"]]
+        row["wickets_timed"] = wicket_counts.get(entry["cb_id"], row.get("wickets_timed", 0))
+        book[key] = row
+
+    path.write_text(json.dumps({"generated_at": stamp, "matches": book}, indent=1),
+                    encoding="utf-8")
+    return book
+
+
+def live_view(wicket_counts):
     session = requests.Session()
     matches = []
     try:
         html = session.get(LIVE_SCORES_URL, headers=HEADERS, timeout=25).text
         for cb_id, match in extract_matches(html).items():
             info = match["matchInfo"]
-            state = info.get("state")
-            if state not in ("In Progress", "Innings Break", "Toss", "Stumps"):
-                continue
             team1 = (info.get("team1") or {}).get("teamSName")
             team2 = (info.get("team2") or {}).get("teamSName")
+            full1, full2 = paper_trade.team_full_names(match)
             matches.append({
                 "cb_id": cb_id,
                 "teams": f"{team1} v {team2}",
-                "state": state,
+                "teams_full": f"{full1} v {full2}",
+                "state": info.get("state"),
                 "series": info.get("seriesName"),
                 "format": info.get("matchFormat"),
+                "date": str(paper_trade.match_date(match) or ""),
             })
     except Exception as exc:
-        matches = []
         print(f"cricbuzz live view failed: {type(exc).__name__}: {exc}")
 
-    pairings = []
+    pairings, diagnostics = [], []
     try:
         found = paper_trade.build_pairings(session, paper_trade.PAIR_MIN_PRICE,
-                                           paper_trade.PAIR_MAX_PRICE)
+                                           paper_trade.PAIR_MAX_PRICE,
+                                           diagnostics=diagnostics)
         for slug, pairing in found.items():
             prices = {}
             for outcome, token in pairing["outcomes"].items():
@@ -104,13 +151,28 @@ def live_view():
                 "slug": slug,
                 "cb_id": pairing["cb_id"],
                 "question": pairing["question"],
+                "score": pairing.get("score"),
                 "prices": prices,
             })
     except Exception as exc:
         print(f"pairing failed: {type(exc).__name__}: {exc}")
 
-    return {"generated_at": now_iso(), "matches": matches, "pairings": pairings,
-            "trader": trader_state()}
+    book = registry_update(matches, pairings, diagnostics, wicket_counts)
+    tracked = [r for r in book.values() if r.get("paired_slug")]
+
+    live_states = ("In Progress", "Innings Break")
+    return {
+        "generated_at": now_iso(),
+        "matches": [m for m in matches if m["state"] != "Complete"],
+        "pairings": pairings,
+        "unpaired": diagnostics,
+        "coverage": {
+            "seen_total": len(book),
+            "ever_paired": len(tracked),
+            "live_now": sum(1 for m in matches if m["state"] in live_states),
+        },
+        "trader": trader_state(),
+    }
 
 
 def merge_trades(artifact_dir):
@@ -262,12 +324,18 @@ def main():
     DATA.mkdir(parents=True, exist_ok=True)
 
     rows = merge_trades(artifacts)
+
+    wicket_counts = {}
+    for row in rows:
+        if row["type"] in ("open", "skip") and row.get("cb_id"):
+            wicket_counts[row["cb_id"]] = wicket_counts.get(row["cb_id"], 0) + 1
+
     (DATA / "results.json").write_text(json.dumps(results_view(rows), indent=1), encoding="utf-8")
     (DATA / "basket.json").write_text(json.dumps(basket_view(artifacts), indent=1), encoding="utf-8")
-    (DATA / "live.json").write_text(json.dumps(live_view(), indent=1), encoding="utf-8")
+    (DATA / "live.json").write_text(json.dumps(live_view(wicket_counts), indent=1), encoding="utf-8")
 
     print(f"trade records: {len(rows)}")
-    for name in ("results.json", "basket.json", "live.json"):
+    for name in ("results.json", "basket.json", "live.json", "matches.json"):
         print(f"  {name:<14} {(DATA / name).stat().st_size:>8} bytes")
 
 

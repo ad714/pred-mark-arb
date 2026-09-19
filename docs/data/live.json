@@ -1,50 +1,173 @@
 {
- "generated_at": "2026-09-19T20:15:32Z",
+ "generated_at": "2026-09-19T20:22:32Z",
  "matches": [
+  {
+   "cb_id": 170951,
+   "teams": "INDW v BANW",
+   "teams_full": "India Women v Bangladesh Women",
+   "state": "Preview",
+   "series": "Women's Asian Games 2026",
+   "format": "T20",
+   "date": "2026-09-20"
+  },
+  {
+   "cb_id": 152753,
+   "teams": "ZIM v AUS",
+   "teams_full": "Zimbabwe v Australia",
+   "state": "Preview",
+   "series": "Australia tour of Zimbabwe 2026",
+   "format": "ODI",
+   "date": "2026-09-20"
+  },
+  {
+   "cb_id": 170943,
+   "teams": "PAKW v SLW",
+   "teams_full": "Pakistan Women v Sri Lanka Women",
+   "state": "Preview",
+   "series": "Women's Asian Games 2026",
+   "format": "T20",
+   "date": "2026-09-20"
+  },
+  {
+   "cb_id": 171267,
+   "teams": "JPN v HKC",
+   "teams_full": "Japan v Hong Kong, China",
+   "state": "Preview",
+   "series": "Hong Kong, China tour of Japan 2026",
+   "format": "T20",
+   "date": "2026-09-20"
+  },
+  {
+   "cb_id": 169440,
+   "teams": "ECR v BFW",
+   "teams_full": "Edinburgh Castle Rockers v Belfast Wolves",
+   "state": "Preview",
+   "series": "ETPL 2026",
+   "format": "T20",
+   "date": "2026-09-20"
+  },
+  {
+   "cb_id": 172401,
+   "teams": "MPR v SWD",
+   "teams_full": "Mpumalanga Rhinos v South Western Districts",
+   "state": "Preview",
+   "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
+   "format": "ODI",
+   "date": "2026-09-20"
+  },
+  {
+   "cb_id": 172390,
+   "teams": "NCAPE v LIMPO",
+   "teams_full": "Northern Cape v Limpopo",
+   "state": "Preview",
+   "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
+   "format": "ODI",
+   "date": "2026-09-20"
+  },
+  {
+   "cb_id": 172397,
+   "teams": "ESTORM v BOR",
+   "teams_full": "Eastern Storm v Border",
+   "state": "Preview",
+   "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
+   "format": "ODI",
+   "date": "2026-09-20"
+  },
+  {
+   "cb_id": 167057,
+   "teams": "WA v TAS",
+   "teams_full": "Western Australia v Tasmania",
+   "state": "Preview",
+   "series": "Australia Domestic One-Day Cup 2026-27",
+   "format": "ODI",
+   "date": "2026-09-20"
+  },
   {
    "cb_id": 171727,
    "teams": "NWEST v BOL",
+   "teams_full": "North West - Eastvaal Renault Dragons v Boland",
    "state": "In Progress",
    "series": "CSA Four-Day Series Division One 2026-27",
-   "format": "TEST"
+   "format": "TEST",
+   "date": "2026-09-17"
   },
   {
    "cb_id": 171737,
    "teams": "WPR v DOL",
+   "teams_full": "Western Province v Dolphins",
    "state": "In Progress",
    "series": "CSA Four-Day Series Division One 2026-27",
-   "format": "TEST"
+   "format": "TEST",
+   "date": "2026-09-17"
   },
   {
    "cb_id": 171747,
    "teams": "KNG v LIONS",
+   "teams_full": "Knights v Lions",
    "state": "Stumps",
    "series": "CSA Four-Day Series Division One 2026-27",
-   "format": "TEST"
+   "format": "TEST",
+   "date": "2026-09-17"
   },
   {
    "cb_id": 171757,
    "teams": "WAR v TIT",
+   "teams_full": "Warriors v Titans",
    "state": "Stumps",
    "series": "CSA Four-Day Series Division One 2026-27",
-   "format": "TEST"
+   "format": "TEST",
+   "date": "2026-09-17"
   },
   {
-   "cb_id": 172057,
-   "teams": "MPR v SWD",
-   "state": "In Progress",
-   "series": "CSA Three-Day Series Division Two 2026-27",
-   "format": "TEST"
+   "cb_id": 144090,
+   "teams": "LEIC v MDX",
+   "teams_full": "Leicestershire v Middlesex",
+   "state": "Preview",
+   "series": "England Domestic One-Day Cup",
+   "format": "ODI",
+   "date": "2026-09-20"
+  },
+  {
+   "cb_id": 155617,
+   "teams": "INDWA v AUSWA",
+   "teams_full": "India A Women v Australia A Women",
+   "state": "Preview",
+   "series": "Australia A Women tour of India 2026",
+   "format": "ODI",
+   "date": "2026-09-20"
   }
  ],
  "pairings": [],
+ "unpaired": [
+  {
+   "cb_id": 171727,
+   "teams": "North West - Eastvaal Renault Dragons v Boland",
+   "series": "CSA Four-Day Series Division One 2026-27",
+   "state": "In Progress",
+   "date": "2026-09-17",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 171737,
+   "teams": "Western Province v Dolphins",
+   "series": "CSA Four-Day Series Division One 2026-27",
+   "state": "In Progress",
+   "date": "2026-09-17",
+   "reason": "no open two outcome cricket market to compare against"
+  }
+ ],
+ "coverage": {
+  "seen_total": 25,
+  "ever_paired": 0,
+  "live_now": 2
+ },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
   "run_number": 2,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35466535898",
   "started_at": "2026-09-19T20:09:47Z",
-  "elapsed_s": 345,
+  "elapsed_s": 766,
   "runs_total": 2
  }
 }

@@ -42,6 +42,9 @@ jobs:
           done
           find artifacts -type f | head -30
 
+      - name: pairing guard
+        run: python deploy/test_pairing.py
+
       - name: rebase cumulative log onto newest published copy
         run: |
           git fetch -q origin main

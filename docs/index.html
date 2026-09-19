@@ -67,8 +67,15 @@ h1 em{font-style:italic; color:var(--sodium); padding-right:.09em}
 .verdict strong{color:var(--text); font-weight:600}
 
 figure{margin:clamp(26px,5vw,44px) 0 0}
-.chart{overflow-x:auto; padding-block:4px}
-.chart svg{display:block; width:100%; min-width:880px; height:auto; overflow:visible}
+.chart{padding-block:4px}
+.chart svg{display:block; width:100%; height:auto; overflow:visible}
+.chart-v{display:none}
+@media(max-width:1010px){ .chart-h text{font-size:13px} }
+@media(max-width:840px){ .chart-h text{font-size:15px} }
+@media(max-width:700px){
+  .chart-h{display:none}
+  .chart-v{display:block}
+}
 figcaption{margin-top:16px; color:var(--faint); font-size:13px; max-width:66ch}
 
 section{padding-block:clamp(52px,9vw,104px) 0}
@@ -132,7 +139,7 @@ footer{margin-top:clamp(56px,9vw,104px); padding-block:26px 48px;
 </div>
 
 <figure>
-<div class="chart">
+<div class="chart chart-h">
 <svg viewBox="0 0 1000 132" role="img" aria-labelledby="scaleTitle">
   <title id="scaleTitle">Detect lag in seconds for every wicket seen on a paired match</title>
   <rect x="40" y="30" width="225" height="56" fill="#8fae6a" opacity=".10"/>
@@ -166,6 +173,39 @@ footer{margin-top:clamp(56px,9vw,104px); padding-block:26px 48px;
   </g>
 </svg>
 </div>
+<div class="chart chart-v">
+<svg viewBox="0 0 320 566" role="img" aria-labelledby="scaleTitleV">
+  <title id="scaleTitleV">Detect lag in seconds for every wicket seen on a paired match</title>
+  <rect x="58" y="24" width="238" height="125" fill="#8fae6a" opacity=".10"/>
+  <polygon points="58,191 290,191 296,197 296,266 290,272 58,272 58,266 58,197"
+           fill="#a05c48" opacity=".17"/>
+  <line x1="58" y1="149" x2="300" y2="149" stroke="#8fae6a" stroke-width="1.5"
+        stroke-dasharray="3 4" opacity=".55"/>
+  <text x="300" y="143" fill="#8fae6a" font-size="13" text-anchor="end"
+        font-family="ui-monospace, monospace" opacity=".9">15s reprice</text>
+  <text x="290" y="235" fill="#c4735a" font-size="13" text-anchor="end"
+        font-family="ui-monospace, monospace">dead band</text>
+  <g id="plotv"></g>
+  <line x1="58" y1="24" x2="58" y2="524" stroke="#1f2719" stroke-width="2" stroke-linecap="round"/>
+  <g font-family="ui-monospace, monospace" font-size="13" fill="#757e6c" text-anchor="end">
+    <line x1="51" y1="24"  x2="58" y2="24"  stroke="#1f2719" stroke-width="2"/>
+    <line x1="51" y1="107" x2="58" y2="107" stroke="#1f2719" stroke-width="2"/>
+    <line x1="51" y1="191" x2="58" y2="191" stroke="#1f2719" stroke-width="2"/>
+    <line x1="51" y1="274" x2="58" y2="274" stroke="#1f2719" stroke-width="2"/>
+    <line x1="51" y1="357" x2="58" y2="357" stroke="#1f2719" stroke-width="2"/>
+    <line x1="51" y1="441" x2="58" y2="441" stroke="#1f2719" stroke-width="2"/>
+    <line x1="51" y1="524" x2="58" y2="524" stroke="#1f2719" stroke-width="2"/>
+    <text x="45" y="28">0</text>
+    <text x="45" y="111">10</text>
+    <text x="45" y="195">20</text>
+    <text x="45" y="278">30</text>
+    <text x="45" y="361">40</text>
+    <text x="45" y="445">50</text>
+    <text x="45" y="528">60</text>
+    <text x="45" y="556" fill="#757e6c">60+</text>
+  </g>
+</svg>
+</div>
 <figcaption id="plotcap">Each mark is one wicket on a match paired to a live Polymarket book.
   Wickets past 60 seconds sit in the overflow at the right; the collector gates those out
   rather than trading them.</figcaption>
@@ -177,6 +217,20 @@ footer{margin-top:clamp(56px,9vw,104px); padding-block:26px 48px;
     using the same pairing code the collector runs.</p>
   <div id="pairbox"><div class="empty"><b>Loading the live view</b>If this line stays, the published data could not be read.</div></div>
   <div class="scroll" id="matchbox"></div>
+</section>
+
+<section id="coverage">
+  <h2>Every match it has seen</h2>
+  <p class="sub">The registry keeps one row per fixture from the first time it appears on the
+    feed, so a later autopsy can ask which matches were covered, which were not, and why.</p>
+  <dl class="grid" id="covstats">
+    <div class="cell"><dt>Fixtures seen</dt><dd>-</dd></div>
+    <div class="cell"><dt>Ever paired</dt><dd>-</dd></div>
+    <div class="cell"><dt>In play now</dt><dd>-</dd></div>
+    <div class="cell"><dt>Wickets timed</dt><dd>-</dd></div>
+  </dl>
+  <div class="scroll" id="covbox"><div class="empty"><b>Loading the registry</b>If this line
+    stays, the published data could not be read.</div></div>
 </section>
 
 <section id="result">
@@ -217,6 +271,7 @@ footer{margin-top:clamp(56px,9vw,104px); padding-block:26px 48px;
 <script>
 const $ = s => document.querySelector(s);
 const X = s => 40 + (Math.max(0, Math.min(60, s)) / 60) * 900;
+const Y = s => 24 + (Math.max(0, Math.min(60, s)) / 60) * 500;
 const esc = s => String(s === null || s === undefined ? "" : s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const n2 = v => (v === null || v === undefined) ? "-" : Number(v).toFixed(2);
 const ago = s => s === null || s === undefined ? "-" : s < 90 ? s + "s" : Math.floor(s / 60) + "m" + String(s % 60).padStart(2, "0");
@@ -234,23 +289,28 @@ function plotLag(lag){
       "No wicket has been timed yet. The collector records one every time a wicket falls on a match it has paired to a live Polymarket book.";
     return;
   }
-  const marks = [];
+  const flat = [], tall = [];
   let over = 0;
   for(const v of lag.values){
     if(v > 60){ over++; continue; }
-    const x = X(v).toFixed(1);
-    marks.push('<line x1="' + x + '" y1="86" x2="' + x + '" y2="48" stroke="#98a18c" stroke-width="2" stroke-linecap="round" opacity=".7"/>');
+    const x = X(v).toFixed(1), y = Y(v).toFixed(1);
+    flat.push('<line x1="' + x + '" y1="86" x2="' + x + '" y2="48" stroke="#98a18c" stroke-width="2" stroke-linecap="round" opacity=".7"/>');
+    tall.push('<line x1="58" y1="' + y + '" x2="118" y2="' + y + '" stroke="#98a18c" stroke-width="2" stroke-linecap="round" opacity=".7"/>');
   }
   for(let i = 0; i < over; i++){
     const col = i % 4, row = Math.floor(i / 4);
-    marks.push('<circle cx="' + (958 + col * 7) + '" cy="' + (82 - row * 7) + '" r="2.4" fill="#757e6c"/>');
+    flat.push('<circle cx="' + (958 + col * 7) + '" cy="' + (82 - row * 7) + '" r="2.4" fill="#757e6c"/>');
+    tall.push('<circle cx="' + (66 + col * 9) + '" cy="' + (552 - row * 9) + '" r="2.8" fill="#757e6c"/>');
   }
   if(lag.median <= 60){
-    const mx = X(lag.median).toFixed(1);
-    marks.push('<line x1="' + mx + '" y1="88" x2="' + mx + '" y2="34" stroke="#e0a53f" stroke-width="3" stroke-linecap="round"/>');
-    marks.push('<circle cx="' + mx + '" cy="34" r="3.5" fill="#e0a53f"/>');
+    const mx = X(lag.median).toFixed(1), my = Y(lag.median).toFixed(1);
+    flat.push('<line x1="' + mx + '" y1="88" x2="' + mx + '" y2="34" stroke="#e0a53f" stroke-width="3" stroke-linecap="round"/>');
+    flat.push('<circle cx="' + mx + '" cy="34" r="3.5" fill="#e0a53f"/>');
+    tall.push('<line x1="56" y1="' + my + '" x2="170" y2="' + my + '" stroke="#e0a53f" stroke-width="3" stroke-linecap="round"/>');
+    tall.push('<circle cx="170" cy="' + my + '" r="4" fill="#e0a53f"/>');
   }
-  document.getElementById("plot").innerHTML = marks.join("");
+  document.getElementById("plot").innerHTML = flat.join("");
+  document.getElementById("plotv").innerHTML = tall.join("");
   document.getElementById("plotcap").textContent =
     lag.n + " wicket" + (lag.n === 1 ? "" : "s") + " timed. Fastest " + lag.min + "s, median " +
     lag.median + "s, ninetieth percentile " + lag.p90 + "s, slowest " + lag.max + "s." +
@@ -323,11 +383,15 @@ function renderLive(d){
       '<thead><tr><th>Match</th><th>Market</th><th>Outcome</th><th>Bid</th><th>Ask</th><th>Mid</th></tr></thead><tbody>' +
       rows.join("") + '</tbody></table></div>';
   } else {
+    const why = (d.unpaired || []).map(u =>
+      '<br><span class="n">' + esc(u.teams) + '</span> <span class="muted">' +
+      esc(u.reason) + '</span>').join("");
     document.getElementById("pairbox").innerHTML =
-      '<div class="empty"><b>Nothing paired at this moment</b>' + matches.length +
-      ' match' + (matches.length === 1 ? "" : "es") + ' in play on the feed, none carrying a two ' +
-      'outcome Polymarket book. Polymarket lists internationals and the big franchise leagues, ' +
-      'not domestic first class cricket, so long stretches read empty here.</div>';
+      '<div class="empty"><b>Nothing paired at this moment</b>' +
+      'Polymarket lists internationals and the big franchise leagues, not domestic first ' +
+      'class cricket, so long stretches read empty here. Every live fixture and why it did ' +
+      'not match:' + (why || '<br><span class="muted">nothing is in play right now</span>') +
+      '</div>';
   }
 
   document.getElementById("matchbox").innerHTML = matches.length ?
@@ -411,9 +475,46 @@ function fresh(key, value){
   return true;
 }
 
+function renderCoverage(d){
+  const box = document.getElementById("covbox");
+  if(!d || !d.matches){
+    box.innerHTML = '<div class="empty"><b>Registry unavailable</b>The published registry could not be read.</div>';
+    return;
+  }
+  const rows = Object.values(d.matches).sort((a, b) =>
+    String(b.date || "").localeCompare(String(a.date || "")) ||
+    String(a.teams_full || "").localeCompare(String(b.teams_full || "")));
+  const paired = rows.filter(r => r.paired_slug);
+  const wickets = rows.reduce((n, r) => n + (r.wickets_timed || 0), 0);
+  const live = rows.filter(r => r.last_state === "In Progress" || r.last_state === "Innings Break");
+  document.getElementById("covstats").innerHTML =
+    '<div class="cell"><dt>Fixtures seen</dt><dd>' + rows.length + '</dd></div>' +
+    '<div class="cell"><dt>Ever paired</dt><dd>' + paired.length +
+      '</dd><small>matched to a market</small></div>' +
+    '<div class="cell"><dt>In play now</dt><dd>' + live.length + '</dd></div>' +
+    '<div class="cell"><dt>Wickets timed</dt><dd>' + wickets + '</dd></div>';
+
+  box.innerHTML = '<table><caption>Newest fixture first. Score is the weaker of the two team ' +
+    'name matches, and 1.00 means both names matched exactly.</caption><thead><tr>' +
+    '<th>Date</th><th>Match</th><th>Format</th><th>State</th><th>Wkts</th>' +
+    '<th>Polymarket market</th></tr></thead><tbody>' +
+    rows.map(r => '<tr>' +
+      '<td class="n muted">' + esc(r.date) + '</td>' +
+      '<td>' + esc(r.teams_full || r.teams) +
+        '<br><span class="muted" style="font-size:12px">' + esc(r.series) + '</span></td>' +
+      '<td class="n muted">' + esc(r.format) + '</td>' +
+      '<td class="n">' + esc(r.last_state) + '</td>' +
+      '<td class="n">' + (r.wickets_timed || 0) + '</td>' +
+      '<td>' + (r.paired_slug
+        ? '<span class="n">' + esc(r.paired_slug) + '</span> <span class="muted">score ' +
+          Number(r.paired_score).toFixed(2) + '</span>'
+        : '<span class="muted">' + esc(r.unpaired_reason || "not matched") + '</span>') +
+      '</td></tr>').join("") + '</tbody></table>';
+}
+
 async function load(){
-  const files = ["live.json", "results.json", "basket.json"];
-  const render = [renderLive, renderResults, renderBasket];
+  const files = ["live.json", "results.json", "basket.json", "matches.json"];
+  const render = [renderLive, renderResults, renderBasket, renderCoverage];
   const got = await Promise.all(files.map(get));
   got.forEach((data, i) => { if(fresh(files[i], data)) render[i](data); });
 }

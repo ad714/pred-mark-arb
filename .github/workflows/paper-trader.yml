@@ -26,6 +26,9 @@ jobs:
 
       - run: pip install --quiet requests
 
+      - name: pairing guard
+        run: python deploy/test_pairing.py
+
       - name: preflight
         run: python deploy/preflight.py
 

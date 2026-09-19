@@ -1,0 +1,382 @@
+{
+ "generated_at": "2026-09-19T20:22:32Z",
+ "matches": {
+  "129623": {
+   "cb_id": 129623,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "SL v ENG",
+   "teams_full": "Sri Lanka v England",
+   "series": "Sri Lanka tour of England, 2026",
+   "format": "T20",
+   "date": "2026-09-19",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "169433": {
+   "cb_id": 169433,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "ADF v BFW",
+   "teams_full": "Amsterdam Flames v Belfast Wolves",
+   "series": "European T20 Premier League 2026",
+   "format": "T20",
+   "date": "2026-09-19",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "170951": {
+   "cb_id": 170951,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "INDW v BANW",
+   "teams_full": "India Women v Bangladesh Women",
+   "series": "Women's Asian Games 2026",
+   "format": "T20",
+   "date": "2026-09-20",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Preview",
+   "wickets_timed": 0
+  },
+  "152753": {
+   "cb_id": 152753,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "ZIM v AUS",
+   "teams_full": "Zimbabwe v Australia",
+   "series": "Australia tour of Zimbabwe 2026",
+   "format": "ODI",
+   "date": "2026-09-20",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Preview",
+   "wickets_timed": 0
+  },
+  "170943": {
+   "cb_id": 170943,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "PAKW v SLW",
+   "teams_full": "Pakistan Women v Sri Lanka Women",
+   "series": "Women's Asian Games 2026",
+   "format": "T20",
+   "date": "2026-09-20",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Preview",
+   "wickets_timed": 0
+  },
+  "154700": {
+   "cb_id": 154700,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "GAW v JKM",
+   "teams_full": "Guyana Amazon Warriors v Jamaica Kingsmen",
+   "series": "CPL 2026",
+   "format": "T20",
+   "date": "2026-09-18",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "171667": {
+   "cb_id": 171667,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "KEN v UGA",
+   "teams_full": "Kenya v Uganda",
+   "series": "Africa Continental Cup 2026",
+   "format": "T20",
+   "date": "2026-09-19",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "171257": {
+   "cb_id": 171257,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "JPN v HKC",
+   "teams_full": "Japan v Hong Kong, China",
+   "series": "Hong Kong, China tour of Japan 2026",
+   "format": "T20",
+   "date": "2026-09-19",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "171267": {
+   "cb_id": 171267,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "JPN v HKC",
+   "teams_full": "Japan v Hong Kong, China",
+   "series": "Hong Kong, China tour of Japan 2026",
+   "format": "T20",
+   "date": "2026-09-20",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Preview",
+   "wickets_timed": 0
+  },
+  "169440": {
+   "cb_id": 169440,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "ECR v BFW",
+   "teams_full": "Edinburgh Castle Rockers v Belfast Wolves",
+   "series": "ETPL 2026",
+   "format": "T20",
+   "date": "2026-09-20",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Preview",
+   "wickets_timed": 0
+  },
+  "172401": {
+   "cb_id": 172401,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "MPR v SWD",
+   "teams_full": "Mpumalanga Rhinos v South Western Districts",
+   "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
+   "format": "ODI",
+   "date": "2026-09-20",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Preview",
+   "wickets_timed": 0
+  },
+  "172390": {
+   "cb_id": 172390,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "NCAPE v LIMPO",
+   "teams_full": "Northern Cape v Limpopo",
+   "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
+   "format": "ODI",
+   "date": "2026-09-20",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Preview",
+   "wickets_timed": 0
+  },
+  "172397": {
+   "cb_id": 172397,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "ESTORM v BOR",
+   "teams_full": "Eastern Storm v Border",
+   "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
+   "format": "ODI",
+   "date": "2026-09-20",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Preview",
+   "wickets_timed": 0
+  },
+  "167053": {
+   "cb_id": 167053,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "QL v VIC",
+   "teams_full": "Queensland v Victoria",
+   "series": "Australia Domestic One-Day Cup 2026-27",
+   "format": "ODI",
+   "date": "2026-09-19",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "167057": {
+   "cb_id": 167057,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "WA v TAS",
+   "teams_full": "Western Australia v Tasmania",
+   "series": "Australia Domestic One-Day Cup 2026-27",
+   "format": "ODI",
+   "date": "2026-09-20",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Preview",
+   "wickets_timed": 0
+  },
+  "171727": {
+   "cb_id": 171727,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "In Progress"
+   ],
+   "teams": "NWEST v BOL",
+   "teams_full": "North West - Eastvaal Renault Dragons v Boland",
+   "series": "CSA Four-Day Series Division One 2026-27",
+   "format": "TEST",
+   "date": "2026-09-17",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "In Progress",
+   "unpaired_reason": "no open two outcome cricket market to compare against",
+   "wickets_timed": 0
+  },
+  "171737": {
+   "cb_id": 171737,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "In Progress"
+   ],
+   "teams": "WPR v DOL",
+   "teams_full": "Western Province v Dolphins",
+   "series": "CSA Four-Day Series Division One 2026-27",
+   "format": "TEST",
+   "date": "2026-09-17",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "In Progress",
+   "unpaired_reason": "no open two outcome cricket market to compare against",
+   "wickets_timed": 0
+  },
+  "171747": {
+   "cb_id": 171747,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Stumps"
+   ],
+   "teams": "KNG v LIONS",
+   "teams_full": "Knights v Lions",
+   "series": "CSA Four-Day Series Division One 2026-27",
+   "format": "TEST",
+   "date": "2026-09-17",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Stumps",
+   "wickets_timed": 0
+  },
+  "171757": {
+   "cb_id": 171757,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Stumps"
+   ],
+   "teams": "WAR v TIT",
+   "teams_full": "Warriors v Titans",
+   "series": "CSA Four-Day Series Division One 2026-27",
+   "format": "TEST",
+   "date": "2026-09-17",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Stumps",
+   "wickets_timed": 0
+  },
+  "144090": {
+   "cb_id": 144090,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "LEIC v MDX",
+   "teams_full": "Leicestershire v Middlesex",
+   "series": "England Domestic One-Day Cup",
+   "format": "ODI",
+   "date": "2026-09-20",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Preview",
+   "wickets_timed": 0
+  },
+  "172037": {
+   "cb_id": 172037,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "NCAPE v LIMPO",
+   "teams_full": "Northern Cape v Limpopo",
+   "series": "CSA Three-Day Series Division Two 2026-27",
+   "format": "TEST",
+   "date": "2026-09-17",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "172047": {
+   "cb_id": 172047,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "ESTORM v BOR",
+   "teams_full": "Eastern Storm v Border",
+   "series": "CSA Three-Day Series Division Two 2026-27",
+   "format": "TEST",
+   "date": "2026-09-17",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "172057": {
+   "cb_id": 172057,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "MPR v SWD",
+   "teams_full": "Mpumalanga Rhinos v South Western Districts",
+   "series": "CSA Three-Day Series Division Two 2026-27",
+   "format": "TEST",
+   "date": "2026-09-17",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "155617": {
+   "cb_id": 155617,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "INDWA v AUSWA",
+   "teams_full": "India A Women v Australia A Women",
+   "series": "Australia A Women tour of India 2026",
+   "format": "ODI",
+   "date": "2026-09-20",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Preview",
+   "wickets_timed": 0
+  },
+  "160018": {
+   "cb_id": 160018,
+   "first_seen": "2026-09-19T20:22:32Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "RSAW v ZIMW",
+   "teams_full": "South Africa Women v Zimbabwe Women",
+   "series": "South Africa Women tour of Zimbabwe, 2026",
+   "format": "T20",
+   "date": "2026-09-19",
+   "last_seen": "2026-09-19T20:22:32Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  }
+ }
+}
