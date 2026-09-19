@@ -1,0 +1,55 @@
+name: paper trader
+
+on:
+  workflow_dispatch:
+    inputs:
+      minutes:
+        description: minutes to run before stopping
+        default: "340"
+  schedule:
+    - cron: "5 0,6,12,18 * * *"
+
+concurrency:
+  group: paper-trader
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install --quiet requests
+
+      - name: preflight
+        run: python deploy/preflight.py
+
+      - name: paper trade
+        working-directory: live-edge
+        env:
+          MINUTES: ${{ github.event.inputs.minutes || '340' }}
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE/results/paper"
+          timeout "${MINUTES}m" python -u paper_trade.py \
+            --out "$GITHUB_WORKSPACE/results/paper" \
+            --bankroll 5 --stake 1 --hold 60 \
+            --min-price 0.25 --max-price 0.75 --max-detect-lag 60 \
+            2>&1 | tee "$GITHUB_WORKSPACE/results/paper/console.log" || true
+
+      - name: summarize
+        if: always()
+        run: |
+          python deploy/summarize.py results/paper/paper_trades.jsonl \
+            | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: paper-${{ github.run_id }}
+          path: results/paper/
+          retention-days: 90

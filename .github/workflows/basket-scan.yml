@@ -1,0 +1,35 @@
+name: basket scan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "40 */6 * * *"
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install --quiet requests
+
+      - name: scan
+        working-directory: market-scanner
+        run: |
+          python -m src.basket.run --min-net 1 --top 40 \
+            | tee -a "$GITHUB_STEP_SUMMARY"
+          mkdir -p "$GITHUB_WORKSPACE/results/basket"
+          cp data/derived/basket.json \
+            "$GITHUB_WORKSPACE/results/basket/basket_$(date -u +%Y%m%dT%H%M%SZ).json"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: basket-${{ github.run_id }}
+          path: results/basket/
+          retention-days: 90
