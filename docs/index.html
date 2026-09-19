@@ -11,8 +11,8 @@
 :root{
   color-scheme: dark;
   --ink:#0a0d09; --panel:#11150f; --raise:#161b13; --edge:#1f2719;
-  --text:#e8eade; --dim:#98a18c; --faint:#616a59;
-  --sodium:#e0a53f; --clay:#a05c48; --field:#8fae6a;
+  --text:#e8eade; --dim:#98a18c; --faint:#757e6c;
+  --sodium:#e0a53f; --clay:#a05c48; --clay-ink:#c4735a; --field:#8fae6a;
   --display:Zodiak,"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
   --ui:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
   --mono:ui-monospace,"SF Mono","Cascadia Mono","Segoe UI Mono","Roboto Mono",monospace;
@@ -24,6 +24,10 @@ body{
   margin:0; background:var(--ink); color:var(--text);
   font-family:var(--ui); font-size:15px; line-height:1.55;
   -webkit-font-smoothing:antialiased;
+}
+body::before{
+  content:""; position:fixed; inset:0; z-index:-1; pointer-events:none; opacity:.05;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 .wrap{max-width:1100px; margin:0 auto; padding-inline:var(--gut)}
 a{color:var(--text); text-decoration-color:var(--faint); text-underline-offset:3px}
@@ -79,7 +83,7 @@ h2{font-family:var(--display); font-weight:400; font-size:clamp(23px,3.4vw,33px)
 .cell dd{margin:0; font-family:var(--mono); font-size:clamp(20px,3vw,27px);
   font-variant-numeric:tabular-nums; line-height:1.15}
 .cell small{color:var(--faint); font-size:12px; font-family:var(--ui)}
-.pos{color:var(--field)} .neg{color:var(--clay)}
+.pos{color:var(--field)} .neg{color:var(--clay-ink)}
 
 .scroll{overflow-x:auto; margin-top:22px; border-radius:3px}
 table{border-collapse:collapse; width:100%; min-width:520px; font-size:13.5px}
@@ -138,11 +142,11 @@ footer{margin-top:clamp(56px,9vw,104px); padding-block:26px 48px;
         stroke-dasharray="3 4" opacity=".55"/>
   <text x="265" y="17" fill="#8fae6a" font-family="ui-monospace, monospace" font-size="11"
         text-anchor="middle" opacity=".9">15s reprice</text>
-  <text x="415" y="17" fill="#a05c48" font-family="ui-monospace, monospace" font-size="11"
+  <text x="415" y="17" fill="#c4735a" font-family="ui-monospace, monospace" font-size="11"
         text-anchor="middle">dead band</text>
   <g id="plot"></g>
   <line x1="40" y1="86" x2="940" y2="86" stroke="#1f2719" stroke-width="2" stroke-linecap="round"/>
-  <g font-family="ui-monospace, monospace" font-size="11" fill="#616a59" text-anchor="middle">
+  <g font-family="ui-monospace, monospace" font-size="11" fill="#757e6c" text-anchor="middle">
     <line x1="40"  y1="86" x2="40"  y2="93" stroke="#1f2719" stroke-width="2"/>
     <line x1="190" y1="86" x2="190" y2="93" stroke="#1f2719" stroke-width="2"/>
     <line x1="340" y1="86" x2="340" y2="93" stroke="#1f2719" stroke-width="2"/>
@@ -171,7 +175,7 @@ footer{margin-top:clamp(56px,9vw,104px); padding-block:26px 48px;
   <h2>What it is watching now</h2>
   <p class="sub">Recomputed every 15 minutes by the publisher, independently of the collector,
     using the same pairing code the collector runs.</p>
-  <div id="pairbox"></div>
+  <div id="pairbox"><div class="empty"><b>Loading the live view</b>If this line stays, the published data could not be read.</div></div>
   <div class="scroll" id="matchbox"></div>
 </section>
 
@@ -179,16 +183,26 @@ footer{margin-top:clamp(56px,9vw,104px); padding-block:26px 48px;
   <h2>Every wicket it has timed</h2>
   <p class="sub">A zero-move round trip loses about 3 cents on the dollar to the spread, so a
     wicket has to move the book further than that to be worth taking.</p>
-  <dl class="grid" id="tradestats"></dl>
-  <div class="scroll" id="wicketbox"></div>
+  <dl class="grid" id="tradestats">
+    <div class="cell"><dt>Wickets timed</dt><dd>-</dd></div>
+    <div class="cell"><dt>Trades closed</dt><dd>-</dd></div>
+    <div class="cell"><dt>Realized</dt><dd>-</dd></div>
+    <div class="cell"><dt>Median mid move</dt><dd>-</dd></div>
+  </dl>
+  <div class="scroll" id="wicketbox"><div class="empty"><b>Loading the wicket log</b>If this line stays, the published data could not be read.</div></div>
 </section>
 
 <section id="basket">
   <h2>Basket arb, scanned every six hours</h2>
   <p class="sub">A separate question on the same box: does any negRisk event let you buy every
     outcome for under a dollar. Dark legs are outcomes nobody will sell at any price.</p>
-  <dl class="grid" id="basketstats"></dl>
-  <div class="scroll" id="basketbox"></div>
+  <dl class="grid" id="basketstats">
+    <div class="cell"><dt>Events scanned</dt><dd>-</dd></div>
+    <div class="cell"><dt>Ladders walked</dt><dd>-</dd></div>
+    <div class="cell"><dt>Complete baskets</dt><dd>-</dd></div>
+    <div class="cell"><dt>Best complete net</dt><dd>-</dd></div>
+  </dl>
+  <div class="scroll" id="basketbox"><div class="empty"><b>Loading the latest scan</b>If this line stays, the published data could not be read.</div></div>
 </section>
 
 <footer>
@@ -229,7 +243,7 @@ function plotLag(lag){
   }
   for(let i = 0; i < over; i++){
     const col = i % 4, row = Math.floor(i / 4);
-    marks.push('<circle cx="' + (958 + col * 7) + '" cy="' + (82 - row * 7) + '" r="2.4" fill="#616a59"/>');
+    marks.push('<circle cx="' + (958 + col * 7) + '" cy="' + (82 - row * 7) + '" r="2.4" fill="#757e6c"/>');
   }
   if(lag.median <= 60){
     const mx = X(lag.median).toFixed(1);
@@ -319,13 +333,17 @@ function renderLive(d){
   document.getElementById("matchbox").innerHTML = matches.length ?
     '<table><caption>In play on the feed.</caption><thead><tr><th>Teams</th><th>State</th>' +
     '<th>Format</th><th>Series</th></tr></thead><tbody>' +
-    matches.map(m => '<tr><td class="n">' + esc(m.teams) + '</td><td>' + esc(m.state) +
+    matches.map(m => '<tr><td class="n">' + esc(m.teams) + '</td><td class="n">' + esc(m.state) +
       '</td><td class="muted">' + esc(m.format) + '</td><td class="muted">' + esc(m.series) +
       '</td></tr>').join("") + '</tbody></table>' : "";
 }
 
 function renderResults(d){
-  if(!d) return;
+  if(!d){
+    document.getElementById("wicketbox").innerHTML =
+      '<div class="empty"><b>Results unavailable</b>The published results file could not be read.</div>';
+    return;
+  }
   plotLag(d.lag);
   verdict(d.lag);
   const t = d.trades || {n: 0, wins: 0, realized: 0};
@@ -345,7 +363,7 @@ function renderResults(d){
     '<table><caption>Newest first. A skip is still a timed wicket.</caption><thead><tr>' +
     '<th>Time</th><th>Lag</th><th>Match</th><th>Ball</th><th>Outcome</th></tr></thead><tbody>' +
     w.slice(0, 60).map(x => '<tr><td class="n muted">' + esc(x.iso) + '</td>' +
-      '<td class="n" style="color:' + (x.lag_s < 15 ? "#8fae6a" : x.lag_s < 20 ? "#e0a53f" : "#a05c48") +
+      '<td class="n" style="color:' + (x.lag_s < 15 ? "#8fae6a" : x.lag_s < 20 ? "#e0a53f" : "#c4735a") +
       '">' + x.lag_s + 's</td><td class="n muted">' + esc(x.slug) + '</td>' +
       '<td class="n">' + esc(x.over_ball) + '</td><td>' +
       (x.action === "open" ? "entered" : '<span class="muted">' + esc(x.reason || "skipped") + '</span>') +
@@ -380,7 +398,7 @@ function renderBasket(d){
       '<td class="n">' + (x.return_pct === null || x.return_pct === undefined ? "-" : Number(x.return_pct).toFixed(1) + "%") + '</td>' +
       '<td class="n">' + (x.per_share === null || x.per_share === undefined ? "-" : Number(x.per_share).toFixed(3)) + '</td>' +
       '<td class="n muted">' + (x.buyable === null || x.buyable === undefined ? "-" : x.buyable) + '</td>' +
-      '<td class="n" style="color:' + (x.dark ? "#a05c48" : "inherit") + '">' + (x.dark || 0) + '</td>' +
+      '<td class="n" style="color:' + (x.dark ? "#c4735a" : "inherit") + '">' + (x.dark || 0) + '</td>' +
       '<td class="n muted">' + (x.days === null || x.days === undefined ? "-" : Math.round(x.days)) + '</td>' +
       '</tr>').join("") + '</tbody></table>';
 }
