@@ -29,6 +29,9 @@ jobs:
 
       - run: pip install --quiet requests
 
+      - name: pairing guard
+        run: python deploy/test_pairing.py
+
       - name: collect recent artifacts
         env:
           GH_TOKEN: ${{ github.token }}
@@ -41,9 +44,6 @@ jobs:
             done
           done
           find artifacts -type f | head -30
-
-      - name: pairing guard
-        run: python deploy/test_pairing.py
 
       - name: rebase cumulative log onto newest published copy
         run: |

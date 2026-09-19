@@ -122,7 +122,7 @@ footer{margin-top:clamp(56px,9vw,104px); padding-block:26px 48px;
     <div class="state">
       <span class="beat" id="beat" data-idle>collector <b id="tstate">checking</b></span>
       <span>run <b class="num" id="trun">-</b></span>
-      <span>elapsed <b class="num" id="telapsed">-</b></span>
+      <span><span id="elabel">elapsed</span> <b class="num" id="telapsed">-</b></span>
       <span id="nextwrap">next <b class="num" id="tnext">-</b></span>
       <span><a id="trunlink" href="https://github.com/ad714/pred-mark-arb/actions">open run</a></span>
     </div>
@@ -365,6 +365,7 @@ function renderLive(d){
   if(running){ beat.removeAttribute("data-idle"); } else { beat.setAttribute("data-idle", ""); }
   $("#trun").textContent = t.run_number ? "#" + t.run_number : "-";
   $("#telapsed").textContent = ago(t.elapsed_s);
+  document.getElementById("elabel").textContent = t.elapsed_means || "elapsed";
   if(t.url){ document.getElementById("trunlink").href = t.url; }
 
   const pairs = d.pairings || [], matches = d.matches || [];
@@ -427,6 +428,15 @@ function renderLive(d){
       '</td></tr>').join("") + '</tbody></table>' : "";
 }
 
+function outcomeOf(x){
+  const c = window.__closed && window.__closed[x.slug + "#" + x.over_ball];
+  if(!c) return 'entered <span class="muted">still open</span>';
+  const cls = c.pnl > 0 ? "pos" : c.pnl < 0 ? "neg" : "";
+  return 'entered ' + esc(c.outcome) + ' ' + c.entry.toFixed(3) + ' to ' +
+    (c.exit === null || c.exit === undefined ? "-" : c.exit.toFixed(3)) +
+    ' <span class="' + cls + '">' + (c.pnl > 0 ? "+" : "") + c.pnl.toFixed(4) + '</span>';
+}
+
 function renderResults(d){
   if(!d){
     document.getElementById("wicketbox").innerHTML =
@@ -448,6 +458,9 @@ function renderResults(d){
       '</dd><small>needs to beat 0.03</small></div>';
 
   const w = d.wickets || [];
+  const closed = {};
+  for(const c of (t.recent || [])){ closed[c.slug + "#" + c.over_ball] = c; }
+  window.__closed = closed;
   document.getElementById("wicketbox").innerHTML = w.length ?
     '<table><caption>Newest first. A skip is still a timed wicket.</caption><thead><tr>' +
     '<th>Time</th><th>Lag</th><th>Match</th><th>Ball</th><th class="wide">Outcome</th></tr></thead><tbody>' +
@@ -455,7 +468,7 @@ function renderResults(d){
       '<td class="n" style="color:' + (x.lag_s < 15 ? "#8fae6a" : x.lag_s < 20 ? "#e0a53f" : "#c4735a") +
       '">' + x.lag_s + 's</td><td class="n muted">' + esc(x.slug) + '</td>' +
       '<td class="n">' + esc(x.over_ball) + '</td><td>' +
-      (x.action === "open" ? "entered" : '<span class="muted">' + esc(x.reason || "skipped") + '</span>') +
+      (x.action === "open" ? outcomeOf(x) : '<span class="muted">' + esc(x.reason || "skipped") + '</span>') +
       '</td></tr>').join("") + '</tbody></table>' :
     '<div class="empty"><b>No wickets timed yet</b>Records appear here within an hour of a wicket falling on a paired match.</div>';
 }

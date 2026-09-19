@@ -32,7 +32,7 @@ def recent_trade_count(session, condition_id):
     return sum(1 for t in trades if now - t.get("timestamp", 0) <= ACTIVITY_WINDOW_S)
 
 
-def discover(min_price, max_price):
+def discover(min_price, max_price, with_activity=True):
     session = requests.Session()
     events = []
     for offset in range(0, 1500, PAGE_LIMIT):
@@ -76,7 +76,7 @@ def discover(min_price, max_price):
         closed = bool(event.get("closed"))
 
         active_trades = 0
-        if competitive and not closed:
+        if with_activity and competitive and not closed:
             active_trades = recent_trade_count(session, markets[0].get("conditionId"))
 
         candidates[slug] = {

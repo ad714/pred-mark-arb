@@ -12,7 +12,6 @@ sys.path.insert(0, str(ROOT / "live-edge"))
 import requests
 import dns_bypass
 import paper_trade
-import watch
 from record_cricket import extract_matches, HEADERS, LIVE_SCORES_URL
 from record_commentary import decode_blob, extract_balls, commentary_url
 
@@ -50,9 +49,10 @@ def trader_state():
     active = next((r for r in items if r["status"] in ("in_progress", "queued")), None)
     target = active or items[0]
     started = target.get("run_started_at") or target.get("created_at")
+    anchor = started if active else (target.get("updated_at") or started)
     elapsed = None
-    if started:
-        began = datetime.strptime(started, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+    if anchor:
+        began = datetime.strptime(anchor, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
         elapsed = int((datetime.now(timezone.utc) - began).total_seconds())
     return {
         "state": target["status"] if active else "idle",
@@ -61,6 +61,7 @@ def trader_state():
         "url": target.get("html_url"),
         "started_at": started,
         "elapsed_s": elapsed,
+        "elapsed_means": "running for" if active else "idle for",
         "runs_total": runs.get("total_count", len(items)),
     }
 
@@ -287,14 +288,8 @@ def results_view(rows):
         } for c in closes[-25:]][::-1],
     }
 
-    skips = {}
-    for w in wickets:
-        if w["action"] == "skip" and w["reason"]:
-            key = w["reason"].split("(")[0].split("0.")[0].strip()
-            skips[key] = skips.get(key, 0) + 1
-
     return {"generated_at": now_iso(), "lag": lag, "trades": trades,
-            "skips": skips, "wickets": wickets[-200:][::-1]}
+            "wickets": wickets[-200:][::-1]}
 
 
 def basket_view(artifact_dir):

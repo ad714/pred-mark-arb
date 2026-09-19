@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T20:33:17Z",
+ "generated_at": "2026-09-19T20:55:54Z",
  "matches": [
   {
    "cb_id": 170951,
@@ -177,13 +177,13 @@
    "prices": {
     "Bangladesh Women": {
      "bid": 0.04,
-     "ask": 0.07,
-     "mid": 0.05500000000000001
+     "ask": 0.06,
+     "mid": 0.05
     },
     "India Women": {
-     "bid": 0.93,
+     "bid": 0.94,
      "ask": 0.96,
-     "mid": 0.9450000000000001
+     "mid": 0.95
     }
    }
   },
@@ -215,13 +215,13 @@
    "prices": {
     "Pakistan Women": {
      "bid": 0.33,
-     "ask": 0.36,
-     "mid": 0.345
+     "ask": 0.35,
+     "mid": 0.33999999999999997
     },
     "Sri Lanka Women": {
-     "bid": 0.64,
+     "bid": 0.65,
      "ask": 0.67,
-     "mid": 0.655
+     "mid": 0.66
     }
    }
   },
@@ -233,14 +233,14 @@
    "state": "Preview",
    "prices": {
     "Edinburgh Castle Rockers": {
-     "bid": 0.52,
-     "ask": 0.58,
-     "mid": 0.55
+     "bid": 0.51,
+     "ask": 0.54,
+     "mid": 0.525
     },
     "Belfast Wolves": {
-     "bid": 0.42,
-     "ask": 0.48,
-     "mid": 0.44999999999999996
+     "bid": 0.46,
+     "ask": 0.49,
+     "mid": 0.475
     }
    }
   },
@@ -369,7 +369,8 @@
   "run_number": 2,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35466535898",
   "started_at": "2026-09-19T20:09:47Z",
-  "elapsed_s": 1410,
+  "elapsed_s": 2767,
+  "elapsed_means": "running for",
   "runs_total": 2
  }
 }

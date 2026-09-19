@@ -5,6 +5,7 @@ import re
 import sys
 import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 import requests
@@ -25,6 +26,9 @@ QUAL_WORDS = {
     "emerging": "emerging", "legends": "legends", "masters": "legends",
 }
 MIN_NAME_SCORE = 0.5
+COMMENTARY_TIMEOUT = 10
+ABANDON_AFTER_MS = 600_000
+FETCH_WORKERS = 10
 MAX_DATE_DRIFT_DAYS = 1
 LIVE_STATES = ("In Progress", "Innings Break")
 SLUG_DATE = re.compile(r"-(\d{4}-\d{2}-\d{2})$")
@@ -132,6 +136,28 @@ def best_outcome(team_name, outcomes):
     return best if score >= MIN_NAME_SCORE else None
 
 
+_thread_local = threading.local()
+
+
+def thread_session():
+    session = getattr(_thread_local, "session", None)
+    if session is None:
+        session = requests.Session()
+        _thread_local.session = session
+    return session
+
+
+def fetch_commentary(pairing):
+    try:
+        html = thread_session().get(
+            commentary_url(pairing["cb_id"]), headers=HEADERS,
+            timeout=COMMENTARY_TIMEOUT).text
+        balls = extract_balls(decode_blob(html))
+        return pairing, balls, int(time.time() * 1000)
+    except (requests.RequestException, ValueError, CommentaryParseFailed):
+        return pairing, None, 0
+
+
 def build_pairings(session, min_price, max_price, diagnostics=None, states=None):
     html = session.get(LIVE_SCORES_URL, headers=HEADERS, timeout=20).text
     matches = extract_matches(html)
@@ -141,9 +167,11 @@ def build_pairings(session, min_price, max_price, diagnostics=None, states=None)
         for mid, m in matches.items()
         if m["matchInfo"].get("state") in wanted
     }
+    if not live:
+        return {}
     live_days = {match_date(m) for m in live.values()} - {None}
 
-    candidates = watch.discover(min_price, max_price)
+    candidates = watch.discover(min_price, max_price, with_activity=False)
     markets = {}
     for slug, cand in candidates.items():
         if not cand["competitive"] or cand["closed"]:
@@ -432,8 +460,31 @@ class PaperTrader:
             try:
                 book = fetch_book(session, pos["buy_token"])
                 bat_book = fetch_book(session, pos["bat_token"])
-            except (requests.RequestException, ValueError, KeyError):
-                still_open.append(pos)
+            except (requests.RequestException, ValueError, KeyError) as exc:
+                overdue = now_ms - pos["exit_due_ms"]
+                if overdue < ABANDON_AFTER_MS:
+                    still_open.append(pos)
+                    continue
+                self.bankroll += pos["spent"]
+                self.log({
+                    "type": "abandon",
+                    "recv_ms": now_ms,
+                    "iso": time.strftime("%H:%M:%S", time.gmtime(now_ms / 1000)),
+                    "slug": pos["slug"],
+                    "cb_id": pos["cb_id"],
+                    "over_ball": pos["over_ball"],
+                    "buy_outcome": pos["buy_outcome"],
+                    "spent": round(pos["spent"], 4),
+                    "overdue_s": round(overdue / 1000, 1),
+                    "reason": f"exit book unreadable: {type(exc).__name__}",
+                    "bankroll": round(self.bankroll, 4),
+                })
+                print(
+                    f"  [{time.strftime('%H:%M:%S')}] ABANDON {pos['slug']} wkt "
+                    f"{pos['over_ball']}: exit book unreadable for "
+                    f"{overdue / 1000:.0f}s, stake returned, excluded from PnL"
+                )
+                self.save_state()
                 continue
 
             proceeds, filled, vwap, used, partial = sell_vwap(
@@ -523,6 +574,7 @@ def run(args):
 
     seen_balls = {}
     primed = set()
+    pool = ThreadPoolExecutor(max_workers=FETCH_WORKERS)
 
     while True:
         loop_start = time.perf_counter()
@@ -530,12 +582,8 @@ def run(args):
         with holder["lock"]:
             pairings = dict(holder["pairings"])
 
-        for slug, pairing in pairings.items():
-            try:
-                html = session.get(commentary_url(pairing["cb_id"]), headers=HEADERS, timeout=15).text
-                balls = extract_balls(decode_blob(html))
-                recv_ms = int(time.time() * 1000)
-            except (requests.RequestException, ValueError, CommentaryParseFailed):
+        for pairing, balls, recv_ms in pool.map(fetch_commentary, pairings.values()):
+            if balls is None:
                 continue
 
             match_seen = seen_balls.setdefault(pairing["cb_id"], set())
