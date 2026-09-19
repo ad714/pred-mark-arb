@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T21:08:28Z",
+ "generated_at": "2026-09-19T21:29:07Z",
  "matches": [
   {
    "cb_id": 170951,
@@ -214,14 +214,14 @@
    "state": "Preview",
    "prices": {
     "Pakistan Women": {
-     "bid": 0.32,
-     "ask": 0.34,
-     "mid": 0.33
+     "bid": 0.33,
+     "ask": 0.35,
+     "mid": 0.33999999999999997
     },
     "Sri Lanka Women": {
-     "bid": 0.66,
-     "ask": 0.68,
-     "mid": 0.67
+     "bid": 0.65,
+     "ask": 0.67,
+     "mid": 0.66
     }
    }
   },
@@ -364,13 +364,13 @@
   "state_says_live": 0
  },
  "trader": {
-  "state": "idle",
-  "conclusion": "success",
-  "run_number": 2,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35466535898",
-  "started_at": "2026-09-19T20:09:47Z",
+  "state": "in_progress",
+  "conclusion": null,
+  "run_number": 4,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35470535238",
+  "started_at": "2026-09-19T21:28:51Z",
   "elapsed_s": 16,
-  "elapsed_means": "idle for",
-  "runs_total": 2
+  "elapsed_means": "running for",
+  "runs_total": 4
  }
 }
