@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T20:55:54Z",
+ "generated_at": "2026-09-19T20:57:42Z",
  "matches": [
   {
    "cb_id": 170951,
@@ -195,14 +195,14 @@
    "state": "Preview",
    "prices": {
     "Zimbabwe": {
-     "bid": 0.11,
+     "bid": 0.111,
      "ask": 0.119,
-     "mid": 0.11449999999999999
+     "mid": 0.11499999999999999
     },
     "Australia": {
      "bid": 0.881,
-     "ask": 0.89,
-     "mid": 0.8855
+     "ask": 0.889,
+     "mid": 0.885
     }
    }
   },
@@ -215,13 +215,13 @@
    "prices": {
     "Pakistan Women": {
      "bid": 0.33,
-     "ask": 0.35,
-     "mid": 0.33999999999999997
+     "ask": 0.34,
+     "mid": 0.335
     },
     "Sri Lanka Women": {
-     "bid": 0.65,
+     "bid": 0.66,
      "ask": 0.67,
-     "mid": 0.66
+     "mid": 0.665
     }
    }
   },
@@ -369,7 +369,7 @@
   "run_number": 2,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35466535898",
   "started_at": "2026-09-19T20:09:47Z",
-  "elapsed_s": 2767,
+  "elapsed_s": 2876,
   "elapsed_means": "running for",
   "runs_total": 2
  }
