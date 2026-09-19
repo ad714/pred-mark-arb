@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-19T20:10:14Z",
+ "generated_at": "2026-09-19T20:15:32Z",
  "matches": [
   {
    "cb_id": 171727,
@@ -30,13 +30,6 @@
    "format": "TEST"
   },
   {
-   "cb_id": 172047,
-   "teams": "ESTORM v BOR",
-   "state": "In Progress",
-   "series": "CSA Three-Day Series Division Two 2026-27",
-   "format": "TEST"
-  },
-  {
    "cb_id": 172057,
    "teams": "MPR v SWD",
    "state": "In Progress",
@@ -51,7 +44,7 @@
   "run_number": 2,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35466535898",
   "started_at": "2026-09-19T20:09:47Z",
-  "elapsed_s": 27,
+  "elapsed_s": 345,
   "runs_total": 2
  }
 }
