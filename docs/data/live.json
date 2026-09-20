@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-20T03:09:24Z",
+ "generated_at": "2026-09-20T04:07:54Z",
  "matches": [
   {
    "cb_id": 170943,
    "teams": "PAKW v SLW",
    "teams_full": "Pakistan Women v Sri Lanka Women",
    "state": "In Progress",
-   "status": "Sri Lanka Women need 154 runs",
+   "status": "Sri Lanka Women need 19 runs in 22 balls",
    "series": "Women's Asian Games 2026",
    "format": "T20",
    "date": "2026-09-20",
    "start_ms": 1789862400000,
-   "last_ball_min": 0.4,
+   "last_ball_min": 1.1,
    "balls_flowing": true
   },
   {
@@ -37,15 +37,15 @@
    "start_ms": 1789889400000
   },
   {
-   "cb_id": 171267,
-   "teams": "JPN v HKC",
-   "teams_full": "Japan v Hong Kong, China",
-   "state": "Delay",
-   "status": "Toss delayed due to rain",
-   "series": "Hong Kong, China tour of Japan 2026",
+   "cb_id": 169440,
+   "teams": "ECR v BFW",
+   "teams_full": "Edinburgh Castle Rockers v Belfast Wolves",
+   "state": "Preview",
+   "status": "Match starts at Sep 20, 13:15 GMT",
+   "series": "ETPL 2026",
    "format": "T20",
    "date": "2026-09-20",
-   "start_ms": 1789866000000
+   "start_ms": 1789910100000
   },
   {
    "cb_id": 154711,
@@ -57,17 +57,6 @@
    "format": "T20",
    "date": "2026-09-20",
    "start_ms": 1789945200000
-  },
-  {
-   "cb_id": 169440,
-   "teams": "ECR v BFW",
-   "teams_full": "Edinburgh Castle Rockers v Belfast Wolves",
-   "state": "Preview",
-   "status": "Match starts at Sep 20, 13:15 GMT",
-   "series": "ETPL 2026",
-   "format": "T20",
-   "date": "2026-09-20",
-   "start_ms": 1789910100000
   },
   {
    "cb_id": 172401,
@@ -169,6 +158,17 @@
    "start_ms": 1789898400000
   },
   {
+   "cb_id": 155477,
+   "teams": "INDU19 v AUSU19",
+   "teams_full": "India U19 v Australia U19",
+   "state": "Upcoming",
+   "status": "Match starts at Sep 21, 03:30 GMT",
+   "series": "Australia U19 tour of India 2026",
+   "format": "ODI",
+   "date": "2026-09-21",
+   "start_ms": 1789961400000
+  },
+  {
    "cb_id": 155617,
    "teams": "INDWA v AUSWA",
    "teams_full": "India A Women v Australia A Women",
@@ -189,14 +189,14 @@
    "state": "In Progress",
    "prices": {
     "Pakistan Women": {
-     "bid": 0.6,
-     "ask": 0.62,
-     "mid": 0.61
+     "bid": 0.005,
+     "ask": 0.009,
+     "mid": 0.006999999999999999
     },
     "Sri Lanka Women": {
-     "bid": 0.38,
-     "ask": 0.4,
-     "mid": 0.39
+     "bid": 0.991,
+     "ask": 0.995,
+     "mid": 0.993
     }
    }
   },
@@ -208,14 +208,14 @@
    "state": "Preview",
    "prices": {
     "Bangladesh Women": {
-     "bid": 0.02,
-     "ask": 0.05,
-     "mid": 0.035
+     "bid": 0.021,
+     "ask": 0.06,
+     "mid": 0.0405
     },
     "India Women": {
-     "bid": 0.95,
-     "ask": 0.98,
-     "mid": 0.965
+     "bid": 0.94,
+     "ask": 0.979,
+     "mid": 0.9595
     }
    }
   },
@@ -227,14 +227,33 @@
    "state": "Preview",
    "prices": {
     "Zimbabwe": {
-     "bid": 0.105,
-     "ask": 0.108,
-     "mid": 0.1065
+     "bid": 0.101,
+     "ask": 0.109,
+     "mid": 0.10500000000000001
     },
     "Australia": {
-     "bid": 0.892,
-     "ask": 0.895,
-     "mid": 0.8935
+     "bid": 0.891,
+     "ask": 0.899,
+     "mid": 0.895
+    }
+   }
+  },
+  {
+   "slug": "cricetpl-edi-bel-2026-09-20",
+   "cb_id": 169440,
+   "question": "European T20 Premier League: Edinburgh Castle Rockers vs Belfast Wolves",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Edinburgh Castle Rockers": {
+     "bid": 0.52,
+     "ask": 0.55,
+     "mid": 0.535
+    },
+    "Belfast Wolves": {
+     "bid": 0.45,
+     "ask": 0.48,
+     "mid": 0.46499999999999997
     }
    }
   },
@@ -247,32 +266,13 @@
    "prices": {
     "Antigua And Barbuda Falcons": {
      "bid": 0.48,
-     "ask": 0.52,
-     "mid": 0.5
+     "ask": 0.51,
+     "mid": 0.495
     },
     "Jamaica Kingsmen": {
-     "bid": 0.48,
+     "bid": 0.49,
      "ask": 0.52,
-     "mid": 0.5
-    }
-   }
-  },
-  {
-   "slug": "cricetpl-edi-bel-2026-09-20",
-   "cb_id": 169440,
-   "question": "European T20 Premier League: Edinburgh Castle Rockers vs Belfast Wolves",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Edinburgh Castle Rockers": {
-     "bid": 0.5,
-     "ask": 0.56,
-     "mid": 0.53
-    },
-    "Belfast Wolves": {
-     "bid": 0.44,
-     "ask": 0.5,
-     "mid": 0.47
+     "mid": 0.505
     }
    }
   },
@@ -382,19 +382,19 @@
   "start_ms": 1789880400000
  },
  "coverage": {
-  "seen_total": 26,
+  "seen_total": 27,
   "ever_paired": 6,
   "balls_flowing": 1,
   "state_says_live": 1
  },
  "trader": {
-  "state": "in_progress",
-  "conclusion": null,
+  "state": "idle",
+  "conclusion": "success",
   "run_number": 6,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35481867205",
   "started_at": "2026-09-20T01:37:22Z",
-  "elapsed_s": 5522,
-  "elapsed_means": "running for",
+  "elapsed_s": 28,
+  "elapsed_means": "idle for",
   "runs_total": 6
  }
 }
