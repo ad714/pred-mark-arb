@@ -1,25 +1,12 @@
 {
- "generated_at": "2026-09-20T04:07:54Z",
+ "generated_at": "2026-09-20T04:56:02Z",
  "matches": [
-  {
-   "cb_id": 170943,
-   "teams": "PAKW v SLW",
-   "teams_full": "Pakistan Women v Sri Lanka Women",
-   "state": "In Progress",
-   "status": "Sri Lanka Women need 19 runs in 22 balls",
-   "series": "Women's Asian Games 2026",
-   "format": "T20",
-   "date": "2026-09-20",
-   "start_ms": 1789862400000,
-   "last_ball_min": 1.1,
-   "balls_flowing": true
-  },
   {
    "cb_id": 170951,
    "teams": "INDW v BANW",
    "teams_full": "India Women v Bangladesh Women",
-   "state": "Preview",
-   "status": "Match starts at Sep 20, 05:00 GMT",
+   "state": "Toss",
+   "status": "India Women opt to bat",
    "series": "Women's Asian Games 2026",
    "format": "T20",
    "date": "2026-09-20",
@@ -182,40 +169,21 @@
  ],
  "pairings": [
   {
-   "slug": "crint-pakw-lkaw-2026-09-19",
-   "cb_id": 170943,
-   "question": "Asian Games Women: Pakistan Women vs Sri Lanka Women",
-   "score": 1.0,
-   "state": "In Progress",
-   "prices": {
-    "Pakistan Women": {
-     "bid": 0.005,
-     "ask": 0.009,
-     "mid": 0.006999999999999999
-    },
-    "Sri Lanka Women": {
-     "bid": 0.991,
-     "ask": 0.995,
-     "mid": 0.993
-    }
-   }
-  },
-  {
    "slug": "crint-bgdw-indw-2026-09-20",
    "cb_id": 170951,
    "question": "Asian Games Women: Bangladesh Women vs India Women",
    "score": 1.0,
-   "state": "Preview",
+   "state": "Toss",
    "prices": {
     "Bangladesh Women": {
-     "bid": 0.021,
-     "ask": 0.06,
-     "mid": 0.0405
+     "bid": 0.028,
+     "ask": 0.048,
+     "mid": 0.038
     },
     "India Women": {
-     "bid": 0.94,
-     "ask": 0.979,
-     "mid": 0.9595
+     "bid": 0.952,
+     "ask": 0.972,
+     "mid": 0.962
     }
    }
   },
@@ -227,14 +195,14 @@
    "state": "Preview",
    "prices": {
     "Zimbabwe": {
-     "bid": 0.101,
+     "bid": 0.106,
      "ask": 0.109,
-     "mid": 0.10500000000000001
+     "mid": 0.1075
     },
     "Australia": {
      "bid": 0.891,
-     "ask": 0.899,
-     "mid": 0.895
+     "ask": 0.894,
+     "mid": 0.8925000000000001
     }
    }
   },
@@ -246,13 +214,13 @@
    "state": "Preview",
    "prices": {
     "Edinburgh Castle Rockers": {
-     "bid": 0.52,
-     "ask": 0.55,
+     "bid": 0.53,
+     "ask": 0.54,
      "mid": 0.535
     },
     "Belfast Wolves": {
-     "bid": 0.45,
-     "ask": 0.48,
+     "bid": 0.46,
+     "ask": 0.47,
      "mid": 0.46499999999999997
     }
    }
@@ -285,13 +253,13 @@
    "prices": {
     "Leicestershire": {
      "bid": 0.55,
-     "ask": 0.58,
-     "mid": 0.565
+     "ask": 0.57,
+     "mid": 0.56
     },
     "Middlesex": {
-     "bid": 0.42,
+     "bid": 0.43,
      "ask": 0.45,
-     "mid": 0.435
+     "mid": 0.44
     }
    }
   }
@@ -374,8 +342,8 @@
   "cb_id": 170951,
   "teams": "INDW v BANW",
   "teams_full": "India Women v Bangladesh Women",
-  "state": "Preview",
-  "status": "Match starts at Sep 20, 05:00 GMT",
+  "state": "Toss",
+  "status": "India Women opt to bat",
   "series": "Women's Asian Games 2026",
   "format": "T20",
   "date": "2026-09-20",
@@ -384,8 +352,8 @@
  "coverage": {
   "seen_total": 27,
   "ever_paired": 6,
-  "balls_flowing": 1,
-  "state_says_live": 1
+  "balls_flowing": 0,
+  "state_says_live": 0
  },
  "trader": {
   "state": "idle",
@@ -393,7 +361,7 @@
   "run_number": 6,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35481867205",
   "started_at": "2026-09-20T01:37:22Z",
-  "elapsed_s": 28,
+  "elapsed_s": 2917,
   "elapsed_means": "idle for",
   "runs_total": 6
  }
