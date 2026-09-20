@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-20T16:59:15Z",
+ "generated_at": "2026-09-20T17:26:38Z",
  "lag": {
-  "n": 11,
+  "n": 15,
   "min": 17.0,
-  "median": 47.2,
-  "p90": 60.0,
+  "median": 51.1,
+  "p90": 66.9,
   "max": 69.9,
   "values": [
    17.0,
@@ -16,7 +16,11 @@
    49.7,
    51.1,
    53.5,
+   55.1,
+   59.9,
    60.0,
+   63.3,
+   66.9,
    69.9
   ]
  },
@@ -109,6 +113,42 @@
   ]
  },
  "wickets": [
+  {
+   "t": 1789925089689,
+   "iso": "17:24:49",
+   "slug": "cricodc-lei-mid-2026-09-20",
+   "over_ball": 44.2,
+   "lag_s": 63.3,
+   "action": "skip",
+   "reason": "detected too late (63s after ball)"
+  },
+  {
+   "t": 1789924828120,
+   "iso": "17:20:28",
+   "slug": "cricodc-lei-mid-2026-09-20",
+   "over_ball": 43.5,
+   "lag_s": 55.1,
+   "action": "skip",
+   "reason": "non-competitive mid 0.875"
+  },
+  {
+   "t": 1789924237108,
+   "iso": "17:10:37",
+   "slug": "cricodc-lei-mid-2026-09-20",
+   "over_ball": 41.2,
+   "lag_s": 59.9,
+   "action": "skip",
+   "reason": "non-competitive mid 0.76"
+  },
+  {
+   "t": 1789922965243,
+   "iso": "16:49:25",
+   "slug": "cricodc-lei-mid-2026-09-20",
+   "over_ball": 37.3,
+   "lag_s": 66.9,
+   "action": "skip",
+   "reason": "detected too late (67s after ball)"
+  },
   {
    "t": 1789910683270,
    "iso": "13:24:43",
