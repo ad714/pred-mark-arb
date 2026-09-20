@@ -1,6 +1,17 @@
 {
- "generated_at": "2026-09-19T22:19:19Z",
+ "generated_at": "2026-09-20T00:13:26Z",
  "matches": [
+  {
+   "cb_id": 170943,
+   "teams": "PAKW v SLW",
+   "teams_full": "Pakistan Women v Sri Lanka Women",
+   "state": "Delay",
+   "status": "Toss delayed due to wet outfield",
+   "series": "Women's Asian Games 2026",
+   "format": "T20",
+   "date": "2026-09-20",
+   "start_ms": 1789862400000
+  },
   {
    "cb_id": 170951,
    "teams": "INDW v BANW",
@@ -24,17 +35,6 @@
    "start_ms": 1789889400000
   },
   {
-   "cb_id": 170943,
-   "teams": "PAKW v SLW",
-   "teams_full": "Pakistan Women v Sri Lanka Women",
-   "state": "Preview",
-   "status": "Match starts at Sep 20, 00:00 GMT",
-   "series": "Women's Asian Games 2026",
-   "format": "T20",
-   "date": "2026-09-20",
-   "start_ms": 1789862400000
-  },
-  {
    "cb_id": 171267,
    "teams": "JPN v HKC",
    "teams_full": "Japan v Hong Kong, China",
@@ -44,6 +44,17 @@
    "format": "T20",
    "date": "2026-09-20",
    "start_ms": 1789866000000
+  },
+  {
+   "cb_id": 154711,
+   "teams": "ABF v JKM",
+   "teams_full": "Antigua and Barbuda Falcons v Jamaica Kingsmen",
+   "state": "Preview",
+   "status": "Match starts at Sep 21, 23:00 GMT",
+   "series": "CPL 2026",
+   "format": "T20",
+   "date": "2026-09-20",
+   "start_ms": 1789945200000
   },
   {
    "cb_id": 169440,
@@ -177,13 +188,13 @@
    "prices": {
     "Bangladesh Women": {
      "bid": 0.04,
-     "ask": 0.07,
-     "mid": 0.05500000000000001
+     "ask": 0.06,
+     "mid": 0.05
     },
     "India Women": {
-     "bid": 0.93,
+     "bid": 0.94,
      "ask": 0.96,
-     "mid": 0.9450000000000001
+     "mid": 0.95
     }
    }
   },
@@ -195,33 +206,33 @@
    "state": "Preview",
    "prices": {
     "Zimbabwe": {
-     "bid": 0.11,
-     "ask": 0.119,
-     "mid": 0.11449999999999999
+     "bid": 0.1,
+     "ask": 0.104,
+     "mid": 0.10200000000000001
     },
     "Australia": {
-     "bid": 0.881,
-     "ask": 0.89,
-     "mid": 0.8855
+     "bid": 0.896,
+     "ask": 0.9,
+     "mid": 0.898
     }
    }
   },
   {
-   "slug": "crint-pakw-lkaw-2026-09-19",
-   "cb_id": 170943,
-   "question": "Asian Games Women: Pakistan Women vs Sri Lanka Women",
+   "slug": "criccpl-ant-jam-2026-09-20",
+   "cb_id": 154711,
+   "question": "Caribbean Premier League: Antigua And Barbuda Falcons vs Jamaica Kingsmen",
    "score": 1.0,
    "state": "Preview",
    "prices": {
-    "Pakistan Women": {
-     "bid": 0.33,
-     "ask": 0.37,
-     "mid": 0.35
+    "Antigua And Barbuda Falcons": {
+     "bid": 0.48,
+     "ask": 0.52,
+     "mid": 0.5
     },
-    "Sri Lanka Women": {
-     "bid": 0.63,
-     "ask": 0.67,
-     "mid": 0.65
+    "Jamaica Kingsmen": {
+     "bid": 0.48,
+     "ask": 0.52,
+     "mid": 0.5
     }
    }
   },
@@ -252,14 +263,14 @@
    "state": "Preview",
    "prices": {
     "Leicestershire": {
-     "bid": 0.53,
-     "ask": 0.55,
-     "mid": 0.54
+     "bid": 0.55,
+     "ask": 0.57,
+     "mid": 0.56
     },
     "Middlesex": {
-     "bid": 0.45,
-     "ask": 0.47,
-     "mid": 0.45999999999999996
+     "bid": 0.43,
+     "ask": 0.45,
+     "mid": 0.44
     }
    }
   }
@@ -347,19 +358,19 @@
   }
  ],
  "next_fixture": {
-  "cb_id": 170943,
-  "teams": "PAKW v SLW",
-  "teams_full": "Pakistan Women v Sri Lanka Women",
+  "cb_id": 170951,
+  "teams": "INDW v BANW",
+  "teams_full": "India Women v Bangladesh Women",
   "state": "Preview",
-  "status": "Match starts at Sep 20, 00:00 GMT",
+  "status": "Match starts at Sep 20, 05:00 GMT",
   "series": "Women's Asian Games 2026",
   "format": "T20",
   "date": "2026-09-20",
-  "start_ms": 1789862400000
+  "start_ms": 1789880400000
  },
  "coverage": {
-  "seen_total": 25,
-  "ever_paired": 5,
+  "seen_total": 26,
+  "ever_paired": 6,
   "balls_flowing": 0,
   "state_says_live": 0
  },
@@ -369,8 +380,8 @@
   "run_number": 4,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35470535238",
   "started_at": "2026-09-19T21:28:51Z",
-  "elapsed_s": 3028,
+  "elapsed_s": 9875,
   "elapsed_means": "running for",
-  "runs_total": 4
+  "runs_total": 5
  }
 }
