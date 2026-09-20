@@ -1,14 +1,102 @@
 {
- "generated_at": "2026-09-20T01:37:36Z",
+ "generated_at": "2026-09-20T03:09:21Z",
  "lag": {
-  "n": 0
+  "n": 4,
+  "min": 17.0,
+  "median": 45.2,
+  "p90": 49.7,
+  "max": 49.7,
+  "values": [
+   17.0,
+   43.2,
+   47.2,
+   49.7
+  ]
  },
  "trades": {
-  "n": 0,
+  "n": 4,
   "wins": 0,
-  "realized": 0,
-  "median_mid_move": null,
-  "recent": []
+  "realized": -1.1702,
+  "median_mid_move": -0.01,
+  "recent": [
+   {
+    "iso": "02:40:49",
+    "slug": "crint-pakw-lkaw-2026-09-19",
+    "over_ball": 18.4,
+    "outcome": "Sri Lanka Women",
+    "entry": 0.37,
+    "exit": 0.25,
+    "pnl": -0.3243,
+    "mid_move": 0.005
+   },
+   {
+    "iso": "02:36:49",
+    "slug": "crint-pakw-lkaw-2026-09-19",
+    "over_ball": 16.6,
+    "outcome": "Sri Lanka Women",
+    "entry": 0.33,
+    "exit": 0.23,
+    "pnl": -0.303,
+    "mid_move": 0.0
+   },
+   {
+    "iso": "02:34:22",
+    "slug": "crint-pakw-lkaw-2026-09-19",
+    "over_ball": 16.6,
+    "outcome": "Sri Lanka Women",
+    "entry": 0.36,
+    "exit": 0.23,
+    "pnl": -0.3611,
+    "mid_move": -0.02
+   },
+   {
+    "iso": "01:45:52",
+    "slug": "crint-pakw-lkaw-2026-09-19",
+    "over_ball": 5.2,
+    "outcome": "Sri Lanka Women",
+    "entry": 0.77,
+    "exit": 0.63,
+    "pnl": -0.1818,
+    "mid_move": -0.02
+   }
+  ]
  },
- "wickets": []
+ "wickets": [
+  {
+   "t": 1789871986503,
+   "iso": "02:39:46",
+   "slug": "crint-pakw-lkaw-2026-09-19",
+   "over_ball": 18.4,
+   "lag_s": 43.2,
+   "action": "open",
+   "reason": null
+  },
+  {
+   "t": 1789871746495,
+   "iso": "02:35:46",
+   "slug": "crint-pakw-lkaw-2026-09-19",
+   "over_ball": 16.6,
+   "lag_s": 47.2,
+   "action": "open",
+   "reason": null
+  },
+  {
+   "t": 1789871599607,
+   "iso": "02:33:19",
+   "slug": "crint-pakw-lkaw-2026-09-19",
+   "over_ball": 16.6,
+   "lag_s": 17.0,
+   "action": "open",
+   "reason": null
+  },
+  {
+   "t": 1789868689301,
+   "iso": "01:44:49",
+   "slug": "crint-pakw-lkaw-2026-09-19",
+   "over_ball": 5.2,
+   "lag_s": 49.7,
+   "action": "open",
+   "reason": null
+  }
+ ]
 }

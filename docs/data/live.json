@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-20T01:37:39Z",
+ "generated_at": "2026-09-20T03:09:24Z",
  "matches": [
   {
    "cb_id": 170943,
    "teams": "PAKW v SLW",
    "teams_full": "Pakistan Women v Sri Lanka Women",
    "state": "In Progress",
-   "status": "Sri Lanka Women opt to bowl",
+   "status": "Sri Lanka Women need 154 runs",
    "series": "Women's Asian Games 2026",
    "format": "T20",
    "date": "2026-09-20",
    "start_ms": 1789862400000,
-   "last_ball_min": 1.0,
+   "last_ball_min": 0.4,
    "balls_flowing": true
   },
   {
@@ -41,7 +41,7 @@
    "teams": "JPN v HKC",
    "teams_full": "Japan v Hong Kong, China",
    "state": "Delay",
-   "status": "Toss delayed",
+   "status": "Toss delayed due to rain",
    "series": "Hong Kong, China tour of Japan 2026",
    "format": "T20",
    "date": "2026-09-20",
@@ -189,14 +189,14 @@
    "state": "In Progress",
    "prices": {
     "Pakistan Women": {
-     "bid": 0.28,
-     "ask": 0.32,
-     "mid": 0.30000000000000004
+     "bid": 0.6,
+     "ask": 0.62,
+     "mid": 0.61
     },
     "Sri Lanka Women": {
-     "bid": 0.68,
-     "ask": 0.72,
-     "mid": 0.7
+     "bid": 0.38,
+     "ask": 0.4,
+     "mid": 0.39
     }
    }
   },
@@ -208,14 +208,14 @@
    "state": "Preview",
    "prices": {
     "Bangladesh Women": {
-     "bid": 0.03,
-     "ask": 0.06,
-     "mid": 0.045
+     "bid": 0.02,
+     "ask": 0.05,
+     "mid": 0.035
     },
     "India Women": {
-     "bid": 0.94,
-     "ask": 0.97,
-     "mid": 0.955
+     "bid": 0.95,
+     "ask": 0.98,
+     "mid": 0.965
     }
    }
   },
@@ -227,14 +227,14 @@
    "state": "Preview",
    "prices": {
     "Zimbabwe": {
-     "bid": 0.101,
-     "ask": 0.109,
-     "mid": 0.10500000000000001
+     "bid": 0.105,
+     "ask": 0.108,
+     "mid": 0.1065
     },
     "Australia": {
-     "bid": 0.891,
-     "ask": 0.899,
-     "mid": 0.895
+     "bid": 0.892,
+     "ask": 0.895,
+     "mid": 0.8935
     }
    }
   },
@@ -265,14 +265,14 @@
    "state": "Preview",
    "prices": {
     "Edinburgh Castle Rockers": {
-     "bid": 0.49,
+     "bid": 0.5,
      "ask": 0.56,
-     "mid": 0.525
+     "mid": 0.53
     },
     "Belfast Wolves": {
      "bid": 0.44,
-     "ask": 0.51,
-     "mid": 0.475
+     "ask": 0.5,
+     "mid": 0.47
     }
    }
   },
@@ -284,14 +284,14 @@
    "state": "Preview",
    "prices": {
     "Leicestershire": {
-     "bid": 0.54,
-     "ask": 0.56,
-     "mid": 0.55
+     "bid": 0.55,
+     "ask": 0.58,
+     "mid": 0.565
     },
     "Middlesex": {
-     "bid": 0.44,
-     "ask": 0.46,
-     "mid": 0.45
+     "bid": 0.42,
+     "ask": 0.45,
+     "mid": 0.435
     }
    }
   }
@@ -390,10 +390,10 @@
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 4,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35470535238",
-  "started_at": "2026-09-19T21:28:51Z",
-  "elapsed_s": 14928,
+  "run_number": 6,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35481867205",
+  "started_at": "2026-09-20T01:37:22Z",
+  "elapsed_s": 5522,
   "elapsed_means": "running for",
   "runs_total": 6
  }
