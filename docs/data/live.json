@@ -1,16 +1,18 @@
 {
- "generated_at": "2026-09-20T00:13:26Z",
+ "generated_at": "2026-09-20T01:37:39Z",
  "matches": [
   {
    "cb_id": 170943,
    "teams": "PAKW v SLW",
    "teams_full": "Pakistan Women v Sri Lanka Women",
-   "state": "Delay",
-   "status": "Toss delayed due to wet outfield",
+   "state": "In Progress",
+   "status": "Sri Lanka Women opt to bowl",
    "series": "Women's Asian Games 2026",
    "format": "T20",
    "date": "2026-09-20",
-   "start_ms": 1789862400000
+   "start_ms": 1789862400000,
+   "last_ball_min": 1.0,
+   "balls_flowing": true
   },
   {
    "cb_id": 170951,
@@ -38,8 +40,8 @@
    "cb_id": 171267,
    "teams": "JPN v HKC",
    "teams_full": "Japan v Hong Kong, China",
-   "state": "Preview",
-   "status": "Match starts at Sep 20, 01:00 GMT",
+   "state": "Delay",
+   "status": "Toss delayed",
    "series": "Hong Kong, China tour of Japan 2026",
    "format": "T20",
    "date": "2026-09-20",
@@ -180,6 +182,25 @@
  ],
  "pairings": [
   {
+   "slug": "crint-pakw-lkaw-2026-09-19",
+   "cb_id": 170943,
+   "question": "Asian Games Women: Pakistan Women vs Sri Lanka Women",
+   "score": 1.0,
+   "state": "In Progress",
+   "prices": {
+    "Pakistan Women": {
+     "bid": 0.28,
+     "ask": 0.32,
+     "mid": 0.30000000000000004
+    },
+    "Sri Lanka Women": {
+     "bid": 0.68,
+     "ask": 0.72,
+     "mid": 0.7
+    }
+   }
+  },
+  {
    "slug": "crint-bgdw-indw-2026-09-20",
    "cb_id": 170951,
    "question": "Asian Games Women: Bangladesh Women vs India Women",
@@ -187,14 +208,14 @@
    "state": "Preview",
    "prices": {
     "Bangladesh Women": {
-     "bid": 0.04,
+     "bid": 0.03,
      "ask": 0.06,
-     "mid": 0.05
+     "mid": 0.045
     },
     "India Women": {
      "bid": 0.94,
-     "ask": 0.96,
-     "mid": 0.95
+     "ask": 0.97,
+     "mid": 0.955
     }
    }
   },
@@ -206,14 +227,14 @@
    "state": "Preview",
    "prices": {
     "Zimbabwe": {
-     "bid": 0.1,
-     "ask": 0.104,
-     "mid": 0.10200000000000001
+     "bid": 0.101,
+     "ask": 0.109,
+     "mid": 0.10500000000000001
     },
     "Australia": {
-     "bid": 0.896,
-     "ask": 0.9,
-     "mid": 0.898
+     "bid": 0.891,
+     "ask": 0.899,
+     "mid": 0.895
     }
    }
   },
@@ -244,14 +265,14 @@
    "state": "Preview",
    "prices": {
     "Edinburgh Castle Rockers": {
-     "bid": 0.52,
-     "ask": 0.58,
-     "mid": 0.55
+     "bid": 0.49,
+     "ask": 0.56,
+     "mid": 0.525
     },
     "Belfast Wolves": {
-     "bid": 0.42,
-     "ask": 0.48,
-     "mid": 0.44999999999999996
+     "bid": 0.44,
+     "ask": 0.51,
+     "mid": 0.475
     }
    }
   },
@@ -263,27 +284,19 @@
    "state": "Preview",
    "prices": {
     "Leicestershire": {
-     "bid": 0.55,
-     "ask": 0.57,
-     "mid": 0.56
+     "bid": 0.54,
+     "ask": 0.56,
+     "mid": 0.55
     },
     "Middlesex": {
-     "bid": 0.43,
-     "ask": 0.45,
-     "mid": 0.44
+     "bid": 0.44,
+     "ask": 0.46,
+     "mid": 0.45
     }
    }
   }
  ],
  "unpaired": [
-  {
-   "cb_id": 171267,
-   "teams": "Japan v Hong Kong, China",
-   "series": "Hong Kong, China tour of Japan 2026",
-   "state": "Preview",
-   "date": "2026-09-20",
-   "reason": "no open two outcome cricket market to compare against"
-  },
   {
    "cb_id": 172401,
    "teams": "Mpumalanga Rhinos v South Western Districts",
@@ -371,8 +384,8 @@
  "coverage": {
   "seen_total": 26,
   "ever_paired": 6,
-  "balls_flowing": 0,
-  "state_says_live": 0
+  "balls_flowing": 1,
+  "state_says_live": 1
  },
  "trader": {
   "state": "in_progress",
@@ -380,8 +393,8 @@
   "run_number": 4,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35470535238",
   "started_at": "2026-09-19T21:28:51Z",
-  "elapsed_s": 9875,
+  "elapsed_s": 14928,
   "elapsed_means": "running for",
-  "runs_total": 5
+  "runs_total": 6
  }
 }
