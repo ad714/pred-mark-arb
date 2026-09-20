@@ -1,13 +1,13 @@
 {
- "generated_at": "2026-09-20T21:44:10Z",
+ "generated_at": "2026-09-20T22:36:56Z",
  "matches": [
   {
    "cb_id": 154711,
-   "teams": "ABF v JKM",
-   "teams_full": "Antigua and Barbuda Falcons v Jamaica Kingsmen",
-   "state": "Preview",
-   "status": "Match starts at Sep 21, 23:00 GMT",
-   "series": "CPL 2026",
+   "teams": "JKM v ABF",
+   "teams_full": "Jamaica Kingsmen v Antigua and Barbuda Falcons",
+   "state": "Toss",
+   "status": "Antigua and Barbuda Falcons opt to bowl",
+   "series": "Caribbean Premier League 2026",
    "format": "T20",
    "date": "2026-09-20",
    "start_ms": 1789945200000
@@ -63,17 +63,17 @@
    "cb_id": 154711,
    "question": "Caribbean Premier League: Antigua And Barbuda Falcons vs Jamaica Kingsmen",
    "score": 1.0,
-   "state": "Preview",
+   "state": "Toss",
    "prices": {
     "Antigua And Barbuda Falcons": {
-     "bid": 0.49,
-     "ask": 0.52,
-     "mid": 0.505
+     "bid": 0.55,
+     "ask": 0.59,
+     "mid": 0.5700000000000001
     },
     "Jamaica Kingsmen": {
-     "bid": 0.48,
-     "ask": 0.51,
-     "mid": 0.495
+     "bid": 0.41,
+     "ask": 0.45,
+     "mid": 0.43
     }
    }
   },
@@ -109,11 +109,11 @@
  ],
  "next_fixture": {
   "cb_id": 154711,
-  "teams": "ABF v JKM",
-  "teams_full": "Antigua and Barbuda Falcons v Jamaica Kingsmen",
-  "state": "Preview",
-  "status": "Match starts at Sep 21, 23:00 GMT",
-  "series": "CPL 2026",
+  "teams": "JKM v ABF",
+  "teams_full": "Jamaica Kingsmen v Antigua and Barbuda Falcons",
+  "state": "Toss",
+  "status": "Antigua and Barbuda Falcons opt to bowl",
+  "series": "Caribbean Premier League 2026",
   "format": "T20",
   "date": "2026-09-20",
   "start_ms": 1789945200000
@@ -125,13 +125,13 @@
   "state_says_live": 0
  },
  "trader": {
-  "state": "in_progress",
-  "conclusion": null,
+  "state": "idle",
+  "conclusion": "success",
   "run_number": 11,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35539319504",
   "started_at": "2026-09-20T21:38:20Z",
-  "elapsed_s": 350,
-  "elapsed_means": "running for",
+  "elapsed_s": 20,
+  "elapsed_means": "idle for",
   "runs_total": 11
  }
 }
