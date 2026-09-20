@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-20T13:27:22Z",
+ "generated_at": "2026-09-20T13:41:59Z",
  "matches": [
   {
    "cb_id": 152753,
    "teams": "ZIM v AUS",
    "teams_full": "Zimbabwe v Australia",
    "state": "In Progress",
-   "status": "Australia need 144 runs",
+   "status": "Australia need 117 runs",
    "series": "Australia tour of Zimbabwe 2026",
    "format": "ODI",
    "date": "2026-09-20",
    "start_ms": 1789889400000,
-   "last_ball_min": 1.1,
+   "last_ball_min": 15.6,
    "balls_flowing": true
   },
   {
@@ -70,19 +70,21 @@
    "format": "ODI",
    "date": "2026-09-20",
    "start_ms": 1789887600000,
-   "last_ball_min": 9.2,
+   "last_ball_min": 23.8,
    "balls_flowing": true
   },
   {
    "cb_id": 172397,
    "teams": "BOR v ESTORM",
    "teams_full": "Border v Eastern Storm",
-   "state": "Toss",
-   "status": "Border opt to bat",
+   "state": "Innings Break",
+   "status": "Innings Break",
    "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
    "format": "ODI",
    "date": "2026-09-20",
-   "start_ms": 1789891200000
+   "start_ms": 1789891200000,
+   "last_ball_min": 7.5,
+   "balls_flowing": true
   },
   {
    "cb_id": 171737,
@@ -99,13 +101,13 @@
    "cb_id": 144090,
    "teams": "MDX v LEIC",
    "teams_full": "Middlesex v Leicestershire",
-   "state": "In Progress",
-   "status": "Leicestershire opt to bowl",
+   "state": "Innings Break",
+   "status": "Innings Break",
    "series": "England Domestic One-Day Cup 2026",
    "format": "ODI",
    "date": "2026-09-20",
    "start_ms": 1789898400000,
-   "last_ball_min": 1.6,
+   "last_ball_min": 9.7,
    "balls_flowing": true
   },
   {
@@ -124,12 +126,12 @@
    "teams": "AUSWA v INDWA",
    "teams_full": "Australia A Women v India A Women",
    "state": "In Progress",
-   "status": "India A Women need 124 runs",
+   "status": "India A Women need 105 runs",
    "series": "Australia A Women tour of India 2026",
    "format": "ODI",
    "date": "2026-09-20",
    "start_ms": 1789893000000,
-   "last_ball_min": 4.1,
+   "last_ball_min": 5.7,
    "balls_flowing": true
   }
  ],
@@ -142,14 +144,14 @@
    "state": "In Progress",
    "prices": {
     "Zimbabwe": {
-     "bid": 0.195,
-     "ask": 0.238,
-     "mid": 0.2165
+     "bid": 0.043,
+     "ask": 0.1,
+     "mid": 0.07150000000000001
     },
     "Australia": {
-     "bid": 0.762,
-     "ask": 0.805,
-     "mid": 0.7835000000000001
+     "bid": 0.9,
+     "ask": 0.957,
+     "mid": 0.9285
     }
    }
   },
@@ -161,14 +163,14 @@
    "state": "In Progress",
    "prices": {
     "Edinburgh Castle Rockers": {
-     "bid": 0.57,
-     "ask": 0.74,
-     "mid": 0.655
+     "bid": 0.6,
+     "ask": 0.63,
+     "mid": 0.615
     },
     "Belfast Wolves": {
-     "bid": 0.26,
-     "ask": 0.38,
-     "mid": 0.32
+     "bid": 0.37,
+     "ask": 0.4,
+     "mid": 0.385
     }
    }
   },
@@ -181,13 +183,13 @@
    "prices": {
     "Antigua And Barbuda Falcons": {
      "bid": 0.48,
-     "ask": 0.51,
-     "mid": 0.495
+     "ask": 0.5,
+     "mid": 0.49
     },
     "Jamaica Kingsmen": {
-     "bid": 0.49,
+     "bid": 0.5,
      "ask": 0.52,
-     "mid": 0.505
+     "mid": 0.51
     }
    }
   },
@@ -196,17 +198,17 @@
    "cb_id": 144090,
    "question": "Metro Bank One Day Cup: Leicestershire vs Middlesex",
    "score": 1.0,
-   "state": "In Progress",
+   "state": "Innings Break",
    "prices": {
     "Leicestershire": {
-     "bid": 0.74,
+     "bid": 0.73,
      "ask": 0.8,
-     "mid": 0.77
+     "mid": 0.765
     },
     "Middlesex": {
      "bid": 0.2,
-     "ask": 0.26,
-     "mid": 0.23
+     "ask": 0.27,
+     "mid": 0.23500000000000001
     }
    }
   },
@@ -251,7 +253,7 @@
    "cb_id": 172397,
    "teams": "Border v Eastern Storm",
    "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
-   "state": "Toss",
+   "state": "Innings Break",
    "date": "2026-09-20",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -278,8 +280,8 @@
  "coverage": {
   "seen_total": 29,
   "ever_paired": 7,
-  "balls_flowing": 5,
-  "state_says_live": 5
+  "balls_flowing": 6,
+  "state_says_live": 6
  },
  "trader": {
   "state": "idle",
@@ -287,7 +289,7 @@
   "run_number": 8,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35510723847",
   "started_at": "2026-09-20T12:28:42Z",
-  "elapsed_s": 25,
+  "elapsed_s": 903,
   "elapsed_means": "idle for",
   "runs_total": 8
  }
