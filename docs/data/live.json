@@ -1,16 +1,18 @@
 {
- "generated_at": "2026-09-20T04:56:02Z",
+ "generated_at": "2026-09-20T05:21:43Z",
  "matches": [
   {
    "cb_id": 170951,
    "teams": "INDW v BANW",
    "teams_full": "India Women v Bangladesh Women",
-   "state": "Toss",
+   "state": "In Progress",
    "status": "India Women opt to bat",
    "series": "Women's Asian Games 2026",
    "format": "T20",
    "date": "2026-09-20",
-   "start_ms": 1789880400000
+   "start_ms": 1789880400000,
+   "last_ball_min": 0.8,
+   "balls_flowing": true
   },
   {
    "cb_id": 152753,
@@ -173,17 +175,17 @@
    "cb_id": 170951,
    "question": "Asian Games Women: Bangladesh Women vs India Women",
    "score": 1.0,
-   "state": "Toss",
+   "state": "In Progress",
    "prices": {
     "Bangladesh Women": {
-     "bid": 0.028,
-     "ask": 0.048,
-     "mid": 0.038
+     "bid": 0.008,
+     "ask": 0.034,
+     "mid": 0.021
     },
     "India Women": {
-     "bid": 0.952,
-     "ask": 0.972,
-     "mid": 0.962
+     "bid": 0.966,
+     "ask": 0.992,
+     "mid": 0.979
     }
    }
   },
@@ -195,14 +197,14 @@
    "state": "Preview",
    "prices": {
     "Zimbabwe": {
-     "bid": 0.106,
-     "ask": 0.109,
-     "mid": 0.1075
+     "bid": 0.105,
+     "ask": 0.108,
+     "mid": 0.1065
     },
     "Australia": {
-     "bid": 0.891,
-     "ask": 0.894,
-     "mid": 0.8925000000000001
+     "bid": 0.892,
+     "ask": 0.895,
+     "mid": 0.8935
     }
    }
   },
@@ -214,14 +216,14 @@
    "state": "Preview",
    "prices": {
     "Edinburgh Castle Rockers": {
-     "bid": 0.53,
+     "bid": 0.51,
      "ask": 0.54,
-     "mid": 0.535
+     "mid": 0.525
     },
     "Belfast Wolves": {
      "bid": 0.46,
-     "ask": 0.47,
-     "mid": 0.46499999999999997
+     "ask": 0.49,
+     "mid": 0.475
     }
    }
   },
@@ -339,21 +341,21 @@
   }
  ],
  "next_fixture": {
-  "cb_id": 170951,
-  "teams": "INDW v BANW",
-  "teams_full": "India Women v Bangladesh Women",
-  "state": "Toss",
-  "status": "India Women opt to bat",
-  "series": "Women's Asian Games 2026",
-  "format": "T20",
+  "cb_id": 152753,
+  "teams": "ZIM v AUS",
+  "teams_full": "Zimbabwe v Australia",
+  "state": "Preview",
+  "status": "Match starts at Sep 20, 07:30 GMT",
+  "series": "Australia tour of Zimbabwe 2026",
+  "format": "ODI",
   "date": "2026-09-20",
-  "start_ms": 1789880400000
+  "start_ms": 1789889400000
  },
  "coverage": {
   "seen_total": 27,
   "ever_paired": 6,
-  "balls_flowing": 0,
-  "state_says_live": 0
+  "balls_flowing": 1,
+  "state_says_live": 1
  },
  "trader": {
   "state": "idle",
@@ -361,7 +363,7 @@
   "run_number": 6,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35481867205",
   "started_at": "2026-09-20T01:37:22Z",
-  "elapsed_s": 2917,
+  "elapsed_s": 4457,
   "elapsed_means": "idle for",
   "runs_total": 6
  }
