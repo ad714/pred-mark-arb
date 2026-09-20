@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T16:27:46Z",
+ "generated_at": "2026-09-20T16:59:19Z",
  "matches": [
   {
    "cb_id": 154711,
@@ -44,7 +44,7 @@
    "format": "ODI",
    "date": "2026-09-20",
    "start_ms": 1789891200000,
-   "last_ball_min": 173.3,
+   "last_ball_min": 204.8,
    "balls_flowing": false
   },
   {
@@ -57,7 +57,7 @@
    "format": "TEST",
    "date": "2026-09-17",
    "start_ms": 1789632000000,
-   "last_ball_min": 202.5,
+   "last_ball_min": 234.0,
    "balls_flowing": false
   },
   {
@@ -65,12 +65,12 @@
    "teams": "MDX v LEIC",
    "teams_full": "Middlesex v Leicestershire",
    "state": "In Progress",
-   "status": "Leicestershire need 80 runs",
+   "status": "Leicestershire need 49 runs in 60 balls",
    "series": "England Domestic One-Day Cup 2026",
    "format": "ODI",
    "date": "2026-09-20",
    "start_ms": 1789898400000,
-   "last_ball_min": 0.7,
+   "last_ball_min": 1.5,
    "balls_flowing": true
   },
   {
@@ -94,13 +94,13 @@
    "state": "Preview",
    "prices": {
     "Antigua And Barbuda Falcons": {
-     "bid": 0.51,
-     "ask": 0.54,
+     "bid": 0.52,
+     "ask": 0.53,
      "mid": 0.525
     },
     "Jamaica Kingsmen": {
-     "bid": 0.46,
-     "ask": 0.49,
+     "bid": 0.47,
+     "ask": 0.48,
      "mid": 0.475
     }
    }
@@ -113,14 +113,14 @@
    "state": "In Progress",
    "prices": {
     "Leicestershire": {
-     "bid": 0.7,
-     "ask": 0.72,
-     "mid": 0.71
+     "bid": 0.59,
+     "ask": 0.67,
+     "mid": 0.63
     },
     "Middlesex": {
-     "bid": 0.28,
-     "ask": 0.3,
-     "mid": 0.29000000000000004
+     "bid": 0.33,
+     "ask": 0.41,
+     "mid": 0.37
     }
    }
   },
@@ -188,13 +188,13 @@
   "state_says_live": 3
  },
  "trader": {
-  "state": "idle",
-  "conclusion": "success",
-  "run_number": 8,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35510723847",
-  "started_at": "2026-09-20T12:28:42Z",
-  "elapsed_s": 10849,
-  "elapsed_means": "idle for",
-  "runs_total": 8
+  "state": "in_progress",
+  "conclusion": null,
+  "run_number": 9,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35522809300",
+  "started_at": "2026-09-20T16:28:13Z",
+  "elapsed_s": 1866,
+  "elapsed_means": "running for",
+  "runs_total": 9
  }
 }
