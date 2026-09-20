@@ -1,29 +1,18 @@
 {
- "generated_at": "2026-09-20T05:21:43Z",
+ "generated_at": "2026-09-20T08:00:40Z",
  "matches": [
-  {
-   "cb_id": 170951,
-   "teams": "INDW v BANW",
-   "teams_full": "India Women v Bangladesh Women",
-   "state": "In Progress",
-   "status": "India Women opt to bat",
-   "series": "Women's Asian Games 2026",
-   "format": "T20",
-   "date": "2026-09-20",
-   "start_ms": 1789880400000,
-   "last_ball_min": 0.8,
-   "balls_flowing": true
-  },
   {
    "cb_id": 152753,
    "teams": "ZIM v AUS",
    "teams_full": "Zimbabwe v Australia",
-   "state": "Preview",
-   "status": "Match starts at Sep 20, 07:30 GMT",
+   "state": "In Progress",
+   "status": "Zimbabwe opt to bat",
    "series": "Australia tour of Zimbabwe 2026",
    "format": "ODI",
    "date": "2026-09-20",
-   "start_ms": 1789889400000
+   "start_ms": 1789889400000,
+   "last_ball_min": 1.2,
+   "balls_flowing": true
   },
   {
    "cb_id": 169440,
@@ -46,6 +35,17 @@
    "format": "T20",
    "date": "2026-09-20",
    "start_ms": 1789945200000
+  },
+  {
+   "cb_id": 170770,
+   "teams": "CAYM v BER",
+   "teams_full": "Cayman Islands v Bermuda",
+   "state": "Preview",
+   "status": "Match starts at Sep 21, 18:30 GMT",
+   "series": "North American Cup, 2026",
+   "format": "T20",
+   "date": "2026-09-20",
+   "start_ms": 1789929000000
   },
   {
    "cb_id": 172401,
@@ -84,12 +84,14 @@
    "cb_id": 167057,
    "teams": "WA v TAS",
    "teams_full": "Western Australia v Tasmania",
-   "state": "Preview",
-   "status": "Match starts at Sep 20, 06:00 GMT",
+   "state": "In Progress",
+   "status": "Tasmania opt to bowl",
    "series": "Australia Domestic One-Day Cup 2026-27",
    "format": "ODI",
    "date": "2026-09-20",
-   "start_ms": 1789884000000
+   "start_ms": 1789884000000,
+   "last_ball_min": 0.9,
+   "balls_flowing": true
   },
   {
    "cb_id": 171727,
@@ -114,28 +116,6 @@
    "start_ms": 1789632000000
   },
   {
-   "cb_id": 171747,
-   "teams": "KNG v LIONS",
-   "teams_full": "Knights v Lions",
-   "state": "Stumps",
-   "status": "Day 3: Stumps (No play on day 3 due to wet outfield)",
-   "series": "CSA Four-Day Series Division One 2026-27",
-   "format": "TEST",
-   "date": "2026-09-17",
-   "start_ms": 1789632000000
-  },
-  {
-   "cb_id": 171757,
-   "teams": "WAR v TIT",
-   "teams_full": "Warriors v Titans",
-   "state": "Stumps",
-   "status": "Day 3: Stumps (No play on day 3 due to wet outfield)",
-   "series": "CSA Four-Day Series Division One 2026-27",
-   "format": "TEST",
-   "date": "2026-09-17",
-   "start_ms": 1789632000000
-  },
-  {
    "cb_id": 144090,
    "teams": "LEIC v MDX",
    "teams_full": "Leicestershire v Middlesex",
@@ -150,7 +130,7 @@
    "cb_id": 155477,
    "teams": "INDU19 v AUSU19",
    "teams_full": "India U19 v Australia U19",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Sep 21, 03:30 GMT",
    "series": "Australia U19 tour of India 2026",
    "format": "ODI",
@@ -171,40 +151,21 @@
  ],
  "pairings": [
   {
-   "slug": "crint-bgdw-indw-2026-09-20",
-   "cb_id": 170951,
-   "question": "Asian Games Women: Bangladesh Women vs India Women",
-   "score": 1.0,
-   "state": "In Progress",
-   "prices": {
-    "Bangladesh Women": {
-     "bid": 0.008,
-     "ask": 0.034,
-     "mid": 0.021
-    },
-    "India Women": {
-     "bid": 0.966,
-     "ask": 0.992,
-     "mid": 0.979
-    }
-   }
-  },
-  {
    "slug": "crint-zwe-aus-2026-09-20",
    "cb_id": 152753,
    "question": "Australia Tour of Zimbabwe ODIs: Zimbabwe vs Australia",
    "score": 1.0,
-   "state": "Preview",
+   "state": "In Progress",
    "prices": {
     "Zimbabwe": {
-     "bid": 0.105,
-     "ask": 0.108,
-     "mid": 0.1065
+     "bid": 0.131,
+     "ask": 0.148,
+     "mid": 0.1395
     },
     "Australia": {
-     "bid": 0.892,
-     "ask": 0.895,
-     "mid": 0.8935
+     "bid": 0.852,
+     "ask": 0.869,
+     "mid": 0.8605
     }
    }
   },
@@ -216,14 +177,14 @@
    "state": "Preview",
    "prices": {
     "Edinburgh Castle Rockers": {
-     "bid": 0.51,
+     "bid": 0.53,
      "ask": 0.54,
-     "mid": 0.525
+     "mid": 0.535
     },
     "Belfast Wolves": {
      "bid": 0.46,
-     "ask": 0.49,
-     "mid": 0.475
+     "ask": 0.47,
+     "mid": 0.46499999999999997
     }
    }
   },
@@ -235,14 +196,14 @@
    "state": "Preview",
    "prices": {
     "Antigua And Barbuda Falcons": {
-     "bid": 0.48,
+     "bid": 0.49,
      "ask": 0.51,
-     "mid": 0.495
+     "mid": 0.5
     },
     "Jamaica Kingsmen": {
      "bid": 0.49,
-     "ask": 0.52,
-     "mid": 0.505
+     "ask": 0.51,
+     "mid": 0.5
     }
    }
   },
@@ -254,19 +215,46 @@
    "state": "Preview",
    "prices": {
     "Leicestershire": {
-     "bid": 0.55,
-     "ask": 0.57,
-     "mid": 0.56
+     "bid": 0.57,
+     "ask": 0.58,
+     "mid": 0.575
     },
     "Middlesex": {
-     "bid": 0.43,
-     "ask": 0.45,
-     "mid": 0.44
+     "bid": 0.42,
+     "ask": 0.43,
+     "mid": 0.425
+    }
+   }
+  },
+  {
+   "slug": "crint-indu19-ausu19-2026-09-22",
+   "cb_id": 155477,
+   "question": "Australia U19 Tour of India Youth ODIs: India Under-19s vs Australia Under-19s",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "India Under-19s": {
+     "bid": 0.5,
+     "ask": 0.85,
+     "mid": 0.675
+    },
+    "Australia Under-19s": {
+     "bid": 0.15,
+     "ask": 0.5,
+     "mid": 0.325
     }
    }
   }
  ],
  "unpaired": [
+  {
+   "cb_id": 170770,
+   "teams": "Cayman Islands v Bermuda",
+   "series": "North American Cup, 2026",
+   "state": "Preview",
+   "date": "2026-09-20",
+   "reason": "no open two outcome cricket market to compare against"
+  },
   {
    "cb_id": 172401,
    "teams": "Mpumalanga Rhinos v South Western Districts",
@@ -295,7 +283,7 @@
    "cb_id": 167057,
    "teams": "Western Australia v Tasmania",
    "series": "Australia Domestic One-Day Cup 2026-27",
-   "state": "Preview",
+   "state": "In Progress",
    "date": "2026-09-20",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -316,22 +304,6 @@
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 171747,
-   "teams": "Knights v Lions",
-   "series": "CSA Four-Day Series Division One 2026-27",
-   "state": "Stumps",
-   "date": "2026-09-17",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 171757,
-   "teams": "Warriors v Titans",
-   "series": "CSA Four-Day Series Division One 2026-27",
-   "state": "Stumps",
-   "date": "2026-09-17",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
    "cb_id": 155617,
    "teams": "India A Women v Australia A Women",
    "series": "Australia A Women tour of India 2026",
@@ -341,30 +313,30 @@
   }
  ],
  "next_fixture": {
-  "cb_id": 152753,
-  "teams": "ZIM v AUS",
-  "teams_full": "Zimbabwe v Australia",
+  "cb_id": 144090,
+  "teams": "LEIC v MDX",
+  "teams_full": "Leicestershire v Middlesex",
   "state": "Preview",
-  "status": "Match starts at Sep 20, 07:30 GMT",
-  "series": "Australia tour of Zimbabwe 2026",
+  "status": "Match starts at Sep 20, 10:00 GMT",
+  "series": "England Domestic One-Day Cup",
   "format": "ODI",
   "date": "2026-09-20",
-  "start_ms": 1789889400000
+  "start_ms": 1789898400000
  },
  "coverage": {
-  "seen_total": 27,
-  "ever_paired": 6,
-  "balls_flowing": 1,
-  "state_says_live": 1
+  "seen_total": 28,
+  "ever_paired": 7,
+  "balls_flowing": 2,
+  "state_says_live": 2
  },
  "trader": {
   "state": "idle",
   "conclusion": "success",
-  "run_number": 6,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35481867205",
-  "started_at": "2026-09-20T01:37:22Z",
-  "elapsed_s": 4457,
+  "run_number": 7,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35495785583",
+  "started_at": "2026-09-20T07:02:03Z",
+  "elapsed_s": 25,
   "elapsed_means": "idle for",
-  "runs_total": 6
+  "runs_total": 7
  }
 }
