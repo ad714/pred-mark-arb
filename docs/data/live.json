@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T21:02:30Z",
+ "generated_at": "2026-09-20T21:44:10Z",
  "matches": [
   {
    "cb_id": 154711,
@@ -66,14 +66,14 @@
    "state": "Preview",
    "prices": {
     "Antigua And Barbuda Falcons": {
-     "bid": 0.48,
-     "ask": 0.5,
-     "mid": 0.49
+     "bid": 0.49,
+     "ask": 0.52,
+     "mid": 0.505
     },
     "Jamaica Kingsmen": {
-     "bid": 0.5,
-     "ask": 0.52,
-     "mid": 0.51
+     "bid": 0.48,
+     "ask": 0.51,
+     "mid": 0.495
     }
    }
   },
@@ -125,13 +125,13 @@
   "state_says_live": 0
  },
  "trader": {
-  "state": "idle",
-  "conclusion": "success",
-  "run_number": 10,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35531003237",
-  "started_at": "2026-09-20T19:02:46Z",
-  "elapsed_s": 3692,
-  "elapsed_means": "idle for",
-  "runs_total": 10
+  "state": "in_progress",
+  "conclusion": null,
+  "run_number": 11,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35539319504",
+  "started_at": "2026-09-20T21:38:20Z",
+  "elapsed_s": 350,
+  "elapsed_means": "running for",
+  "runs_total": 11
  }
 }
