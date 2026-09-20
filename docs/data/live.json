@@ -1,32 +1,6 @@
 {
- "generated_at": "2026-09-20T13:41:59Z",
+ "generated_at": "2026-09-20T16:27:46Z",
  "matches": [
-  {
-   "cb_id": 152753,
-   "teams": "ZIM v AUS",
-   "teams_full": "Zimbabwe v Australia",
-   "state": "In Progress",
-   "status": "Australia need 117 runs",
-   "series": "Australia tour of Zimbabwe 2026",
-   "format": "ODI",
-   "date": "2026-09-20",
-   "start_ms": 1789889400000,
-   "last_ball_min": 15.6,
-   "balls_flowing": true
-  },
-  {
-   "cb_id": 169440,
-   "teams": "BFW v ECR",
-   "teams_full": "Belfast Wolves v Edinburgh Castle Rockers",
-   "state": "In Progress",
-   "status": "Edinburgh Castle Rockers opt to bowl",
-   "series": "European T20 Premier League 2026",
-   "format": "T20",
-   "date": "2026-09-20",
-   "start_ms": 1789910100000,
-   "last_ball_min": 1.4,
-   "balls_flowing": true
-  },
   {
    "cb_id": 154711,
    "teams": "ABF v JKM",
@@ -61,19 +35,6 @@
    "start_ms": 1789929000000
   },
   {
-   "cb_id": 172401,
-   "teams": "SWD v MPR",
-   "teams_full": "South Western Districts v Mpumalanga Rhinos",
-   "state": "Innings Break",
-   "status": "Innings Break",
-   "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
-   "format": "ODI",
-   "date": "2026-09-20",
-   "start_ms": 1789887600000,
-   "last_ball_min": 23.8,
-   "balls_flowing": true
-  },
-  {
    "cb_id": 172397,
    "teams": "BOR v ESTORM",
    "teams_full": "Border v Eastern Storm",
@@ -83,31 +44,33 @@
    "format": "ODI",
    "date": "2026-09-20",
    "start_ms": 1789891200000,
-   "last_ball_min": 7.5,
-   "balls_flowing": true
+   "last_ball_min": 173.3,
+   "balls_flowing": false
   },
   {
    "cb_id": 171737,
    "teams": "WPR v DOL",
    "teams_full": "Western Province v Dolphins",
-   "state": "Tea",
-   "status": "Day 4: Tea Break - Dolphins need 178 runs",
+   "state": "In Progress",
+   "status": "Day 4: 3rd Session - Dolphins need 80 runs",
    "series": "CSA Four-Day Series Division One 2026-27",
    "format": "TEST",
    "date": "2026-09-17",
-   "start_ms": 1789632000000
+   "start_ms": 1789632000000,
+   "last_ball_min": 202.5,
+   "balls_flowing": false
   },
   {
    "cb_id": 144090,
    "teams": "MDX v LEIC",
    "teams_full": "Middlesex v Leicestershire",
-   "state": "Innings Break",
-   "status": "Innings Break",
+   "state": "In Progress",
+   "status": "Leicestershire need 80 runs",
    "series": "England Domestic One-Day Cup 2026",
    "format": "ODI",
    "date": "2026-09-20",
    "start_ms": 1789898400000,
-   "last_ball_min": 9.7,
+   "last_ball_min": 0.7,
    "balls_flowing": true
   },
   {
@@ -120,60 +83,9 @@
    "format": "ODI",
    "date": "2026-09-21",
    "start_ms": 1789961400000
-  },
-  {
-   "cb_id": 155617,
-   "teams": "AUSWA v INDWA",
-   "teams_full": "Australia A Women v India A Women",
-   "state": "In Progress",
-   "status": "India A Women need 105 runs",
-   "series": "Australia A Women tour of India 2026",
-   "format": "ODI",
-   "date": "2026-09-20",
-   "start_ms": 1789893000000,
-   "last_ball_min": 5.7,
-   "balls_flowing": true
   }
  ],
  "pairings": [
-  {
-   "slug": "crint-zwe-aus-2026-09-20",
-   "cb_id": 152753,
-   "question": "Australia Tour of Zimbabwe ODIs: Zimbabwe vs Australia",
-   "score": 1.0,
-   "state": "In Progress",
-   "prices": {
-    "Zimbabwe": {
-     "bid": 0.043,
-     "ask": 0.1,
-     "mid": 0.07150000000000001
-    },
-    "Australia": {
-     "bid": 0.9,
-     "ask": 0.957,
-     "mid": 0.9285
-    }
-   }
-  },
-  {
-   "slug": "cricetpl-edi-bel-2026-09-20",
-   "cb_id": 169440,
-   "question": "European T20 Premier League: Edinburgh Castle Rockers vs Belfast Wolves",
-   "score": 1.0,
-   "state": "In Progress",
-   "prices": {
-    "Edinburgh Castle Rockers": {
-     "bid": 0.6,
-     "ask": 0.63,
-     "mid": 0.615
-    },
-    "Belfast Wolves": {
-     "bid": 0.37,
-     "ask": 0.4,
-     "mid": 0.385
-    }
-   }
-  },
   {
    "slug": "criccpl-ant-jam-2026-09-20",
    "cb_id": 154711,
@@ -182,14 +94,14 @@
    "state": "Preview",
    "prices": {
     "Antigua And Barbuda Falcons": {
-     "bid": 0.48,
-     "ask": 0.5,
-     "mid": 0.49
+     "bid": 0.51,
+     "ask": 0.54,
+     "mid": 0.525
     },
     "Jamaica Kingsmen": {
-     "bid": 0.5,
-     "ask": 0.52,
-     "mid": 0.51
+     "bid": 0.46,
+     "ask": 0.49,
+     "mid": 0.475
     }
    }
   },
@@ -198,17 +110,17 @@
    "cb_id": 144090,
    "question": "Metro Bank One Day Cup: Leicestershire vs Middlesex",
    "score": 1.0,
-   "state": "Innings Break",
+   "state": "In Progress",
    "prices": {
     "Leicestershire": {
-     "bid": 0.73,
-     "ask": 0.8,
-     "mid": 0.765
+     "bid": 0.7,
+     "ask": 0.72,
+     "mid": 0.71
     },
     "Middlesex": {
-     "bid": 0.2,
-     "ask": 0.27,
-     "mid": 0.23500000000000001
+     "bid": 0.28,
+     "ask": 0.3,
+     "mid": 0.29000000000000004
     }
    }
   },
@@ -242,14 +154,6 @@
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 172401,
-   "teams": "South Western Districts v Mpumalanga Rhinos",
-   "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
-   "state": "Innings Break",
-   "date": "2026-09-20",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
    "cb_id": 172397,
    "teams": "Border v Eastern Storm",
    "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
@@ -258,11 +162,11 @@
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 155617,
-   "teams": "Australia A Women v India A Women",
-   "series": "Australia A Women tour of India 2026",
+   "cb_id": 171737,
+   "teams": "Western Province v Dolphins",
+   "series": "CSA Four-Day Series Division One 2026-27",
    "state": "In Progress",
-   "date": "2026-09-20",
+   "date": "2026-09-17",
    "reason": "no open two outcome cricket market to compare against"
   }
  ],
@@ -280,8 +184,8 @@
  "coverage": {
   "seen_total": 29,
   "ever_paired": 7,
-  "balls_flowing": 6,
-  "state_says_live": 6
+  "balls_flowing": 1,
+  "state_says_live": 3
  },
  "trader": {
   "state": "idle",
@@ -289,7 +193,7 @@
   "run_number": 8,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35510723847",
   "started_at": "2026-09-20T12:28:42Z",
-  "elapsed_s": 903,
+  "elapsed_s": 10849,
   "elapsed_means": "idle for",
   "runs_total": 8
  }
