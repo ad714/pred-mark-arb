@@ -1,27 +1,71 @@
 {
- "generated_at": "2026-09-20T11:46:48Z",
+ "generated_at": "2026-09-20T13:27:18Z",
  "lag": {
-  "n": 7,
+  "n": 11,
   "min": 17.0,
-  "median": 46.7,
-  "p90": 69.9,
+  "median": 47.2,
+  "p90": 60.0,
   "max": 69.9,
   "values": [
    17.0,
+   32.8,
    42.3,
    43.2,
    46.7,
    47.2,
    49.7,
+   51.1,
+   53.5,
+   60.0,
    69.9
   ]
  },
  "trades": {
-  "n": 4,
+  "n": 8,
   "wins": 0,
-  "realized": -1.1702,
-  "median_mid_move": -0.01,
+  "realized": -1.4228,
+  "median_mid_move": 0.0062,
   "recent": [
+   {
+    "iso": "13:25:46",
+    "slug": "cricodc-lei-mid-2026-09-20",
+    "over_ball": 48.1,
+    "outcome": "Leicestershire",
+    "entry": 0.75,
+    "exit": 0.74,
+    "pnl": -0.0133,
+    "mid_move": 0.025
+   },
+   {
+    "iso": "13:25:01",
+    "slug": "cricodc-lei-mid-2026-09-20",
+    "over_ball": 47.4,
+    "outcome": "Leicestershire",
+    "entry": 0.76,
+    "exit": 0.71,
+    "pnl": -0.0658,
+    "mid_move": 0.01
+   },
+   {
+    "iso": "13:08:34",
+    "slug": "cricodc-lei-mid-2026-09-20",
+    "over_ball": 44.2,
+    "outcome": "Leicestershire",
+    "entry": 0.64,
+    "exit": 0.59,
+    "pnl": -0.0781,
+    "mid_move": 0.045
+   },
+   {
+    "iso": "12:51:36",
+    "slug": "crint-zwe-aus-2026-09-20",
+    "over_ball": 12.5,
+    "outcome": "Zimbabwe",
+    "entry": 0.409,
+    "exit": 0.37,
+    "pnl": -0.0954,
+    "mid_move": 0.0075
+   },
    {
     "iso": "02:40:49",
     "slug": "crint-pakw-lkaw-2026-09-19",
@@ -65,6 +109,42 @@
   ]
  },
  "wickets": [
+  {
+   "t": 1789910683270,
+   "iso": "13:24:43",
+   "slug": "cricodc-lei-mid-2026-09-20",
+   "over_ball": 48.1,
+   "lag_s": 60.0,
+   "action": "open",
+   "reason": null
+  },
+  {
+   "t": 1789910638149,
+   "iso": "13:23:58",
+   "slug": "cricodc-lei-mid-2026-09-20",
+   "over_ball": 47.4,
+   "lag_s": 53.5,
+   "action": "open",
+   "reason": null
+  },
+  {
+   "t": 1789909653418,
+   "iso": "13:07:33",
+   "slug": "cricodc-lei-mid-2026-09-20",
+   "over_ball": 44.2,
+   "lag_s": 51.1,
+   "action": "open",
+   "reason": null
+  },
+  {
+   "t": 1789908636448,
+   "iso": "12:50:36",
+   "slug": "crint-zwe-aus-2026-09-20",
+   "over_ball": 12.5,
+   "lag_s": 32.8,
+   "action": "open",
+   "reason": null
+  },
   {
    "t": 1789891129027,
    "iso": "07:58:49",

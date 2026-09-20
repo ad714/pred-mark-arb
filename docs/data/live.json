@@ -1,29 +1,31 @@
 {
- "generated_at": "2026-09-20T11:46:54Z",
+ "generated_at": "2026-09-20T13:27:22Z",
  "matches": [
   {
    "cb_id": 152753,
    "teams": "ZIM v AUS",
    "teams_full": "Zimbabwe v Australia",
-   "state": "Innings Break",
-   "status": "Innings Break",
+   "state": "In Progress",
+   "status": "Australia need 144 runs",
    "series": "Australia tour of Zimbabwe 2026",
    "format": "ODI",
    "date": "2026-09-20",
    "start_ms": 1789889400000,
-   "last_ball_min": 21.9,
+   "last_ball_min": 1.1,
    "balls_flowing": true
   },
   {
    "cb_id": 169440,
-   "teams": "ECR v BFW",
-   "teams_full": "Edinburgh Castle Rockers v Belfast Wolves",
-   "state": "Preview",
-   "status": "Match starts at Sep 20, 13:15 GMT",
-   "series": "ETPL 2026",
+   "teams": "BFW v ECR",
+   "teams_full": "Belfast Wolves v Edinburgh Castle Rockers",
+   "state": "In Progress",
+   "status": "Edinburgh Castle Rockers opt to bowl",
+   "series": "European T20 Premier League 2026",
    "format": "T20",
    "date": "2026-09-20",
-   "start_ms": 1789910100000
+   "start_ms": 1789910100000,
+   "last_ball_min": 1.4,
+   "balls_flowing": true
   },
   {
    "cb_id": 154711,
@@ -62,12 +64,14 @@
    "cb_id": 172401,
    "teams": "SWD v MPR",
    "teams_full": "South Western Districts v Mpumalanga Rhinos",
-   "state": "Toss",
-   "status": "Mpumalanga Rhinos opt to bowl",
+   "state": "Innings Break",
+   "status": "Innings Break",
    "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
    "format": "ODI",
    "date": "2026-09-20",
-   "start_ms": 1789887600000
+   "start_ms": 1789887600000,
+   "last_ball_min": 9.2,
+   "balls_flowing": true
   },
   {
    "cb_id": 172397,
@@ -81,28 +85,15 @@
    "start_ms": 1789891200000
   },
   {
-   "cb_id": 171727,
-   "teams": "NWEST v BOL",
-   "teams_full": "North West - Eastvaal Renault Dragons v Boland",
-   "state": "Lunch",
-   "status": "Day 4: 2nd Session - Boland trail by 126 runs",
+   "cb_id": 171737,
+   "teams": "WPR v DOL",
+   "teams_full": "Western Province v Dolphins",
+   "state": "Tea",
+   "status": "Day 4: Tea Break - Dolphins need 178 runs",
    "series": "CSA Four-Day Series Division One 2026-27",
    "format": "TEST",
    "date": "2026-09-17",
    "start_ms": 1789632000000
-  },
-  {
-   "cb_id": 171737,
-   "teams": "WPR v DOL",
-   "teams_full": "Western Province v Dolphins",
-   "state": "Innings Break",
-   "status": "Day 4: Innings Break - Western Province lead by 256 runs",
-   "series": "CSA Four-Day Series Division One 2026-27",
-   "format": "TEST",
-   "date": "2026-09-17",
-   "start_ms": 1789632000000,
-   "last_ball_min": 31.4,
-   "balls_flowing": false
   },
   {
    "cb_id": 144090,
@@ -114,7 +105,7 @@
    "format": "ODI",
    "date": "2026-09-20",
    "start_ms": 1789898400000,
-   "last_ball_min": 0.2,
+   "last_ball_min": 1.6,
    "balls_flowing": true
   },
   {
@@ -132,13 +123,13 @@
    "cb_id": 155617,
    "teams": "AUSWA v INDWA",
    "teams_full": "Australia A Women v India A Women",
-   "state": "Innings Break",
-   "status": "Innings Break",
+   "state": "In Progress",
+   "status": "India A Women need 124 runs",
    "series": "Australia A Women tour of India 2026",
    "format": "ODI",
    "date": "2026-09-20",
    "start_ms": 1789893000000,
-   "last_ball_min": 17.6,
+   "last_ball_min": 4.1,
    "balls_flowing": true
   }
  ],
@@ -148,17 +139,17 @@
    "cb_id": 152753,
    "question": "Australia Tour of Zimbabwe ODIs: Zimbabwe vs Australia",
    "score": 1.0,
-   "state": "Innings Break",
+   "state": "In Progress",
    "prices": {
     "Zimbabwe": {
-     "bid": 0.185,
-     "ask": 0.186,
-     "mid": 0.1855
+     "bid": 0.195,
+     "ask": 0.238,
+     "mid": 0.2165
     },
     "Australia": {
-     "bid": 0.814,
-     "ask": 0.815,
-     "mid": 0.8145
+     "bid": 0.762,
+     "ask": 0.805,
+     "mid": 0.7835000000000001
     }
    }
   },
@@ -167,17 +158,17 @@
    "cb_id": 169440,
    "question": "European T20 Premier League: Edinburgh Castle Rockers vs Belfast Wolves",
    "score": 1.0,
-   "state": "Preview",
+   "state": "In Progress",
    "prices": {
     "Edinburgh Castle Rockers": {
-     "bid": 0.58,
-     "ask": 0.59,
-     "mid": 0.585
+     "bid": 0.57,
+     "ask": 0.74,
+     "mid": 0.655
     },
     "Belfast Wolves": {
-     "bid": 0.41,
-     "ask": 0.42,
-     "mid": 0.415
+     "bid": 0.26,
+     "ask": 0.38,
+     "mid": 0.32
     }
    }
   },
@@ -189,14 +180,14 @@
    "state": "Preview",
    "prices": {
     "Antigua And Barbuda Falcons": {
-     "bid": 0.5,
+     "bid": 0.48,
      "ask": 0.51,
-     "mid": 0.505
+     "mid": 0.495
     },
     "Jamaica Kingsmen": {
      "bid": 0.49,
-     "ask": 0.5,
-     "mid": 0.495
+     "ask": 0.52,
+     "mid": 0.505
     }
    }
   },
@@ -208,14 +199,14 @@
    "state": "In Progress",
    "prices": {
     "Leicestershire": {
-     "bid": 0.84,
-     "ask": 0.87,
-     "mid": 0.855
+     "bid": 0.74,
+     "ask": 0.8,
+     "mid": 0.77
     },
     "Middlesex": {
-     "bid": 0.13,
-     "ask": 0.16,
-     "mid": 0.14500000000000002
+     "bid": 0.2,
+     "ask": 0.26,
+     "mid": 0.23
     }
    }
   },
@@ -228,13 +219,13 @@
    "prices": {
     "India Under-19s": {
      "bid": 0.5,
-     "ask": 0.85,
-     "mid": 0.675
+     "ask": 0.83,
+     "mid": 0.665
     },
     "Australia Under-19s": {
-     "bid": 0.15,
+     "bid": 0.17,
      "ask": 0.5,
-     "mid": 0.325
+     "mid": 0.335
     }
    }
   }
@@ -252,7 +243,7 @@
    "cb_id": 172401,
    "teams": "South Western Districts v Mpumalanga Rhinos",
    "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
-   "state": "Toss",
+   "state": "Innings Break",
    "date": "2026-09-20",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -265,47 +256,39 @@
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 171737,
-   "teams": "Western Province v Dolphins",
-   "series": "CSA Four-Day Series Division One 2026-27",
-   "state": "Innings Break",
-   "date": "2026-09-17",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
    "cb_id": 155617,
    "teams": "Australia A Women v India A Women",
    "series": "Australia A Women tour of India 2026",
-   "state": "Innings Break",
+   "state": "In Progress",
    "date": "2026-09-20",
    "reason": "no open two outcome cricket market to compare against"
   }
  ],
  "next_fixture": {
-  "cb_id": 169440,
-  "teams": "ECR v BFW",
-  "teams_full": "Edinburgh Castle Rockers v Belfast Wolves",
+  "cb_id": 154711,
+  "teams": "ABF v JKM",
+  "teams_full": "Antigua and Barbuda Falcons v Jamaica Kingsmen",
   "state": "Preview",
-  "status": "Match starts at Sep 20, 13:15 GMT",
-  "series": "ETPL 2026",
+  "status": "Match starts at Sep 21, 23:00 GMT",
+  "series": "CPL 2026",
   "format": "T20",
   "date": "2026-09-20",
-  "start_ms": 1789910100000
+  "start_ms": 1789945200000
  },
  "coverage": {
   "seen_total": 29,
   "ever_paired": 7,
-  "balls_flowing": 3,
-  "state_says_live": 4
+  "balls_flowing": 5,
+  "state_says_live": 5
  },
  "trader": {
   "state": "idle",
   "conclusion": "success",
-  "run_number": 7,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35495785583",
-  "started_at": "2026-09-20T07:02:03Z",
-  "elapsed_s": 13599,
+  "run_number": 8,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35510723847",
+  "started_at": "2026-09-20T12:28:42Z",
+  "elapsed_s": 25,
   "elapsed_means": "idle for",
-  "runs_total": 7
+  "runs_total": 8
  }
 }
