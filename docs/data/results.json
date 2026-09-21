@@ -1,17 +1,19 @@
 {
- "generated_at": "2026-09-21T01:41:10Z",
+ "generated_at": "2026-09-21T02:38:28Z",
  "lag": {
-  "n": 21,
+  "n": 24,
   "min": 17.0,
-  "median": 47.2,
+  "median": 47.0,
   "p90": 63.3,
   "max": 69.9,
   "values": [
    17.0,
    21.4,
+   26.1,
    29.3,
    32.8,
    37.2,
+   38.3,
    38.8,
    42.3,
    43.2,
@@ -22,6 +24,7 @@
    49.7,
    51.1,
    53.5,
+   54.5,
    55.1,
    59.9,
    60.0,
@@ -31,11 +34,31 @@
   ]
  },
  "trades": {
-  "n": 14,
+  "n": 16,
   "wins": 0,
-  "realized": -1.7622,
-  "median_mid_move": 0.0025,
+  "realized": -2.145,
+  "median_mid_move": 0.0,
   "recent": [
+   {
+    "iso": "02:07:30",
+    "slug": "criccpl-ant-jam-2026-09-20",
+    "over_ball": 4.1,
+    "outcome": "Jamaica Kingsmen",
+    "entry": 0.26,
+    "exit": 0.21,
+    "pnl": -0.1923,
+    "mid_move": -0.035
+   },
+   {
+    "iso": "01:44:24",
+    "slug": "criccpl-ant-jam-2026-09-20",
+    "over_ball": 0.6,
+    "outcome": "Jamaica Kingsmen",
+    "entry": 0.42,
+    "exit": 0.34,
+    "pnl": -0.1905,
+    "mid_move": -0.06
+   },
    {
     "iso": "00:30:40",
     "slug": "criccpl-ant-jam-2026-09-20",
@@ -179,6 +202,33 @@
   ]
  },
  "wickets": [
+  {
+   "t": 1789957530954,
+   "iso": "02:25:30",
+   "slug": "criccpl-ant-jam-2026-09-20",
+   "over_ball": 7.4,
+   "lag_s": 26.1,
+   "action": "skip",
+   "reason": "non-competitive mid 0.185"
+  },
+  {
+   "t": 1789956387902,
+   "iso": "02:06:27",
+   "slug": "criccpl-ant-jam-2026-09-20",
+   "over_ball": 4.1,
+   "lag_s": 38.3,
+   "action": "open",
+   "reason": null
+  },
+  {
+   "t": 1789955001991,
+   "iso": "01:43:21",
+   "slug": "criccpl-ant-jam-2026-09-20",
+   "over_ball": 0.6,
+   "lag_s": 54.5,
+   "action": "open",
+   "reason": null
+  },
   {
    "t": 1789950578187,
    "iso": "00:29:38",

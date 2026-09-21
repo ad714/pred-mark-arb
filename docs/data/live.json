@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-21T01:41:14Z",
+ "generated_at": "2026-09-21T02:38:31Z",
  "matches": [
   {
    "cb_id": 154711,
    "teams": "JKM v ABF",
    "teams_full": "Jamaica Kingsmen v Antigua and Barbuda Falcons",
    "state": "In Progress",
-   "status": "Antigua and Barbuda Falcons need 163 runs",
+   "status": "Antigua and Barbuda Falcons need 71 runs in 60 balls",
    "series": "Caribbean Premier League 2026",
    "format": "T20",
    "date": "2026-09-20",
    "start_ms": 1789945200000,
-   "last_ball_min": 1.2,
+   "last_ball_min": 1.5,
    "balls_flowing": true
   },
   {
@@ -68,14 +68,14 @@
    "state": "In Progress",
    "prices": {
     "Antigua And Barbuda Falcons": {
-     "bid": 0.73,
-     "ask": 0.76,
-     "mid": 0.745
+     "bid": 0.89,
+     "ask": 0.9,
+     "mid": 0.895
     },
     "Jamaica Kingsmen": {
-     "bid": 0.25,
-     "ask": 0.27,
-     "mid": 0.26
+     "bid": 0.1,
+     "ask": 0.11,
+     "mid": 0.10500000000000001
     }
    }
   },
@@ -118,13 +118,13 @@
   "state_says_live": 1
  },
  "trader": {
-  "state": "in_progress",
-  "conclusion": null,
+  "state": "idle",
+  "conclusion": "success",
   "run_number": 13,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35551627435",
   "started_at": "2026-09-21T01:39:53Z",
-  "elapsed_s": 81,
-  "elapsed_means": "running for",
+  "elapsed_s": 25,
+  "elapsed_means": "idle for",
   "runs_total": 13
  }
 }
