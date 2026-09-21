@@ -1,19 +1,6 @@
 {
- "generated_at": "2026-09-21T07:17:37Z",
+ "generated_at": "2026-09-21T13:17:47Z",
  "matches": [
-  {
-   "cb_id": 155477,
-   "teams": "INDU19 v AUSU19",
-   "teams_full": "India U19 v Australia U19",
-   "state": "In Progress",
-   "status": "India U19 opt to bat",
-   "series": "Australia U19 tour of India 2026",
-   "format": "ODI",
-   "date": "2026-09-21",
-   "start_ms": 1789961400000,
-   "last_ball_min": 17.7,
-   "balls_flowing": true
-  },
   {
    "cb_id": 171477,
    "teams": "JPN v IND",
@@ -37,6 +24,17 @@
    "start_ms": 1790053200000
   },
   {
+   "cb_id": 129634,
+   "teams": "ENG v SL",
+   "teams_full": "England v Sri Lanka",
+   "state": "Preview",
+   "status": "Match starts at Sep 22, 11:30 GMT",
+   "series": "England vs Sri Lanka, 2026",
+   "format": "ODI",
+   "date": "2026-09-22",
+   "start_ms": 1790076600000
+  },
+  {
    "cb_id": 170960,
    "teams": "PAKW v BANW",
    "teams_full": "Pakistan Women v Bangladesh Women",
@@ -49,25 +47,47 @@
   },
   {
    "cb_id": 173631,
-   "teams": "NGA v GH",
-   "teams_full": "Nigeria v Ghana",
-   "state": "Upcoming",
-   "status": "Match starts at Sep 21, 09:00 GMT",
+   "teams": "GH v NGA",
+   "teams_full": "Ghana v Nigeria",
+   "state": "Toss",
+   "status": "Ghana opt to bat",
    "series": "Quadrangular T20I Series in Nigeria, 2026",
    "format": "T20",
    "date": "2026-09-21",
-   "start_ms": 1789981200000
+   "start_ms": 1789995600000
+  },
+  {
+   "cb_id": 173647,
+   "teams": "GH v SLE",
+   "teams_full": "Ghana v Sierra Leone",
+   "state": "Upcoming",
+   "status": "Match starts at Sep 22, 09:00 GMT",
+   "series": "Quadrangular T20I Series in Nigeria, 2026",
+   "format": "T20",
+   "date": "2026-09-22",
+   "start_ms": 1790067600000
   },
   {
    "cb_id": 170780,
    "teams": "BHM v CAYM",
    "teams_full": "Bahamas v Cayman Islands",
-   "state": "Upcoming",
-   "status": "Match starts at Sep 23, 18:30 GMT",
+   "state": "Preview",
+   "status": "Match starts at Sep 22, 18:30 GMT",
    "series": "North American Cup, 2026",
    "format": "T20",
    "date": "2026-09-21",
    "start_ms": 1790015400000
+  },
+  {
+   "cb_id": 172971,
+   "teams": "NCAPE v LIMPO",
+   "teams_full": "Northern Cape v Limpopo",
+   "state": "Upcoming",
+   "status": "Match starts at Sep 22, 11:00 GMT",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-09-22",
+   "start_ms": 1790074800000
   },
   {
    "cb_id": 167060,
@@ -94,25 +114,6 @@
  ],
  "pairings": [
   {
-   "slug": "crint-indu19-ausu19-2026-09-22",
-   "cb_id": 155477,
-   "question": "Australia U19 Tour of India Youth ODIs: India Under-19s vs Australia Under-19s",
-   "score": 1.0,
-   "state": "In Progress",
-   "prices": {
-    "India Under-19s": {
-     "bid": 0.5,
-     "ask": 0.83,
-     "mid": 0.665
-    },
-    "Australia Under-19s": {
-     "bid": 0.17,
-     "ask": 0.5,
-     "mid": 0.335
-    }
-   }
-  },
-  {
    "slug": "crint-lkaw-indw-2026-09-22",
    "cb_id": 170963,
    "question": "Asian Games Women: Sri Lanka Women vs India Women",
@@ -120,14 +121,33 @@
    "state": "Preview",
    "prices": {
     "Sri Lanka Women": {
-     "bid": 0.12,
-     "ask": 0.15,
-     "mid": 0.135
+     "bid": 0.1,
+     "ask": 0.11,
+     "mid": 0.10500000000000001
     },
     "India Women": {
-     "bid": 0.85,
-     "ask": 0.88,
-     "mid": 0.865
+     "bid": 0.89,
+     "ask": 0.9,
+     "mid": 0.895
+    }
+   }
+  },
+  {
+   "slug": "crint-gbr-lka-2026-09-22",
+   "cb_id": 129634,
+   "question": "Sri Lanka Tour of England ODIs: England vs Sri Lanka",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "England": {
+     "bid": 0.88,
+     "ask": 0.89,
+     "mid": 0.885
+    },
+    "Sri Lanka": {
+     "bid": 0.11,
+     "ask": 0.12,
+     "mid": 0.11499999999999999
     }
    }
   },
@@ -139,14 +159,14 @@
    "state": "Preview",
    "prices": {
     "Pakistan Women": {
-     "bid": 0.7,
-     "ask": 0.74,
-     "mid": 0.72
+     "bid": 0.69,
+     "ask": 0.71,
+     "mid": 0.7
     },
     "Bangladesh Women": {
-     "bid": 0.26,
-     "ask": 0.3,
-     "mid": 0.28
+     "bid": 0.29,
+     "ask": 0.31,
+     "mid": 0.3
     }
    }
   }
@@ -158,6 +178,22 @@
    "series": "India tour of Japan, 2026",
    "state": "Preview",
    "date": "2026-09-22",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 173631,
+   "teams": "Ghana v Nigeria",
+   "series": "Quadrangular T20I Series in Nigeria, 2026",
+   "state": "Toss",
+   "date": "2026-09-21",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 170780,
+   "teams": "Bahamas v Cayman Islands",
+   "series": "North American Cup, 2026",
+   "state": "Preview",
+   "date": "2026-09-21",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
@@ -189,13 +225,19 @@
   "start_ms": 1790035200000
  },
  "coverage": {
-  "seen_total": 35,
-  "ever_paired": 8,
-  "balls_flowing": 1,
-  "state_says_live": 1
+  "seen_total": 38,
+  "ever_paired": 9,
+  "balls_flowing": 0,
+  "state_says_live": 0
  },
  "trader": {
-  "state": "unknown",
-  "runs_total": 0
+  "state": "idle",
+  "conclusion": "success",
+  "run_number": 1,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35572365661",
+  "started_at": "2026-09-21T07:18:44Z",
+  "elapsed_s": 21513,
+  "elapsed_means": "idle for",
+  "runs_total": 1
  }
 }
