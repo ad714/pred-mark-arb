@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T14:09:04Z",
+ "generated_at": "2026-09-21T19:26:25Z",
  "matches": [
   {
    "cb_id": 171477,
@@ -46,17 +46,6 @@
    "start_ms": 1790035200000
   },
   {
-   "cb_id": 173631,
-   "teams": "GH v NGA",
-   "teams_full": "Ghana v Nigeria",
-   "state": "Toss",
-   "status": "Ghana opt to bat",
-   "series": "Quadrangular T20I Series in Nigeria, 2026",
-   "format": "T20",
-   "date": "2026-09-21",
-   "start_ms": 1789995600000
-  },
-  {
    "cb_id": 173647,
    "teams": "GH v SLE",
    "teams_full": "Ghana v Sierra Leone",
@@ -77,6 +66,17 @@
    "format": "T20",
    "date": "2026-09-21",
    "start_ms": 1790015400000
+  },
+  {
+   "cb_id": 170790,
+   "teams": "BER v BHM",
+   "teams_full": "Bermuda v Bahamas",
+   "state": "Upcoming",
+   "status": "Match starts at Sep 24, 18:30 GMT",
+   "series": "North American Cup, 2026",
+   "format": "T20",
+   "date": "2026-09-22",
+   "start_ms": 1790101800000
   },
   {
    "cb_id": 172971,
@@ -160,13 +160,13 @@
    "prices": {
     "Pakistan Women": {
      "bid": 0.71,
-     "ask": 0.72,
-     "mid": 0.715
+     "ask": 0.74,
+     "mid": 0.725
     },
     "Bangladesh Women": {
-     "bid": 0.28,
+     "bid": 0.26,
      "ask": 0.29,
-     "mid": 0.28500000000000003
+     "mid": 0.275
     }
    }
   }
@@ -178,14 +178,6 @@
    "series": "India tour of Japan, 2026",
    "state": "Preview",
    "date": "2026-09-22",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 173631,
-   "teams": "Ghana v Nigeria",
-   "series": "Quadrangular T20I Series in Nigeria, 2026",
-   "state": "Toss",
-   "date": "2026-09-21",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
@@ -225,19 +217,19 @@
   "start_ms": 1790035200000
  },
  "coverage": {
-  "seen_total": 38,
+  "seen_total": 39,
   "ever_paired": 9,
   "balls_flowing": 0,
   "state_says_live": 0
  },
  "trader": {
-  "state": "idle",
-  "conclusion": "success",
-  "run_number": 1,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35572365661",
-  "started_at": "2026-09-21T07:18:44Z",
-  "elapsed_s": 24590,
-  "elapsed_means": "idle for",
-  "runs_total": 1
+  "state": "in_progress",
+  "conclusion": null,
+  "run_number": 2,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35616714401",
+  "started_at": "2026-09-21T15:06:48Z",
+  "elapsed_s": 15578,
+  "elapsed_means": "running for",
+  "runs_total": 2
  }
 }
