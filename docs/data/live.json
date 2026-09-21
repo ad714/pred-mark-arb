@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T07:12:00Z",
+ "generated_at": "2026-09-21T07:17:37Z",
  "matches": [
   {
    "cb_id": 155477,
@@ -11,7 +11,7 @@
    "format": "ODI",
    "date": "2026-09-21",
    "start_ms": 1789961400000,
-   "last_ball_min": 0.4,
+   "last_ball_min": 17.7,
    "balls_flowing": true
   },
   {
@@ -140,13 +140,13 @@
    "prices": {
     "Pakistan Women": {
      "bid": 0.7,
-     "ask": 0.75,
-     "mid": 0.725
+     "ask": 0.74,
+     "mid": 0.72
     },
     "Bangladesh Women": {
-     "bid": 0.25,
+     "bid": 0.26,
      "ask": 0.3,
-     "mid": 0.275
+     "mid": 0.28
     }
    }
   }
@@ -190,18 +190,12 @@
  },
  "coverage": {
   "seen_total": 35,
-  "ever_paired": 9,
+  "ever_paired": 8,
   "balls_flowing": 1,
   "state_says_live": 1
  },
  "trader": {
-  "state": "idle",
-  "conclusion": "success",
-  "run_number": 13,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35551627435",
-  "started_at": "2026-09-21T01:39:53Z",
-  "elapsed_s": 16434,
-  "elapsed_means": "idle for",
-  "runs_total": 13
+  "state": "unknown",
+  "runs_total": 0
  }
 }

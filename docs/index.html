@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Wicket Lag</title>
-<meta name="description" content="Measuring whether a free cricket feed reaches you before Polymarket reprices a wicket.">
+<title>Edge Bench</title>
+<meta name="description" content="Testing prediction-market edges against the only thing that kills them: the cost of crossing the spread.">
 <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
 <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=zodiak@400,700&display=swap">
 <style>
@@ -118,7 +118,7 @@ footer{margin-top:clamp(56px,9vw,104px); padding-block:26px 48px;
 <div class="wrap">
 <header>
   <div class="bar">
-    <div class="mark">Wicket Lag <span>/ live-edge</span></div>
+    <div class="mark">Edge Bench <span>/ polymarket</span></div>
     <div class="state">
       <span class="beat" id="beat" data-idle>collector <b id="tstate">checking</b></span>
       <span>run <b class="num" id="trun">-</b></span>
@@ -131,16 +131,42 @@ footer{margin-top:clamp(56px,9vw,104px); padding-block:26px 48px;
 </header>
 
 <div class="lede">
-  <h1>Does the free feed <em>beat</em> the book?</h1>
+  <h1>Which edges survive the <em>spread</em>?</h1>
   <div class="readout">
-    <div class="big"><span id="median">0</span><u id="unit">wickets</u></div>
-    <p class="verdict" id="verdict">Median gap between a ball being stamped on Cricbuzz and this
+    <div class="big"><span id="ftrade">-</span><u>tradeable now</u></div>
+    <p class="verdict" id="fverdict">Football favourites priced 0.65 to 0.85 beat the vig-free
+      closing line by 3.82% across 55,376 matches. That edge breaks even at 2.9 cents of
+      round-trip cost. This counts how many Polymarket fixtures currently sit in that band
+      <em>and</em> quote inside 2.9 cents. Cricket failed the same test at 9 cents.</p>
+    <p class="verdict" id="verdict" hidden>Median gap between a ball being stamped on Cricbuzz and this
       collector holding it. Polymarket repriced in roughly 15 seconds on the one clean
       measurement, so anything under that line is a head start, and anything past 20 is the
       gap the project notes already wrote down as the thesis failing.</p>
   </div>
 </div>
 
+
+
+<section id="football">
+  <h2>Football, the live question</h2>
+  <p class="sub">Sampled every two hours. A market counts as tradeable only if the favourite
+    sits in the 0.65-0.85 edge band and the top of book is tighter than the 2.9 cent
+    break-even. Depth is the size resting on the ask.</p>
+  <dl class="grid" id="fstats">
+    <div class="cell"><dt>Markets sampled</dt><dd>-</dd></div>
+    <div class="cell"><dt>In the edge band</dt><dd>-</dd></div>
+    <div class="cell"><dt>Inside break-even</dt><dd>-</dd></div>
+    <div class="cell"><dt>Median band spread</dt><dd>-</dd></div>
+  </dl>
+  <div class="scroll" id="fbox"><div class="empty"><b>Loading the football scan</b>If this
+    line stays, the published data could not be read.</div></div>
+  <div class="scroll" id="fleagues"></div>
+</section>
+
+<section id="live">
+  <h2>Cricket, settled and switched off</h2>
+  <p class="sub">Recomputed every 15 minutes by the publisher, independently of the collector,
+    using the same pairing code the collector runs.</p>
 <figure>
 <div class="chart chart-h">
 <svg viewBox="0 0 1000 132" role="img" aria-labelledby="scaleTitle">
@@ -214,10 +240,6 @@ footer{margin-top:clamp(56px,9vw,104px); padding-block:26px 48px;
   rather than trading them.</figcaption>
 </figure>
 
-<section id="live">
-  <h2>What it is watching now</h2>
-  <p class="sub">Recomputed every 15 minutes by the publisher, independently of the collector,
-    using the same pairing code the collector runs.</p>
   <div id="pairbox"><div class="empty"><b>Loading the live view</b>If this line stays, the published data could not be read.</div></div>
   <div class="scroll" id="matchbox"></div>
 </section>
@@ -321,6 +343,7 @@ function plotLag(lag){
 }
 
 function verdict(lag){
+  if(!document.getElementById("median")) return;
   if(!lag || !lag.n){
     $("#median").textContent = "0";
     $("#unit").textContent = "wickets";
@@ -551,9 +574,58 @@ function renderCoverage(d){
       '</td></tr>').join("") + '</tbody></table>';
 }
 
+function renderFootball(d){
+  const box = document.getElementById("fbox");
+  if(!d || !d.latest){
+    box.innerHTML = '<div class="empty"><b>No football scan yet</b>The scan runs every two hours.</div>';
+    return;
+  }
+  const L = d.latest, be = d.breakeven || 0.029;
+  const hist = d.history || [];
+  const spreads = hist.length ? hist[hist.length - 1].median_band_spread : null;
+  $("#ftrade").textContent = L.tradeable;
+  document.getElementById("fstats").innerHTML =
+    '<div class="cell"><dt>Markets sampled</dt><dd>' + L.markets +
+      '</dd><small>' + L.fixtures + ' fixtures</small></div>' +
+    '<div class="cell"><dt>In the edge band</dt><dd>' + L.in_band +
+      '</dd><small>0.65 to 0.85</small></div>' +
+    '<div class="cell"><dt>Inside break-even</dt><dd class="pos">' + L.tradeable +
+      '</dd><small>spread under ' + be + '</small></div>' +
+    '<div class="cell"><dt>Median band spread</dt><dd>' +
+      (spreads === null || spreads === undefined ? "-" : spreads.toFixed(3)) +
+      '</dd><small>' + hist.length + ' scan' + (hist.length === 1 ? "" : "s") + ' logged</small></div>';
+
+  box.innerHTML = L.rows.length ?
+    '<table><caption>Tradeable right now: favourite inside the edge band and quoted tighter ' +
+    'than break-even. Depth is size resting on the ask.</caption><thead><tr>' +
+    '<th>Date</th><th>League</th><th class="wide">Market</th><th>Price</th><th>Bid</th>' +
+    '<th>Ask</th><th>Spread</th><th>Depth</th></tr></thead><tbody>' +
+    L.rows.map(r => '<tr>' +
+      '<td class="n muted">' + esc(r.match_date) + '</td>' +
+      '<td class="n">' + esc(r.league) + '</td>' +
+      '<td class="wide">' + esc(r.question || r.market) + '</td>' +
+      '<td class="n">' + (r.quoted == null ? "-" : r.quoted.toFixed(3)) + '</td>' +
+      '<td class="n muted">' + (r.bid == null ? "-" : r.bid.toFixed(3)) + '</td>' +
+      '<td class="n muted">' + (r.ask == null ? "-" : r.ask.toFixed(3)) + '</td>' +
+      '<td class="n pos">' + (r.spread == null ? "-" : r.spread.toFixed(3)) + '</td>' +
+      '<td class="n muted">' + (r.ask_size == null ? "-" : Math.round(r.ask_size)) + '</td>' +
+      '</tr>').join("") + '</tbody></table>' :
+    '<div class="empty"><b>Nothing tradeable at this sample</b>Fixtures exist but none sit in ' +
+    'the 0.65 to 0.85 band with a spread inside ' + be + '.</div>';
+
+  const lg = Object.entries(d.leagues || {});
+  document.getElementById("fleagues").innerHTML = lg.length ?
+    '<table><caption>Where the band shows up, across every sample so far.</caption><thead><tr>' +
+    '<th class="wide">League</th><th>Markets seen</th><th>In band</th><th>Tradeable</th>' +
+    '</tr></thead><tbody>' +
+    lg.map(([k, v]) => '<tr><td class="n wide">' + esc(k) + '</td>' +
+      '<td class="n muted">' + v.seen + '</td><td class="n">' + v.in_band + '</td>' +
+      '<td class="n pos">' + v.tradeable + '</td></tr>').join("") + '</tbody></table>' : "";
+}
+
 async function load(){
-  const files = ["live.json", "results.json", "basket.json", "matches.json"];
-  const render = [renderLive, renderResults, renderBasket, renderCoverage];
+  const files = ["live.json", "results.json", "basket.json", "matches.json", "football.json"];
+  const render = [renderLive, renderResults, renderBasket, renderCoverage, renderFootball];
   const got = await Promise.all(files.map(get));
   got.forEach((data, i) => { if(fresh(files[i], data)) render[i](data); });
 }

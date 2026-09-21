@@ -41,7 +41,7 @@ def gh(path, params=None):
 
 
 def trader_state():
-    runs = gh(f"repos/{REPO}/actions/workflows/paper-trader.yml/runs",
+    runs = gh(f"repos/{REPO}/actions/workflows/football-scan.yml/runs",
               {"per_page": 10})
     if not runs or not runs.get("workflow_runs"):
         return {"state": "unknown", "runs_total": 0}
@@ -349,6 +349,80 @@ def basket_view(artifact_dir):
     return {"generated_at": now_iso(), "latest": latest, "history": history[-240:]}
 
 
+EDGE_LOW, EDGE_HIGH, BREAKEVEN = 0.65, 0.85, 0.029
+
+
+def football_view():
+    raw = DATA / "football.jsonl"
+    if not raw.exists():
+        return {"generated_at": now_iso(), "latest": None, "history": [], "leagues": {}}
+
+    rows = []
+    for line in raw.read_text(encoding="utf-8").splitlines():
+        if not line.strip():
+            continue
+        try:
+            rows.append(json.loads(line))
+        except ValueError:
+            continue
+    if not rows:
+        return {"generated_at": now_iso(), "latest": None, "history": [], "leagues": {}}
+
+    by_sample = {}
+    for row in rows:
+        by_sample.setdefault(row.get("t"), []).append(row)
+
+    history = []
+    for stamp in sorted(by_sample):
+        batch = by_sample[stamp]
+        band = [r for r in batch if r.get("in_edge_band")]
+        good = [r for r in band if r.get("tradeable")]
+        spreads = sorted(r["spread"] for r in band if r.get("spread") is not None)
+        history.append({
+            "t": stamp,
+            "markets": len(batch),
+            "fixtures": len({r.get("fixture") for r in batch}),
+            "in_band": len(band),
+            "tradeable": len(good),
+            "median_band_spread": (round(statistics.median(spreads), 4) if spreads else None),
+        })
+
+    newest = sorted(by_sample)[-1]
+    batch = by_sample[newest]
+    band = [r for r in batch if r.get("in_edge_band")]
+    good = sorted((r for r in band if r.get("tradeable")),
+                  key=lambda r: (r.get("spread") if r.get("spread") is not None else 9, r.get("match_date") or ""))
+    latest = {
+        "t": newest,
+        "markets": len(batch),
+        "fixtures": len({r.get("fixture") for r in batch}),
+        "in_band": len(band),
+        "tradeable": len(good),
+        "rows": [{
+            "market": r.get("market"), "league": r.get("league"),
+            "question": r.get("question"), "match_date": r.get("match_date"),
+            "quoted": r.get("quoted"), "bid": r.get("bid"), "ask": r.get("ask"),
+            "spread": r.get("spread"), "ask_size": r.get("ask_size"),
+            "liquidity": r.get("liquidity"),
+        } for r in good[:40]],
+    }
+
+    leagues = {}
+    for row in rows:
+        key = row.get("league") or "?"
+        slot = leagues.setdefault(key, {"seen": 0, "in_band": 0, "tradeable": 0})
+        slot["seen"] += 1
+        if row.get("in_edge_band"):
+            slot["in_band"] += 1
+        if row.get("tradeable"):
+            slot["tradeable"] += 1
+    leagues = dict(sorted(leagues.items(), key=lambda kv: -kv[1]["tradeable"])[:14])
+
+    return {"generated_at": now_iso(), "breakeven": BREAKEVEN,
+            "edge_band": [EDGE_LOW, EDGE_HIGH],
+            "latest": latest, "history": history[-400:], "leagues": leagues}
+
+
 def main():
     artifacts = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "artifacts"
     DATA.mkdir(parents=True, exist_ok=True)
@@ -362,10 +436,11 @@ def main():
 
     (DATA / "results.json").write_text(json.dumps(results_view(rows), indent=1), encoding="utf-8")
     (DATA / "basket.json").write_text(json.dumps(basket_view(artifacts), indent=1), encoding="utf-8")
+    (DATA / "football.json").write_text(json.dumps(football_view(), indent=1), encoding="utf-8")
     (DATA / "live.json").write_text(json.dumps(live_view(wicket_counts), indent=1), encoding="utf-8")
 
     print(f"trade records: {len(rows)}")
-    for name in ("results.json", "basket.json", "live.json", "matches.json"):
+    for name in ("results.json", "basket.json", "live.json", "matches.json", "football.json"):
         print(f"  {name:<14} {(DATA / name).stat().st_size:>8} bytes")
 
 
