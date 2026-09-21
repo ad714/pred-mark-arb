@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T05:24:38Z",
+ "generated_at": "2026-09-21T07:12:00Z",
  "matches": [
   {
    "cb_id": 155477,
@@ -11,7 +11,7 @@
    "format": "ODI",
    "date": "2026-09-21",
    "start_ms": 1789961400000,
-   "last_ball_min": 1.1,
+   "last_ball_min": 0.4,
    "balls_flowing": true
   },
   {
@@ -73,7 +73,7 @@
    "cb_id": 167060,
    "teams": "QL v NSW",
    "teams_full": "Queensland v New South Wales",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Sep 22, 04:00 GMT",
    "series": "Australia Domestic One-Day Cup 2026-27",
    "format": "ODI",
@@ -84,7 +84,7 @@
    "cb_id": 155411,
    "teams": "INDA v AUSA",
    "teams_full": "India A v Australia A",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Sep 22, 04:00 GMT",
    "series": "Australia A tour of India 2026",
    "format": "TEST",
@@ -120,14 +120,14 @@
    "state": "Preview",
    "prices": {
     "Sri Lanka Women": {
-     "bid": 0.11,
-     "ask": 0.13,
-     "mid": 0.12
+     "bid": 0.12,
+     "ask": 0.15,
+     "mid": 0.135
     },
     "India Women": {
-     "bid": 0.87,
-     "ask": 0.89,
-     "mid": 0.88
+     "bid": 0.85,
+     "ask": 0.88,
+     "mid": 0.865
     }
    }
   },
@@ -139,14 +139,14 @@
    "state": "Preview",
    "prices": {
     "Pakistan Women": {
-     "bid": 0.74,
-     "ask": 0.76,
-     "mid": 0.75
+     "bid": 0.7,
+     "ask": 0.75,
+     "mid": 0.725
     },
     "Bangladesh Women": {
-     "bid": 0.24,
-     "ask": 0.26,
-     "mid": 0.25
+     "bid": 0.25,
+     "ask": 0.3,
+     "mid": 0.275
     }
    }
   }
@@ -156,6 +156,22 @@
    "cb_id": 171477,
    "teams": "Japan v India",
    "series": "India tour of Japan, 2026",
+   "state": "Preview",
+   "date": "2026-09-22",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 167060,
+   "teams": "Queensland v New South Wales",
+   "series": "Australia Domestic One-Day Cup 2026-27",
+   "state": "Preview",
+   "date": "2026-09-22",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 155411,
+   "teams": "India A v Australia A",
+   "series": "Australia A tour of India 2026",
    "state": "Preview",
    "date": "2026-09-22",
    "reason": "no open two outcome cricket market to compare against"
@@ -184,7 +200,7 @@
   "run_number": 13,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35551627435",
   "started_at": "2026-09-21T01:39:53Z",
-  "elapsed_s": 9991,
+  "elapsed_s": 16434,
   "elapsed_means": "idle for",
   "runs_total": 13
  }
