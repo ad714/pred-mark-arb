@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-20T23:33:32Z",
+ "generated_at": "2026-09-21T00:31:11Z",
  "matches": [
   {
    "cb_id": 154711,
@@ -11,7 +11,7 @@
    "format": "T20",
    "date": "2026-09-20",
    "start_ms": 1789945200000,
-   "last_ball_min": 0.3,
+   "last_ball_min": 1.0,
    "balls_flowing": true
   },
   {
@@ -24,17 +24,6 @@
    "format": "T20",
    "date": "2026-09-21",
    "start_ms": 1789981200000
-  },
-  {
-   "cb_id": 170770,
-   "teams": "CAYM v BER",
-   "teams_full": "Cayman Islands v Bermuda",
-   "state": "Preview",
-   "status": "Match starts at Sep 21, 18:30 GMT",
-   "series": "North American Cup, 2026",
-   "format": "T20",
-   "date": "2026-09-20",
-   "start_ms": 1789929000000
   },
   {
    "cb_id": 170780,
@@ -57,6 +46,17 @@
    "format": "ODI",
    "date": "2026-09-21",
    "start_ms": 1789961400000
+  },
+  {
+   "cb_id": 170960,
+   "teams": "PAKW v BANW",
+   "teams_full": "Pakistan Women v Bangladesh Women",
+   "state": "Upcoming",
+   "status": "Match starts at Sep 22, 00:00 GMT",
+   "series": "Women's Asian Games 2026",
+   "format": "T20",
+   "date": "2026-09-22",
+   "start_ms": 1790035200000
   }
  ],
  "pairings": [
@@ -68,14 +68,14 @@
    "state": "In Progress",
    "prices": {
     "Antigua And Barbuda Falcons": {
-     "bid": 0.43,
-     "ask": 0.49,
-     "mid": 0.45999999999999996
+     "bid": 0.58,
+     "ask": 0.61,
+     "mid": 0.595
     },
     "Jamaica Kingsmen": {
-     "bid": 0.51,
-     "ask": 0.57,
-     "mid": 0.54
+     "bid": 0.39,
+     "ask": 0.42,
+     "mid": 0.405
     }
    }
   },
@@ -99,16 +99,7 @@
    }
   }
  ],
- "unpaired": [
-  {
-   "cb_id": 170770,
-   "teams": "Cayman Islands v Bermuda",
-   "series": "North American Cup, 2026",
-   "state": "Preview",
-   "date": "2026-09-20",
-   "reason": "no open two outcome cricket market to compare against"
-  }
- ],
+ "unpaired": [],
  "next_fixture": {
   "cb_id": 155477,
   "teams": "INDU19 v AUSU19",
@@ -121,19 +112,19 @@
   "start_ms": 1789961400000
  },
  "coverage": {
-  "seen_total": 30,
+  "seen_total": 31,
   "ever_paired": 7,
   "balls_flowing": 1,
   "state_says_live": 1
  },
  "trader": {
-  "state": "in_progress",
-  "conclusion": null,
+  "state": "idle",
+  "conclusion": "success",
   "run_number": 12,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35544953781",
   "started_at": "2026-09-20T23:32:38Z",
-  "elapsed_s": 55,
-  "elapsed_means": "running for",
+  "elapsed_s": 19,
+  "elapsed_means": "idle for",
   "runs_total": 12
  }
 }
