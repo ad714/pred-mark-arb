@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T02:38:31Z",
+ "generated_at": "2026-09-21T05:24:38Z",
  "matches": {
   "129623": {
    "cb_id": 129623,
@@ -45,7 +45,7 @@
    "series": "Women's Asian Games 2026",
    "format": "T20",
    "date": "2026-09-20",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Complete",
    "wickets_timed": 0,
    "paired_slug": "crint-bgdw-indw-2026-09-20",
@@ -66,7 +66,7 @@
    "series": "Australia tour of Zimbabwe 2026",
    "format": "ODI",
    "date": "2026-09-20",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Complete",
    "wickets_timed": 2,
    "paired_slug": "crint-zwe-aus-2026-09-20",
@@ -170,7 +170,7 @@
    "series": "ETPL 2026",
    "format": "T20",
    "date": "2026-09-20",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Complete",
    "wickets_timed": 0,
    "paired_slug": "cricetpl-edi-bel-2026-09-20",
@@ -191,7 +191,7 @@
    "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
    "format": "ODI",
    "date": "2026-09-20",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Complete",
    "wickets_timed": 0,
    "unpaired_reason": "no open two outcome cricket market to compare against"
@@ -209,7 +209,7 @@
    "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
    "format": "ODI",
    "date": "2026-09-20",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Complete",
    "wickets_timed": 0,
    "unpaired_reason": "no open two outcome cricket market to compare against"
@@ -228,7 +228,7 @@
    "series": "CSA Provincial One-Day Challenge Division Two 2026-27",
    "format": "ODI",
    "date": "2026-09-20",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Complete",
    "wickets_timed": 0,
    "unpaired_reason": "no open two outcome cricket market to compare against"
@@ -261,7 +261,7 @@
    "series": "Australia Domestic One-Day Cup 2026-27",
    "format": "ODI",
    "date": "2026-09-20",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Complete",
    "wickets_timed": 0,
    "unpaired_reason": "no open two outcome cricket market to compare against"
@@ -280,7 +280,7 @@
    "series": "CSA Four-Day Series Division One 2026-27",
    "format": "TEST",
    "date": "2026-09-17",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Complete",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -300,7 +300,7 @@
    "series": "CSA Four-Day Series Division One 2026-27",
    "format": "TEST",
    "date": "2026-09-17",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Complete",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -317,7 +317,7 @@
    "series": "CSA Four-Day Series Division One 2026-27",
    "format": "TEST",
    "date": "2026-09-17",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Complete",
    "wickets_timed": 0,
    "unpaired_reason": "no open two outcome cricket market to compare against"
@@ -334,7 +334,7 @@
    "series": "CSA Four-Day Series Division One 2026-27",
    "format": "TEST",
    "date": "2026-09-17",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Complete",
    "wickets_timed": 0,
    "unpaired_reason": "no open two outcome cricket market to compare against"
@@ -354,7 +354,7 @@
    "series": "England Domestic One-Day Cup",
    "format": "ODI",
    "date": "2026-09-20",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Complete",
    "wickets_timed": 7,
    "paired_slug": "cricodc-lei-mid-2026-09-20",
@@ -420,7 +420,7 @@
    "series": "Australia A Women tour of India 2026",
    "format": "ODI",
    "date": "2026-09-20",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Complete",
    "wickets_timed": 0,
    "unpaired_reason": "no open two outcome cricket market to compare against"
@@ -446,15 +446,16 @@
    "states": [
     "Preview",
     "Toss",
-    "In Progress"
+    "In Progress",
+    "Complete"
    ],
    "teams": "JKM v ABF",
    "teams_full": "Jamaica Kingsmen v Antigua and Barbuda Falcons",
    "series": "Caribbean Premier League 2026",
    "format": "T20",
    "date": "2026-09-20",
-   "last_seen": "2026-09-21T02:38:31Z",
-   "last_state": "In Progress",
+   "last_seen": "2026-09-21T05:24:38Z",
+   "last_state": "Complete",
    "paired_slug": "criccpl-ant-jam-2026-09-20",
    "paired_score": 1.0,
    "paired_question": "Caribbean Premier League: Antigua And Barbuda Falcons vs Jamaica Kingsmen",
@@ -465,15 +466,16 @@
    "first_seen": "2026-09-20T04:07:54Z",
    "states": [
     "Upcoming",
-    "Preview"
+    "Preview",
+    "In Progress"
    ],
    "teams": "INDU19 v AUSU19",
    "teams_full": "India U19 v Australia U19",
    "series": "Australia U19 tour of India 2026",
    "format": "ODI",
    "date": "2026-09-21",
-   "last_seen": "2026-09-21T02:38:31Z",
-   "last_state": "Preview",
+   "last_seen": "2026-09-21T05:24:38Z",
+   "last_state": "In Progress",
    "wickets_timed": 0,
    "paired_slug": "crint-indu19-ausu19-2026-09-22",
    "paired_score": 1.0,
@@ -491,7 +493,7 @@
    "series": "North American Cup, 2026",
    "format": "T20",
    "date": "2026-09-20",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Complete",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -507,7 +509,7 @@
    "series": "Quadrangular T20I Series in Nigeria, 2026",
    "format": "T20",
    "date": "2026-09-21",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Upcoming",
    "wickets_timed": 0
   },
@@ -522,7 +524,7 @@
    "series": "North American Cup, 2026",
    "format": "T20",
    "date": "2026-09-21",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Upcoming",
    "wickets_timed": 0
   },
@@ -530,14 +532,82 @@
    "cb_id": 170960,
    "first_seen": "2026-09-21T00:31:11Z",
    "states": [
-    "Upcoming"
+    "Upcoming",
+    "Preview"
    ],
    "teams": "PAKW v BANW",
    "teams_full": "Pakistan Women v Bangladesh Women",
    "series": "Women's Asian Games 2026",
    "format": "T20",
    "date": "2026-09-22",
-   "last_seen": "2026-09-21T02:38:31Z",
+   "last_seen": "2026-09-21T05:24:38Z",
+   "last_state": "Preview",
+   "wickets_timed": 0,
+   "paired_slug": "crint-pakw-bgdw-2026-09-21",
+   "paired_score": 1.0,
+   "paired_question": "Asian Games Women: Pakistan Women vs Bangladesh Women"
+  },
+  "171477": {
+   "cb_id": 171477,
+   "first_seen": "2026-09-21T05:24:38Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "JPN v IND",
+   "teams_full": "Japan v India",
+   "series": "India tour of Japan, 2026",
+   "format": "T20",
+   "date": "2026-09-22",
+   "last_seen": "2026-09-21T05:24:38Z",
+   "last_state": "Preview",
+   "unpaired_reason": "no open two outcome cricket market to compare against",
+   "wickets_timed": 0
+  },
+  "170963": {
+   "cb_id": 170963,
+   "first_seen": "2026-09-21T05:24:38Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "INDW v SLW",
+   "teams_full": "India Women v Sri Lanka Women",
+   "series": "Women's Asian Games 2026",
+   "format": "T20",
+   "date": "2026-09-22",
+   "last_seen": "2026-09-21T05:24:38Z",
+   "last_state": "Preview",
+   "paired_slug": "crint-lkaw-indw-2026-09-22",
+   "paired_score": 1.0,
+   "paired_question": "Asian Games Women: Sri Lanka Women vs India Women",
+   "wickets_timed": 0
+  },
+  "167060": {
+   "cb_id": 167060,
+   "first_seen": "2026-09-21T05:24:38Z",
+   "states": [
+    "Upcoming"
+   ],
+   "teams": "QL v NSW",
+   "teams_full": "Queensland v New South Wales",
+   "series": "Australia Domestic One-Day Cup 2026-27",
+   "format": "ODI",
+   "date": "2026-09-22",
+   "last_seen": "2026-09-21T05:24:38Z",
+   "last_state": "Upcoming",
+   "wickets_timed": 0
+  },
+  "155411": {
+   "cb_id": 155411,
+   "first_seen": "2026-09-21T05:24:38Z",
+   "states": [
+    "Upcoming"
+   ],
+   "teams": "INDA v AUSA",
+   "teams_full": "India A v Australia A",
+   "series": "Australia A tour of India 2026",
+   "format": "TEST",
+   "date": "2026-09-22",
+   "last_seen": "2026-09-21T05:24:38Z",
    "last_state": "Upcoming",
    "wickets_timed": 0
   }
