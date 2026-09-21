@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T13:17:47Z",
+ "generated_at": "2026-09-21T14:09:04Z",
  "matches": [
   {
    "cb_id": 171477,
@@ -159,14 +159,14 @@
    "state": "Preview",
    "prices": {
     "Pakistan Women": {
-     "bid": 0.69,
-     "ask": 0.71,
-     "mid": 0.7
+     "bid": 0.71,
+     "ask": 0.72,
+     "mid": 0.715
     },
     "Bangladesh Women": {
-     "bid": 0.29,
-     "ask": 0.31,
-     "mid": 0.3
+     "bid": 0.28,
+     "ask": 0.29,
+     "mid": 0.28500000000000003
     }
    }
   }
@@ -236,7 +236,7 @@
   "run_number": 1,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35572365661",
   "started_at": "2026-09-21T07:18:44Z",
-  "elapsed_s": 21513,
+  "elapsed_s": 24590,
   "elapsed_means": "idle for",
   "runs_total": 1
  }
