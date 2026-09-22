@@ -1,88 +1,57 @@
 {
- "generated_at": "2026-09-21T14:09:04Z",
+ "generated_at": "2026-09-22T15:44:28Z",
  "matches": [
-  {
-   "cb_id": 171477,
-   "teams": "JPN v IND",
-   "teams_full": "Japan v India",
-   "state": "Preview",
-   "status": "Match starts at Sep 22, 04:00 GMT",
-   "series": "India tour of Japan, 2026",
-   "format": "T20",
-   "date": "2026-09-22",
-   "start_ms": 1790049600000
-  },
-  {
-   "cb_id": 170963,
-   "teams": "INDW v SLW",
-   "teams_full": "India Women v Sri Lanka Women",
-   "state": "Preview",
-   "status": "Match starts at Sep 22, 05:00 GMT",
-   "series": "Women's Asian Games 2026",
-   "format": "T20",
-   "date": "2026-09-22",
-   "start_ms": 1790053200000
-  },
   {
    "cb_id": 129634,
    "teams": "ENG v SL",
    "teams_full": "England v Sri Lanka",
-   "state": "Preview",
-   "status": "Match starts at Sep 22, 11:30 GMT",
-   "series": "England vs Sri Lanka, 2026",
+   "state": "Innings Break",
+   "status": "Innings Break",
+   "series": "Sri Lanka tour of England, 2026",
    "format": "ODI",
    "date": "2026-09-22",
-   "start_ms": 1790076600000
+   "start_ms": 1790076600000,
+   "last_ball_min": 10.2,
+   "balls_flowing": true
   },
   {
-   "cb_id": 170960,
-   "teams": "PAKW v BANW",
-   "teams_full": "Pakistan Women v Bangladesh Women",
-   "state": "Preview",
-   "status": "Match starts at Sep 22, 00:00 GMT",
-   "series": "Women's Asian Games 2026",
-   "format": "T20",
+   "cb_id": 155411,
+   "teams": "INDA v AUSA",
+   "teams_full": "India A v Australia A",
+   "state": "Stumps",
+   "status": "Day 1: Stumps",
+   "series": "Australia A tour of India 2026",
+   "format": "TEST",
    "date": "2026-09-22",
-   "start_ms": 1790035200000
+   "start_ms": 1790049600000
   },
   {
-   "cb_id": 173631,
-   "teams": "GH v NGA",
-   "teams_full": "Ghana v Nigeria",
-   "state": "Toss",
-   "status": "Ghana opt to bat",
+   "cb_id": 173657,
+   "teams": "NGA v SLE",
+   "teams_full": "Nigeria v Sierra Leone",
+   "state": "Preview",
+   "status": "Match starts at Sep 23, 09:00 GMT",
    "series": "Quadrangular T20I Series in Nigeria, 2026",
    "format": "T20",
-   "date": "2026-09-21",
-   "start_ms": 1789995600000
+   "date": "2026-09-23",
+   "start_ms": 1790154000000
   },
   {
-   "cb_id": 173647,
-   "teams": "GH v SLE",
-   "teams_full": "Ghana v Sierra Leone",
-   "state": "Upcoming",
-   "status": "Match starts at Sep 22, 09:00 GMT",
-   "series": "Quadrangular T20I Series in Nigeria, 2026",
-   "format": "T20",
-   "date": "2026-09-22",
-   "start_ms": 1790067600000
-  },
-  {
-   "cb_id": 170780,
-   "teams": "BHM v CAYM",
-   "teams_full": "Bahamas v Cayman Islands",
+   "cb_id": 174152,
+   "teams": "CAYM v BER",
+   "teams_full": "Cayman Islands v Bermuda",
    "state": "Preview",
-   "status": "Match starts at Sep 22, 18:30 GMT",
+   "status": "Match starts at Sep 23, 15:00 GMT",
    "series": "North American Cup, 2026",
    "format": "T20",
-   "date": "2026-09-21",
-   "start_ms": 1790015400000
+   "date": "2026-09-23",
+   "start_ms": 1790175600000
   },
   {
    "cb_id": 172971,
    "teams": "NCAPE v LIMPO",
    "teams_full": "Northern Cape v Limpopo",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Sep 22, 11:00 GMT",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
@@ -90,154 +59,165 @@
    "start_ms": 1790074800000
   },
   {
-   "cb_id": 167060,
-   "teams": "QL v NSW",
-   "teams_full": "Queensland v New South Wales",
+   "cb_id": 155488,
+   "teams": "INDU19 v AUSU19",
+   "teams_full": "India U19 v Australia U19",
    "state": "Preview",
-   "status": "Match starts at Sep 22, 04:00 GMT",
-   "series": "Australia Domestic One-Day Cup 2026-27",
+   "status": "Match starts at Sep 23, 03:30 GMT",
+   "series": "Australia U19 tour of India 2026",
    "format": "ODI",
-   "date": "2026-09-22",
-   "start_ms": 1790049600000
+   "date": "2026-09-23",
+   "start_ms": 1790134200000
   },
   {
-   "cb_id": 155411,
-   "teams": "INDA v AUSA",
-   "teams_full": "India A v Australia A",
+   "cb_id": 167063,
+   "teams": "SAUS v TAS",
+   "teams_full": "South Australia v Tasmania",
    "state": "Preview",
-   "status": "Match starts at Sep 22, 04:00 GMT",
-   "series": "Australia A tour of India 2026",
-   "format": "TEST",
-   "date": "2026-09-22",
-   "start_ms": 1790049600000
+   "status": "Match starts at Sep 23, 00:30 GMT",
+   "series": "Australia Domestic One-Day Cup 2026-27",
+   "format": "ODI",
+   "date": "2026-09-23",
+   "start_ms": 1790123400000
+  },
+  {
+   "cb_id": 155628,
+   "teams": "INDWA v AUSWA",
+   "teams_full": "India A Women v Australia A Women",
+   "state": "Preview",
+   "status": "Match starts at Sep 23, 03:30 GMT",
+   "series": "Australia A Women tour of India 2026",
+   "format": "ODI",
+   "date": "2026-09-23",
+   "start_ms": 1790134200000
   }
  ],
  "pairings": [
-  {
-   "slug": "crint-lkaw-indw-2026-09-22",
-   "cb_id": 170963,
-   "question": "Asian Games Women: Sri Lanka Women vs India Women",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Sri Lanka Women": {
-     "bid": 0.1,
-     "ask": 0.11,
-     "mid": 0.10500000000000001
-    },
-    "India Women": {
-     "bid": 0.89,
-     "ask": 0.9,
-     "mid": 0.895
-    }
-   }
-  },
   {
    "slug": "crint-gbr-lka-2026-09-22",
    "cb_id": 129634,
    "question": "Sri Lanka Tour of England ODIs: England vs Sri Lanka",
    "score": 1.0,
-   "state": "Preview",
+   "state": "Innings Break",
    "prices": {
     "England": {
-     "bid": 0.88,
-     "ask": 0.89,
-     "mid": 0.885
+     "bid": 0.68,
+     "ask": 0.69,
+     "mid": 0.685
     },
     "Sri Lanka": {
-     "bid": 0.11,
-     "ask": 0.12,
-     "mid": 0.11499999999999999
+     "bid": 0.31,
+     "ask": 0.32,
+     "mid": 0.315
     }
    }
   },
   {
-   "slug": "crint-pakw-bgdw-2026-09-21",
-   "cb_id": 170960,
-   "question": "Asian Games Women: Pakistan Women vs Bangladesh Women",
+   "slug": "crint-nga-sle-2026-09-23",
+   "cb_id": 173657,
+   "question": "Nigeria Quadrangular T20 Series: Nigeria vs Sierra Leone",
    "score": 1.0,
    "state": "Preview",
    "prices": {
-    "Pakistan Women": {
-     "bid": 0.71,
-     "ask": 0.72,
-     "mid": 0.715
+    "Nigeria": {
+     "bid": 0.81,
+     "ask": 0.86,
+     "mid": 0.835
     },
-    "Bangladesh Women": {
-     "bid": 0.28,
-     "ask": 0.29,
-     "mid": 0.28500000000000003
+    "Sierra Leone": {
+     "bid": 0.14,
+     "ask": 0.19,
+     "mid": 0.165
+    }
+   }
+  },
+  {
+   "slug": "crint-indu19-ausu19-2026-09-22",
+   "cb_id": 155488,
+   "question": "Australia U19 Tour of India Youth ODIs: India Under-19s vs Australia Under-19s",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "India Under-19s": {
+     "bid": 0.74,
+     "ask": 0.75,
+     "mid": 0.745
+    },
+    "Australia Under-19s": {
+     "bid": 0.25,
+     "ask": 0.26,
+     "mid": 0.255
     }
    }
   }
  ],
  "unpaired": [
   {
-   "cb_id": 171477,
-   "teams": "Japan v India",
-   "series": "India tour of Japan, 2026",
-   "state": "Preview",
-   "date": "2026-09-22",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 173631,
-   "teams": "Ghana v Nigeria",
-   "series": "Quadrangular T20I Series in Nigeria, 2026",
-   "state": "Toss",
-   "date": "2026-09-21",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 170780,
-   "teams": "Bahamas v Cayman Islands",
-   "series": "North American Cup, 2026",
-   "state": "Preview",
-   "date": "2026-09-21",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 167060,
-   "teams": "Queensland v New South Wales",
-   "series": "Australia Domestic One-Day Cup 2026-27",
-   "state": "Preview",
-   "date": "2026-09-22",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
    "cb_id": 155411,
    "teams": "India A v Australia A",
    "series": "Australia A tour of India 2026",
+   "state": "Stumps",
+   "date": "2026-09-22",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 174152,
+   "teams": "Cayman Islands v Bermuda",
+   "series": "North American Cup, 2026",
+   "state": "Preview",
+   "date": "2026-09-23",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 172971,
+   "teams": "Northern Cape v Limpopo",
+   "series": "CSA T20 Challenge 2026",
    "state": "Preview",
    "date": "2026-09-22",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 167063,
+   "teams": "South Australia v Tasmania",
+   "series": "Australia Domestic One-Day Cup 2026-27",
+   "state": "Preview",
+   "date": "2026-09-23",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 155628,
+   "teams": "India A Women v Australia A Women",
+   "series": "Australia A Women tour of India 2026",
+   "state": "Preview",
+   "date": "2026-09-23",
    "reason": "no open two outcome cricket market to compare against"
   }
  ],
  "next_fixture": {
-  "cb_id": 170960,
-  "teams": "PAKW v BANW",
-  "teams_full": "Pakistan Women v Bangladesh Women",
+  "cb_id": 155488,
+  "teams": "INDU19 v AUSU19",
+  "teams_full": "India U19 v Australia U19",
   "state": "Preview",
-  "status": "Match starts at Sep 22, 00:00 GMT",
-  "series": "Women's Asian Games 2026",
-  "format": "T20",
-  "date": "2026-09-22",
-  "start_ms": 1790035200000
+  "status": "Match starts at Sep 23, 03:30 GMT",
+  "series": "Australia U19 tour of India 2026",
+  "format": "ODI",
+  "date": "2026-09-23",
+  "start_ms": 1790134200000
  },
  "coverage": {
-  "seen_total": 38,
-  "ever_paired": 9,
-  "balls_flowing": 0,
-  "state_says_live": 0
+  "seen_total": 43,
+  "ever_paired": 11,
+  "balls_flowing": 1,
+  "state_says_live": 1
  },
  "trader": {
-  "state": "idle",
-  "conclusion": "success",
-  "run_number": 1,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35572365661",
-  "started_at": "2026-09-21T07:18:44Z",
-  "elapsed_s": 24590,
-  "elapsed_means": "idle for",
-  "runs_total": 1
+  "state": "in_progress",
+  "conclusion": null,
+  "run_number": 8,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35724741908",
+  "started_at": "2026-09-22T12:01:31Z",
+  "elapsed_s": 13377,
+  "elapsed_means": "running for",
+  "runs_total": 8
  }
 }
