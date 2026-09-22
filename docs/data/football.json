@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-22T04:24:07Z",
+ "generated_at": "2026-09-22T04:44:29Z",
  "breakeven": 0.029,
  "edge_band": [
   0.65,
   0.85
  ],
  "latest": {
-  "t": "2026-09-22T04:23:47Z",
+  "t": "2026-09-22T04:44:10Z",
   "markets": 576,
   "fixtures": 192,
   "in_band": 22,
@@ -22,7 +22,7 @@
     "ask": 0.75,
     "spread": 0.01,
     "ask_size": 1135.96,
-    "liquidity": 66386.9299
+    "liquidity": 61720.286
    },
    {
     "market": "unl-prt-wal-2026-09-24-prt",
@@ -33,8 +33,8 @@
     "bid": 0.8,
     "ask": 0.81,
     "spread": 0.01,
-    "ask_size": 7389.94,
-    "liquidity": 205754.4545
+    "ask_size": 7308.76,
+    "liquidity": 204161.384
    },
    {
     "market": "unl-aut-isr-2026-09-24-aut",
@@ -45,20 +45,20 @@
     "bid": 0.68,
     "ask": 0.69,
     "spread": 0.01,
-    "ask_size": 3119.75,
-    "liquidity": 142473.1983
+    "ask_size": 2897.85,
+    "liquidity": 139785.3173
    },
    {
     "market": "unl-tur-fra-2026-09-25-fra",
     "league": "unl",
     "question": "Will France win on 2026-09-25?",
     "match_date": "2026-09-25",
-    "quoted": 0.665,
-    "bid": 0.66,
-    "ask": 0.67,
+    "quoted": 0.675,
+    "bid": 0.67,
+    "ask": 0.68,
     "spread": 0.01,
-    "ask_size": 553.0,
-    "liquidity": 159232.4264
+    "ask_size": 5698.82,
+    "liquidity": 148745.6993
    },
    {
     "market": "unl-mac-che-2026-09-26-che",
@@ -69,8 +69,8 @@
     "bid": 0.7,
     "ask": 0.71,
     "spread": 0.01,
-    "ask_size": 6.84,
-    "liquidity": 29121.7293
+    "ask_size": 406.84,
+    "liquidity": 29212.3189
    },
    {
     "market": "mls-nas-tor-2026-09-26-nas",
@@ -81,8 +81,8 @@
     "bid": 0.67,
     "ask": 0.68,
     "spread": 0.01,
-    "ask_size": 6352.22,
-    "liquidity": 91495.5341
+    "ask_size": 6578.22,
+    "liquidity": 90919.1068
    },
    {
     "market": "mls-hou-skc-2026-09-26-hou",
@@ -94,7 +94,7 @@
     "ask": 0.66,
     "spread": 0.01,
     "ask_size": 265.22,
-    "liquidity": 48186.0895
+    "liquidity": 47900.9831
    },
    {
     "market": "mls-vwh-dcu-2026-09-26-vwh",
@@ -106,7 +106,7 @@
     "ask": 0.78,
     "spread": 0.01,
     "ask_size": 307.51,
-    "liquidity": 69474.146
+    "liquidity": 69194.5455
    },
    {
     "market": "nlc-acv-hoo-2026-09-22-acv",
@@ -117,8 +117,8 @@
     "bid": 0.76,
     "ask": 0.78,
     "spread": 0.02,
-    "ask_size": 769.72,
-    "liquidity": 14559.7804
+    "ask_size": 770.22,
+    "liquidity": 14679.2131
    },
    {
     "market": "fif-aus-bra-2026-09-25-bra",
@@ -129,8 +129,8 @@
     "bid": 0.68,
     "ask": 0.7,
     "spread": 0.02,
-    "ask_size": 104.0,
-    "liquidity": 23488.0325
+    "ask_size": 103.0,
+    "liquidity": 20201.785
    },
    {
     "market": "unl-swe-rom-2026-09-25-swe",
@@ -141,20 +141,20 @@
     "bid": 0.64,
     "ask": 0.66,
     "spread": 0.02,
-    "ask_size": 668.02,
-    "liquidity": 52728.6728
+    "ask_size": 751.36,
+    "liquidity": 53355.4728
    },
    {
     "market": "el1-sto-pet-2026-09-26-sto",
     "league": "el1",
     "question": "Will Stockport County FC win on 2026-09-26?",
     "match_date": "2026-09-26",
-    "quoted": 0.705,
+    "quoted": 0.71,
     "bid": 0.7,
     "ask": 0.72,
     "spread": 0.02,
     "ask_size": 300.0,
-    "liquidity": 12558.6241
+    "liquidity": 13145.7177
    },
    {
     "market": "unl-isl-est-2026-09-26-isl",
@@ -166,19 +166,19 @@
     "ask": 0.75,
     "spread": 0.02,
     "ask_size": 311.68,
-    "liquidity": 48003.9905
+    "liquidity": 47857.5461
    },
    {
     "market": "unl-svk-mol-2026-09-26-svk",
     "league": "unl",
     "question": "Will Slovakia win on 2026-09-26?",
     "match_date": "2026-09-26",
-    "quoted": 0.78,
+    "quoted": 0.785,
     "bid": 0.77,
     "ask": 0.79,
     "spread": 0.02,
     "ask_size": 10.0,
-    "liquidity": 52064.4685
+    "liquidity": 51540.5681
    },
    {
     "market": "unl-alb-bela-2026-09-26-alb",
@@ -190,7 +190,7 @@
     "ask": 0.67,
     "spread": 0.02,
     "ask_size": 400.0,
-    "liquidity": 37084.0293
+    "liquidity": 36085.3429
    },
    {
     "market": "mls-phi-orl-2026-09-26-phi",
@@ -202,7 +202,7 @@
     "ask": 0.68,
     "spread": 0.02,
     "ask_size": 301.22,
-    "liquidity": 88108.6285
+    "liquidity": 87353.1206
    },
    {
     "market": "mex-gua-que-2026-09-26-gua",
@@ -214,7 +214,7 @@
     "ask": 0.71,
     "spread": 0.02,
     "ask_size": 600.0,
-    "liquidity": 63218.3909
+    "liquidity": 63109.5872
    }
   ]
  },
@@ -538,38 +538,46 @@
    "in_band": 22,
    "tradeable": 17,
    "median_band_spread": 0.02
+  },
+  {
+   "t": "2026-09-22T04:44:10Z",
+   "markets": 576,
+   "fixtures": 192,
+   "in_band": 22,
+   "tradeable": 17,
+   "median_band_spread": 0.02
   }
  ],
  "leagues": {
   "unl": {
-   "seen": 3888,
-   "in_band": 401,
-   "tradeable": 340
+   "seen": 3990,
+   "in_band": 412,
+   "tradeable": 349
   },
   "mls": {
-   "seen": 1680,
-   "in_band": 141,
-   "tradeable": 141
+   "seen": 1722,
+   "in_band": 145,
+   "tradeable": 145
   },
   "el1": {
-   "seen": 1440,
-   "in_band": 40,
-   "tradeable": 40
+   "seen": 1476,
+   "in_band": 41,
+   "tradeable": 41
   },
   "fif": {
-   "seen": 1320,
-   "in_band": 49,
-   "tradeable": 38
+   "seen": 1353,
+   "in_band": 50,
+   "tradeable": 39
   },
   "nlc": {
-   "seen": 2400,
-   "in_band": 65,
-   "tradeable": 28
+   "seen": 2460,
+   "in_band": 68,
+   "tradeable": 29
   },
   "mex": {
-   "seen": 720,
-   "in_band": 42,
-   "tradeable": 19
+   "seen": 738,
+   "in_band": 43,
+   "tradeable": 20
   },
   "rou1": {
    "seen": 39,
@@ -582,32 +590,32 @@
    "tradeable": 0
   },
   "bra2": {
-   "seen": 981,
+   "seen": 1002,
    "in_band": 0,
    "tradeable": 0
   },
   "uwcl": {
-   "seen": 960,
+   "seen": 984,
    "in_band": 2,
    "tradeable": 0
   },
   "col1": {
-   "seen": 960,
+   "seen": 984,
    "in_band": 0,
    "tradeable": 0
   },
   "gtm": {
-   "seen": 120,
+   "seen": 123,
    "in_band": 0,
    "tradeable": 0
   },
   "conl": {
-   "seen": 2400,
+   "seen": 2460,
    "in_band": 0,
    "tradeable": 0
   },
   "es2": {
-   "seen": 1200,
+   "seen": 1230,
    "in_band": 0,
    "tradeable": 0
   }
