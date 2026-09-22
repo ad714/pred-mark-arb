@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-22T09:30:40Z",
+ "generated_at": "2026-09-22T09:51:02Z",
  "breakeven": 0.029,
  "edge_band": [
   0.65,
   0.85
  ],
  "latest": {
-  "t": "2026-09-22T09:30:19Z",
+  "t": "2026-09-22T09:50:44Z",
   "markets": 576,
   "fixtures": 192,
   "in_band": 22,
@@ -21,8 +21,8 @@
     "bid": 0.77,
     "ask": 0.78,
     "spread": 0.01,
-    "ask_size": 115.01,
-    "liquidity": 18373.4126
+    "ask_size": 107.45,
+    "liquidity": 18272.0654
    },
    {
     "market": "unl-lie-lit-2026-09-24-lit",
@@ -34,7 +34,7 @@
     "ask": 0.75,
     "spread": 0.01,
     "ask_size": 217.0,
-    "liquidity": 45198.5639
+    "liquidity": 43512.3505
    },
    {
     "market": "unl-prt-wal-2026-09-24-prt",
@@ -45,8 +45,8 @@
     "bid": 0.79,
     "ask": 0.8,
     "spread": 0.01,
-    "ask_size": 3734.16,
-    "liquidity": 208049.9616
+    "ask_size": 3732.91,
+    "liquidity": 190852.9107
    },
    {
     "market": "unl-aut-isr-2026-09-24-aut",
@@ -57,8 +57,8 @@
     "bid": 0.68,
     "ask": 0.69,
     "spread": 0.01,
-    "ask_size": 3055.96,
-    "liquidity": 107547.4133
+    "ask_size": 2649.42,
+    "liquidity": 95851.6704
    },
    {
     "market": "unl-tur-fra-2026-09-25-fra",
@@ -69,20 +69,8 @@
     "bid": 0.66,
     "ask": 0.67,
     "spread": 0.01,
-    "ask_size": 6761.17,
-    "liquidity": 116392.9042
-   },
-   {
-    "market": "el1-sto-pet-2026-09-26-sto",
-    "league": "el1",
-    "question": "Will Stockport County FC win on 2026-09-26?",
-    "match_date": "2026-09-26",
-    "quoted": 0.705,
-    "bid": 0.7,
-    "ask": 0.71,
-    "spread": 0.01,
-    "ask_size": 85.0,
-    "liquidity": 13463.3368
+    "ask_size": 6574.95,
+    "liquidity": 115577.8824
    },
    {
     "market": "unl-isl-est-2026-09-26-isl",
@@ -93,8 +81,8 @@
     "bid": 0.74,
     "ask": 0.75,
     "spread": 0.01,
-    "ask_size": 441.37,
-    "liquidity": 32658.5025
+    "ask_size": 309.37,
+    "liquidity": 32308.0255
    },
    {
     "market": "unl-mac-che-2026-09-26-che",
@@ -105,8 +93,8 @@
     "bid": 0.7,
     "ask": 0.71,
     "spread": 0.01,
-    "ask_size": 362.61,
-    "liquidity": 28105.4675
+    "ask_size": 2.61,
+    "liquidity": 29233.3343
    },
    {
     "market": "mls-nas-tor-2026-09-26-nas",
@@ -117,8 +105,8 @@
     "bid": 0.67,
     "ask": 0.68,
     "spread": 0.01,
-    "ask_size": 2522.22,
-    "liquidity": 47231.0169
+    "ask_size": 2521.22,
+    "liquidity": 47221.1522
    },
    {
     "market": "mls-hou-skc-2026-09-26-hou",
@@ -129,8 +117,8 @@
     "bid": 0.65,
     "ask": 0.66,
     "spread": 0.01,
-    "ask_size": 685.22,
-    "liquidity": 40627.0725
+    "ask_size": 684.22,
+    "liquidity": 39971.8434
    },
    {
     "market": "mls-vwh-dcu-2026-09-26-vwh",
@@ -141,8 +129,8 @@
     "bid": 0.77,
     "ask": 0.78,
     "spread": 0.01,
-    "ask_size": 731.51,
-    "liquidity": 39759.5627
+    "ask_size": 557.51,
+    "liquidity": 39795.9794
    },
    {
     "market": "unl-ger-grc-2026-09-27-ger",
@@ -154,7 +142,7 @@
     "ask": 0.72,
     "spread": 0.01,
     "ask_size": 1205.98,
-    "liquidity": 15216.4891
+    "liquidity": 15275.2511
    },
    {
     "market": "unl-swe-rom-2026-09-25-swe",
@@ -165,8 +153,20 @@
     "bid": 0.64,
     "ask": 0.66,
     "spread": 0.02,
-    "ask_size": 717.21,
-    "liquidity": 35079.0727
+    "ask_size": 347.21,
+    "liquidity": 34590.8849
+   },
+   {
+    "market": "el1-sto-pet-2026-09-26-sto",
+    "league": "el1",
+    "question": "Will Stockport County FC win on 2026-09-26?",
+    "match_date": "2026-09-26",
+    "quoted": 0.71,
+    "bid": 0.7,
+    "ask": 0.72,
+    "spread": 0.02,
+    "ask_size": 300.0,
+    "liquidity": 13477.4347
    },
    {
     "market": "unl-svk-mol-2026-09-26-svk",
@@ -177,8 +177,8 @@
     "bid": 0.77,
     "ask": 0.79,
     "spread": 0.02,
-    "ask_size": 192.0,
-    "liquidity": 36791.8058
+    "ask_size": 58.0,
+    "liquidity": 36799.2003
    },
    {
     "market": "unl-alb-bela-2026-09-26-alb",
@@ -189,8 +189,8 @@
     "bid": 0.65,
     "ask": 0.67,
     "spread": 0.02,
-    "ask_size": 639.0,
-    "liquidity": 25278.4153
+    "ask_size": 430.0,
+    "liquidity": 24628.9591
    },
    {
     "market": "mls-phi-orl-2026-09-26-phi",
@@ -202,7 +202,7 @@
     "ask": 0.68,
     "spread": 0.02,
     "ask_size": 201.22,
-    "liquidity": 39554.0307
+    "liquidity": 40384.3558
    },
    {
     "market": "mex-gua-que-2026-09-26-gua",
@@ -213,8 +213,8 @@
     "bid": 0.69,
     "ask": 0.71,
     "spread": 0.02,
-    "ask_size": 733.0,
-    "liquidity": 17572.0214
+    "ask_size": 600.0,
+    "liquidity": 15892.8655
    }
   ]
  },
@@ -666,38 +666,46 @@
    "in_band": 22,
    "tradeable": 17,
    "median_band_spread": 0.01
+  },
+  {
+   "t": "2026-09-22T09:50:44Z",
+   "markets": 576,
+   "fixtures": 192,
+   "in_band": 22,
+   "tradeable": 17,
+   "median_band_spread": 0.015
   }
  ],
  "leagues": {
   "unl": {
-   "seen": 5520,
-   "in_band": 563,
-   "tradeable": 489
+   "seen": 5622,
+   "in_band": 573,
+   "tradeable": 499
   },
   "mls": {
-   "seen": 2352,
-   "in_band": 205,
-   "tradeable": 205
+   "seen": 2394,
+   "in_band": 209,
+   "tradeable": 209
   },
   "el1": {
-   "seen": 2016,
-   "in_band": 56,
-   "tradeable": 56
+   "seen": 2052,
+   "in_band": 57,
+   "tradeable": 57
   },
   "nlc": {
-   "seen": 3360,
-   "in_band": 113,
-   "tradeable": 48
+   "seen": 3420,
+   "in_band": 116,
+   "tradeable": 49
   },
   "fif": {
-   "seen": 1848,
-   "in_band": 72,
+   "seen": 1881,
+   "in_band": 74,
    "tradeable": 46
   },
   "mex": {
-   "seen": 1008,
-   "in_band": 58,
-   "tradeable": 35
+   "seen": 1026,
+   "in_band": 59,
+   "tradeable": 36
   },
   "rou1": {
    "seen": 39,
@@ -710,32 +718,32 @@
    "tradeable": 0
   },
   "bra2": {
-   "seen": 1317,
+   "seen": 1338,
    "in_band": 0,
    "tradeable": 0
   },
   "uwcl": {
-   "seen": 1344,
+   "seen": 1368,
    "in_band": 2,
    "tradeable": 0
   },
   "col1": {
-   "seen": 1344,
+   "seen": 1368,
    "in_band": 0,
    "tradeable": 0
   },
   "gtm": {
-   "seen": 168,
+   "seen": 171,
    "in_band": 0,
    "tradeable": 0
   },
   "conl": {
-   "seen": 3360,
+   "seen": 3420,
    "in_band": 0,
    "tradeable": 0
   },
   "es2": {
-   "seen": 1680,
+   "seen": 1710,
    "in_band": 0,
    "tradeable": 0
   }
