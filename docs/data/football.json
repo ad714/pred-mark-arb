@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-22T19:44:59Z",
+ "generated_at": "2026-09-22T19:45:35Z",
  "breakeven": 0.029,
  "edge_band": [
   0.65,
   0.85
  ],
  "latest": {
-  "t": "2026-09-22T19:44:37Z",
+  "t": "2026-09-22T19:45:17Z",
   "markets": 570,
   "fixtures": 190,
   "in_band": 26,
@@ -942,43 +942,51 @@
    "in_band": 26,
    "tradeable": 20,
    "median_band_spread": 0.01
+  },
+  {
+   "t": "2026-09-22T19:45:17Z",
+   "markets": 570,
+   "fixtures": 190,
+   "in_band": 26,
+   "tradeable": 20,
+   "median_band_spread": 0.01
   }
  ],
  "leagues": {
   "unl": {
-   "seen": 8580,
-   "in_band": 885,
-   "tradeable": 808
+   "seen": 8682,
+   "in_band": 896,
+   "tradeable": 819
   },
   "mls": {
-   "seen": 3630,
-   "in_band": 325,
-   "tradeable": 325
+   "seen": 3675,
+   "in_band": 329,
+   "tradeable": 329
   },
   "el1": {
-   "seen": 3096,
-   "in_band": 94,
-   "tradeable": 86
+   "seen": 3132,
+   "in_band": 96,
+   "tradeable": 87
   },
   "nlc": {
-   "seen": 4908,
-   "in_band": 210,
+   "seen": 4926,
+   "in_band": 211,
    "tradeable": 84
   },
   "mex": {
-   "seen": 1575,
-   "in_band": 88,
-   "tradeable": 65
+   "seen": 1602,
+   "in_band": 89,
+   "tradeable": 66
   },
   "fif": {
-   "seen": 2928,
-   "in_band": 139,
-   "tradeable": 54
+   "seen": 2976,
+   "in_band": 143,
+   "tradeable": 55
   },
   "conl": {
-   "seen": 5250,
-   "in_band": 53,
-   "tradeable": 46
+   "seen": 5325,
+   "in_band": 55,
+   "tradeable": 48
   },
   "rou1": {
    "seen": 39,
@@ -991,27 +999,27 @@
    "tradeable": 0
   },
   "bra2": {
-   "seen": 1947,
+   "seen": 1968,
    "in_band": 0,
    "tradeable": 0
   },
   "uwcl": {
-   "seen": 2010,
+   "seen": 2022,
    "in_band": 2,
    "tradeable": 0
   },
   "col1": {
-   "seen": 2064,
+   "seen": 2088,
    "in_band": 0,
    "tradeable": 0
   },
   "gtm": {
-   "seen": 258,
+   "seen": 261,
    "in_band": 0,
    "tradeable": 0
   },
   "es2": {
-   "seen": 2580,
+   "seen": 2610,
    "in_band": 0,
    "tradeable": 0
   }
