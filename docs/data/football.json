@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-22T03:22:21Z",
+ "generated_at": "2026-09-22T03:22:58Z",
  "breakeven": 0.029,
  "edge_band": [
   0.65,
   0.85
  ],
  "latest": {
-  "t": "2026-09-22T03:22:02Z",
+  "t": "2026-09-22T03:22:39Z",
   "markets": 576,
   "fixtures": 192,
   "in_band": 22,
@@ -57,7 +57,7 @@
     "bid": 0.68,
     "ask": 0.69,
     "spread": 0.01,
-    "ask_size": 2735.58,
+    "ask_size": 2728.49,
     "liquidity": 136190.5357
    },
    {
@@ -506,38 +506,46 @@
    "in_band": 22,
    "tradeable": 17,
    "median_band_spread": 0.015
+  },
+  {
+   "t": "2026-09-22T03:22:39Z",
+   "markets": 576,
+   "fixtures": 192,
+   "in_band": 22,
+   "tradeable": 17,
+   "median_band_spread": 0.015
   }
  ],
  "leagues": {
   "unl": {
-   "seen": 3480,
-   "in_band": 357,
-   "tradeable": 304
+   "seen": 3582,
+   "in_band": 368,
+   "tradeable": 313
   },
   "mls": {
-   "seen": 1512,
-   "in_band": 125,
-   "tradeable": 125
+   "seen": 1554,
+   "in_band": 129,
+   "tradeable": 129
   },
   "el1": {
-   "seen": 1296,
-   "in_band": 36,
-   "tradeable": 36
+   "seen": 1332,
+   "in_band": 37,
+   "tradeable": 37
   },
   "fif": {
-   "seen": 1188,
-   "in_band": 45,
-   "tradeable": 34
+   "seen": 1221,
+   "in_band": 46,
+   "tradeable": 35
   },
   "nlc": {
-   "seen": 2160,
-   "in_band": 53,
-   "tradeable": 24
+   "seen": 2220,
+   "in_band": 56,
+   "tradeable": 25
   },
   "mex": {
-   "seen": 648,
-   "in_band": 38,
-   "tradeable": 15
+   "seen": 666,
+   "in_band": 39,
+   "tradeable": 16
   },
   "rou1": {
    "seen": 39,
@@ -550,32 +558,32 @@
    "tradeable": 0
   },
   "bra2": {
-   "seen": 897,
+   "seen": 918,
    "in_band": 0,
    "tradeable": 0
   },
   "uwcl": {
-   "seen": 864,
+   "seen": 888,
    "in_band": 2,
    "tradeable": 0
   },
   "col1": {
-   "seen": 864,
+   "seen": 888,
    "in_band": 0,
    "tradeable": 0
   },
   "gtm": {
-   "seen": 108,
+   "seen": 111,
    "in_band": 0,
    "tradeable": 0
   },
   "conl": {
-   "seen": 2160,
+   "seen": 2220,
    "in_band": 0,
    "tradeable": 0
   },
   "es2": {
-   "seen": 1080,
+   "seen": 1110,
    "in_band": 0,
    "tradeable": 0
   }
