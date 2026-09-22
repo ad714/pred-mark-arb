@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-22T01:12:31Z",
+ "generated_at": "2026-09-22T01:20:04Z",
  "breakeven": 0.029,
  "edge_band": [
   0.65,
   0.85
  ],
  "latest": {
-  "t": "2026-09-22T00:59:23Z",
+  "t": "2026-09-22T01:19:44Z",
   "markets": 576,
   "fixtures": 192,
   "in_band": 21,
-  "tradeable": 16,
+  "tradeable": 17,
   "rows": [
    {
     "market": "nlc-acv-hoo-2026-09-22-acv",
@@ -22,7 +22,7 @@
     "ask": 0.77,
     "spread": 0.01,
     "ask_size": 41.36,
-    "liquidity": 13785.0042
+    "liquidity": 13979.2062
    },
    {
     "market": "unl-lie-lit-2026-09-24-lit",
@@ -34,7 +34,7 @@
     "ask": 0.75,
     "spread": 0.01,
     "ask_size": 155.93,
-    "liquidity": 82160.323
+    "liquidity": 86258.1356
    },
    {
     "market": "unl-prt-wal-2026-09-24-prt",
@@ -46,7 +46,7 @@
     "ask": 0.81,
     "spread": 0.01,
     "ask_size": 7907.42,
-    "liquidity": 158446.352
+    "liquidity": 158631.0895
    },
    {
     "market": "unl-aut-isr-2026-09-24-aut",
@@ -58,7 +58,7 @@
     "ask": 0.68,
     "spread": 0.01,
     "ask_size": 640.07,
-    "liquidity": 139905.2922
+    "liquidity": 140778.5876
    },
    {
     "market": "fif-aus-bra-2026-09-25-bra",
@@ -70,7 +70,7 @@
     "ask": 0.69,
     "spread": 0.01,
     "ask_size": 124.35,
-    "liquidity": 20542.8092
+    "liquidity": 20601.3333
    },
    {
     "market": "unl-tur-fra-2026-09-25-fra",
@@ -82,7 +82,7 @@
     "ask": 0.67,
     "spread": 0.01,
     "ask_size": 2219.38,
-    "liquidity": 126215.9586
+    "liquidity": 128537.806
    },
    {
     "market": "el1-sto-pet-2026-09-26-sto",
@@ -94,7 +94,7 @@
     "ask": 0.71,
     "spread": 0.01,
     "ask_size": 85.0,
-    "liquidity": 13973.2973
+    "liquidity": 13877.9942
    },
    {
     "market": "unl-svk-mol-2026-09-26-svk",
@@ -106,19 +106,7 @@
     "ask": 0.79,
     "spread": 0.01,
     "ask_size": 144.0,
-    "liquidity": 46374.7232
-   },
-   {
-    "market": "unl-alb-bela-2026-09-26-alb",
-    "league": "unl",
-    "question": "Will Albania win on 2026-09-26?",
-    "match_date": "2026-09-26",
-    "quoted": 0.66,
-    "bid": 0.66,
-    "ask": 0.67,
-    "spread": 0.01,
-    "ask_size": 610.0,
-    "liquidity": 33264.325
+    "liquidity": 47963.9952
    },
    {
     "market": "unl-mac-che-2026-09-26-che",
@@ -130,19 +118,19 @@
     "ask": 0.71,
     "spread": 0.01,
     "ask_size": 394.0,
-    "liquidity": 24536.2933
+    "liquidity": 27046.8263
    },
    {
     "market": "mls-nas-tor-2026-09-26-nas",
     "league": "mls",
     "question": "Will Nashville SC win on 2026-09-26?",
     "match_date": "2026-09-26",
-    "quoted": 0.665,
-    "bid": 0.66,
-    "ask": 0.67,
+    "quoted": 0.675,
+    "bid": 0.67,
+    "ask": 0.68,
     "spread": 0.01,
-    "ask_size": 353.22,
-    "liquidity": 61492.5075
+    "ask_size": 1832.22,
+    "liquidity": 67062.9377
    },
    {
     "market": "mls-hou-skc-2026-09-26-hou",
@@ -154,7 +142,7 @@
     "ask": 0.66,
     "spread": 0.01,
     "ask_size": 435.22,
-    "liquidity": 46414.9964
+    "liquidity": 47423.1612
    },
    {
     "market": "mls-vwh-dcu-2026-09-26-vwh",
@@ -166,7 +154,7 @@
     "ask": 0.78,
     "spread": 0.01,
     "ask_size": 481.51,
-    "liquidity": 62603.9671
+    "liquidity": 62920.1558
    },
    {
     "market": "unl-swe-rom-2026-09-25-swe",
@@ -178,7 +166,7 @@
     "ask": 0.66,
     "spread": 0.02,
     "ask_size": 991.47,
-    "liquidity": 49562.8792
+    "liquidity": 50704.002
    },
    {
     "market": "unl-isl-est-2026-09-26-isl",
@@ -189,8 +177,20 @@
     "bid": 0.73,
     "ask": 0.75,
     "spread": 0.02,
-    "ask_size": 424.78,
-    "liquidity": 42642.87
+    "ask_size": 565.4,
+    "liquidity": 44394.7114
+   },
+   {
+    "market": "unl-alb-bela-2026-09-26-alb",
+    "league": "unl",
+    "question": "Will Albania win on 2026-09-26?",
+    "match_date": "2026-09-26",
+    "quoted": 0.66,
+    "bid": 0.65,
+    "ask": 0.67,
+    "spread": 0.02,
+    "ask_size": 610.0,
+    "liquidity": 33180.5748
    },
    {
     "market": "mls-phi-orl-2026-09-26-phi",
@@ -202,7 +202,19 @@
     "ask": 0.68,
     "spread": 0.02,
     "ask_size": 451.22,
-    "liquidity": 62858.6079
+    "liquidity": 59600.8083
+   },
+   {
+    "market": "mex-gua-que-2026-09-26-gua",
+    "league": "mex",
+    "question": "Will CD Guadalajara win on 2026-09-26?",
+    "match_date": "2026-09-26",
+    "quoted": 0.7,
+    "bid": 0.69,
+    "ask": 0.71,
+    "spread": 0.02,
+    "ask_size": 778.0,
+    "liquidity": 45129.8185
    }
   ]
  },
@@ -438,38 +450,46 @@
    "in_band": 21,
    "tradeable": 16,
    "median_band_spread": 0.01
+  },
+  {
+   "t": "2026-09-22T01:19:44Z",
+   "markets": 576,
+   "fixtures": 192,
+   "in_band": 21,
+   "tradeable": 17,
+   "median_band_spread": 0.01
   }
  ],
  "leagues": {
   "unl": {
-   "seen": 2766,
-   "in_band": 280,
-   "tradeable": 241
+   "seen": 2868,
+   "in_band": 291,
+   "tradeable": 250
   },
   "mls": {
-   "seen": 1218,
-   "in_band": 97,
-   "tradeable": 97
+   "seen": 1260,
+   "in_band": 101,
+   "tradeable": 101
   },
   "el1": {
-   "seen": 1044,
-   "in_band": 29,
-   "tradeable": 29
+   "seen": 1080,
+   "in_band": 30,
+   "tradeable": 30
   },
   "fif": {
-   "seen": 957,
-   "in_band": 38,
-   "tradeable": 27
+   "seen": 990,
+   "in_band": 39,
+   "tradeable": 28
   },
   "nlc": {
-   "seen": 1740,
-   "in_band": 37,
-   "tradeable": 17
+   "seen": 1800,
+   "in_band": 39,
+   "tradeable": 18
   },
   "mex": {
-   "seen": 522,
-   "in_band": 31,
-   "tradeable": 8
+   "seen": 540,
+   "in_band": 32,
+   "tradeable": 9
   },
   "rou1": {
    "seen": 39,
@@ -482,32 +502,32 @@
    "tradeable": 0
   },
   "bra2": {
-   "seen": 750,
+   "seen": 771,
    "in_band": 0,
    "tradeable": 0
   },
   "uwcl": {
-   "seen": 696,
+   "seen": 720,
    "in_band": 2,
    "tradeable": 0
   },
   "col1": {
-   "seen": 696,
+   "seen": 720,
    "in_band": 0,
    "tradeable": 0
   },
   "gtm": {
-   "seen": 87,
+   "seen": 90,
    "in_band": 0,
    "tradeable": 0
   },
   "conl": {
-   "seen": 1740,
+   "seen": 1800,
    "in_band": 0,
    "tradeable": 0
   },
   "es2": {
-   "seen": 870,
+   "seen": 900,
    "in_band": 0,
    "tradeable": 0
   }
