@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T21:45:05Z",
+ "generated_at": "2026-09-23T21:59:04Z",
  "matches": {
   "129623": {
    "cb_id": 129623,
@@ -579,7 +579,7 @@
    "series": "Australia A tour of India 2026",
    "format": "TEST",
    "date": "2026-09-22",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Stumps",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -643,7 +643,7 @@
    "series": "Asian Games 2026",
    "format": "T20",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "paired_slug": "crint-afg-jpn-2026-09-23",
    "paired_score": 1.0,
@@ -661,7 +661,7 @@
    "series": "SA v AUS 2026",
    "format": "ODI",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "paired_slug": "crint-zaf-aus-2026-09-24",
    "paired_score": 1.0,
@@ -679,7 +679,7 @@
    "series": "Australia U19 tour of India 2026",
    "format": "ODI",
    "date": "2026-09-23",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Complete",
    "wickets_timed": 0
   },
@@ -694,7 +694,7 @@
    "series": "Australia A Women tour of India 2026",
    "format": "ODI",
    "date": "2026-09-23",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Complete",
    "wickets_timed": 0
   },
@@ -709,7 +709,7 @@
    "series": "England vs Sri Lanka, 2026",
    "format": "ODI",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "paired_slug": "crint-gbr-lka-2026-09-24",
    "paired_score": 1.0,
@@ -727,7 +727,7 @@
    "series": "Asian Games 2026",
    "format": "T20",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "paired_slug": "crint-hkg-mys-2026-09-24",
    "paired_score": 0.667,
@@ -745,7 +745,7 @@
    "series": "Quadrangular T20I Series in Nigeria, 2026",
    "format": "T20",
    "date": "2026-09-23",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Delay",
    "wickets_timed": 0
   },
@@ -760,7 +760,7 @@
    "series": "North American Cup, 2026",
    "format": "T20",
    "date": "2026-09-23",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "paired_slug": "crint-cym-ber-2026-09-23",
    "paired_score": 1.0,
@@ -778,7 +778,7 @@
    "series": "North American Cup, 2026",
    "format": "T20",
    "date": "2026-09-23",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "unpaired_reason": "crint-cym-ber-2026-09-23 matched on names but its date does not fit this fixture",
    "wickets_timed": 0
@@ -794,7 +794,7 @@
    "series": "North American Cup, 2026",
    "format": "T20",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "paired_slug": "crint-cym-bhs-2026-09-24",
    "paired_score": 1.0,
@@ -812,7 +812,7 @@
    "series": "North American Cup, 2026",
    "format": "T20",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Upcoming",
    "wickets_timed": 0
   },
@@ -827,7 +827,7 @@
    "series": "County Championship Division One 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -843,7 +843,7 @@
    "series": "County Championship Division One 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -859,7 +859,7 @@
    "series": "County Championship Division One 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -875,7 +875,7 @@
    "series": "County Championship Division One 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -891,7 +891,7 @@
    "series": "County Championship Division One 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -907,7 +907,7 @@
    "series": "Australia Domestic One-Day Cup 2026-27",
    "format": "ODI",
    "date": "2026-09-23",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Complete",
    "wickets_timed": 0
   },
@@ -922,7 +922,7 @@
    "series": "County Championship Division Two 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -938,7 +938,7 @@
    "series": "County Championship Division Two 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -954,7 +954,7 @@
    "series": "County Championship Division Two 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -970,7 +970,7 @@
    "series": "County Championship Division Two 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -986,7 +986,7 @@
    "series": "West Indies Women tour of Zimbabwe, 2026",
    "format": "ODI",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "paired_slug": "crint-zwew-wstw-2026-09-24",
    "paired_score": 1.0,
@@ -1004,7 +1004,7 @@
    "series": "South American Women's Championship T20I, 2026",
    "format": "T20",
    "date": "2026-09-23",
-   "last_seen": "2026-09-23T21:45:05Z",
+   "last_seen": "2026-09-23T21:59:04Z",
    "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
