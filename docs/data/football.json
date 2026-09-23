@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-23T01:11:24Z",
+ "generated_at": "2026-09-23T01:12:05Z",
  "breakeven": 0.029,
  "edge_band": [
   0.65,
   0.85
  ],
  "latest": {
-  "t": "2026-09-23T01:11:06Z",
+  "t": "2026-09-23T01:11:46Z",
   "markets": 576,
   "fixtures": 192,
   "in_band": 26,
@@ -18,10 +18,10 @@
     "question": "Will RKSV Rohda Raalte win on 2026-09-23?",
     "match_date": "2026-09-23",
     "quoted": 0.68,
-    "bid": 0.62,
-    "ask": 0.63,
+    "bid": 0.47,
+    "ask": 0.48,
     "spread": 0.01,
-    "ask_size": 250.0,
+    "ask_size": 220.0,
     "liquidity": 1218.4415
    },
    {
@@ -57,7 +57,7 @@
     "bid": 0.75,
     "ask": 0.76,
     "spread": 0.01,
-    "ask_size": 4249.17,
+    "ask_size": 4167.29,
     "liquidity": 103916.1442
    },
    {
@@ -93,7 +93,7 @@
     "bid": 0.66,
     "ask": 0.67,
     "spread": 0.01,
-    "ask_size": 2036.93,
+    "ask_size": 1937.93,
     "liquidity": 96329.6062
    },
    {
@@ -1102,48 +1102,56 @@
    "in_band": 26,
    "tradeable": 22,
    "median_band_spread": 0.01
+  },
+  {
+   "t": "2026-09-23T01:11:46Z",
+   "markets": 576,
+   "fixtures": 192,
+   "in_band": 26,
+   "tradeable": 22,
+   "median_band_spread": 0.01
   }
  ],
  "leagues": {
   "unl": {
-   "seen": 10314,
-   "in_band": 1069,
-   "tradeable": 992
+   "seen": 10416,
+   "in_band": 1079,
+   "tradeable": 1002
   },
   "mls": {
-   "seen": 4395,
-   "in_band": 393,
-   "tradeable": 393
+   "seen": 4440,
+   "in_band": 397,
+   "tradeable": 397
   },
   "el1": {
-   "seen": 3708,
-   "in_band": 113,
-   "tradeable": 103
+   "seen": 3744,
+   "in_band": 114,
+   "tradeable": 104
   },
   "nlc": {
-   "seen": 5214,
-   "in_band": 228,
-   "tradeable": 86
+   "seen": 5232,
+   "in_band": 230,
+   "tradeable": 88
   },
   "mex": {
-   "seen": 2034,
-   "in_band": 105,
-   "tradeable": 82
+   "seen": 2061,
+   "in_band": 106,
+   "tradeable": 83
   },
   "conl": {
-   "seen": 6525,
-   "in_band": 87,
-   "tradeable": 80
+   "seen": 6600,
+   "in_band": 89,
+   "tradeable": 82
   },
   "fif": {
-   "seen": 3744,
-   "in_band": 221,
-   "tradeable": 68
+   "seen": 3792,
+   "in_band": 226,
+   "tradeable": 69
   },
   "nwsl": {
-   "seen": 1992,
-   "in_band": 103,
-   "tradeable": 4
+   "seen": 2016,
+   "in_band": 104,
+   "tradeable": 5
   },
   "rou1": {
    "seen": 39,
@@ -1156,22 +1164,22 @@
    "tradeable": 0
   },
   "bra2": {
-   "seen": 2325,
+   "seen": 2349,
    "in_band": 0,
    "tradeable": 0
   },
   "uwcl": {
-   "seen": 2214,
+   "seen": 2226,
    "in_band": 2,
    "tradeable": 0
   },
   "col1": {
-   "seen": 2466,
+   "seen": 2493,
    "in_band": 0,
    "tradeable": 0
   },
   "gtm": {
-   "seen": 309,
+   "seen": 312,
    "in_band": 0,
    "tradeable": 0
   }
