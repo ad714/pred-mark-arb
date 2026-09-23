@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T05:07:32Z",
+ "generated_at": "2026-09-23T05:11:20Z",
  "matches": [
   {
    "cb_id": 155411,
@@ -11,7 +11,7 @@
    "format": "TEST",
    "date": "2026-09-22",
    "start_ms": 1790049600000,
-   "last_ball_min": 3.4,
+   "last_ball_min": 7.2,
    "balls_flowing": true
   },
   {
@@ -19,12 +19,12 @@
    "teams": "SAUS v TAS",
    "teams_full": "South Australia v Tasmania",
    "state": "In Progress",
-   "status": "Tasmania need 356 runs",
+   "status": "Tasmania need 350 runs",
    "series": "Australia Domestic One-Day Cup 2026-27",
    "format": "ODI",
    "date": "2026-09-23",
    "start_ms": 1790123400000,
-   "last_ball_min": 0.2,
+   "last_ball_min": 3.8,
    "balls_flowing": true
   },
   {
@@ -37,7 +37,7 @@
    "format": "ODI",
    "date": "2026-09-23",
    "start_ms": 1790134200000,
-   "last_ball_min": 3.1,
+   "last_ball_min": 6.9,
    "balls_flowing": true
   },
   {
@@ -50,7 +50,7 @@
    "format": "ODI",
    "date": "2026-09-23",
    "start_ms": 1790134200000,
-   "last_ball_min": 3.2,
+   "last_ball_min": 7.0,
    "balls_flowing": true
   },
   {
@@ -140,14 +140,14 @@
    "state": "In Progress",
    "prices": {
     "India A Women": {
-     "bid": 0.53,
-     "ask": 0.66,
-     "mid": 0.595
+     "bid": 0.56,
+     "ask": 0.84,
+     "mid": 0.7
     },
     "Australia A Women": {
-     "bid": 0.34,
-     "ask": 0.47,
-     "mid": 0.405
+     "bid": 0.16,
+     "ask": 0.44,
+     "mid": 0.3
     }
    }
   },
@@ -159,14 +159,14 @@
    "state": "In Progress",
    "prices": {
     "India Under-19s": {
-     "bid": 0.61,
+     "bid": 0.59,
      "ask": 0.68,
-     "mid": 0.645
+     "mid": 0.635
     },
     "Australia Under-19s": {
      "bid": 0.32,
-     "ask": 0.39,
-     "mid": 0.355
+     "ask": 0.41,
+     "mid": 0.365
     }
    }
   },
@@ -258,7 +258,7 @@
   "run_number": 12,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35787846217",
   "started_at": "2026-09-22T21:38:27Z",
-  "elapsed_s": 26945,
+  "elapsed_s": 27174,
   "elapsed_means": "running for",
   "runs_total": 14
  }

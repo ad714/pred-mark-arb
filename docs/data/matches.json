@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-23T05:07:32Z",
+ "generated_at": "2026-09-23T05:11:20Z",
  "matches": {
   "129623": {
    "cb_id": 129623,
@@ -462,7 +462,7 @@
    "series": "India tour of Japan, 2026",
    "format": "T20",
    "date": "2026-09-22",
-   "last_seen": "2026-09-23T05:07:32Z",
+   "last_seen": "2026-09-23T05:11:20Z",
    "last_state": "Complete",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -479,7 +479,7 @@
    "series": "Women's Asian Games 2026",
    "format": "T20",
    "date": "2026-09-22",
-   "last_seen": "2026-09-23T05:07:32Z",
+   "last_seen": "2026-09-23T05:11:20Z",
    "last_state": "Complete",
    "paired_slug": "crint-lkaw-indw-2026-09-22",
    "paired_score": 1.0,
@@ -565,7 +565,7 @@
    "series": "Australia Domestic One-Day Cup 2026-27",
    "format": "ODI",
    "date": "2026-09-22",
-   "last_seen": "2026-09-23T05:07:32Z",
+   "last_seen": "2026-09-23T05:11:20Z",
    "last_state": "Complete",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -582,7 +582,7 @@
    "series": "Australia A tour of India 2026",
    "format": "TEST",
    "date": "2026-09-22",
-   "last_seen": "2026-09-23T05:07:32Z",
+   "last_seen": "2026-09-23T05:11:20Z",
    "last_state": "In Progress",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -599,7 +599,7 @@
    "series": "England vs Sri Lanka, 2026",
    "format": "ODI",
    "date": "2026-09-22",
-   "last_seen": "2026-09-23T05:07:32Z",
+   "last_seen": "2026-09-23T05:11:20Z",
    "last_state": "Complete",
    "paired_slug": "crint-gbr-lka-2026-09-22",
    "paired_score": 1.0,
@@ -618,7 +618,7 @@
    "series": "Quadrangular T20I Series in Nigeria, 2026",
    "format": "T20",
    "date": "2026-09-22",
-   "last_seen": "2026-09-23T05:07:32Z",
+   "last_seen": "2026-09-23T05:11:20Z",
    "last_state": "Complete",
    "wickets_timed": 0
   },
@@ -634,7 +634,7 @@
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
    "date": "2026-09-22",
-   "last_seen": "2026-09-23T05:07:32Z",
+   "last_seen": "2026-09-23T05:11:20Z",
    "last_state": "Preview",
    "wickets_timed": 0,
    "unpaired_reason": "no open two outcome cricket market to compare against"
@@ -650,7 +650,7 @@
    "series": "Australia Domestic One-Day Cup 2026-27",
    "format": "ODI",
    "date": "2026-09-23",
-   "last_seen": "2026-09-23T05:07:32Z",
+   "last_seen": "2026-09-23T05:11:20Z",
    "last_state": "In Progress",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
@@ -666,7 +666,7 @@
    "series": "Australia A Women tour of India 2026",
    "format": "ODI",
    "date": "2026-09-23",
-   "last_seen": "2026-09-23T05:07:32Z",
+   "last_seen": "2026-09-23T05:11:20Z",
    "last_state": "In Progress",
    "paired_slug": "crint-indaw-ausaw-2026-09-22",
    "paired_score": 1.0,
@@ -684,7 +684,7 @@
    "series": "Australia U19 tour of India 2026",
    "format": "ODI",
    "date": "2026-09-23",
-   "last_seen": "2026-09-23T05:07:32Z",
+   "last_seen": "2026-09-23T05:11:20Z",
    "last_state": "In Progress",
    "paired_slug": "crint-indu19-ausu19-2026-09-22",
    "paired_score": 1.0,
@@ -702,7 +702,7 @@
    "series": "Asian Games 2026",
    "format": "T20",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T05:07:32Z",
+   "last_seen": "2026-09-23T05:11:20Z",
    "last_state": "Upcoming",
    "wickets_timed": 0
   },
@@ -717,7 +717,7 @@
    "series": "Asian Games 2026",
    "format": "T20",
    "date": "2026-09-24",
-   "last_seen": "2026-09-23T05:07:32Z",
+   "last_seen": "2026-09-23T05:11:20Z",
    "last_state": "Upcoming",
    "wickets_timed": 0
   },
@@ -732,7 +732,7 @@
    "series": "Quadrangular T20I Series in Nigeria, 2026",
    "format": "T20",
    "date": "2026-09-23",
-   "last_seen": "2026-09-23T05:07:32Z",
+   "last_seen": "2026-09-23T05:11:20Z",
    "last_state": "Preview",
    "paired_slug": "crint-nga-sle-2026-09-23",
    "paired_score": 1.0,
@@ -750,7 +750,7 @@
    "series": "North American Cup, 2026",
    "format": "T20",
    "date": "2026-09-23",
-   "last_seen": "2026-09-23T05:07:32Z",
+   "last_seen": "2026-09-23T05:11:20Z",
    "last_state": "Preview",
    "paired_slug": "crint-cym-ber-2026-09-23",
    "paired_score": 1.0,
@@ -768,7 +768,7 @@
    "series": "North American Cup, 2026",
    "format": "T20",
    "date": "2026-09-23",
-   "last_seen": "2026-09-23T05:07:32Z",
+   "last_seen": "2026-09-23T05:11:20Z",
    "last_state": "Upcoming",
    "wickets_timed": 0
   },
@@ -783,7 +783,7 @@
    "series": "Chile Women and Costa Rica Women tour of Brazil, 2026",
    "format": "T20",
    "date": "2026-09-23",
-   "last_seen": "2026-09-23T05:07:32Z",
+   "last_seen": "2026-09-23T05:11:20Z",
    "last_state": "Upcoming",
    "wickets_timed": 0
   }
