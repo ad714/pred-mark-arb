@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-21T14:09:04Z",
+ "generated_at": "2026-09-23T00:36:28Z",
  "matches": {
   "129623": {
    "cb_id": 129623,
@@ -454,15 +454,16 @@
    "cb_id": 171477,
    "first_seen": "2026-09-21T07:17:37Z",
    "states": [
-    "Preview"
+    "Preview",
+    "Complete"
    ],
-   "teams": "JPN v IND",
-   "teams_full": "Japan v India",
+   "teams": "IND v JPN",
+   "teams_full": "India v Japan",
    "series": "India tour of Japan, 2026",
    "format": "T20",
    "date": "2026-09-22",
-   "last_seen": "2026-09-21T14:09:04Z",
-   "last_state": "Preview",
+   "last_seen": "2026-09-23T00:36:28Z",
+   "last_state": "Complete",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
   },
@@ -470,15 +471,16 @@
    "cb_id": 170963,
    "first_seen": "2026-09-21T07:17:37Z",
    "states": [
-    "Preview"
+    "Preview",
+    "Complete"
    ],
    "teams": "INDW v SLW",
    "teams_full": "India Women v Sri Lanka Women",
    "series": "Women's Asian Games 2026",
    "format": "T20",
    "date": "2026-09-22",
-   "last_seen": "2026-09-21T14:09:04Z",
-   "last_state": "Preview",
+   "last_seen": "2026-09-23T00:36:28Z",
+   "last_state": "Complete",
    "paired_slug": "crint-lkaw-indw-2026-09-22",
    "paired_score": 1.0,
    "paired_question": "Asian Games Women: Sri Lanka Women vs India Women",
@@ -488,15 +490,16 @@
    "cb_id": 170960,
    "first_seen": "2026-09-21T07:17:37Z",
    "states": [
-    "Preview"
+    "Preview",
+    "Complete"
    ],
    "teams": "PAKW v BANW",
    "teams_full": "Pakistan Women v Bangladesh Women",
    "series": "Women's Asian Games 2026",
    "format": "T20",
    "date": "2026-09-22",
-   "last_seen": "2026-09-21T14:09:04Z",
-   "last_state": "Preview",
+   "last_seen": "2026-09-23T00:36:28Z",
+   "last_state": "Complete",
    "paired_slug": "crint-pakw-bgdw-2026-09-21",
    "paired_score": 1.0,
    "paired_question": "Asian Games Women: Pakistan Women vs Bangladesh Women",
@@ -555,15 +558,16 @@
    "cb_id": 167060,
    "first_seen": "2026-09-21T07:17:37Z",
    "states": [
-    "Preview"
+    "Preview",
+    "Complete"
    ],
    "teams": "QL v NSW",
    "teams_full": "Queensland v New South Wales",
    "series": "Australia Domestic One-Day Cup 2026-27",
    "format": "ODI",
    "date": "2026-09-22",
-   "last_seen": "2026-09-21T14:09:04Z",
-   "last_state": "Preview",
+   "last_seen": "2026-09-23T00:36:28Z",
+   "last_state": "Complete",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
   },
@@ -571,15 +575,16 @@
    "cb_id": 155411,
    "first_seen": "2026-09-21T07:17:37Z",
    "states": [
-    "Preview"
+    "Preview",
+    "Stumps"
    ],
    "teams": "INDA v AUSA",
    "teams_full": "India A v Australia A",
    "series": "Australia A tour of India 2026",
    "format": "TEST",
    "date": "2026-09-22",
-   "last_seen": "2026-09-21T14:09:04Z",
-   "last_state": "Preview",
+   "last_seen": "2026-09-23T00:36:28Z",
+   "last_state": "Stumps",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
   },
@@ -587,15 +592,16 @@
    "cb_id": 129634,
    "first_seen": "2026-09-21T13:17:47Z",
    "states": [
-    "Preview"
+    "Preview",
+    "Complete"
    ],
    "teams": "ENG v SL",
    "teams_full": "England v Sri Lanka",
    "series": "England vs Sri Lanka, 2026",
    "format": "ODI",
    "date": "2026-09-22",
-   "last_seen": "2026-09-21T14:09:04Z",
-   "last_state": "Preview",
+   "last_seen": "2026-09-23T00:36:28Z",
+   "last_state": "Complete",
    "paired_slug": "crint-gbr-lka-2026-09-22",
    "paired_score": 1.0,
    "paired_question": "Sri Lanka Tour of England ODIs: England vs Sri Lanka",
@@ -605,29 +611,165 @@
    "cb_id": 173647,
    "first_seen": "2026-09-21T13:17:47Z",
    "states": [
-    "Upcoming"
+    "Upcoming",
+    "Complete"
    ],
    "teams": "GH v SLE",
    "teams_full": "Ghana v Sierra Leone",
    "series": "Quadrangular T20I Series in Nigeria, 2026",
    "format": "T20",
    "date": "2026-09-22",
-   "last_seen": "2026-09-21T14:09:04Z",
-   "last_state": "Upcoming",
+   "last_seen": "2026-09-23T00:36:28Z",
+   "last_state": "Complete",
    "wickets_timed": 0
   },
   "172971": {
    "cb_id": 172971,
    "first_seen": "2026-09-21T13:17:47Z",
    "states": [
-    "Upcoming"
+    "Upcoming",
+    "Preview"
    ],
    "teams": "NCAPE v LIMPO",
    "teams_full": "Northern Cape v Limpopo",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
    "date": "2026-09-22",
-   "last_seen": "2026-09-21T14:09:04Z",
+   "last_seen": "2026-09-23T00:36:28Z",
+   "last_state": "Preview",
+   "wickets_timed": 0,
+   "unpaired_reason": "no open two outcome cricket market to compare against"
+  },
+  "170973": {
+   "cb_id": 170973,
+   "first_seen": "2026-09-23T00:36:28Z",
+   "states": [
+    "Upcoming"
+   ],
+   "teams": "JPN v AFG",
+   "teams_full": "Japan v Afghanistan",
+   "series": "Asian Games 2026",
+   "format": "T20",
+   "date": "2026-09-24",
+   "last_seen": "2026-09-23T00:36:28Z",
+   "last_state": "Upcoming",
+   "wickets_timed": 0
+  },
+  "173657": {
+   "cb_id": 173657,
+   "first_seen": "2026-09-23T00:36:28Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "NGA v SLE",
+   "teams_full": "Nigeria v Sierra Leone",
+   "series": "Quadrangular T20I Series in Nigeria, 2026",
+   "format": "T20",
+   "date": "2026-09-23",
+   "last_seen": "2026-09-23T00:36:28Z",
+   "last_state": "Preview",
+   "paired_slug": "crint-nga-sle-2026-09-23",
+   "paired_score": 1.0,
+   "paired_question": "Nigeria Quadrangular T20 Series: Nigeria vs Sierra Leone",
+   "wickets_timed": 0
+  },
+  "174152": {
+   "cb_id": 174152,
+   "first_seen": "2026-09-23T00:36:28Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "CAYM v BER",
+   "teams_full": "Cayman Islands v Bermuda",
+   "series": "North American Cup, 2026",
+   "format": "T20",
+   "date": "2026-09-23",
+   "last_seen": "2026-09-23T00:36:28Z",
+   "last_state": "Preview",
+   "paired_slug": "crint-cym-ber-2026-09-23",
+   "paired_score": 1.0,
+   "paired_question": "North American Cup T20I: Cayman Islands vs Bermuda",
+   "wickets_timed": 0
+  },
+  "174163": {
+   "cb_id": 174163,
+   "first_seen": "2026-09-23T00:36:28Z",
+   "states": [
+    "Upcoming"
+   ],
+   "teams": "CAYM v BER",
+   "teams_full": "Cayman Islands v Bermuda",
+   "series": "North American Cup, 2026",
+   "format": "T20",
+   "date": "2026-09-23",
+   "last_seen": "2026-09-23T00:36:28Z",
+   "last_state": "Upcoming",
+   "wickets_timed": 0
+  },
+  "155488": {
+   "cb_id": 155488,
+   "first_seen": "2026-09-23T00:36:28Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "INDU19 v AUSU19",
+   "teams_full": "India U19 v Australia U19",
+   "series": "Australia U19 tour of India 2026",
+   "format": "ODI",
+   "date": "2026-09-23",
+   "last_seen": "2026-09-23T00:36:28Z",
+   "last_state": "Preview",
+   "paired_slug": "crint-indu19-ausu19-2026-09-22",
+   "paired_score": 1.0,
+   "paired_question": "Australia U19 Tour of India Youth ODIs: India Under-19s vs Australia Under-19s",
+   "wickets_timed": 0
+  },
+  "167063": {
+   "cb_id": 167063,
+   "first_seen": "2026-09-23T00:36:28Z",
+   "states": [
+    "Toss"
+   ],
+   "teams": "SAUS v TAS",
+   "teams_full": "South Australia v Tasmania",
+   "series": "Australia Domestic One-Day Cup 2026-27",
+   "format": "ODI",
+   "date": "2026-09-23",
+   "last_seen": "2026-09-23T00:36:28Z",
+   "last_state": "Toss",
+   "unpaired_reason": "no open two outcome cricket market to compare against",
+   "wickets_timed": 0
+  },
+  "155628": {
+   "cb_id": 155628,
+   "first_seen": "2026-09-23T00:36:28Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "INDWA v AUSWA",
+   "teams_full": "India A Women v Australia A Women",
+   "series": "Australia A Women tour of India 2026",
+   "format": "ODI",
+   "date": "2026-09-23",
+   "last_seen": "2026-09-23T00:36:28Z",
+   "last_state": "Preview",
+   "paired_slug": "crint-indaw-ausaw-2026-09-22",
+   "paired_score": 1.0,
+   "paired_question": "Australia A Women Tour of India Unofficial ODIs: India A Women vs Australia A Women",
+   "wickets_timed": 0
+  },
+  "173621": {
+   "cb_id": 173621,
+   "first_seen": "2026-09-23T00:36:28Z",
+   "states": [
+    "Upcoming"
+   ],
+   "teams": "CHLW v CRW",
+   "teams_full": "Chile Women v Costa Rica Women",
+   "series": "Chile Women and Costa Rica Women tour of Brazil, 2026",
+   "format": "T20",
+   "date": "2026-09-23",
+   "last_seen": "2026-09-23T00:36:28Z",
    "last_state": "Upcoming",
    "wickets_timed": 0
   }
