@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-23T13:49:30Z",
+ "generated_at": "2026-09-23T14:10:14Z",
  "breakeven": 0.029,
  "edge_band": [
   0.65,
   0.85
  ],
  "latest": {
-  "t": "2026-09-23T13:49:05Z",
+  "t": "2026-09-23T14:09:37Z",
   "markets": 567,
   "fixtures": 189,
   "in_band": 26,
@@ -21,8 +21,8 @@
     "bid": 0.74,
     "ask": 0.75,
     "spread": 0.01,
-    "ask_size": 250.0,
-    "liquidity": 18691.7839
+    "ask_size": 285.32,
+    "liquidity": 21642.5116
    },
    {
     "market": "conl-tci-msr-2026-09-23-msr",
@@ -30,11 +30,11 @@
     "question": "Will Montserrat win on 2026-09-23?",
     "match_date": "2026-09-23",
     "quoted": 0.825,
-    "bid": 0.82,
-    "ask": 0.83,
+    "bid": 0.83,
+    "ask": 0.84,
     "spread": 0.01,
-    "ask_size": 50.0,
-    "liquidity": 46958.3626
+    "ask_size": 1073.85,
+    "liquidity": 47263.9523
    },
    {
     "market": "conl-bah-maf-2026-09-23-maf",
@@ -45,8 +45,8 @@
     "bid": 0.84,
     "ask": 0.85,
     "spread": 0.01,
-    "ask_size": 50.0,
-    "liquidity": 78184.354
+    "ask_size": 14.7,
+    "liquidity": 75539.534
    },
    {
     "market": "unl-lie-lit-2026-09-24-lit",
@@ -58,7 +58,7 @@
     "ask": 0.75,
     "spread": 0.01,
     "ask_size": 13420.0,
-    "liquidity": 118453.2191
+    "liquidity": 121130.8018
    },
    {
     "market": "unl-prt-wal-2026-09-24-prt",
@@ -69,8 +69,8 @@
     "bid": 0.8,
     "ask": 0.81,
     "spread": 0.01,
-    "ask_size": 2279.38,
-    "liquidity": 472841.3548
+    "ask_size": 2139.79,
+    "liquidity": 493120.4565
    },
    {
     "market": "unl-aut-isr-2026-09-24-aut",
@@ -81,8 +81,8 @@
     "bid": 0.69,
     "ask": 0.7,
     "spread": 0.01,
-    "ask_size": 10329.87,
-    "liquidity": 253704.8523
+    "ask_size": 10196.95,
+    "liquidity": 262594.0435
    },
    {
     "market": "fif-aus-bra-2026-09-25-bra",
@@ -94,7 +94,7 @@
     "ask": 0.73,
     "spread": 0.01,
     "ask_size": 140.89,
-    "liquidity": 75561.2037
+    "liquidity": 71570.3556
    },
    {
     "market": "unl-tur-fra-2026-09-25-fra",
@@ -105,8 +105,8 @@
     "bid": 0.67,
     "ask": 0.68,
     "spread": 0.01,
-    "ask_size": 6867.75,
-    "liquidity": 198705.5184
+    "ask_size": 6865.85,
+    "liquidity": 219945.4276
    },
    {
     "market": "nwsl-got-chi-2026-09-25-got",
@@ -117,8 +117,8 @@
     "bid": 0.84,
     "ask": 0.85,
     "spread": 0.01,
-    "ask_size": 78.0,
-    "liquidity": 46459.52
+    "ask_size": 118.0,
+    "liquidity": 54735.0529
    },
    {
     "market": "unl-isl-est-2026-09-26-isl",
@@ -130,7 +130,7 @@
     "ask": 0.76,
     "spread": 0.01,
     "ask_size": 27.52,
-    "liquidity": 31127.7155
+    "liquidity": 34524.9086
    },
    {
     "market": "unl-svk-mol-2026-09-26-svk",
@@ -142,7 +142,19 @@
     "ask": 0.79,
     "spread": 0.01,
     "ask_size": 310.52,
-    "liquidity": 45017.5359
+    "liquidity": 44579.615
+   },
+   {
+    "market": "unl-alb-bela-2026-09-26-alb",
+    "league": "unl",
+    "question": "Will Albania win on 2026-09-26?",
+    "match_date": "2026-09-26",
+    "quoted": 0.655,
+    "bid": 0.65,
+    "ask": 0.66,
+    "spread": 0.01,
+    "ask_size": 244.0,
+    "liquidity": 38324.2555
    },
    {
     "market": "unl-mac-che-2026-09-26-che",
@@ -153,8 +165,8 @@
     "bid": 0.7,
     "ask": 0.71,
     "spread": 0.01,
-    "ask_size": 1217.39,
-    "liquidity": 37553.9069
+    "ask_size": 1219.63,
+    "liquidity": 37497.5573
    },
    {
     "market": "nwsl-tho-das-2026-09-26-tho",
@@ -165,8 +177,8 @@
     "bid": 0.66,
     "ask": 0.67,
     "spread": 0.01,
-    "ask_size": 462.0,
-    "liquidity": 20571.18
+    "ask_size": 280.0,
+    "liquidity": 17653.3817
    },
    {
     "market": "mls-phi-orl-2026-09-26-phi",
@@ -178,7 +190,7 @@
     "ask": 0.68,
     "spread": 0.01,
     "ask_size": 194.19,
-    "liquidity": 89279.323
+    "liquidity": 87332.6801
    },
    {
     "market": "mls-nas-tor-2026-09-26-nas",
@@ -189,8 +201,8 @@
     "bid": 0.66,
     "ask": 0.67,
     "spread": 0.01,
-    "ask_size": 1799.3,
-    "liquidity": 51067.5401
+    "ask_size": 1650.0,
+    "liquidity": 75017.7662
    },
    {
     "market": "mls-vwh-dcu-2026-09-26-vwh",
@@ -201,8 +213,8 @@
     "bid": 0.77,
     "ask": 0.78,
     "spread": 0.01,
-    "ask_size": 271.59,
-    "liquidity": 43989.0385
+    "ask_size": 57.59,
+    "liquidity": 41184.7034
    },
    {
     "market": "unl-ger-grc-2026-09-27-ger",
@@ -214,7 +226,7 @@
     "ask": 0.72,
     "spread": 0.01,
     "ask_size": 595.23,
-    "liquidity": 56116.5628
+    "liquidity": 57744.8218
    },
    {
     "market": "el1-sto-pet-2026-09-26-sto",
@@ -226,19 +238,7 @@
     "ask": 0.72,
     "spread": 0.02,
     "ask_size": 335.5,
-    "liquidity": 14194.1249
-   },
-   {
-    "market": "unl-alb-bela-2026-09-26-alb",
-    "league": "unl",
-    "question": "Will Albania win on 2026-09-26?",
-    "match_date": "2026-09-26",
-    "quoted": 0.65,
-    "bid": 0.64,
-    "ask": 0.66,
-    "spread": 0.02,
-    "ask_size": 246.0,
-    "liquidity": 39415.2812
+    "liquidity": 19441.1567
    },
    {
     "market": "fif-usa-per-2026-09-26-usa",
@@ -249,8 +249,8 @@
     "bid": 0.65,
     "ask": 0.67,
     "spread": 0.02,
-    "ask_size": 18.0,
-    "liquidity": 8721.6938
+    "ask_size": 36.0,
+    "liquidity": 10158.6163
    },
    {
     "market": "mls-hou-skc-2026-09-26-hou",
@@ -261,8 +261,8 @@
     "bid": 0.64,
     "ask": 0.66,
     "spread": 0.02,
-    "ask_size": 707.22,
-    "liquidity": 51250.6832
+    "ask_size": 665.22,
+    "liquidity": 51131.3434
    },
    {
     "market": "mex-gua-que-2026-09-26-gua",
@@ -274,7 +274,7 @@
     "ask": 0.71,
     "spread": 0.02,
     "ask_size": 1403.34,
-    "liquidity": 33113.9238
+    "liquidity": 32685.1856
    },
    {
     "market": "unl-aut-kvx-2026-09-27-aut",
@@ -286,7 +286,7 @@
     "ask": 0.66,
     "spread": 0.02,
     "ask_size": 334.42,
-    "liquidity": 31620.334
+    "liquidity": 26874.5398
    }
   ]
  },
@@ -1426,48 +1426,56 @@
    "in_band": 26,
    "tradeable": 23,
    "median_band_spread": 0.01
+  },
+  {
+   "t": "2026-09-23T14:09:37Z",
+   "markets": 567,
+   "fixtures": 189,
+   "in_band": 26,
+   "tradeable": 23,
+   "median_band_spread": 0.01
   }
  ],
  "leagues": {
   "unl": {
-   "seen": 14292,
-   "in_band": 1459,
-   "tradeable": 1382
+   "seen": 14394,
+   "in_band": 1469,
+   "tradeable": 1392
   },
   "mls": {
-   "seen": 6150,
-   "in_band": 549,
-   "tradeable": 549
+   "seen": 6195,
+   "in_band": 553,
+   "tradeable": 553
   },
   "fif": {
-   "seen": 5616,
-   "in_band": 421,
-   "tradeable": 144
+   "seen": 5664,
+   "in_band": 425,
+   "tradeable": 146
   },
   "el1": {
-   "seen": 5112,
-   "in_band": 157,
-   "tradeable": 142
+   "seen": 5148,
+   "in_band": 159,
+   "tradeable": 143
   },
   "conl": {
-   "seen": 9450,
-   "in_band": 145,
-   "tradeable": 138
+   "seen": 9525,
+   "in_band": 147,
+   "tradeable": 140
   },
   "nlc": {
-   "seen": 5916,
-   "in_band": 268,
-   "tradeable": 126
+   "seen": 5934,
+   "in_band": 269,
+   "tradeable": 127
   },
   "mex": {
-   "seen": 3087,
-   "in_band": 144,
-   "tradeable": 121
+   "seen": 3114,
+   "in_band": 145,
+   "tradeable": 122
   },
   "nwsl": {
-   "seen": 2928,
-   "in_band": 161,
-   "tradeable": 54
+   "seen": 2952,
+   "in_band": 163,
+   "tradeable": 56
   },
   "rou1": {
    "seen": 39,
@@ -1480,22 +1488,22 @@
    "tradeable": 0
   },
   "bra2": {
-   "seen": 3222,
+   "seen": 3243,
    "in_band": 0,
    "tradeable": 0
   },
   "uwcl": {
-   "seen": 2682,
+   "seen": 2694,
    "in_band": 2,
    "tradeable": 0
   },
   "col1": {
-   "seen": 3441,
+   "seen": 3462,
    "in_band": 0,
    "tradeable": 0
   },
   "gtm": {
-   "seen": 426,
+   "seen": 429,
    "in_band": 0,
    "tradeable": 0
   }
