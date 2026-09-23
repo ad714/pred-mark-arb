@@ -1,15 +1,15 @@
 {
- "generated_at": "2026-09-23T22:01:26Z",
+ "generated_at": "2026-09-23T22:21:49Z",
  "breakeven": 0.029,
  "edge_band": [
   0.65,
   0.85
  ],
  "latest": {
-  "t": "2026-09-23T22:01:09Z",
+  "t": "2026-09-23T22:21:33Z",
   "markets": 579,
   "fixtures": 193,
-  "in_band": 24,
+  "in_band": 23,
   "tradeable": 19,
   "rows": [
    {
@@ -17,12 +17,12 @@
     "league": "col1",
     "question": "Will Am\u00e9rica de Cali win on 2026-09-23?",
     "match_date": "2026-09-23",
-    "quoted": 0.675,
+    "quoted": 0.685,
     "bid": 0.68,
     "ask": 0.69,
     "spread": 0.01,
-    "ask_size": 7811.9,
-    "liquidity": 321717.7356
+    "ask_size": 7293.72,
+    "liquidity": 328568.7096
    },
    {
     "market": "unl-lie-lit-2026-09-24-lit",
@@ -34,7 +34,7 @@
     "ask": 0.75,
     "spread": 0.01,
     "ask_size": 240.66,
-    "liquidity": 210797.7041
+    "liquidity": 222582.7412
    },
    {
     "market": "unl-prt-wal-2026-09-24-prt",
@@ -45,8 +45,8 @@
     "bid": 0.81,
     "ask": 0.82,
     "spread": 0.01,
-    "ask_size": 25560.27,
-    "liquidity": 477505.043
+    "ask_size": 10269.88,
+    "liquidity": 502329.0499
    },
    {
     "market": "unl-aut-isr-2026-09-24-aut",
@@ -57,8 +57,8 @@
     "bid": 0.68,
     "ask": 0.69,
     "spread": 0.01,
-    "ask_size": 24094.75,
-    "liquidity": 466383.7577
+    "ask_size": 23575.73,
+    "liquidity": 477686.1617
    },
    {
     "market": "unl-tur-fra-2026-09-25-fra",
@@ -69,8 +69,8 @@
     "bid": 0.68,
     "ask": 0.69,
     "spread": 0.01,
-    "ask_size": 40269.21,
-    "liquidity": 233098.4242
+    "ask_size": 40345.21,
+    "liquidity": 250918.1349
    },
    {
     "market": "el1-sto-pet-2026-09-26-sto",
@@ -82,7 +82,7 @@
     "ask": 0.71,
     "spread": 0.01,
     "ask_size": 151.0,
-    "liquidity": 25257.1148
+    "liquidity": 25437.7103
    },
    {
     "market": "unl-isl-est-2026-09-26-isl",
@@ -94,7 +94,7 @@
     "ask": 0.76,
     "spread": 0.01,
     "ask_size": 27.52,
-    "liquidity": 43551.6447
+    "liquidity": 43650.3123
    },
    {
     "market": "unl-svk-mol-2026-09-26-svk",
@@ -106,7 +106,7 @@
     "ask": 0.79,
     "spread": 0.01,
     "ask_size": 275.4,
-    "liquidity": 46537.1455
+    "liquidity": 46572.7139
    },
    {
     "market": "unl-mac-che-2026-09-26-che",
@@ -118,7 +118,7 @@
     "ask": 0.71,
     "spread": 0.01,
     "ask_size": 2476.95,
-    "liquidity": 47481.0206
+    "liquidity": 47588.8293
    },
    {
     "market": "mls-phi-orl-2026-09-26-phi",
@@ -129,8 +129,8 @@
     "bid": 0.67,
     "ask": 0.68,
     "spread": 0.01,
-    "ask_size": 194.19,
-    "liquidity": 54075.4354
+    "ask_size": 43.19,
+    "liquidity": 55553.148
    },
    {
     "market": "mls-nas-tor-2026-09-26-nas",
@@ -142,7 +142,7 @@
     "ask": 0.67,
     "spread": 0.01,
     "ask_size": 2880.14,
-    "liquidity": 97577.3735
+    "liquidity": 97221.6487
    },
    {
     "market": "mls-vwh-dcu-2026-09-26-vwh",
@@ -154,7 +154,19 @@
     "ask": 0.78,
     "spread": 0.01,
     "ask_size": 231.59,
-    "liquidity": 45744.3644
+    "liquidity": 43831.3248
+   },
+   {
+    "market": "mex-gua-que-2026-09-26-gua",
+    "league": "mex",
+    "question": "Will CD Guadalajara win on 2026-09-26?",
+    "match_date": "2026-09-26",
+    "quoted": 0.695,
+    "bid": 0.69,
+    "ask": 0.7,
+    "spread": 0.01,
+    "ask_size": 35.0,
+    "liquidity": 33590.3839
    },
    {
     "market": "unl-aut-kvx-2026-09-27-aut",
@@ -166,7 +178,7 @@
     "ask": 0.66,
     "spread": 0.01,
     "ask_size": 323.32,
-    "liquidity": 35144.341
+    "liquidity": 32074.1808
    },
    {
     "market": "unl-ger-grc-2026-09-27-ger",
@@ -178,7 +190,7 @@
     "ask": 0.72,
     "spread": 0.01,
     "ask_size": 560.77,
-    "liquidity": 42103.8445
+    "liquidity": 42192.7056
    },
    {
     "market": "fif-aus-bra-2026-09-25-bra",
@@ -190,7 +202,7 @@
     "ask": 0.74,
     "spread": 0.02,
     "ask_size": 68.56,
-    "liquidity": 48485.7365
+    "liquidity": 57869.6717
    },
    {
     "market": "unl-alb-bela-2026-09-26-alb",
@@ -202,7 +214,7 @@
     "ask": 0.66,
     "spread": 0.02,
     "ask_size": 266.0,
-    "liquidity": 47641.4152
+    "liquidity": 47234.3234
    },
    {
     "market": "fif-usa-per-2026-09-26-usa",
@@ -214,7 +226,7 @@
     "ask": 0.67,
     "spread": 0.02,
     "ask_size": 103.0,
-    "liquidity": 19704.1028
+    "liquidity": 19681.8039
    },
    {
     "market": "mls-hou-skc-2026-09-26-hou",
@@ -226,19 +238,7 @@
     "ask": 0.66,
     "spread": 0.02,
     "ask_size": 663.0,
-    "liquidity": 51785.2529
-   },
-   {
-    "market": "mex-gua-que-2026-09-26-gua",
-    "league": "mex",
-    "question": "Will CD Guadalajara win on 2026-09-26?",
-    "match_date": "2026-09-26",
-    "quoted": 0.7,
-    "bid": 0.69,
-    "ask": 0.71,
-    "spread": 0.02,
-    "ask_size": 1264.78,
-    "liquidity": 33998.9114
+    "liquidity": 49330.9529
    }
   ]
  },
@@ -1578,38 +1578,46 @@
    "in_band": 24,
    "tradeable": 19,
    "median_band_spread": 0.01
+  },
+  {
+   "t": "2026-09-23T22:21:33Z",
+   "markets": 579,
+   "fixtures": 193,
+   "in_band": 23,
+   "tradeable": 19,
+   "median_band_spread": 0.01
   }
  ],
  "leagues": {
   "unl": {
-   "seen": 17130,
-   "in_band": 1709,
-   "tradeable": 1632
+   "seen": 17256,
+   "in_band": 1719,
+   "tradeable": 1642
   },
   "mls": {
-   "seen": 7275,
-   "in_band": 649,
-   "tradeable": 649
+   "seen": 7320,
+   "in_band": 653,
+   "tradeable": 653
   },
   "fif": {
-   "seen": 6702,
-   "in_band": 535,
-   "tradeable": 187
+   "seen": 6744,
+   "in_band": 540,
+   "tradeable": 189
   },
   "el1": {
-   "seen": 6012,
-   "in_band": 183,
-   "tradeable": 167
+   "seen": 6048,
+   "in_band": 184,
+   "tradeable": 168
   },
   "conl": {
-   "seen": 11280,
+   "seen": 11349,
    "in_band": 179,
    "tradeable": 166
   },
   "mex": {
-   "seen": 3762,
-   "in_band": 169,
-   "tradeable": 146
+   "seen": 3789,
+   "in_band": 170,
+   "tradeable": 147
   },
   "nlc": {
    "seen": 6150,
@@ -1617,14 +1625,14 @@
    "tradeable": 143
   },
   "nwsl": {
-   "seen": 3528,
+   "seen": 3552,
    "in_band": 180,
    "tradeable": 71
   },
   "col1": {
-   "seen": 4080,
-   "in_band": 6,
-   "tradeable": 6
+   "seen": 4107,
+   "in_band": 7,
+   "tradeable": 7
   },
   "rou1": {
    "seen": 39,
@@ -1637,7 +1645,7 @@
    "tradeable": 0
   },
   "bra2": {
-   "seen": 3804,
+   "seen": 3828,
    "in_band": 0,
    "tradeable": 0
   },
@@ -1647,8 +1655,8 @@
    "tradeable": 0
   },
   "gtm": {
-   "seen": 663,
-   "in_band": 9,
+   "seen": 684,
+   "in_band": 10,
    "tradeable": 0
   }
  }
