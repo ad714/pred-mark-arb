@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-23T12:05:41Z",
+ "generated_at": "2026-09-23T12:06:55Z",
  "breakeven": 0.029,
  "edge_band": [
   0.65,
   0.85
  ],
  "latest": {
-  "t": "2026-09-23T12:05:22Z",
+  "t": "2026-09-23T12:06:00Z",
   "markets": 567,
   "fixtures": 189,
   "in_band": 26,
@@ -93,7 +93,7 @@
     "bid": 0.67,
     "ask": 0.68,
     "spread": 0.01,
-    "ask_size": 3127.97,
+    "ask_size": 3130.3,
     "liquidity": 137612.7151
    },
    {
@@ -165,7 +165,7 @@
     "bid": 0.77,
     "ask": 0.78,
     "spread": 0.01,
-    "ask_size": 97.59,
+    "ask_size": 271.59,
     "liquidity": 42317.5517
    },
    {
@@ -1366,48 +1366,56 @@
    "in_band": 26,
    "tradeable": 22,
    "median_band_spread": 0.01
+  },
+  {
+   "t": "2026-09-23T12:06:00Z",
+   "markets": 567,
+   "fixtures": 189,
+   "in_band": 26,
+   "tradeable": 22,
+   "median_band_spread": 0.01
   }
  ],
  "leagues": {
   "unl": {
-   "seen": 13680,
-   "in_band": 1399,
-   "tradeable": 1322
+   "seen": 13782,
+   "in_band": 1409,
+   "tradeable": 1332
   },
   "mls": {
-   "seen": 5880,
-   "in_band": 525,
-   "tradeable": 525
+   "seen": 5925,
+   "in_band": 529,
+   "tradeable": 529
   },
   "el1": {
-   "seen": 4896,
-   "in_band": 147,
-   "tradeable": 136
+   "seen": 4932,
+   "in_band": 149,
+   "tradeable": 137
   },
   "fif": {
-   "seen": 5328,
-   "in_band": 396,
-   "tradeable": 132
+   "seen": 5376,
+   "in_band": 400,
+   "tradeable": 133
   },
   "conl": {
-   "seen": 9000,
-   "in_band": 133,
-   "tradeable": 126
+   "seen": 9075,
+   "in_band": 135,
+   "tradeable": 128
   },
   "nlc": {
-   "seen": 5808,
-   "in_band": 262,
-   "tradeable": 120
+   "seen": 5826,
+   "in_band": 263,
+   "tradeable": 121
   },
   "mex": {
-   "seen": 2925,
-   "in_band": 138,
-   "tradeable": 115
+   "seen": 2952,
+   "in_band": 139,
+   "tradeable": 116
   },
   "nwsl": {
-   "seen": 2784,
-   "in_band": 149,
-   "tradeable": 42
+   "seen": 2808,
+   "in_band": 151,
+   "tradeable": 44
   },
   "rou1": {
    "seen": 39,
@@ -1420,22 +1428,22 @@
    "tradeable": 0
   },
   "bra2": {
-   "seen": 3096,
+   "seen": 3117,
    "in_band": 0,
    "tradeable": 0
   },
   "uwcl": {
-   "seen": 2610,
+   "seen": 2622,
    "in_band": 2,
    "tradeable": 0
   },
   "col1": {
-   "seen": 3315,
+   "seen": 3336,
    "in_band": 0,
    "tradeable": 0
   },
   "gtm": {
-   "seen": 408,
+   "seen": 411,
    "in_band": 0,
    "tradeable": 0
   }
