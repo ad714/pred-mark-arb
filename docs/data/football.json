@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-24T15:33:31Z",
+ "generated_at": "2026-09-24T15:34:29Z",
  "breakeven": 0.029,
  "edge_band": [
   0.65,
   0.85
  ],
  "latest": {
-  "t": "2026-09-24T15:33:11Z",
+  "t": "2026-09-24T15:34:11Z",
   "markets": 582,
   "fixtures": 194,
   "in_band": 23,
@@ -33,7 +33,7 @@
     "bid": 0.84,
     "ask": 0.85,
     "spread": 0.01,
-    "ask_size": 33698.17,
+    "ask_size": 33675.43,
     "liquidity": 752204.5291
    },
    {
@@ -45,7 +45,7 @@
     "bid": 0.66,
     "ask": 0.67,
     "spread": 0.01,
-    "ask_size": 18774.29,
+    "ask_size": 18029.29,
     "liquidity": 727176.9641
    },
    {
@@ -57,7 +57,7 @@
     "bid": 0.73,
     "ask": 0.74,
     "spread": 0.01,
-    "ask_size": 4488.41,
+    "ask_size": 4610.8,
     "liquidity": 185175.8989
    },
    {
@@ -81,7 +81,7 @@
     "bid": 0.69,
     "ask": 0.7,
     "spread": 0.01,
-    "ask_size": 51953.79,
+    "ask_size": 51925.21,
     "liquidity": 334074.8837
    },
    {
@@ -131,18 +131,6 @@
     "spread": 0.01,
     "ask_size": 2511.94,
     "liquidity": 62722.3346
-   },
-   {
-    "market": "fif-usa-per-2026-09-26-usa",
-    "league": "fif",
-    "question": "Will United States win on 2026-09-26?",
-    "match_date": "2026-09-26",
-    "quoted": 0.665,
-    "bid": 0.65,
-    "ask": 0.66,
-    "spread": 0.01,
-    "ask_size": 98.0,
-    "liquidity": 17451.1374
    },
    {
     "market": "mls-phi-orl-2026-09-26-phi",
@@ -227,6 +215,18 @@
     "spread": 0.02,
     "ask_size": 1426.55,
     "liquidity": 54669.4657
+   },
+   {
+    "market": "fif-usa-per-2026-09-26-usa",
+    "league": "fif",
+    "question": "Will United States win on 2026-09-26?",
+    "match_date": "2026-09-26",
+    "quoted": 0.665,
+    "bid": 0.65,
+    "ask": 0.67,
+    "spread": 0.02,
+    "ask_size": 143.07,
+    "liquidity": 17451.1374
    },
    {
     "market": "mls-hou-skc-2026-09-26-hou",
@@ -2010,36 +2010,44 @@
    "in_band": 23,
    "tradeable": 19,
    "median_band_spread": 0.01
+  },
+  {
+   "t": "2026-09-24T15:34:11Z",
+   "markets": 582,
+   "fixtures": 194,
+   "in_band": 23,
+   "tradeable": 19,
+   "median_band_spread": 0.01
   }
  ],
  "leagues": {
   "unl": {
-   "seen": 23934,
-   "in_band": 2257,
-   "tradeable": 2180
+   "seen": 24060,
+   "in_band": 2268,
+   "tradeable": 2191
   },
   "mls": {
-   "seen": 9705,
-   "in_band": 826,
-   "tradeable": 826
+   "seen": 9750,
+   "in_band": 830,
+   "tradeable": 830
   },
   "fif": {
-   "seen": 8865,
-   "in_band": 778,
-   "tradeable": 288
+   "seen": 8898,
+   "in_band": 784,
+   "tradeable": 290
   },
   "el1": {
-   "seen": 7956,
-   "in_band": 237,
-   "tradeable": 221
+   "seen": 7992,
+   "in_band": 238,
+   "tradeable": 222
   },
   "mex": {
-   "seen": 5220,
-   "in_band": 223,
-   "tradeable": 200
+   "seen": 5247,
+   "in_band": 224,
+   "tradeable": 201
   },
   "conl": {
-   "seen": 14955,
+   "seen": 15042,
    "in_band": 179,
    "tradeable": 166
   },
@@ -2049,17 +2057,17 @@
    "tradeable": 143
   },
   "nwsl": {
-   "seen": 4824,
+   "seen": 4848,
    "in_band": 182,
    "tradeable": 72
   },
   "gtm": {
-   "seen": 1653,
+   "seen": 1671,
    "in_band": 62,
    "tradeable": 41
   },
   "col1": {
-   "seen": 5394,
+   "seen": 5418,
    "in_band": 12,
    "tradeable": 12
   },
@@ -2074,7 +2082,7 @@
    "tradeable": 0
   },
   "bra2": {
-   "seen": 5100,
+   "seen": 5124,
    "in_band": 0,
    "tradeable": 0
   },
