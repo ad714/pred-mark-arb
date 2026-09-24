@@ -1,29 +1,17 @@
 {
- "generated_at": "2026-09-24T18:59:20Z",
+ "generated_at": "2026-09-24T19:19:48Z",
  "breakeven": 0.029,
  "edge_band": [
   0.65,
   0.85
  ],
  "latest": {
-  "t": "2026-09-24T18:58:55Z",
-  "markets": 591,
-  "fixtures": 197,
-  "in_band": 22,
-  "tradeable": 18,
+  "t": "2026-09-24T19:19:26Z",
+  "markets": 588,
+  "fixtures": 196,
+  "in_band": 21,
+  "tradeable": 17,
   "rows": [
-   {
-    "market": "gtm-mun-suc-2026-09-24-mun",
-    "league": "gtm",
-    "question": "Will CSD Municipal win on 2026-09-24?",
-    "match_date": "2026-09-24",
-    "quoted": 0.655,
-    "bid": 0.65,
-    "ask": 0.66,
-    "spread": 0.01,
-    "ask_size": 7.0,
-    "liquidity": 56748.1548
-   },
    {
     "market": "fif-aus-bra-2026-09-25-bra",
     "league": "fif",
@@ -33,8 +21,8 @@
     "bid": 0.73,
     "ask": 0.74,
     "spread": 0.01,
-    "ask_size": 5408.81,
-    "liquidity": 136584.2725
+    "ask_size": 3327.55,
+    "liquidity": 138134.8023
    },
    {
     "market": "unl-swe-rom-2026-09-25-swe",
@@ -45,8 +33,8 @@
     "bid": 0.65,
     "ask": 0.66,
     "spread": 0.01,
-    "ask_size": 6082.39,
-    "liquidity": 203835.9478
+    "ask_size": 6177.39,
+    "liquidity": 214804.6031
    },
    {
     "market": "unl-tur-fra-2026-09-25-fra",
@@ -57,8 +45,8 @@
     "bid": 0.69,
     "ask": 0.7,
     "spread": 0.01,
-    "ask_size": 35497.98,
-    "liquidity": 319005.7117
+    "ask_size": 36361.63,
+    "liquidity": 390094.6032
    },
    {
     "market": "fif-ind-pan-2026-09-25-pan",
@@ -70,7 +58,7 @@
     "ask": 0.71,
     "spread": 0.01,
     "ask_size": 79.15,
-    "liquidity": 19053.9027
+    "liquidity": 19296.6184
    },
    {
     "market": "el1-sto-pet-2026-09-26-sto",
@@ -81,8 +69,8 @@
     "bid": 0.7,
     "ask": 0.71,
     "spread": 0.01,
-    "ask_size": 171.0,
-    "liquidity": 36807.9498
+    "ask_size": 1171.0,
+    "liquidity": 37337.6956
    },
    {
     "market": "unl-svk-mol-2026-09-26-svk",
@@ -93,8 +81,8 @@
     "bid": 0.79,
     "ask": 0.8,
     "spread": 0.01,
-    "ask_size": 7993.63,
-    "liquidity": 98514.9633
+    "ask_size": 7341.25,
+    "liquidity": 107313.4258
    },
    {
     "market": "unl-mac-che-2026-09-26-che",
@@ -105,8 +93,8 @@
     "bid": 0.69,
     "ask": 0.7,
     "spread": 0.01,
-    "ask_size": 1401.17,
-    "liquidity": 107174.1857
+    "ask_size": 2028.6,
+    "liquidity": 111566.4431
    },
    {
     "market": "fif-usa-per-2026-09-26-usa",
@@ -117,8 +105,8 @@
     "bid": 0.66,
     "ask": 0.67,
     "spread": 0.01,
-    "ask_size": 114.57,
-    "liquidity": 16997.3675
+    "ask_size": 43.57,
+    "liquidity": 16765.6805
    },
    {
     "market": "mls-phi-orl-2026-09-26-phi",
@@ -129,8 +117,8 @@
     "bid": 0.67,
     "ask": 0.68,
     "spread": 0.01,
-    "ask_size": 262.04,
-    "liquidity": 75035.3478
+    "ask_size": 277.19,
+    "liquidity": 80570.2007
    },
    {
     "market": "mls-nas-tor-2026-09-26-nas",
@@ -141,8 +129,8 @@
     "bid": 0.67,
     "ask": 0.68,
     "spread": 0.01,
-    "ask_size": 2847.42,
-    "liquidity": 78855.4888
+    "ask_size": 2512.42,
+    "liquidity": 70229.6874
    },
    {
     "market": "mls-vwh-dcu-2026-09-26-vwh",
@@ -153,20 +141,8 @@
     "bid": 0.77,
     "ask": 0.78,
     "spread": 0.01,
-    "ask_size": 309.44,
-    "liquidity": 83771.4334
-   },
-   {
-    "market": "unl-aut-kvx-2026-09-27-aut",
-    "league": "unl",
-    "question": "Will Austria win on 2026-09-27?",
-    "match_date": "2026-09-27",
-    "quoted": 0.655,
-    "bid": 0.65,
-    "ask": 0.66,
-    "spread": 0.01,
-    "ask_size": 390.32,
-    "liquidity": 40337.2009
+    "ask_size": 363.59,
+    "liquidity": 76131.0168
    },
    {
     "market": "unl-ger-grc-2026-09-27-ger",
@@ -177,8 +153,8 @@
     "bid": 0.72,
     "ask": 0.73,
     "spread": 0.01,
-    "ask_size": 1192.03,
-    "liquidity": 62561.4483
+    "ask_size": 2659.03,
+    "liquidity": 61847.1262
    },
    {
     "market": "unl-esp-hrv-2026-09-29-esp",
@@ -189,8 +165,20 @@
     "bid": 0.76,
     "ask": 0.77,
     "spread": 0.01,
-    "ask_size": 716.4,
-    "liquidity": 42472.2118
+    "ask_size": 387.3,
+    "liquidity": 42258.8977
+   },
+   {
+    "market": "gtm-mun-suc-2026-09-24-mun",
+    "league": "gtm",
+    "question": "Will CSD Municipal win on 2026-09-24?",
+    "match_date": "2026-09-24",
+    "quoted": 0.66,
+    "bid": 0.65,
+    "ask": 0.67,
+    "spread": 0.02,
+    "ask_size": 382.61,
+    "liquidity": 63764.4966
    },
    {
     "market": "unl-isl-est-2026-09-26-isl",
@@ -202,7 +190,7 @@
     "ask": 0.77,
     "spread": 0.02,
     "ask_size": 1750.47,
-    "liquidity": 96041.7728
+    "liquidity": 98333.0831
    },
    {
     "market": "mls-hou-skc-2026-09-26-hou",
@@ -213,8 +201,8 @@
     "bid": 0.64,
     "ask": 0.66,
     "spread": 0.02,
-    "ask_size": 3125.5,
-    "liquidity": 89420.4811
+    "ask_size": 2679.22,
+    "liquidity": 76671.4381
    },
    {
     "market": "mex-gua-que-2026-09-26-gua",
@@ -225,8 +213,8 @@
     "bid": 0.69,
     "ask": 0.71,
     "spread": 0.02,
-    "ask_size": 3420.0,
-    "liquidity": 56030.5377
+    "ask_size": 3272.42,
+    "liquidity": 58729.6844
    }
   ]
  },
@@ -2086,36 +2074,44 @@
    "in_band": 22,
    "tradeable": 18,
    "median_band_spread": 0.01
+  },
+  {
+   "t": "2026-09-24T19:19:26Z",
+   "markets": 588,
+   "fixtures": 196,
+   "in_band": 21,
+   "tradeable": 17,
+   "median_band_spread": 0.01
   }
  ],
  "leagues": {
   "unl": {
-   "seen": 25302,
-   "in_band": 2370,
-   "tradeable": 2291
+   "seen": 25434,
+   "in_band": 2379,
+   "tradeable": 2298
   },
   "mls": {
-   "seen": 10200,
-   "in_band": 870,
-   "tradeable": 870
+   "seen": 10245,
+   "in_band": 874,
+   "tradeable": 874
   },
   "fif": {
-   "seen": 9228,
-   "in_band": 836,
-   "tradeable": 317
+   "seen": 9261,
+   "in_band": 841,
+   "tradeable": 320
   },
   "el1": {
-   "seen": 8352,
-   "in_band": 248,
-   "tradeable": 232
+   "seen": 8388,
+   "in_band": 249,
+   "tradeable": 233
   },
   "mex": {
-   "seen": 5517,
-   "in_band": 234,
-   "tradeable": 211
+   "seen": 5544,
+   "in_band": 235,
+   "tradeable": 212
   },
   "conl": {
-   "seen": 15912,
+   "seen": 15996,
    "in_band": 179,
    "tradeable": 166
   },
@@ -2125,17 +2121,17 @@
    "tradeable": 143
   },
   "nwsl": {
-   "seen": 5088,
+   "seen": 5112,
    "in_band": 182,
    "tradeable": 72
   },
   "gtm": {
-   "seen": 1851,
-   "in_band": 63,
-   "tradeable": 42
+   "seen": 1869,
+   "in_band": 64,
+   "tradeable": 43
   },
   "col1": {
-   "seen": 5658,
+   "seen": 5682,
    "in_band": 12,
    "tradeable": 12
   },
@@ -2150,7 +2146,7 @@
    "tradeable": 0
   },
   "bra2": {
-   "seen": 5367,
+   "seen": 5394,
    "in_band": 0,
    "tradeable": 0
   },

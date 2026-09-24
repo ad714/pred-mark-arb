@@ -372,16 +372,8 @@ def football_view():
     for row in rows:
         by_sample.setdefault(row.get("t"), []).append(row)
 
-    flagged = [r.get("t") for r in rows if r.get("snapshot")]
-    if flagged:
-        cutover = min(flagged)
-        stamps = sorted(s for s in by_sample
-                        if s < cutover or any(r.get("snapshot") for r in by_sample[s]))
-    else:
-        stamps = sorted(by_sample)
-
     history = []
-    for stamp in stamps:
+    for stamp in sorted(by_sample):
         batch = by_sample[stamp]
         band = [r for r in batch if r.get("in_edge_band")]
         good = [r for r in band if r.get("tradeable")]
@@ -395,7 +387,7 @@ def football_view():
             "median_band_spread": (round(statistics.median(spreads), 4) if spreads else None),
         })
 
-    newest = stamps[-1]
+    newest = sorted(by_sample)[-1]
     batch = by_sample[newest]
     band = [r for r in batch if r.get("in_edge_band")]
     good = sorted((r for r in band if r.get("tradeable")),
@@ -416,10 +408,7 @@ def football_view():
     }
 
     leagues = {}
-    complete = set(stamps)
     for row in rows:
-        if row.get("t") not in complete:
-            continue
         key = row.get("league") or "?"
         slot = leagues.setdefault(key, {"seen": 0, "in_band": 0, "tradeable": 0})
         slot["seen"] += 1
