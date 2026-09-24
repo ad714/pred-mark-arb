@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-24T21:02:23Z",
+ "generated_at": "2026-09-24T21:03:14Z",
  "breakeven": 0.029,
  "edge_band": [
   0.65,
   0.85
  ],
  "latest": {
-  "t": "2026-09-24T21:02:00Z",
+  "t": "2026-09-24T21:02:50Z",
   "markets": 588,
   "fixtures": 196,
   "in_band": 24,
@@ -18,10 +18,10 @@
     "question": "Will CSD Municipal win on 2026-09-24?",
     "match_date": "2026-09-24",
     "quoted": 0.675,
-    "bid": 0.67,
-    "ask": 0.68,
+    "bid": 0.66,
+    "ask": 0.67,
     "spread": 0.01,
-    "ask_size": 359.49,
+    "ask_size": 250.0,
     "liquidity": 69577.6394
    },
    {
@@ -33,7 +33,7 @@
     "bid": 0.73,
     "ask": 0.74,
     "spread": 0.01,
-    "ask_size": 369.62,
+    "ask_size": 58.62,
     "liquidity": 291977.4267
    },
    {
@@ -57,7 +57,7 @@
     "bid": 0.69,
     "ask": 0.7,
     "spread": 0.01,
-    "ask_size": 26257.39,
+    "ask_size": 20312.53,
     "liquidity": 781427.7994
    },
    {
@@ -69,7 +69,7 @@
     "bid": 0.71,
     "ask": 0.72,
     "spread": 0.01,
-    "ask_size": 304.73,
+    "ask_size": 318.0,
     "liquidity": 62791.1303
    },
    {
@@ -165,7 +165,7 @@
     "bid": 0.69,
     "ask": 0.7,
     "spread": 0.01,
-    "ask_size": 263.0,
+    "ask_size": 50.0,
     "liquidity": 132815.9582
    },
    {
@@ -189,7 +189,7 @@
     "bid": 0.7,
     "ask": 0.71,
     "spread": 0.01,
-    "ask_size": 11769.79,
+    "ask_size": 11775.18,
     "liquidity": 151750.2294
    },
    {
@@ -213,7 +213,7 @@
     "bid": 0.75,
     "ask": 0.77,
     "spread": 0.02,
-    "ask_size": 3136.44,
+    "ask_size": 2989.53,
     "liquidity": 98544.4695
    },
    {
@@ -237,7 +237,7 @@
     "bid": 0.65,
     "ask": 0.67,
     "spread": 0.02,
-    "ask_size": 612.79,
+    "ask_size": 596.94,
     "liquidity": 51724.5623
    },
    {
@@ -249,7 +249,7 @@
     "bid": 0.68,
     "ask": 0.7,
     "spread": 0.02,
-    "ask_size": 158.85,
+    "ask_size": 209.02,
     "liquidity": 6618.3953
    }
   ]
@@ -2158,36 +2158,44 @@
    "in_band": 24,
    "tradeable": 20,
    "median_band_spread": 0.01
+  },
+  {
+   "t": "2026-09-24T21:02:50Z",
+   "markets": 588,
+   "fixtures": 196,
+   "in_band": 24,
+   "tradeable": 20,
+   "median_band_spread": 0.01
   }
  ],
  "leagues": {
   "unl": {
-   "seen": 26094,
-   "in_band": 2426,
-   "tradeable": 2335
+   "seen": 26226,
+   "in_band": 2437,
+   "tradeable": 2344
   },
   "mls": {
-   "seen": 10470,
-   "in_band": 894,
-   "tradeable": 894
+   "seen": 10515,
+   "in_band": 898,
+   "tradeable": 898
   },
   "fif": {
-   "seen": 9426,
-   "in_band": 871,
-   "tradeable": 338
+   "seen": 9459,
+   "in_band": 877,
+   "tradeable": 342
   },
   "el1": {
-   "seen": 8568,
-   "in_band": 254,
-   "tradeable": 238
+   "seen": 8604,
+   "in_band": 255,
+   "tradeable": 239
   },
   "mex": {
-   "seen": 5679,
-   "in_band": 240,
-   "tradeable": 217
+   "seen": 5706,
+   "in_band": 241,
+   "tradeable": 218
   },
   "conl": {
-   "seen": 16416,
+   "seen": 16500,
    "in_band": 179,
    "tradeable": 166
   },
@@ -2197,17 +2205,17 @@
    "tradeable": 143
   },
   "nwsl": {
-   "seen": 5232,
+   "seen": 5256,
    "in_band": 182,
    "tradeable": 72
   },
   "gtm": {
-   "seen": 1959,
-   "in_band": 67,
-   "tradeable": 46
+   "seen": 1977,
+   "in_band": 68,
+   "tradeable": 47
   },
   "col1": {
-   "seen": 5802,
+   "seen": 5826,
    "in_band": 12,
    "tradeable": 12
   },
@@ -2222,7 +2230,7 @@
    "tradeable": 0
   },
   "bra2": {
-   "seen": 5529,
+   "seen": 5556,
    "in_band": 0,
    "tradeable": 0
   },

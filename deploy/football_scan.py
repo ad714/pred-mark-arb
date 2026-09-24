@@ -19,8 +19,13 @@ FIXTURE = re.compile(r"^([a-z0-9]+)-[a-z0-9]+-[a-z0-9]+-(\d{4}-\d{2}-\d{2})$")
 TAGS = ("soccer", "football")
 EDGE_LOW, EDGE_HIGH = 0.65, 0.85
 BREAKEVEN = 0.029
+SNAPSHOT_GAP = 7200
 BANDS = ((0.00, 0.20), (0.20, 0.35), (0.35, 0.50),
          (0.50, 0.65), (0.65, 0.85), (0.85, 1.01))
+
+
+def quote_key(row):
+    return (row.get("quoted"), row.get("bid"), row.get("ask"))
 
 
 def band_of(price):
@@ -109,21 +114,41 @@ def main():
     now = datetime.now(timezone.utc)
     legs = collect(requests.Session(), now)
 
-    seen = set()
+    seen, last, newest_full = set(), {}, None
     if out.exists():
-        for line in out.read_text(encoding="utf-8").splitlines():
-            if line.strip():
+        with open(out, encoding="utf-8") as handle:
+            for line in handle:
+                if not line.strip():
+                    continue
                 try:
                     row = json.loads(line)
                 except ValueError:
                     continue
                 seen.add((row.get("t"), row.get("market")))
+                last[row.get("market")] = quote_key(row)
+                if row.get("snapshot"):
+                    newest_full = row.get("t")
+
+    full = True
+    if newest_full:
+        try:
+            marked = datetime.strptime(newest_full, "%Y-%m-%dT%H:%M:%SZ").replace(
+                tzinfo=timezone.utc)
+            full = (now - marked).total_seconds() >= SNAPSHOT_GAP
+        except ValueError:
+            full = True
 
     added = 0
     with open(out, "a", encoding="utf-8") as handle:
         for leg in legs:
             if (leg["t"], leg["market"]) in seen:
                 continue
+            key = quote_key(leg)
+            if not full and last.get(leg["market"]) == key:
+                continue
+            last[leg["market"]] = key
+            if full:
+                leg["snapshot"] = True
             handle.write(json.dumps(leg) + "\n")
             added += 1
 
@@ -134,7 +159,7 @@ def main():
     print(f"  of those, spread < {BREAKEVEN}: {len(good)}")
     for leg in good:
         print(f"    {leg['market']:<38} {leg['quoted']:.3f}  spread {leg['spread']:.3f}")
-    print(f"  appended {added} rows -> {out}")
+    print(f"  appended {added} rows ({'snapshot' if full else 'changes'}) -> {out}")
     return 0
 
 
