@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-09-24T10:05:57Z",
+ "generated_at": "2026-09-24T10:06:41Z",
  "breakeven": 0.029,
  "edge_band": [
   0.65,
   0.85
  ],
  "latest": {
-  "t": "2026-09-24T10:05:36Z",
+  "t": "2026-09-24T10:06:22Z",
   "markets": 567,
   "fixtures": 189,
   "in_band": 21,
@@ -21,7 +21,7 @@
     "bid": 0.74,
     "ask": 0.75,
     "spread": 0.01,
-    "ask_size": 31463.47,
+    "ask_size": 35249.88,
     "liquidity": 364179.2521
    },
    {
@@ -69,7 +69,7 @@
     "bid": 0.72,
     "ask": 0.73,
     "spread": 0.01,
-    "ask_size": 518.65,
+    "ask_size": 791.65,
     "liquidity": 96262.6147
    },
    {
@@ -81,7 +81,7 @@
     "bid": 0.68,
     "ask": 0.69,
     "spread": 0.01,
-    "ask_size": 5445.35,
+    "ask_size": 5220.42,
     "liquidity": 292560.0276
    },
    {
@@ -105,7 +105,7 @@
     "bid": 0.79,
     "ask": 0.8,
     "spread": 0.01,
-    "ask_size": 8742.17,
+    "ask_size": 8522.17,
     "liquidity": 66806.8482
    },
    {
@@ -141,7 +141,7 @@
     "bid": 0.67,
     "ask": 0.68,
     "spread": 0.01,
-    "ask_size": 5003.87,
+    "ask_size": 5309.87,
     "liquidity": 112164.4299
    },
    {
@@ -177,7 +177,7 @@
     "bid": 0.65,
     "ask": 0.66,
     "spread": 0.01,
-    "ask_size": 323.32,
+    "ask_size": 70.32,
     "liquidity": 34541.1947
    },
    {
@@ -1862,36 +1862,44 @@
    "in_band": 21,
    "tradeable": 18,
    "median_band_spread": 0.01
+  },
+  {
+   "t": "2026-09-24T10:06:22Z",
+   "markets": 567,
+   "fixtures": 189,
+   "in_band": 21,
+   "tradeable": 18,
+   "median_band_spread": 0.01
   }
  ],
  "leagues": {
   "unl": {
-   "seen": 21792,
-   "in_band": 2079,
-   "tradeable": 2002
+   "seen": 21918,
+   "in_band": 2089,
+   "tradeable": 2012
   },
   "mls": {
-   "seen": 8940,
-   "in_band": 768,
-   "tradeable": 768
+   "seen": 8985,
+   "in_band": 771,
+   "tradeable": 771
   },
   "fif": {
-   "seen": 8253,
-   "in_band": 689,
-   "tradeable": 254
+   "seen": 8292,
+   "in_band": 694,
+   "tradeable": 256
   },
   "el1": {
-   "seen": 7344,
-   "in_band": 220,
-   "tradeable": 204
+   "seen": 7380,
+   "in_band": 221,
+   "tradeable": 205
   },
   "mex": {
-   "seen": 4761,
-   "in_band": 206,
-   "tradeable": 183
+   "seen": 4788,
+   "in_band": 207,
+   "tradeable": 184
   },
   "conl": {
-   "seen": 13728,
+   "seen": 13794,
    "in_band": 179,
    "tradeable": 166
   },
@@ -1901,17 +1909,17 @@
    "tradeable": 143
   },
   "nwsl": {
-   "seen": 4416,
+   "seen": 4440,
    "in_band": 182,
    "tradeable": 72
   },
   "gtm": {
-   "seen": 1347,
-   "in_band": 46,
-   "tradeable": 25
+   "seen": 1365,
+   "in_band": 47,
+   "tradeable": 26
   },
   "col1": {
-   "seen": 4986,
+   "seen": 5010,
    "in_band": 12,
    "tradeable": 12
   },
@@ -1926,7 +1934,7 @@
    "tradeable": 0
   },
   "bra2": {
-   "seen": 4692,
+   "seen": 4716,
    "in_band": 0,
    "tradeable": 0
   },
