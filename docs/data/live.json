@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-24T05:08:55Z",
+ "generated_at": "2026-09-24T05:18:59Z",
  "matches": [
   {
    "cb_id": 155411,
    "teams": "INDA v AUSA",
    "teams_full": "India A v Australia A",
    "state": "In Progress",
-   "status": "Day 3: 1st Session - India A lead by 209 runs",
+   "status": "Day 3: 1st Session - India A lead by 216 runs",
    "series": "Australia A tour of India 2026",
    "format": "TEST",
    "date": "2026-09-22",
    "start_ms": 1790049600000,
-   "last_ball_min": 1.0,
+   "last_ball_min": 0.1,
    "balls_flowing": true
   },
   {
@@ -24,7 +24,7 @@
    "format": "T20",
    "date": "2026-09-24",
    "start_ms": 1790226000000,
-   "last_ball_min": 1.7,
+   "last_ball_min": 0.2,
    "balls_flowing": true
   },
   {
@@ -273,14 +273,14 @@
    "state": "Preview",
    "prices": {
     "Zimbabwe Women": {
-     "bid": 0.07,
-     "ask": 0.09,
-     "mid": 0.08
+     "bid": 0.09,
+     "ask": 0.1,
+     "mid": 0.095
     },
     "West Indies Women": {
-     "bid": 0.91,
-     "ask": 0.93,
-     "mid": 0.92
+     "bid": 0.9,
+     "ask": 0.91,
+     "mid": 0.905
     }
    }
   },
@@ -311,14 +311,14 @@
    "state": "In Progress",
    "prices": {
     "Hong Kong": {
-     "bid": 0.53,
-     "ask": 0.54,
-     "mid": 0.535
+     "bid": 0.55,
+     "ask": 0.57,
+     "mid": 0.56
     },
     "Malaysia": {
-     "bid": 0.46,
-     "ask": 0.47,
-     "mid": 0.46499999999999997
+     "bid": 0.43,
+     "ask": 0.45,
+     "mid": 0.44
     }
    }
   }
@@ -428,8 +428,8 @@
   "run_number": 21,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35956519362",
   "started_at": "2026-09-24T04:38:39Z",
-  "elapsed_s": 1816,
+  "elapsed_s": 2421,
   "elapsed_means": "running for",
-  "runs_total": 21
+  "runs_total": 22
  }
 }
