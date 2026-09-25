@@ -1,16 +1,16 @@
 {
- "generated_at": "2026-09-25T05:00:15Z",
+ "generated_at": "2026-09-25T05:14:05Z",
  "breakeven": 0.029,
  "edge_band": [
   0.65,
   0.85
  ],
  "latest": {
-  "t": "2026-09-25T03:11:26Z",
+  "t": "2026-09-25T05:13:48Z",
   "markets": 570,
   "fixtures": 190,
-  "in_band": 22,
-  "tradeable": 20,
+  "in_band": 21,
+  "tradeable": 19,
   "rows": [
    {
     "market": "fif-aus-bra-2026-09-25-bra",
@@ -21,8 +21,8 @@
     "bid": 0.77,
     "ask": 0.78,
     "spread": 0.01,
-    "ask_size": 11617.08,
-    "liquidity": 282953.2919
+    "ask_size": 15206.36,
+    "liquidity": 325952.0574
    },
    {
     "market": "unl-swe-rom-2026-09-25-swe",
@@ -33,20 +33,20 @@
     "bid": 0.66,
     "ask": 0.67,
     "spread": 0.01,
-    "ask_size": 34903.21,
-    "liquidity": 325145.4878
+    "ask_size": 25270.89,
+    "liquidity": 329952.7008
    },
    {
     "market": "unl-tur-fra-2026-09-25-fra",
     "league": "unl",
     "question": "Will France win on 2026-09-25?",
     "match_date": "2026-09-25",
-    "quoted": 0.705,
-    "bid": 0.7,
-    "ask": 0.71,
+    "quoted": 0.715,
+    "bid": 0.71,
+    "ask": 0.72,
     "spread": 0.01,
-    "ask_size": 19210.19,
-    "liquidity": 793185.0559
+    "ask_size": 22418.49,
+    "liquidity": 854924.3415
    },
    {
     "market": "fif-ind-pan-2026-09-25-pan",
@@ -54,11 +54,11 @@
     "question": "Will Panama win on 2026-09-25?",
     "match_date": "2026-09-25",
     "quoted": 0.725,
-    "bid": 0.71,
-    "ask": 0.72,
+    "bid": 0.72,
+    "ask": 0.73,
     "spread": 0.01,
-    "ask_size": 933.75,
-    "liquidity": 72982.3579
+    "ask_size": 1595.12,
+    "liquidity": 93810.0637
    },
    {
     "market": "el1-sto-pet-2026-09-26-sto",
@@ -69,8 +69,8 @@
     "bid": 0.7,
     "ask": 0.71,
     "spread": 0.01,
-    "ask_size": 1171.0,
-    "liquidity": 37998.0727
+    "ask_size": 1172.0,
+    "liquidity": 41993.3778
    },
    {
     "market": "unl-isl-est-2026-09-26-isl",
@@ -81,8 +81,8 @@
     "bid": 0.76,
     "ask": 0.77,
     "spread": 0.01,
-    "ask_size": 3097.16,
-    "liquidity": 99437.1049
+    "ask_size": 2881.81,
+    "liquidity": 106383.7672
    },
    {
     "market": "unl-svk-mol-2026-09-26-svk",
@@ -93,8 +93,8 @@
     "bid": 0.79,
     "ask": 0.8,
     "spread": 0.01,
-    "ask_size": 6859.72,
-    "liquidity": 111428.6352
+    "ask_size": 6834.52,
+    "liquidity": 113462.5972
    },
    {
     "market": "unl-mac-che-2026-09-26-che",
@@ -105,8 +105,8 @@
     "bid": 0.69,
     "ask": 0.7,
     "spread": 0.01,
-    "ask_size": 2310.13,
-    "liquidity": 101521.3195
+    "ask_size": 1849.29,
+    "liquidity": 107605.8603
    },
    {
     "market": "mls-phi-orl-2026-09-26-phi",
@@ -117,8 +117,8 @@
     "bid": 0.67,
     "ask": 0.68,
     "spread": 0.01,
-    "ask_size": 123.19,
-    "liquidity": 104503.8764
+    "ask_size": 72.19,
+    "liquidity": 116749.0065
    },
    {
     "market": "mls-nas-tor-2026-09-26-nas",
@@ -129,8 +129,8 @@
     "bid": 0.67,
     "ask": 0.68,
     "spread": 0.01,
-    "ask_size": 5038.49,
-    "liquidity": 110519.3584
+    "ask_size": 7682.78,
+    "liquidity": 124148.9384
    },
    {
     "market": "mls-vwh-dcu-2026-09-26-vwh",
@@ -141,20 +141,20 @@
     "bid": 0.77,
     "ask": 0.78,
     "spread": 0.01,
-    "ask_size": 439.59,
-    "liquidity": 107881.7008
+    "ask_size": 428.59,
+    "liquidity": 116637.1068
    },
    {
     "market": "mex-gua-que-2026-09-26-gua",
     "league": "mex",
     "question": "Will CD Guadalajara win on 2026-09-26?",
     "match_date": "2026-09-26",
-    "quoted": 0.705,
-    "bid": 0.7,
-    "ask": 0.71,
+    "quoted": 0.695,
+    "bid": 0.69,
+    "ask": 0.7,
     "spread": 0.01,
-    "ask_size": 3555.34,
-    "liquidity": 82035.2094
+    "ask_size": 50.0,
+    "liquidity": 95134.6174
    },
    {
     "market": "unl-ser-nld-2026-09-27-nld",
@@ -165,20 +165,8 @@
     "bid": 0.67,
     "ask": 0.68,
     "spread": 0.01,
-    "ask_size": 810.01,
-    "liquidity": 44921.2589
-   },
-   {
-    "market": "unl-den-wal-2026-09-27-den",
-    "league": "unl",
-    "question": "Will Denmark win on 2026-09-27?",
-    "match_date": "2026-09-27",
-    "quoted": 0.665,
-    "bid": 0.66,
-    "ask": 0.67,
-    "spread": 0.01,
-    "ask_size": 74.0,
-    "liquidity": 46956.3613
+    "ask_size": 1158.92,
+    "liquidity": 45464.7601
    },
    {
     "market": "unl-ger-grc-2026-09-27-ger",
@@ -189,8 +177,20 @@
     "bid": 0.69,
     "ask": 0.7,
     "spread": 0.01,
-    "ask_size": 10820.22,
-    "liquidity": 85552.862
+    "ask_size": 11140.93,
+    "liquidity": 97691.6151
+   },
+   {
+    "market": "fif-jpn-ven-2026-09-28-jpn",
+    "league": "fif",
+    "question": "Will Japan win on 2026-09-28?",
+    "match_date": "2026-09-28",
+    "quoted": 0.705,
+    "bid": 0.7,
+    "ask": 0.71,
+    "spread": 0.01,
+    "ask_size": 148.9,
+    "liquidity": 7645.0467
    },
    {
     "market": "unl-esp-hrv-2026-09-29-esp",
@@ -201,20 +201,20 @@
     "bid": 0.76,
     "ask": 0.77,
     "spread": 0.01,
-    "ask_size": 967.76,
-    "liquidity": 41892.8342
+    "ask_size": 708.73,
+    "liquidity": 41032.3321
    },
    {
     "market": "unl-cze-eng-2026-09-29-eng",
     "league": "unl",
     "question": "Will England win on 2026-09-29?",
     "match_date": "2026-09-29",
-    "quoted": 0.675,
-    "bid": 0.67,
-    "ask": 0.68,
+    "quoted": 0.685,
+    "bid": 0.68,
+    "ask": 0.69,
     "spread": 0.01,
-    "ask_size": 192.0,
-    "liquidity": 24985.5653
+    "ask_size": 594.0,
+    "liquidity": 29180.0781
    },
    {
     "market": "fif-usa-per-2026-09-26-usa",
@@ -225,32 +225,20 @@
     "bid": 0.66,
     "ask": 0.68,
     "spread": 0.02,
-    "ask_size": 954.63,
-    "liquidity": 28841.2824
+    "ask_size": 1042.47,
+    "liquidity": 30237.5269
    },
    {
-    "market": "mls-hou-skc-2026-09-26-hou",
-    "league": "mls",
-    "question": "Will Houston Dynamo win on 2026-09-26?",
-    "match_date": "2026-09-26",
-    "quoted": 0.65,
-    "bid": 0.64,
-    "ask": 0.66,
+    "market": "unl-den-wal-2026-09-27-den",
+    "league": "unl",
+    "question": "Will Denmark win on 2026-09-27?",
+    "match_date": "2026-09-27",
+    "quoted": 0.665,
+    "bid": 0.66,
+    "ask": 0.68,
     "spread": 0.02,
-    "ask_size": 2336.22,
-    "liquidity": 113157.1498
-   },
-   {
-    "market": "fif-jpn-ven-2026-09-28-jpn",
-    "league": "fif",
-    "question": "Will Japan win on 2026-09-28?",
-    "match_date": "2026-09-28",
-    "quoted": 0.7,
-    "bid": 0.69,
-    "ask": 0.71,
-    "spread": 0.02,
-    "ask_size": 134.96,
-    "liquidity": 7422.8863
+    "ask_size": 21667.86,
+    "liquidity": 48420.2409
    }
   ]
  },
@@ -2190,36 +2178,44 @@
    "in_band": 22,
    "tradeable": 20,
    "median_band_spread": 0.01
+  },
+  {
+   "t": "2026-09-25T05:13:48Z",
+   "markets": 570,
+   "fixtures": 190,
+   "in_band": 21,
+   "tradeable": 19,
+   "median_band_spread": 0.01
   }
  ],
  "leagues": {
   "unl": {
-   "seen": 26622,
-   "in_band": 2470,
-   "tradeable": 2374
+   "seen": 26754,
+   "in_band": 2481,
+   "tradeable": 2384
   },
   "mls": {
-   "seen": 10650,
-   "in_band": 909,
-   "tradeable": 909
+   "seen": 10695,
+   "in_band": 912,
+   "tradeable": 912
   },
   "fif": {
-   "seen": 9558,
-   "in_band": 893,
-   "tradeable": 354
+   "seen": 9591,
+   "in_band": 898,
+   "tradeable": 358
   },
   "el1": {
-   "seen": 8712,
-   "in_band": 258,
-   "tradeable": 242
+   "seen": 8748,
+   "in_band": 259,
+   "tradeable": 243
   },
   "mex": {
-   "seen": 5787,
-   "in_band": 244,
-   "tradeable": 221
+   "seen": 5814,
+   "in_band": 245,
+   "tradeable": 222
   },
   "conl": {
-   "seen": 16728,
+   "seen": 16800,
    "in_band": 179,
    "tradeable": 166
   },
@@ -2229,17 +2225,17 @@
    "tradeable": 143
   },
   "nwsl": {
-   "seen": 5328,
+   "seen": 5352,
    "in_band": 182,
    "tradeable": 72
   },
   "gtm": {
-   "seen": 2025,
+   "seen": 2040,
    "in_band": 69,
    "tradeable": 48
   },
   "col1": {
-   "seen": 5892,
+   "seen": 5913,
    "in_band": 12,
    "tradeable": 12
   },
@@ -2254,7 +2250,7 @@
    "tradeable": 0
   },
   "bra2": {
-   "seen": 5637,
+   "seen": 5664,
    "in_band": 0,
    "tradeable": 0
   },
