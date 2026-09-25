@@ -1,356 +1,342 @@
 {
- "generated_at": "2026-09-25T15:15:13Z",
+ "generated_at": "2026-09-24T05:08:55Z",
  "matches": [
   {
-   "cb_id": 155639,
-   "teams": "AUSWA v INDWA",
-   "teams_full": "Australia A Women v India A Women",
+   "cb_id": 155411,
+   "teams": "INDA v AUSA",
+   "teams_full": "India A v Australia A",
    "state": "In Progress",
-   "status": "India A Women need 60 runs in 54 balls",
-   "series": "Australia A Women tour of India 2026",
-   "format": "ODI",
-   "date": "2026-09-25",
-   "start_ms": 1790325000000,
-   "last_ball_min": 0.1,
+   "status": "Day 3: 1st Session - India A lead by 209 runs",
+   "series": "Australia A tour of India 2026",
+   "format": "TEST",
+   "date": "2026-09-22",
+   "start_ms": 1790049600000,
+   "last_ball_min": 1.0,
    "balls_flowing": true
   },
   {
-   "cb_id": 171001,
-   "teams": "JPN v NEP",
-   "teams_full": "Japan v Nepal",
-   "state": "Preview",
-   "status": "Match starts at Sep 26, 00:00 GMT",
+   "cb_id": 170983,
+   "teams": "HKC v MLY",
+   "teams_full": "Hong Kong, China v Malaysia",
+   "state": "In Progress",
+   "status": "Hong Kong, China opt to bat",
    "series": "Asian Games 2026",
    "format": "T20",
-   "date": "2026-09-26",
-   "start_ms": 1790380800000
+   "date": "2026-09-24",
+   "start_ms": 1790226000000,
+   "last_ball_min": 1.7,
+   "balls_flowing": true
   },
   {
-   "cb_id": 171011,
-   "teams": "MLY v OMAN",
-   "teams_full": "Malaysia v Oman",
+   "cb_id": 147895,
+   "teams": "RSA v AUS",
+   "teams_full": "South Africa v Australia",
    "state": "Preview",
-   "status": "Match starts at Sep 26, 05:00 GMT",
+   "status": "Match starts at Sep 24, 08:00 GMT",
+   "series": "SA v AUS 2026",
+   "format": "ODI",
+   "date": "2026-09-24",
+   "start_ms": 1790236800000
+  },
+  {
+   "cb_id": 129640,
+   "teams": "ENG v SL",
+   "teams_full": "England v Sri Lanka",
+   "state": "Preview",
+   "status": "Match starts at Sep 24, 11:30 GMT",
+   "series": "England vs Sri Lanka, 2026",
+   "format": "ODI",
+   "date": "2026-09-24",
+   "start_ms": 1790249400000
+  },
+  {
+   "cb_id": 173083,
+   "teams": "ZIMW v WIW",
+   "teams_full": "Zimbabwe Women v West Indies Women",
+   "state": "Preview",
+   "status": "Match starts at Sep 24, 07:30 GMT",
+   "series": "West Indies Women tour of Zimbabwe, 2026",
+   "format": "ODI",
+   "date": "2026-09-24",
+   "start_ms": 1790235000000
+  },
+  {
+   "cb_id": 170991,
+   "teams": "HKC v OMAN",
+   "teams_full": "Hong Kong, China v Oman",
+   "state": "Upcoming",
+   "status": "Match starts at Sep 25, 00:00 GMT",
    "series": "Asian Games 2026",
    "format": "T20",
-   "date": "2026-09-26",
-   "start_ms": 1790398800000
+   "date": "2026-09-25",
+   "start_ms": 1790294400000
   },
   {
-   "cb_id": 173677,
-   "teams": "NGA v GH",
-   "teams_full": "Nigeria v Ghana",
-   "state": "Preview",
-   "status": "Match starts at Sep 26, 13:00 GMT",
+   "cb_id": 170993,
+   "teams": "AFG v NEP",
+   "teams_full": "Afghanistan v Nepal",
+   "state": "Upcoming",
+   "status": "Match starts at Sep 25, 05:00 GMT",
+   "series": "Asian Games 2026",
+   "format": "T20",
+   "date": "2026-09-25",
+   "start_ms": 1790312400000
+  },
+  {
+   "cb_id": 173657,
+   "teams": "NGA v SLE",
+   "teams_full": "Nigeria v Sierra Leone",
+   "state": "Delay",
+   "status": "Toss delayed due to rain",
    "series": "Quadrangular T20I Series in Nigeria, 2026",
    "format": "T20",
-   "date": "2026-09-26",
-   "start_ms": 1790427600000
+   "date": "2026-09-23",
+   "start_ms": 1790154000000
   },
   {
-   "cb_id": 174193,
-   "teams": "BHM v BER",
-   "teams_full": "Bahamas v Bermuda",
+   "cb_id": 174174,
+   "teams": "CAYM v BHM",
+   "teams_full": "Cayman Islands v Bahamas",
    "state": "Preview",
-   "status": "Match starts at Sep 25, 15:00 GMT",
+   "status": "Match starts at Sep 24, 15:00 GMT",
    "series": "North American Cup, 2026",
    "format": "T20",
-   "date": "2026-09-25",
-   "start_ms": 1790348400000
+   "date": "2026-09-24",
+   "start_ms": 1790262000000
   },
   {
-   "cb_id": 172981,
-   "teams": "WAR v NWEST",
-   "teams_full": "Warriors v North West - Eastvaal Renault Dragons",
-   "state": "Innings Break",
-   "status": "Innings Break",
-   "series": "CSA T20 Challenge 2026",
+   "cb_id": 174185,
+   "teams": "CAYM v BHM",
+   "teams_full": "Cayman Islands v Bahamas",
+   "state": "Upcoming",
+   "status": "Match starts at Sep 26, 19:30 GMT",
+   "series": "North American Cup, 2026",
    "format": "T20",
-   "date": "2026-09-25",
-   "start_ms": 1790337600000,
-   "last_ball_min": 21.9,
-   "balls_flowing": true
-  },
-  {
-   "cb_id": 172991,
-   "teams": "TIT v WPR",
-   "teams_full": "Titans v Western Province",
-   "state": "Preview",
-   "status": "Match starts at Sep 25, 16:00 GMT",
-   "series": "CSA T20 Challenge 2026",
-   "format": "T20",
-   "date": "2026-09-25",
-   "start_ms": 1790352000000
-  },
-  {
-   "cb_id": 173001,
-   "teams": "NCAPE v BOR",
-   "teams_full": "Northern Cape v Border",
-   "state": "Preview",
-   "status": "Match starts at Sep 26, 11:00 GMT",
-   "series": "CSA T20 Challenge 2026",
-   "format": "T20",
-   "date": "2026-09-26",
-   "start_ms": 1790420400000
+   "date": "2026-09-24",
+   "start_ms": 1790278200000
   },
   {
    "cb_id": 142695,
-   "teams": "LEIC v WARKS",
-   "teams_full": "Leicestershire v Warwickshire",
-   "state": "In Progress",
-   "status": "Day 2: 3rd Session - Warwickshire lead by 239 runs",
+   "teams": "WARKS v LEIC",
+   "teams_full": "Warwickshire v Leicestershire",
+   "state": "Preview",
+   "status": "Match starts at Sep 24, 09:30 GMT",
    "series": "County Championship Division One 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "start_ms": 1790242200000,
-   "last_ball_min": 3.8,
-   "balls_flowing": true
+   "start_ms": 1790242200000
   },
   {
    "cb_id": 142706,
    "teams": "NOTTS v YORKS",
    "teams_full": "Nottinghamshire v Yorkshire",
-   "state": "In Progress",
-   "status": "Day 2: 3rd Session - Nottinghamshire lead by 81 runs",
+   "state": "Preview",
+   "status": "Match starts at Sep 24, 09:30 GMT",
    "series": "County Championship Division One 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "start_ms": 1790242200000,
-   "last_ball_min": 3.3,
-   "balls_flowing": true
+   "start_ms": 1790242200000
   },
   {
    "cb_id": 142717,
-   "teams": "SUS v HAM",
-   "teams_full": "Sussex v Hampshire",
-   "state": "In Progress",
-   "status": "Day 2: 3rd Session - Sussex lead by 251 runs",
+   "teams": "HAM v SUS",
+   "teams_full": "Hampshire v Sussex",
+   "state": "Preview",
+   "status": "Match starts at Sep 24, 09:30 GMT",
    "series": "County Championship Division One 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "start_ms": 1790242200000,
-   "last_ball_min": 2.0,
-   "balls_flowing": true
+   "start_ms": 1790242200000
   },
   {
    "cb_id": 142728,
    "teams": "GLAM v ESS",
    "teams_full": "Glamorgan v Essex",
-   "state": "In Progress",
-   "status": "Day 2: 3rd Session - Essex trail by 495 runs",
+   "state": "Preview",
+   "status": "Match starts at Sep 24, 09:30 GMT",
    "series": "County Championship Division One 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "start_ms": 1790242200000,
-   "last_ball_min": 0.8,
-   "balls_flowing": true
+   "start_ms": 1790242200000
   },
   {
    "cb_id": 142739,
-   "teams": "SUR v SOM",
-   "teams_full": "Surrey v Somerset",
-   "state": "In Progress",
-   "status": "Day 2: 3rd Session - Somerset trail by 263 runs",
+   "teams": "SOM v SUR",
+   "teams_full": "Somerset v Surrey",
+   "state": "Preview",
+   "status": "Match starts at Sep 24, 09:30 GMT",
    "series": "County Championship Division One 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "start_ms": 1790242200000,
-   "last_ball_min": 1.5,
-   "balls_flowing": true
+   "start_ms": 1790242200000
+  },
+  {
+   "cb_id": 167067,
+   "teams": "VIC v NSW",
+   "teams_full": "Victoria v New South Wales",
+   "state": "Upcoming",
+   "status": "Match starts at Sep 25, 04:00 GMT",
+   "series": "Australia Domestic One-Day Cup 2026-27",
+   "format": "ODI",
+   "date": "2026-09-25",
+   "start_ms": 1790308800000
   },
   {
    "cb_id": 143284,
-   "teams": "GLOUCS v KENT",
-   "teams_full": "Gloucestershire v Kent",
-   "state": "In Progress",
-   "status": "Day 2: 3rd Session - Kent lead by 108 runs",
+   "teams": "KENT v GLOUCS",
+   "teams_full": "Kent v Gloucestershire",
+   "state": "Preview",
+   "status": "Match starts at Sep 24, 09:30 GMT",
    "series": "County Championship Division Two 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "start_ms": 1790242200000,
-   "last_ball_min": 1.1,
-   "balls_flowing": true
+   "start_ms": 1790242200000
   },
   {
    "cb_id": 143295,
-   "teams": "NHNTS v MDX",
-   "teams_full": "Northamptonshire v Middlesex",
-   "state": "In Progress",
-   "status": "Day 2: 3rd Session - Northamptonshire lead by 15 runs",
+   "teams": "MDX v NHNTS",
+   "teams_full": "Middlesex v Northamptonshire",
+   "state": "Preview",
+   "status": "Match starts at Sep 24, 09:30 GMT",
    "series": "County Championship Division Two 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "start_ms": 1790242200000,
-   "last_ball_min": 6.0,
-   "balls_flowing": true
+   "start_ms": 1790242200000
   },
   {
    "cb_id": 143306,
    "teams": "WORCS v DERBY",
    "teams_full": "Worcestershire v Derbyshire",
-   "state": "In Progress",
-   "status": "Day 2: 3rd Session - Worcestershire lead by 283 runs",
+   "state": "Preview",
+   "status": "Match starts at Sep 24, 09:30 GMT",
    "series": "County Championship Division Two 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "start_ms": 1790242200000,
-   "last_ball_min": 2.2,
-   "balls_flowing": true
+   "start_ms": 1790242200000
   },
   {
    "cb_id": 143317,
-   "teams": "DUR v LANCS",
-   "teams_full": "Durham v Lancashire",
-   "state": "In Progress",
-   "status": "Day 2: 3rd Session - Lancashire trail by 483 runs",
+   "teams": "LANCS v DUR",
+   "teams_full": "Lancashire v Durham",
+   "state": "Preview",
+   "status": "Match starts at Sep 24, 09:30 GMT",
    "series": "County Championship Division Two 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "start_ms": 1790242200000,
-   "last_ball_min": 3.7,
-   "balls_flowing": true
-  },
-  {
-   "cb_id": 173623,
-   "teams": "CHLW v CRW",
-   "teams_full": "Chile Women v Costa Rica Women",
-   "state": "In Progress",
-   "status": "Chile Women opt to bat",
-   "series": "South American Women's Championship T20I, 2026",
-   "format": "T20",
-   "date": "2026-09-25",
-   "start_ms": 1790337600000,
-   "last_ball_min": 14.0,
-   "balls_flowing": true
+   "start_ms": 1790242200000
   }
  ],
  "pairings": [
   {
-   "slug": "crint-indaw-ausaw-2026-09-25",
-   "cb_id": 155639,
-   "question": "Australia A Women Tour of India Unofficial ODIs: India A Women vs Australia A Women",
+   "slug": "crint-zaf-aus-2026-09-24",
+   "cb_id": 147895,
+   "question": "Australia Tour of South Africa ODIs: South Africa vs Australia",
    "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "South Africa": {
+     "bid": 0.45,
+     "ask": 0.46,
+     "mid": 0.455
+    },
+    "Australia": {
+     "bid": 0.54,
+     "ask": 0.55,
+     "mid": 0.545
+    }
+   }
+  },
+  {
+   "slug": "crint-gbr-lka-2026-09-24",
+   "cb_id": 129640,
+   "question": "Sri Lanka Tour of England ODIs: England vs Sri Lanka",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "England": {
+     "bid": 0.86,
+     "ask": 0.87,
+     "mid": 0.865
+    },
+    "Sri Lanka": {
+     "bid": 0.13,
+     "ask": 0.14,
+     "mid": 0.135
+    }
+   }
+  },
+  {
+   "slug": "crint-zwew-wstw-2026-09-24",
+   "cb_id": 173083,
+   "question": "West Indies Women Tour of Zimbabwe ODIs: Zimbabwe Women vs West Indies Women",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Zimbabwe Women": {
+     "bid": 0.07,
+     "ask": 0.09,
+     "mid": 0.08
+    },
+    "West Indies Women": {
+     "bid": 0.91,
+     "ask": 0.93,
+     "mid": 0.92
+    }
+   }
+  },
+  {
+   "slug": "crint-cym-bhs-2026-09-24",
+   "cb_id": 174174,
+   "question": "North American Cup T20I: Cayman Islands vs Bahamas",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Cayman Islands": {
+     "bid": 0.72,
+     "ask": 0.75,
+     "mid": 0.735
+    },
+    "Bahamas": {
+     "bid": 0.25,
+     "ask": 0.28,
+     "mid": 0.265
+    }
+   }
+  },
+  {
+   "slug": "crint-hkg-mys-2026-09-24",
+   "cb_id": 170983,
+   "question": "Asian Games Men: Hong Kong vs Malaysia",
+   "score": 0.667,
    "state": "In Progress",
    "prices": {
-    "India A Women": {
-     "bid": 0.841,
-     "ask": 0.862,
-     "mid": 0.8514999999999999
+    "Hong Kong": {
+     "bid": 0.53,
+     "ask": 0.54,
+     "mid": 0.535
     },
-    "Australia A Women": {
-     "bid": 0.138,
-     "ask": 0.159,
-     "mid": 0.14850000000000002
-    }
-   }
-  },
-  {
-   "slug": "crint-jpn-npl-2026-09-25",
-   "cb_id": 171001,
-   "question": "Asian Games Men: Japan vs Nepal",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Japan": {
-     "bid": 0.15,
-     "ask": 0.16,
-     "mid": 0.155
-    },
-    "Nepal": {
-     "bid": 0.84,
-     "ask": 0.85,
-     "mid": 0.845
-    }
-   }
-  },
-  {
-   "slug": "crint-mys-omn-2026-09-26",
-   "cb_id": 171011,
-   "question": "Asian Games Men: Malaysia vs Oman",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
     "Malaysia": {
-     "bid": 0.67,
-     "ask": 0.7,
-     "mid": 0.685
-    },
-    "Oman": {
-     "bid": 0.3,
-     "ask": 0.33,
-     "mid": 0.315
-    }
-   }
-  },
-  {
-   "slug": "crint-gha-nga-2026-09-26",
-   "cb_id": 173677,
-   "question": "Nigeria Quadrangular T20 Series: Ghana vs Nigeria",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Ghana": {
-     "bid": 0.16,
-     "ask": 0.22,
-     "mid": 0.19
-    },
-    "Nigeria": {
-     "bid": 0.78,
-     "ask": 0.84,
-     "mid": 0.81
-    }
-   }
-  },
-  {
-   "slug": "crint-bhs-ber-2026-09-25",
-   "cb_id": 174193,
-   "question": "North American Cup T20I: Bahamas vs Bermuda",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Bahamas": {
-     "bid": 0.09,
-     "ask": 0.14,
-     "mid": 0.115
-    },
-    "Bermuda": {
-     "bid": 0.86,
-     "ask": 0.91,
-     "mid": 0.885
+     "bid": 0.46,
+     "ask": 0.47,
+     "mid": 0.46499999999999997
     }
    }
   }
  ],
  "unpaired": [
   {
-   "cb_id": 172981,
-   "teams": "Warriors v North West - Eastvaal Renault Dragons",
-   "series": "CSA T20 Challenge 2026",
-   "state": "Innings Break",
-   "date": "2026-09-25",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 172991,
-   "teams": "Titans v Western Province",
-   "series": "CSA T20 Challenge 2026",
-   "state": "Preview",
-   "date": "2026-09-25",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 173001,
-   "teams": "Northern Cape v Border",
-   "series": "CSA T20 Challenge 2026",
-   "state": "Preview",
-   "date": "2026-09-26",
+   "cb_id": 155411,
+   "teams": "India A v Australia A",
+   "series": "Australia A tour of India 2026",
+   "state": "In Progress",
+   "date": "2026-09-22",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
    "cb_id": 142695,
-   "teams": "Leicestershire v Warwickshire",
+   "teams": "Warwickshire v Leicestershire",
    "series": "County Championship Division One 2026",
-   "state": "In Progress",
+   "state": "Preview",
    "date": "2026-09-24",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -358,15 +344,15 @@
    "cb_id": 142706,
    "teams": "Nottinghamshire v Yorkshire",
    "series": "County Championship Division One 2026",
-   "state": "In Progress",
+   "state": "Preview",
    "date": "2026-09-24",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
    "cb_id": 142717,
-   "teams": "Sussex v Hampshire",
+   "teams": "Hampshire v Sussex",
    "series": "County Championship Division One 2026",
-   "state": "In Progress",
+   "state": "Preview",
    "date": "2026-09-24",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -374,31 +360,31 @@
    "cb_id": 142728,
    "teams": "Glamorgan v Essex",
    "series": "County Championship Division One 2026",
-   "state": "In Progress",
+   "state": "Preview",
    "date": "2026-09-24",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
    "cb_id": 142739,
-   "teams": "Surrey v Somerset",
+   "teams": "Somerset v Surrey",
    "series": "County Championship Division One 2026",
-   "state": "In Progress",
+   "state": "Preview",
    "date": "2026-09-24",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
    "cb_id": 143284,
-   "teams": "Gloucestershire v Kent",
+   "teams": "Kent v Gloucestershire",
    "series": "County Championship Division Two 2026",
-   "state": "In Progress",
+   "state": "Preview",
    "date": "2026-09-24",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
    "cb_id": 143295,
-   "teams": "Northamptonshire v Middlesex",
+   "teams": "Middlesex v Northamptonshire",
    "series": "County Championship Division Two 2026",
-   "state": "In Progress",
+   "state": "Preview",
    "date": "2026-09-24",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -406,52 +392,44 @@
    "cb_id": 143306,
    "teams": "Worcestershire v Derbyshire",
    "series": "County Championship Division Two 2026",
-   "state": "In Progress",
+   "state": "Preview",
    "date": "2026-09-24",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
    "cb_id": 143317,
-   "teams": "Durham v Lancashire",
+   "teams": "Lancashire v Durham",
    "series": "County Championship Division Two 2026",
-   "state": "In Progress",
+   "state": "Preview",
    "date": "2026-09-24",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 173623,
-   "teams": "Chile Women v Costa Rica Women",
-   "series": "South American Women's Championship T20I, 2026",
-   "state": "In Progress",
-   "date": "2026-09-25",
    "reason": "no open two outcome cricket market to compare against"
   }
  ],
  "next_fixture": {
-  "cb_id": 171001,
-  "teams": "JPN v NEP",
-  "teams_full": "Japan v Nepal",
+  "cb_id": 173083,
+  "teams": "ZIMW v WIW",
+  "teams_full": "Zimbabwe Women v West Indies Women",
   "state": "Preview",
-  "status": "Match starts at Sep 26, 00:00 GMT",
-  "series": "Asian Games 2026",
-  "format": "T20",
-  "date": "2026-09-26",
-  "start_ms": 1790380800000
+  "status": "Match starts at Sep 24, 07:30 GMT",
+  "series": "West Indies Women tour of Zimbabwe, 2026",
+  "format": "ODI",
+  "date": "2026-09-24",
+  "start_ms": 1790235000000
  },
  "coverage": {
-  "seen_total": 74,
-  "ever_paired": 19,
-  "balls_flowing": 12,
-  "state_says_live": 12
+  "seen_total": 64,
+  "ever_paired": 14,
+  "balls_flowing": 2,
+  "state_says_live": 2
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 33,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36133285486",
-  "started_at": "2026-09-25T12:09:00Z",
-  "elapsed_s": 11173,
+  "run_number": 21,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/35956519362",
+  "started_at": "2026-09-24T04:38:39Z",
+  "elapsed_s": 1816,
   "elapsed_means": "running for",
-  "runs_total": 33
+  "runs_total": 21
  }
 }
