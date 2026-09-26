@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-26T05:24:28Z",
+ "generated_at": "2026-09-24T05:08:55Z",
  "matches": {
   "129623": {
    "cb_id": 129623,
@@ -572,16 +572,15 @@
    "first_seen": "2026-09-21T07:17:37Z",
    "states": [
     "Preview",
-    "In Progress",
-    "Complete"
+    "In Progress"
    ],
    "teams": "INDA v AUSA",
    "teams_full": "India A v Australia A",
    "series": "Australia A tour of India 2026",
    "format": "TEST",
    "date": "2026-09-22",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Complete",
+   "last_seen": "2026-09-24T05:08:55Z",
+   "last_state": "In Progress",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
   },
@@ -688,16 +687,15 @@
    "cb_id": 129640,
    "first_seen": "2026-09-24T05:08:55Z",
    "states": [
-    "Preview",
-    "Complete"
+    "Preview"
    ],
-   "teams": "SL v ENG",
-   "teams_full": "Sri Lanka v England",
-   "series": "Sri Lanka tour of England, 2026",
+   "teams": "ENG v SL",
+   "teams_full": "England v Sri Lanka",
+   "series": "England vs Sri Lanka, 2026",
    "format": "ODI",
    "date": "2026-09-24",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Complete",
+   "last_seen": "2026-09-24T05:08:55Z",
+   "last_state": "Preview",
    "paired_slug": "crint-gbr-lka-2026-09-24",
    "paired_score": 1.0,
    "paired_question": "Sri Lanka Tour of England ODIs: England vs Sri Lanka",
@@ -740,16 +738,15 @@
    "cb_id": 170993,
    "first_seen": "2026-09-24T05:08:55Z",
    "states": [
-    "Upcoming",
-    "Complete"
+    "Upcoming"
    ],
    "teams": "AFG v NEP",
    "teams_full": "Afghanistan v Nepal",
    "series": "Asian Games 2026",
    "format": "T20",
    "date": "2026-09-25",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Complete",
+   "last_seen": "2026-09-24T05:08:55Z",
+   "last_state": "Upcoming",
    "wickets_timed": 0
   },
   "173657": {
@@ -849,16 +846,15 @@
    "cb_id": 142695,
    "first_seen": "2026-09-24T05:08:55Z",
    "states": [
-    "Preview",
-    "Stumps"
+    "Preview"
    ],
-   "teams": "LEIC v WARKS",
-   "teams_full": "Leicestershire v Warwickshire",
+   "teams": "WARKS v LEIC",
+   "teams_full": "Warwickshire v Leicestershire",
    "series": "County Championship Division One 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Stumps",
+   "last_seen": "2026-09-24T05:08:55Z",
+   "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
   },
@@ -866,16 +862,15 @@
    "cb_id": 142706,
    "first_seen": "2026-09-24T05:08:55Z",
    "states": [
-    "Preview",
-    "Stumps"
+    "Preview"
    ],
    "teams": "NOTTS v YORKS",
    "teams_full": "Nottinghamshire v Yorkshire",
    "series": "County Championship Division One 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Stumps",
+   "last_seen": "2026-09-24T05:08:55Z",
+   "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
   },
@@ -883,16 +878,15 @@
    "cb_id": 142717,
    "first_seen": "2026-09-24T05:08:55Z",
    "states": [
-    "Preview",
-    "Stumps"
+    "Preview"
    ],
-   "teams": "SUS v HAM",
-   "teams_full": "Sussex v Hampshire",
+   "teams": "HAM v SUS",
+   "teams_full": "Hampshire v Sussex",
    "series": "County Championship Division One 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Stumps",
+   "last_seen": "2026-09-24T05:08:55Z",
+   "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
   },
@@ -900,16 +894,15 @@
    "cb_id": 142728,
    "first_seen": "2026-09-24T05:08:55Z",
    "states": [
-    "Preview",
-    "Stumps"
+    "Preview"
    ],
    "teams": "GLAM v ESS",
    "teams_full": "Glamorgan v Essex",
    "series": "County Championship Division One 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Stumps",
+   "last_seen": "2026-09-24T05:08:55Z",
+   "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
   },
@@ -917,16 +910,15 @@
    "cb_id": 142739,
    "first_seen": "2026-09-24T05:08:55Z",
    "states": [
-    "Preview",
-    "Stumps"
+    "Preview"
    ],
-   "teams": "SUR v SOM",
-   "teams_full": "Surrey v Somerset",
+   "teams": "SOM v SUR",
+   "teams_full": "Somerset v Surrey",
    "series": "County Championship Division One 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Stumps",
+   "last_seen": "2026-09-24T05:08:55Z",
+   "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
   },
@@ -949,32 +941,30 @@
    "cb_id": 167067,
    "first_seen": "2026-09-24T05:08:55Z",
    "states": [
-    "Upcoming",
-    "Complete"
+    "Upcoming"
    ],
-   "teams": "NSW v VIC",
-   "teams_full": "New South Wales v Victoria",
+   "teams": "VIC v NSW",
+   "teams_full": "Victoria v New South Wales",
    "series": "Australia Domestic One-Day Cup 2026-27",
    "format": "ODI",
    "date": "2026-09-25",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Complete",
+   "last_seen": "2026-09-24T05:08:55Z",
+   "last_state": "Upcoming",
    "wickets_timed": 0
   },
   "143284": {
    "cb_id": 143284,
    "first_seen": "2026-09-24T05:08:55Z",
    "states": [
-    "Preview",
-    "Stumps"
+    "Preview"
    ],
-   "teams": "GLOUCS v KENT",
-   "teams_full": "Gloucestershire v Kent",
+   "teams": "KENT v GLOUCS",
+   "teams_full": "Kent v Gloucestershire",
    "series": "County Championship Division Two 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Stumps",
+   "last_seen": "2026-09-24T05:08:55Z",
+   "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
   },
@@ -982,16 +972,15 @@
    "cb_id": 143295,
    "first_seen": "2026-09-24T05:08:55Z",
    "states": [
-    "Preview",
-    "Stumps"
+    "Preview"
    ],
-   "teams": "NHNTS v MDX",
-   "teams_full": "Northamptonshire v Middlesex",
+   "teams": "MDX v NHNTS",
+   "teams_full": "Middlesex v Northamptonshire",
    "series": "County Championship Division Two 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Stumps",
+   "last_seen": "2026-09-24T05:08:55Z",
+   "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
   },
@@ -999,16 +988,15 @@
    "cb_id": 143306,
    "first_seen": "2026-09-24T05:08:55Z",
    "states": [
-    "Preview",
-    "Stumps"
+    "Preview"
    ],
    "teams": "WORCS v DERBY",
    "teams_full": "Worcestershire v Derbyshire",
    "series": "County Championship Division Two 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Stumps",
+   "last_seen": "2026-09-24T05:08:55Z",
+   "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
   },
@@ -1016,16 +1004,15 @@
    "cb_id": 143317,
    "first_seen": "2026-09-24T05:08:55Z",
    "states": [
-    "Preview",
-    "Stumps"
+    "Preview"
    ],
-   "teams": "DUR v LANCS",
-   "teams_full": "Durham v Lancashire",
+   "teams": "LANCS v DUR",
+   "teams_full": "Lancashire v Durham",
    "series": "County Championship Division Two 2026",
    "format": "TEST",
    "date": "2026-09-24",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Stumps",
+   "last_seen": "2026-09-24T05:08:55Z",
+   "last_state": "Preview",
    "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
   },
@@ -1056,193 +1043,6 @@
    "format": "T20",
    "date": "2026-09-23",
    "last_seen": "2026-09-24T05:08:55Z",
-   "last_state": "Complete",
-   "wickets_timed": 0
-  },
-  "171011": {
-   "cb_id": 171011,
-   "first_seen": "2026-09-26T05:24:28Z",
-   "states": [
-    "Delay"
-   ],
-   "teams": "MLY v OMAN",
-   "teams_full": "Malaysia v Oman",
-   "series": "Asian Games 2026",
-   "format": "T20",
-   "date": "2026-09-26",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Delay",
-   "wickets_timed": 0
-  },
-  "171001": {
-   "cb_id": 171001,
-   "first_seen": "2026-09-26T05:24:28Z",
-   "states": [
-    "Complete"
-   ],
-   "teams": "NEP v JPN",
-   "teams_full": "Nepal v Japan",
-   "series": "Asian Games 2026",
-   "format": "T20",
-   "date": "2026-09-26",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Complete",
-   "wickets_timed": 0
-  },
-  "155639": {
-   "cb_id": 155639,
-   "first_seen": "2026-09-26T05:24:28Z",
-   "states": [
-    "Complete"
-   ],
-   "teams": "AUSWA v INDWA",
-   "teams_full": "Australia A Women v India A Women",
-   "series": "Australia A Women tour of India 2026",
-   "format": "ODI",
-   "date": "2026-09-25",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Complete",
-   "wickets_timed": 0
-  },
-  "173667": {
-   "cb_id": 173667,
-   "first_seen": "2026-09-26T05:24:28Z",
-   "states": [
-    "Complete"
-   ],
-   "teams": "SLE v GH",
-   "teams_full": "Sierra Leone v Ghana",
-   "series": "Quadrangular T20I Series in Nigeria, 2026",
-   "format": "T20",
-   "date": "2026-09-25",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Complete",
-   "wickets_timed": 0
-  },
-  "173677": {
-   "cb_id": 173677,
-   "first_seen": "2026-09-26T05:24:28Z",
-   "states": [
-    "Preview"
-   ],
-   "teams": "NGA v GH",
-   "teams_full": "Nigeria v Ghana",
-   "series": "Quadrangular T20I Series in Nigeria, 2026",
-   "format": "T20",
-   "date": "2026-09-26",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Preview",
-   "paired_slug": "crint-gha-nga-2026-09-26",
-   "paired_score": 1.0,
-   "paired_question": "Nigeria Quadrangular T20 Series: Ghana vs Nigeria",
-   "wickets_timed": 0
-  },
-  "174193": {
-   "cb_id": 174193,
-   "first_seen": "2026-09-26T05:24:28Z",
-   "states": [
-    "Preview"
-   ],
-   "teams": "BHM v BER",
-   "teams_full": "Bahamas v Bermuda",
-   "series": "North American Cup, 2026",
-   "format": "T20",
-   "date": "2026-09-25",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Preview",
-   "unpaired_reason": "no open two outcome cricket market to compare against",
-   "wickets_timed": 0
-  },
-  "174204": {
-   "cb_id": 174204,
-   "first_seen": "2026-09-26T05:24:28Z",
-   "states": [
-    "Preview"
-   ],
-   "teams": "BHM v BER",
-   "teams_full": "Bahamas v Bermuda",
-   "series": "North American Cup, 2026",
-   "format": "T20",
-   "date": "2026-09-26",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Preview",
-   "unpaired_reason": "no open two outcome cricket market to compare against",
-   "wickets_timed": 0
-  },
-  "172981": {
-   "cb_id": 172981,
-   "first_seen": "2026-09-26T05:24:28Z",
-   "states": [
-    "Complete"
-   ],
-   "teams": "WAR v NWEST",
-   "teams_full": "Warriors v North West - Eastvaal Renault Dragons",
-   "series": "CSA T20 Challenge 2026",
-   "format": "T20",
-   "date": "2026-09-25",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Complete",
-   "wickets_timed": 0
-  },
-  "172991": {
-   "cb_id": 172991,
-   "first_seen": "2026-09-26T05:24:28Z",
-   "states": [
-    "Complete"
-   ],
-   "teams": "WPR v TIT",
-   "teams_full": "Western Province v Titans",
-   "series": "CSA T20 Challenge 2026",
-   "format": "T20",
-   "date": "2026-09-25",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Complete",
-   "wickets_timed": 0
-  },
-  "173001": {
-   "cb_id": 173001,
-   "first_seen": "2026-09-26T05:24:28Z",
-   "states": [
-    "Preview"
-   ],
-   "teams": "NCAPE v BOR",
-   "teams_full": "Northern Cape v Border",
-   "series": "CSA T20 Challenge 2026",
-   "format": "T20",
-   "date": "2026-09-26",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Preview",
-   "unpaired_reason": "no open two outcome cricket market to compare against",
-   "wickets_timed": 0
-  },
-  "155499": {
-   "cb_id": 155499,
-   "first_seen": "2026-09-26T05:24:28Z",
-   "states": [
-    "Preview"
-   ],
-   "teams": "INDU19 v AUSU19",
-   "teams_full": "India U19 v Australia U19",
-   "series": "Australia U19 tour of India 2026",
-   "format": "TEST",
-   "date": "2026-09-27",
-   "last_seen": "2026-09-26T05:24:28Z",
-   "last_state": "Preview",
-   "unpaired_reason": "no open two outcome cricket market to compare against",
-   "wickets_timed": 0
-  },
-  "173623": {
-   "cb_id": 173623,
-   "first_seen": "2026-09-26T05:24:28Z",
-   "states": [
-    "Complete"
-   ],
-   "teams": "CHLW v CRW",
-   "teams_full": "Chile Women v Costa Rica Women",
-   "series": "South American Women's Championship T20I, 2026",
-   "format": "T20",
-   "date": "2026-09-25",
-   "last_seen": "2026-09-26T05:24:28Z",
    "last_state": "Complete",
    "wickets_timed": 0
   }
