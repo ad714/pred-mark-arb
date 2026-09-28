@@ -1,0 +1,62 @@
+name: crossvenue watch
+
+on:
+  workflow_dispatch:
+    inputs:
+      capital:
+        description: most to tie up across both legs of one pair
+        default: "25"
+      horizon:
+        description: ignore anything resolving later than this many days
+        default: "7"
+      min_profit:
+        description: alert bar, in dollars of locked profit
+        default: "0.10"
+      budget:
+        description: minutes to keep polling before the run exits
+        default: "330"
+      interval:
+        description: minutes between checks
+        default: "10"
+  schedule:
+    - cron: "5 * * * *"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: crossvenue-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install --quiet requests
+
+      - name: ladder guard
+        run: python deploy/test_crossvenue.py
+
+      - name: take the newest published history as the base
+        run: |
+          git fetch -q origin main
+          git checkout -q origin/main -- docs/data/crossvenue.jsonl 2>/dev/null || true
+          wc -l docs/data/crossvenue.jsonl 2>/dev/null || echo "no prior history"
+
+      - name: watch until the budget runs out
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CAPITAL: ${{ github.event.inputs.capital || '25' }}
+          HORIZON: ${{ github.event.inputs.horizon || '7' }}
+          MIN_PROFIT: ${{ github.event.inputs.min_profit || '0.10' }}
+          BUDGET_MIN: ${{ github.event.inputs.budget || '330' }}
+          INTERVAL_MIN: ${{ github.event.inputs.interval || '10' }}
+        run: bash deploy/crossvenue_loop.sh
