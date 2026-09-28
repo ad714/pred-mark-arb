@@ -40,7 +40,7 @@ PY
 publish() {
   for attempt in 1 2 3 4 5; do
     git fetch -q origin main
-    git reset -q --soft origin/main
+    git reset -q origin/main
     git add docs/data/football.jsonl docs/data/football.json
     if git diff --cached --quiet; then
       echo "no change to publish"
