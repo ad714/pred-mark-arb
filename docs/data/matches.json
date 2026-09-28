@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-24T05:08:55Z",
+ "generated_at": "2026-09-28T16:57:05Z",
  "matches": {
   "129623": {
    "cb_id": 129623,
@@ -1044,6 +1044,255 @@
    "date": "2026-09-23",
    "last_seen": "2026-09-24T05:08:55Z",
    "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "171030": {
+   "cb_id": 171030,
+   "first_seen": "2026-09-28T16:57:05Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "IND v AFG",
+   "teams_full": "India v Afghanistan",
+   "series": "Asian Games 2026",
+   "format": "T20",
+   "date": "2026-09-28",
+   "last_seen": "2026-09-28T16:57:05Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "151532": {
+   "cb_id": 151532,
+   "first_seen": "2026-09-28T16:57:05Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "WI v IND",
+   "teams_full": "West Indies v India",
+   "series": "West Indies tour of India, 2026",
+   "format": "ODI",
+   "date": "2026-09-27",
+   "last_seen": "2026-09-28T16:57:05Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "171021": {
+   "cb_id": 171021,
+   "first_seen": "2026-09-28T16:57:05Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "PAK v HKC",
+   "teams_full": "Pakistan v Hong Kong, China",
+   "series": "Asian Games 2026",
+   "format": "T20",
+   "date": "2026-09-28",
+   "last_seen": "2026-09-28T16:57:05Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "147898": {
+   "cb_id": 147898,
+   "first_seen": "2026-09-28T16:57:05Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "RSA v AUS",
+   "teams_full": "South Africa v Australia",
+   "series": "Australia tour of South Africa, 2026",
+   "format": "ODI",
+   "date": "2026-09-27",
+   "last_seen": "2026-09-28T16:57:05Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "129651": {
+   "cb_id": 129651,
+   "first_seen": "2026-09-28T16:57:05Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "ENG v SL",
+   "teams_full": "England v Sri Lanka",
+   "series": "England vs Sri Lanka, 2026",
+   "format": "ODI",
+   "date": "2026-09-27",
+   "last_seen": "2026-09-28T16:57:05Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "155499": {
+   "cb_id": 155499,
+   "first_seen": "2026-09-28T16:57:05Z",
+   "states": [
+    "Stumps"
+   ],
+   "teams": "AUSU19 v INDU19",
+   "teams_full": "Australia U19 v India U19",
+   "series": "Australia U19 tour of India 2026",
+   "format": "TEST",
+   "date": "2026-09-27",
+   "last_seen": "2026-09-28T16:57:05Z",
+   "last_state": "Stumps",
+   "unpaired_reason": "no open two outcome cricket market to compare against",
+   "wickets_timed": 0
+  },
+  "171040": {
+   "cb_id": 171040,
+   "first_seen": "2026-09-28T16:57:05Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "SL v NEP",
+   "teams_full": "Sri Lanka v Nepal",
+   "series": "Asian Games 2026",
+   "format": "T20",
+   "date": "2026-09-29",
+   "last_seen": "2026-09-28T16:57:05Z",
+   "last_state": "Preview",
+   "paired_slug": "crint-lka-npl-2026-09-28",
+   "paired_score": 1.0,
+   "paired_question": "Asian Games Men: Sri Lanka vs Nepal",
+   "wickets_timed": 0
+  },
+  "171041": {
+   "cb_id": 171041,
+   "first_seen": "2026-09-28T16:57:05Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "BAN v MLY",
+   "teams_full": "Bangladesh v Malaysia",
+   "series": "Asian Games 2026",
+   "format": "T20",
+   "date": "2026-09-29",
+   "last_seen": "2026-09-28T16:57:05Z",
+   "last_state": "Preview",
+   "unpaired_reason": "no open two outcome cricket market to compare against",
+   "wickets_timed": 0
+  },
+  "174226": {
+   "cb_id": 174226,
+   "first_seen": "2026-09-28T16:57:05Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "BER v CAYM",
+   "teams_full": "Bermuda v Cayman Islands",
+   "series": "North American Cup, 2026",
+   "format": "T20",
+   "date": "2026-09-27",
+   "last_seen": "2026-09-28T16:57:05Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "173017": {
+   "cb_id": 173017,
+   "first_seen": "2026-09-28T16:57:05Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "KNG v WPR",
+   "teams_full": "Knights v Western Province",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-09-27",
+   "last_seen": "2026-09-28T16:57:05Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "173031": {
+   "cb_id": 173031,
+   "first_seen": "2026-09-28T16:57:05Z",
+   "states": [
+    "Complete"
+   ],
+   "teams": "BOR v NWEST",
+   "teams_full": "Border v North West - Eastvaal Renault Dragons",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-09-28",
+   "last_seen": "2026-09-28T16:57:05Z",
+   "last_state": "Complete",
+   "wickets_timed": 0
+  },
+  "173127": {
+   "cb_id": 173127,
+   "first_seen": "2026-09-28T16:57:05Z",
+   "states": [
+    "Upcoming"
+   ],
+   "teams": "SAEP v KZNIN",
+   "teams_full": "South Africa Emerging Players v KwaZulu-Natal Inland Tuskers",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-09-29",
+   "last_seen": "2026-09-28T16:57:05Z",
+   "last_state": "Upcoming",
+   "wickets_timed": 0
+  },
+  "173133": {
+   "cb_id": 173133,
+   "first_seen": "2026-09-28T16:57:05Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "WAR v LIMPO",
+   "teams_full": "Warriors v Limpopo",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-09-29",
+   "last_seen": "2026-09-28T16:57:05Z",
+   "last_state": "Preview",
+   "unpaired_reason": "no open two outcome cricket market to compare against",
+   "wickets_timed": 0
+  },
+  "173143": {
+   "cb_id": 173143,
+   "first_seen": "2026-09-28T16:57:05Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "BOL v KNG",
+   "teams_full": "Boland v Knights",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-09-29",
+   "last_seen": "2026-09-28T16:57:05Z",
+   "last_state": "Preview",
+   "unpaired_reason": "no open two outcome cricket market to compare against",
+   "wickets_timed": 0
+  },
+  "155422": {
+   "cb_id": 155422,
+   "first_seen": "2026-09-28T16:57:05Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "INDA v AUSA",
+   "teams_full": "India A v Australia A",
+   "series": "Australia A tour of India 2026",
+   "format": "TEST",
+   "date": "2026-09-29",
+   "last_seen": "2026-09-28T16:57:05Z",
+   "last_state": "Preview",
+   "unpaired_reason": "no open two outcome cricket market to compare against",
+   "wickets_timed": 0
+  },
+  "155650": {
+   "cb_id": 155650,
+   "first_seen": "2026-09-28T16:57:05Z",
+   "states": [
+    "Preview"
+   ],
+   "teams": "INDWA v AUSWA",
+   "teams_full": "India A Women v Australia A Women",
+   "series": "Australia A Women tour of India 2026",
+   "format": "TEST",
+   "date": "2026-09-29",
+   "last_seen": "2026-09-28T16:57:05Z",
+   "last_state": "Preview",
+   "unpaired_reason": "no open two outcome cricket market to compare against",
    "wickets_timed": 0
   }
  }
