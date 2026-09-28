@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-28T22:25:14Z",
+ "generated_at": "2026-09-28T23:29:44Z",
  "matches": [
   {
    "cb_id": 155499,
@@ -11,17 +11,6 @@
    "format": "TEST",
    "date": "2026-09-27",
    "start_ms": 1790481600000
-  },
-  {
-   "cb_id": 171040,
-   "teams": "SL v NEP",
-   "teams_full": "Sri Lanka v Nepal",
-   "state": "Preview",
-   "status": "Match starts at Sep 29, 00:00 GMT",
-   "series": "Asian Games 2026",
-   "format": "T20",
-   "date": "2026-09-29",
-   "start_ms": 1790640000000
   },
   {
    "cb_id": 171041,
@@ -90,27 +79,7 @@
    "start_ms": 1790654400000
   }
  ],
- "pairings": [
-  {
-   "slug": "crint-lka-npl-2026-09-28",
-   "cb_id": 171040,
-   "question": "Asian Games Men: Sri Lanka vs Nepal",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Sri Lanka": {
-     "bid": 0.52,
-     "ask": 0.53,
-     "mid": 0.525
-    },
-    "Nepal": {
-     "bid": 0.47,
-     "ask": 0.48,
-     "mid": 0.475
-    }
-   }
-  }
- ],
+ "pairings": [],
  "unpaired": [
   {
    "cb_id": 155499,
@@ -161,17 +130,7 @@
    "reason": "no open two outcome cricket market to compare against"
   }
  ],
- "next_fixture": {
-  "cb_id": 171040,
-  "teams": "SL v NEP",
-  "teams_full": "Sri Lanka v Nepal",
-  "state": "Preview",
-  "status": "Match starts at Sep 29, 00:00 GMT",
-  "series": "Asian Games 2026",
-  "format": "T20",
-  "date": "2026-09-29",
-  "start_ms": 1790640000000
- },
+ "next_fixture": null,
  "coverage": {
   "seen_total": 80,
   "ever_paired": 15,
@@ -179,13 +138,13 @@
   "state_says_live": 0
  },
  "trader": {
-  "state": "idle",
-  "conclusion": "success",
-  "run_number": 57,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36435831946",
-  "started_at": "2026-09-28T14:25:17Z",
-  "elapsed_s": 2819,
-  "elapsed_means": "idle for",
-  "runs_total": 57
+  "state": "in_progress",
+  "conclusion": null,
+  "run_number": 58,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36496725647",
+  "started_at": "2026-09-28T23:12:15Z",
+  "elapsed_s": 1049,
+  "elapsed_means": "running for",
+  "runs_total": 59
  }
 }
