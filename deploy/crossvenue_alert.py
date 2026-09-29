@@ -112,16 +112,21 @@ def main():
         return 0
 
     number = str(issue["number"])
-    gh("issue", "edit", number, "--title", title, "--body", text, check=True)
+    edited = gh("issue", "edit", number, "--title", title, "--body", text, check=True)
     before = {line for line in (issue.get("body") or "").splitlines()
               if line.startswith("Pascal symbols:")}
     after = {line for line in text.splitlines() if line.startswith("Pascal symbols:")}
-    if before != after:
+    # The stored body is what tells the next check these pairs are old news, so
+    # nothing is announced until the edit lands. Commenting first would re-comment
+    # every few minutes for as long as the edit keeps failing.
+    if before == after:
+        print(f"updated #{number}, same pairs")
+    elif edited.returncode != 0:
+        print(f"could not edit #{number}; not commenting yet, will retry next check")
+    else:
         gh("issue", "comment", number,
            "--body", f"Live pairs changed as of {alert['checked_at']}:\n\n{text}")
         print(f"updated and commented on #{number}")
-    else:
-        print(f"updated #{number}, same pairs")
     return 0
 
 

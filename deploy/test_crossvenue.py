@@ -1,8 +1,15 @@
+import contextlib
+import io
+import json
 import sys
+import tempfile
 from pathlib import Path
+from types import SimpleNamespace
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "market-scanner"))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
+import crossvenue_alert
 from src.crossvenue.book import fee_per_share, ladder, walk
 
 PASCAL_FEE = 0.02
@@ -11,6 +18,28 @@ POLY_FEE = 0.04
 
 def close(left, right, tolerance=1e-6):
     return abs(left - right) <= tolerance
+
+
+class FakeGh:
+    """Stands in for the gh CLI so the announce logic can be run without GitHub."""
+
+    def __init__(self, stored_body, edit_ok=True):
+        self.stored_body = stored_body
+        self.edit_ok = edit_ok
+        self.calls = []
+
+    def __call__(self, *args, check=False):
+        self.calls.append(args)
+        if args[:2] == ("issue", "list"):
+            rows = [{"number": 7, "body": self.stored_body}]
+            return SimpleNamespace(returncode=0, stdout=json.dumps(rows), stderr="")
+        if args[:2] == ("issue", "edit"):
+            return SimpleNamespace(returncode=0 if self.edit_ok else 1,
+                                   stdout="", stderr="")
+        return SimpleNamespace(returncode=0, stdout="", stderr="")
+
+    def commented(self):
+        return any(call[:2] == ("issue", "comment") for call in self.calls)
 
 
 def main():
@@ -80,9 +109,43 @@ def main():
     if ladder([["0.4", "5"], ["0.2", "7"]], False)[0][0] != 0.4:
         failures.append("descending ladder must put the best bid first")
 
+    # Announcing a change must wait for the edit that records it. The stored body
+    # is the only thing telling the next check these pairs are old news, so a
+    # comment sent while the edit is failing repeats on every check, which at a
+    # three minute interval is twenty notifications an hour for one lock.
+    alert = {"checked_at": "2026-09-29T02:20:27Z",
+             "hits": [{"symbol": "NFL.PHI", "event": "Eagles vs Bears",
+                       "outcome": "Philadelphia Eagles", "days": 0.08,
+                       "profit": 0.34, "capital": 25.0, "edge": 0.0133,
+                       "side": "buy Polymarket, buy NO on Pascal",
+                       "buy": 0.23, "sell": 0.247}]}
+    real_gh = crossvenue_alert.gh
+    real_alert = crossvenue_alert.ALERT
+    with tempfile.TemporaryDirectory() as tmp:
+        crossvenue_alert.ALERT = Path(tmp) / "alert.json"
+        crossvenue_alert.ALERT.write_text(json.dumps(alert), encoding="utf-8")
+        for stored, edit_ok, should_comment, message in [
+            ("Pascal symbols: NFL.PHI", True, False,
+             "an unchanged pair set must not comment again"),
+            ("Pascal symbols: OLD.SYM", True, True,
+             "a changed pair set must comment"),
+            ("Pascal symbols: OLD.SYM", False, False,
+             "a failed body edit must not comment, or it repeats every check"),
+        ]:
+            fake = FakeGh(stored, edit_ok)
+            crossvenue_alert.gh = fake
+            # Swallowed so the run log never carries "commented on #7" for an
+            # issue that does not exist.
+            with contextlib.redirect_stdout(io.StringIO()):
+                crossvenue_alert.main()
+            if fake.commented() != should_comment:
+                failures.append(message)
+    crossvenue_alert.gh = real_gh
+    crossvenue_alert.ALERT = real_alert
+
     for line in failures:
         print("FAIL " + line)
-    print(f"15 checks, {len(failures)} failed")
+    print(f"18 checks, {len(failures)} failed")
     return 1 if failures else 0
 
 
