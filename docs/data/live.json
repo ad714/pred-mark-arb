@@ -1,49 +1,40 @@
 {
- "generated_at": "2026-09-29T02:09:00Z",
+ "generated_at": "2026-09-29T06:08:48Z",
  "matches": [
   {
    "cb_id": 155422,
-   "teams": "INDA v AUSA",
-   "teams_full": "India A v Australia A",
-   "state": "Preview",
-   "status": "Match starts at Sep 29, 04:00 GMT",
+   "teams": "AUSA v INDA",
+   "teams_full": "Australia A v India A",
+   "state": "Lunch",
+   "status": "Day 1: Lunch Break",
    "series": "Australia A tour of India 2026",
    "format": "TEST",
    "date": "2026-09-29",
    "start_ms": 1790654400000
   },
   {
-   "cb_id": 171041,
-   "teams": "BAN v MLY",
-   "teams_full": "Bangladesh v Malaysia",
-   "state": "Preview",
-   "status": "Match starts at Sep 29, 04:30 GMT",
-   "series": "Asian Games 2026",
-   "format": "T20",
+   "cb_id": 155650,
+   "teams": "INDWA v AUSWA",
+   "teams_full": "India A Women v Australia A Women",
+   "state": "Lunch",
+   "status": "Day 1: Lunch Break",
+   "series": "Australia A Women tour of India 2026",
+   "format": "TEST",
    "date": "2026-09-29",
-   "start_ms": 1790656200000
+   "start_ms": 1790654400000
   },
   {
    "cb_id": 155499,
    "teams": "AUSU19 v INDU19",
    "teams_full": "Australia U19 v India U19",
-   "state": "Stumps",
-   "status": "Day 2: Stumps - India U19 lead by 213 runs",
+   "state": "In Progress",
+   "status": "Day 3: 1st Session - Australia U19 trail by 243 runs",
    "series": "Australia U19 tour of India 2026",
    "format": "TEST",
    "date": "2026-09-27",
-   "start_ms": 1790481600000
-  },
-  {
-   "cb_id": 155650,
-   "teams": "INDWA v AUSWA",
-   "teams_full": "India A Women v Australia A Women",
-   "state": "Preview",
-   "status": "Match starts at Sep 29, 04:00 GMT",
-   "series": "Australia A Women tour of India 2026",
-   "format": "TEST",
-   "date": "2026-09-29",
-   "start_ms": 1790654400000
+   "start_ms": 1790481600000,
+   "last_ball_min": 3.9,
+   "balls_flowing": true
   },
   {
    "cb_id": 173127,
@@ -82,35 +73,11 @@
  "pairings": [],
  "unpaired": [
   {
-   "cb_id": 155422,
-   "teams": "India A v Australia A",
-   "series": "Australia A tour of India 2026",
-   "state": "Preview",
-   "date": "2026-09-29",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 171041,
-   "teams": "Bangladesh v Malaysia",
-   "series": "Asian Games 2026",
-   "state": "Preview",
-   "date": "2026-09-29",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
    "cb_id": 155499,
    "teams": "Australia U19 v India U19",
    "series": "Australia U19 tour of India 2026",
-   "state": "Stumps",
+   "state": "In Progress",
    "date": "2026-09-27",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 155650,
-   "teams": "India A Women v Australia A Women",
-   "series": "Australia A Women tour of India 2026",
-   "state": "Preview",
-   "date": "2026-09-29",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
@@ -134,17 +101,17 @@
  "coverage": {
   "seen_total": 80,
   "ever_paired": 15,
-  "balls_flowing": 0,
-  "state_says_live": 0
+  "balls_flowing": 1,
+  "state_says_live": 1
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 58,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36496725647",
-  "started_at": "2026-09-28T23:12:15Z",
-  "elapsed_s": 10605,
+  "run_number": 59,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36498250136",
+  "started_at": "2026-09-28T23:29:13Z",
+  "elapsed_s": 23976,
   "elapsed_means": "running for",
-  "runs_total": 59
+  "runs_total": 61
  }
 }
