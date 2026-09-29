@@ -1,39 +1,43 @@
 {
- "generated_at": "2026-09-29T06:08:48Z",
+ "generated_at": "2026-09-29T08:28:08Z",
  "matches": [
   {
    "cb_id": 155422,
    "teams": "AUSA v INDA",
    "teams_full": "Australia A v India A",
-   "state": "Lunch",
-   "status": "Day 1: Lunch Break",
+   "state": "In Progress",
+   "status": "Day 1: 2nd Session",
    "series": "Australia A tour of India 2026",
    "format": "TEST",
    "date": "2026-09-29",
-   "start_ms": 1790654400000
+   "start_ms": 1790654400000,
+   "last_ball_min": 1.9,
+   "balls_flowing": true
   },
   {
    "cb_id": 155650,
    "teams": "INDWA v AUSWA",
    "teams_full": "India A Women v Australia A Women",
-   "state": "Lunch",
-   "status": "Day 1: Lunch Break",
+   "state": "In Progress",
+   "status": "Day 1: 2nd Session",
    "series": "Australia A Women tour of India 2026",
    "format": "TEST",
    "date": "2026-09-29",
-   "start_ms": 1790654400000
+   "start_ms": 1790654400000,
+   "last_ball_min": 0.6,
+   "balls_flowing": true
   },
   {
    "cb_id": 155499,
    "teams": "AUSU19 v INDU19",
    "teams_full": "Australia U19 v India U19",
    "state": "In Progress",
-   "status": "Day 3: 1st Session - Australia U19 trail by 243 runs",
+   "status": "Day 3: 2nd Session - Australia U19 trail by 116 runs",
    "series": "Australia U19 tour of India 2026",
    "format": "TEST",
    "date": "2026-09-27",
    "start_ms": 1790481600000,
-   "last_ball_min": 3.9,
+   "last_ball_min": 0.8,
    "balls_flowing": true
   },
   {
@@ -68,10 +72,57 @@
    "format": "T20",
    "date": "2026-09-29",
    "start_ms": 1790697600000
+  },
+  {
+   "cb_id": 173100,
+   "teams": "ZIMW v WIW",
+   "teams_full": "Zimbabwe Women v West Indies Women",
+   "state": "Preview",
+   "status": "Match starts at Sep 30, 07:30 GMT",
+   "series": "West Indies Women tour of Zimbabwe, 2026",
+   "format": "ODI",
+   "date": "2026-09-30",
+   "start_ms": 1790753400000
   }
  ],
- "pairings": [],
+ "pairings": [
+  {
+   "slug": "crint-zwew-wstw-2026-09-30",
+   "cb_id": 173100,
+   "question": "West Indies Women Tour of Zimbabwe ODIs: Zimbabwe Women vs West Indies Women",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Zimbabwe Women": {
+     "bid": 0.12,
+     "ask": 0.14,
+     "mid": 0.13
+    },
+    "West Indies Women": {
+     "bid": 0.86,
+     "ask": 0.88,
+     "mid": 0.87
+    }
+   }
+  }
+ ],
  "unpaired": [
+  {
+   "cb_id": 155422,
+   "teams": "Australia A v India A",
+   "series": "Australia A tour of India 2026",
+   "state": "In Progress",
+   "date": "2026-09-29",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 155650,
+   "teams": "India A Women v Australia A Women",
+   "series": "Australia A Women tour of India 2026",
+   "state": "In Progress",
+   "date": "2026-09-29",
+   "reason": "no open two outcome cricket market to compare against"
+  },
   {
    "cb_id": 155499,
    "teams": "Australia U19 v India U19",
@@ -97,12 +148,22 @@
    "reason": "no open two outcome cricket market to compare against"
   }
  ],
- "next_fixture": null,
+ "next_fixture": {
+  "cb_id": 173100,
+  "teams": "ZIMW v WIW",
+  "teams_full": "Zimbabwe Women v West Indies Women",
+  "state": "Preview",
+  "status": "Match starts at Sep 30, 07:30 GMT",
+  "series": "West Indies Women tour of Zimbabwe, 2026",
+  "format": "ODI",
+  "date": "2026-09-30",
+  "start_ms": 1790753400000
+ },
  "coverage": {
-  "seen_total": 80,
-  "ever_paired": 15,
-  "balls_flowing": 1,
-  "state_says_live": 1
+  "seen_total": 81,
+  "ever_paired": 16,
+  "balls_flowing": 3,
+  "state_says_live": 3
  },
  "trader": {
   "state": "in_progress",
@@ -110,7 +171,7 @@
   "run_number": 59,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36498250136",
   "started_at": "2026-09-28T23:29:13Z",
-  "elapsed_s": 23976,
+  "elapsed_s": 32335,
   "elapsed_means": "running for",
   "runs_total": 61
  }
