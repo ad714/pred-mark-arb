@@ -1,6 +1,28 @@
 {
- "generated_at": "2026-09-28T23:29:44Z",
+ "generated_at": "2026-09-29T02:09:00Z",
  "matches": [
+  {
+   "cb_id": 155422,
+   "teams": "INDA v AUSA",
+   "teams_full": "India A v Australia A",
+   "state": "Preview",
+   "status": "Match starts at Sep 29, 04:00 GMT",
+   "series": "Australia A tour of India 2026",
+   "format": "TEST",
+   "date": "2026-09-29",
+   "start_ms": 1790654400000
+  },
+  {
+   "cb_id": 171041,
+   "teams": "BAN v MLY",
+   "teams_full": "Bangladesh v Malaysia",
+   "state": "Preview",
+   "status": "Match starts at Sep 29, 04:30 GMT",
+   "series": "Asian Games 2026",
+   "format": "T20",
+   "date": "2026-09-29",
+   "start_ms": 1790656200000
+  },
   {
    "cb_id": 155499,
    "teams": "AUSU19 v INDU19",
@@ -13,15 +35,15 @@
    "start_ms": 1790481600000
   },
   {
-   "cb_id": 171041,
-   "teams": "BAN v MLY",
-   "teams_full": "Bangladesh v Malaysia",
+   "cb_id": 155650,
+   "teams": "INDWA v AUSWA",
+   "teams_full": "India A Women v Australia A Women",
    "state": "Preview",
-   "status": "Match starts at Sep 29, 04:30 GMT",
-   "series": "Asian Games 2026",
-   "format": "T20",
+   "status": "Match starts at Sep 29, 04:00 GMT",
+   "series": "Australia A Women tour of India 2026",
+   "format": "TEST",
    "date": "2026-09-29",
-   "start_ms": 1790656200000
+   "start_ms": 1790654400000
   },
   {
    "cb_id": 173127,
@@ -55,32 +77,26 @@
    "format": "T20",
    "date": "2026-09-29",
    "start_ms": 1790697600000
-  },
-  {
-   "cb_id": 155422,
-   "teams": "INDA v AUSA",
-   "teams_full": "India A v Australia A",
-   "state": "Preview",
-   "status": "Match starts at Sep 29, 04:00 GMT",
-   "series": "Australia A tour of India 2026",
-   "format": "TEST",
-   "date": "2026-09-29",
-   "start_ms": 1790654400000
-  },
-  {
-   "cb_id": 155650,
-   "teams": "INDWA v AUSWA",
-   "teams_full": "India A Women v Australia A Women",
-   "state": "Preview",
-   "status": "Match starts at Sep 29, 04:00 GMT",
-   "series": "Australia A Women tour of India 2026",
-   "format": "TEST",
-   "date": "2026-09-29",
-   "start_ms": 1790654400000
   }
  ],
  "pairings": [],
  "unpaired": [
+  {
+   "cb_id": 155422,
+   "teams": "India A v Australia A",
+   "series": "Australia A tour of India 2026",
+   "state": "Preview",
+   "date": "2026-09-29",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 171041,
+   "teams": "Bangladesh v Malaysia",
+   "series": "Asian Games 2026",
+   "state": "Preview",
+   "date": "2026-09-29",
+   "reason": "no open two outcome cricket market to compare against"
+  },
   {
    "cb_id": 155499,
    "teams": "Australia U19 v India U19",
@@ -90,9 +106,9 @@
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 171041,
-   "teams": "Bangladesh v Malaysia",
-   "series": "Asian Games 2026",
+   "cb_id": 155650,
+   "teams": "India A Women v Australia A Women",
+   "series": "Australia A Women tour of India 2026",
    "state": "Preview",
    "date": "2026-09-29",
    "reason": "no open two outcome cricket market to compare against"
@@ -112,22 +128,6 @@
    "state": "Preview",
    "date": "2026-09-29",
    "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 155422,
-   "teams": "India A v Australia A",
-   "series": "Australia A tour of India 2026",
-   "state": "Preview",
-   "date": "2026-09-29",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 155650,
-   "teams": "India A Women v Australia A Women",
-   "series": "Australia A Women tour of India 2026",
-   "state": "Preview",
-   "date": "2026-09-29",
-   "reason": "no open two outcome cricket market to compare against"
   }
  ],
  "next_fixture": null,
@@ -143,7 +143,7 @@
   "run_number": 58,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36496725647",
   "started_at": "2026-09-28T23:12:15Z",
-  "elapsed_s": 1049,
+  "elapsed_s": 10605,
   "elapsed_means": "running for",
   "runs_total": 59
  }
