@@ -1,44 +1,49 @@
 {
- "generated_at": "2026-09-29T08:28:08Z",
+ "generated_at": "2026-09-29T13:17:32Z",
  "matches": [
+  {
+   "cb_id": 151543,
+   "teams": "IND v WI",
+   "teams_full": "India v West Indies",
+   "state": "Preview",
+   "status": "Match starts at Sep 30, 08:30 GMT",
+   "series": "India v West Indies",
+   "format": "ODI",
+   "date": "2026-09-30",
+   "start_ms": 1790757000000
+  },
   {
    "cb_id": 155422,
    "teams": "AUSA v INDA",
    "teams_full": "Australia A v India A",
-   "state": "In Progress",
-   "status": "Day 1: 2nd Session",
+   "state": "Stumps",
+   "status": "Day 1: Stumps",
    "series": "Australia A tour of India 2026",
    "format": "TEST",
    "date": "2026-09-29",
-   "start_ms": 1790654400000,
-   "last_ball_min": 1.9,
-   "balls_flowing": true
+   "start_ms": 1790654400000
   },
   {
    "cb_id": 155650,
    "teams": "INDWA v AUSWA",
    "teams_full": "India A Women v Australia A Women",
-   "state": "In Progress",
-   "status": "Day 1: 2nd Session",
+   "state": "Stumps",
+   "status": "Day 1: Stumps",
    "series": "Australia A Women tour of India 2026",
    "format": "TEST",
    "date": "2026-09-29",
-   "start_ms": 1790654400000,
-   "last_ball_min": 0.6,
-   "balls_flowing": true
+   "start_ms": 1790654400000
   },
   {
-   "cb_id": 155499,
-   "teams": "AUSU19 v INDU19",
-   "teams_full": "Australia U19 v India U19",
-   "state": "In Progress",
-   "status": "Day 3: 2nd Session - Australia U19 trail by 116 runs",
-   "series": "Australia U19 tour of India 2026",
-   "format": "TEST",
-   "date": "2026-09-27",
-   "start_ms": 1790481600000,
-   "last_ball_min": 0.8,
-   "balls_flowing": true
+   "cb_id": 147909,
+   "teams": "RSA v AUS",
+   "teams_full": "South Africa v Australia",
+   "state": "Preview",
+   "status": "Match starts at Sep 30, 11:30 GMT",
+   "series": "SA v AUS 2026",
+   "format": "ODI",
+   "date": "2026-09-30",
+   "start_ms": 1790767800000
   },
   {
    "cb_id": 173127,
@@ -55,8 +60,8 @@
    "cb_id": 173133,
    "teams": "WAR v LIMPO",
    "teams_full": "Warriors v Limpopo",
-   "state": "Preview",
-   "status": "Match starts at Sep 29, 12:00 GMT",
+   "state": "Toss",
+   "status": "Warriors opt to bat",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
    "date": "2026-09-29",
@@ -87,6 +92,44 @@
  ],
  "pairings": [
   {
+   "slug": "crint-ind-wst-2026-09-30",
+   "cb_id": 151543,
+   "question": "West Indies Tour of India ODIs: India vs West Indies",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "India": {
+     "bid": 0.87,
+     "ask": 0.88,
+     "mid": 0.875
+    },
+    "West Indies": {
+     "bid": 0.12,
+     "ask": 0.13,
+     "mid": 0.125
+    }
+   }
+  },
+  {
+   "slug": "crint-zaf-aus-2026-09-30",
+   "cb_id": 147909,
+   "question": "Australia Tour of South Africa ODIs: South Africa vs Australia",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "South Africa": {
+     "bid": 0.46,
+     "ask": 0.47,
+     "mid": 0.46499999999999997
+    },
+    "Australia": {
+     "bid": 0.53,
+     "ask": 0.54,
+     "mid": 0.535
+    }
+   }
+  },
+  {
    "slug": "crint-zwew-wstw-2026-09-30",
    "cb_id": 173100,
    "question": "West Indies Women Tour of Zimbabwe ODIs: Zimbabwe Women vs West Indies Women",
@@ -111,7 +154,7 @@
    "cb_id": 155422,
    "teams": "Australia A v India A",
    "series": "Australia A tour of India 2026",
-   "state": "In Progress",
+   "state": "Stumps",
    "date": "2026-09-29",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -119,23 +162,15 @@
    "cb_id": 155650,
    "teams": "India A Women v Australia A Women",
    "series": "Australia A Women tour of India 2026",
-   "state": "In Progress",
+   "state": "Stumps",
    "date": "2026-09-29",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 155499,
-   "teams": "Australia U19 v India U19",
-   "series": "Australia U19 tour of India 2026",
-   "state": "In Progress",
-   "date": "2026-09-27",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
    "cb_id": 173133,
    "teams": "Warriors v Limpopo",
    "series": "CSA T20 Challenge 2026",
-   "state": "Preview",
+   "state": "Toss",
    "date": "2026-09-29",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -160,19 +195,19 @@
   "start_ms": 1790753400000
  },
  "coverage": {
-  "seen_total": 81,
-  "ever_paired": 16,
-  "balls_flowing": 3,
-  "state_says_live": 3
+  "seen_total": 83,
+  "ever_paired": 18,
+  "balls_flowing": 0,
+  "state_says_live": 0
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 59,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36498250136",
-  "started_at": "2026-09-28T23:29:13Z",
-  "elapsed_s": 32335,
+  "run_number": 61,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36529546975",
+  "started_at": "2026-09-29T06:08:22Z",
+  "elapsed_s": 25751,
   "elapsed_means": "running for",
-  "runs_total": 61
+  "runs_total": 63
  }
 }
