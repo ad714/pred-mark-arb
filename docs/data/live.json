@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T19:54:38Z",
+ "generated_at": "2026-09-29T22:34:35Z",
  "matches": [
   {
    "cb_id": 151543,
@@ -148,14 +148,14 @@
    "state": "Preview",
    "prices": {
     "Zimbabwe Women": {
-     "bid": 0.12,
+     "bid": 0.14,
      "ask": 0.15,
-     "mid": 0.135
+     "mid": 0.14500000000000002
     },
     "West Indies Women": {
      "bid": 0.85,
-     "ask": 0.88,
-     "mid": 0.865
+     "ask": 0.86,
+     "mid": 0.855
     }
    }
   }
@@ -230,11 +230,11 @@
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 63,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36573970947",
-  "started_at": "2026-09-29T13:17:10Z",
-  "elapsed_s": 23849,
+  "run_number": 64,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36637969895",
+  "started_at": "2026-09-29T22:10:28Z",
+  "elapsed_s": 1448,
   "elapsed_means": "running for",
-  "runs_total": 63
+  "runs_total": 65
  }
 }
