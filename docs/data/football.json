@@ -1,76 +1,76 @@
 {
- "generated_at": "2026-09-29T13:17:30Z",
+ "generated_at": "2026-09-29T13:34:25Z",
  "breakeven": 0.029,
  "edge_band": [
   0.65,
   0.85
  ],
  "latest": {
-  "t": "2026-09-29T11:30:40Z",
+  "t": "2026-09-29T13:33:59Z",
   "markets": 573,
   "fixtures": 191,
-  "in_band": 23,
-  "tradeable": 18,
+  "in_band": 22,
+  "tradeable": 17,
   "rows": [
    {
     "market": "unl-svk-kaz-2026-09-29-svk",
     "league": "unl",
     "question": "Will Slovakia win on 2026-09-29?",
     "match_date": "2026-09-29",
-    "quoted": 0.775,
-    "bid": 0.77,
-    "ask": 0.78,
+    "quoted": 0.785,
+    "bid": 0.78,
+    "ask": 0.79,
     "spread": 0.01,
-    "ask_size": 3935.87,
-    "liquidity": 490335.8655
+    "ask_size": 15689.6,
+    "liquidity": 526377.5591
    },
    {
     "market": "unl-esp-hrv-2026-09-29-esp",
     "league": "unl",
     "question": "Will Spain win on 2026-09-29?",
     "match_date": "2026-09-29",
-    "quoted": 0.805,
-    "bid": 0.8,
-    "ask": 0.81,
+    "quoted": 0.815,
+    "bid": 0.81,
+    "ask": 0.82,
     "spread": 0.01,
-    "ask_size": 106120.76,
-    "liquidity": 734378.5062
+    "ask_size": 300968.55,
+    "liquidity": 908806.6142
    },
    {
     "market": "unl-cze-eng-2026-09-29-eng",
     "league": "unl",
     "question": "Will England win on 2026-09-29?",
     "match_date": "2026-09-29",
-    "quoted": 0.745,
-    "bid": 0.74,
-    "ask": 0.75,
+    "quoted": 0.755,
+    "bid": 0.75,
+    "ask": 0.76,
     "spread": 0.01,
-    "ask_size": 19577.89,
-    "liquidity": 785876.3169
+    "ask_size": 115654.63,
+    "liquidity": 922841.9723
    },
    {
     "market": "enl-bor-kid-2026-09-29-bor",
     "league": "enl",
     "question": "Will Boreham Wood FC win on 2026-09-29?",
     "match_date": "2026-09-29",
-    "quoted": 0.7,
+    "quoted": 0.705,
     "bid": 0.7,
     "ask": 0.71,
     "spread": 0.01,
-    "ask_size": 2469.28,
-    "liquidity": 107382.0814
+    "ask_size": 2601.72,
+    "liquidity": 137735.5182
    },
    {
     "market": "fif-usa-chl-2026-09-29-usa",
     "league": "fif",
     "question": "Will United States win on 2026-09-29?",
     "match_date": "2026-09-29",
-    "quoted": 0.675,
-    "bid": 0.67,
-    "ask": 0.68,
+    "quoted": 0.665,
+    "bid": 0.66,
+    "ask": 0.67,
     "spread": 0.01,
-    "ask_size": 769.99,
-    "liquidity": 73376.4477
+    "ask_size": 1514.43,
+    "liquidity": 163846.6953
    },
    {
     "market": "bra2-bot-pop-2026-09-29-bot",
@@ -81,32 +81,44 @@
     "bid": 0.77,
     "ask": 0.78,
     "spread": 0.01,
-    "ask_size": 1558.16,
-    "liquidity": 80590.1767
+    "ask_size": 1672.25,
+    "liquidity": 150739.5828
    },
    {
-    "market": "uwcl-pfc-ars-2026-09-30-ars",
+    "market": "uwcl-slb-bm-2026-09-30-bm",
     "league": "uwcl",
-    "question": "Will Arsenal WFC win on 2026-09-30?",
+    "question": "Will FC Bayern M\u00fcnchen win on 2026-09-30?",
     "match_date": "2026-09-30",
-    "quoted": 0.685,
-    "bid": 0.69,
-    "ask": 0.7,
+    "quoted": 0.775,
+    "bid": 0.77,
+    "ask": 0.78,
     "spread": 0.01,
-    "ask_size": 92.0,
-    "liquidity": 27576.54
+    "ask_size": 188.0,
+    "liquidity": 33607.1651
    },
    {
     "market": "per1-cs1-clc-2026-09-30-cs1",
     "league": "per1",
     "question": "Will CS Cienciano win on 2026-09-30?",
     "match_date": "2026-09-30",
-    "quoted": 0.69,
-    "bid": 0.68,
-    "ask": 0.69,
+    "quoted": 0.705,
+    "bid": 0.7,
+    "ask": 0.71,
     "spread": 0.01,
-    "ask_size": 164.0,
-    "liquidity": 23448.263
+    "ask_size": 221.0,
+    "liquidity": 25446.5428
+   },
+   {
+    "market": "uwcl-hbk-ser-2026-10-01-hbk",
+    "league": "uwcl",
+    "question": "Will HB K\u00f8ge win on 2026-10-01?",
+    "match_date": "2026-10-01",
+    "quoted": 0.745,
+    "bid": 0.74,
+    "ask": 0.75,
+    "spread": 0.01,
+    "ask_size": 12.0,
+    "liquidity": 9552.7168
    },
    {
     "market": "unl-mal-gib-2026-10-01-mal",
@@ -118,7 +130,7 @@
     "ask": 0.77,
     "spread": 0.01,
     "ask_size": 252.0,
-    "liquidity": 32766.1456
+    "liquidity": 35677.6521
    },
    {
     "market": "unl-ger-ser-2026-10-01-ger",
@@ -129,20 +141,8 @@
     "bid": 0.77,
     "ask": 0.78,
     "spread": 0.01,
-    "ask_size": 283.0,
-    "liquidity": 83801.4224
-   },
-   {
-    "market": "mls-sea-skc-2026-10-01-sea",
-    "league": "mls",
-    "question": "Will Seattle Sounders FC win on 2026-10-01?",
-    "match_date": "2026-10-01",
-    "quoted": 0.655,
-    "bid": 0.65,
-    "ask": 0.66,
-    "spread": 0.01,
-    "ask_size": 836.15,
-    "liquidity": 52786.6146
+    "ask_size": 693.0,
+    "liquidity": 88096.9045
    },
    {
     "market": "unl-fra-ita-2026-10-02-fra",
@@ -153,8 +153,8 @@
     "bid": 0.68,
     "ask": 0.69,
     "spread": 0.01,
-    "ask_size": 185.0,
-    "liquidity": 68619.5844
+    "ask_size": 1465.92,
+    "liquidity": 75417.4171
    },
    {
     "market": "unl-bel-tur-2026-10-02-bel",
@@ -165,8 +165,20 @@
     "bid": 0.66,
     "ask": 0.67,
     "spread": 0.01,
-    "ask_size": 315.0,
-    "liquidity": 71651.2516
+    "ask_size": 3397.45,
+    "liquidity": 63946.7785
+   },
+   {
+    "market": "uwcl-pfc-ars-2026-09-30-ars",
+    "league": "uwcl",
+    "question": "Will Arsenal WFC win on 2026-09-30?",
+    "match_date": "2026-09-30",
+    "quoted": 0.69,
+    "bid": 0.68,
+    "ask": 0.7,
+    "spread": 0.02,
+    "ask_size": 50.0,
+    "liquidity": 51551.8744
    },
    {
     "market": "uwcl-oly-che-2026-09-30-oly",
@@ -177,56 +189,32 @@
     "bid": 0.68,
     "ask": 0.7,
     "spread": 0.02,
-    "ask_size": 912.5,
-    "liquidity": 23115.3238
-   },
-   {
-    "market": "uwcl-slb-bm-2026-09-30-bm",
-    "league": "uwcl",
-    "question": "Will FC Bayern M\u00fcnchen win on 2026-09-30?",
-    "match_date": "2026-09-30",
-    "quoted": 0.73,
-    "bid": 0.74,
-    "ask": 0.76,
-    "spread": 0.02,
-    "ask_size": 295.0,
-    "liquidity": 24319.1719
-   },
-   {
-    "market": "uwcl-hbk-ser-2026-10-01-hbk",
-    "league": "uwcl",
-    "question": "Will HB K\u00f8ge win on 2026-10-01?",
-    "match_date": "2026-10-01",
-    "quoted": 0.74,
-    "bid": 0.73,
-    "ask": 0.75,
-    "spread": 0.02,
-    "ask_size": 12.0,
-    "liquidity": 5381.969
+    "ask_size": 400.0,
+    "liquidity": 25624.5872
    },
    {
     "market": "unl-aze-lie-2026-10-01-aze",
     "league": "unl",
     "question": "Will Azerbaijan win on 2026-10-01?",
     "match_date": "2026-10-01",
-    "quoted": 0.84,
+    "quoted": 0.845,
     "bid": 0.83,
     "ask": 0.85,
     "spread": 0.02,
-    "ask_size": 577.51,
-    "liquidity": 37615.09187
+    "ask_size": 694.51,
+    "liquidity": 42557.74021
    },
    {
     "market": "bra2-acg-afc-2026-10-03-acg",
     "league": "bra2",
     "question": "Will AC Goianiense win on 2026-10-03?",
     "match_date": "2026-10-03",
-    "quoted": 0.71,
-    "bid": 0.7,
-    "ask": 0.72,
+    "quoted": 0.72,
+    "bid": 0.71,
+    "ask": 0.73,
     "spread": 0.02,
-    "ask_size": 22.0,
-    "liquidity": 17343.4904
+    "ask_size": 108.0,
+    "liquidity": 14048.0889
    }
   ]
  },
@@ -2542,26 +2530,34 @@
    "in_band": 23,
    "tradeable": 18,
    "median_band_spread": 0.01
+  },
+  {
+   "t": "2026-09-29T13:33:59Z",
+   "markets": 573,
+   "fixtures": 191,
+   "in_band": 22,
+   "tradeable": 17,
+   "median_band_spread": 0.01
   }
  ],
  "leagues": {
   "unl": {
-   "seen": 32466,
-   "in_band": 2926,
-   "tradeable": 2711
+   "seen": 32574,
+   "in_band": 2935,
+   "tradeable": 2719
   },
   "mls": {
-   "seen": 11721,
+   "seen": 11724,
    "in_band": 1000,
    "tradeable": 994
   },
   "fif": {
-   "seen": 11217,
-   "in_band": 1075,
-   "tradeable": 505
+   "seen": 11250,
+   "in_band": 1076,
+   "tradeable": 506
   },
   "el1": {
-   "seen": 10173,
+   "seen": 10206,
    "in_band": 279,
    "tradeable": 258
   },
@@ -2571,8 +2567,8 @@
    "tradeable": 233
   },
   "conl": {
-   "seen": 20502,
-   "in_band": 255,
+   "seen": 20568,
+   "in_band": 257,
    "tradeable": 199
   },
   "nlc": {
@@ -2581,39 +2577,39 @@
    "tradeable": 143
   },
   "nwsl": {
-   "seen": 6015,
+   "seen": 6030,
    "in_band": 199,
    "tradeable": 82
   },
   "gtm": {
-   "seen": 2634,
+   "seen": 2646,
    "in_band": 69,
    "tradeable": 48
   },
   "uwcl": {
-   "seen": 3693,
-   "in_band": 104,
-   "tradeable": 43
+   "seen": 3720,
+   "in_band": 109,
+   "tradeable": 47
   },
   "bra2": {
-   "seen": 7005,
-   "in_band": 40,
-   "tradeable": 32
+   "seen": 7032,
+   "in_band": 42,
+   "tradeable": 34
   },
   "enl": {
-   "seen": 11346,
-   "in_band": 50,
-   "tradeable": 17
+   "seen": 11418,
+   "in_band": 52,
+   "tradeable": 18
   },
   "col1": {
-   "seen": 6666,
+   "seen": 6678,
    "in_band": 19,
    "tradeable": 12
   },
   "per1": {
-   "seen": 93,
-   "in_band": 31,
-   "tradeable": 8
+   "seen": 96,
+   "in_band": 32,
+   "tradeable": 9
   }
  }
 }
