@@ -1,59 +1,10 @@
 {
- "checked_at": "2026-09-29T19:17:01Z",
+ "checked_at": "2026-09-29T19:20:25Z",
  "pairs_joined": 2693,
  "pairs_watched": 355,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "UNL_26SEP29_ESPCRO_ML.CRO",
-   "slug": "unl-esp-hrv-2026-09-29-hrv",
-   "event": "Spain vs Croatia, Moneyline - Reg Time",
-   "outcome": "Croatia",
-   "days": 0.978,
-   "resolves": "2026-09-30T18:45:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.0254,
-   "capital": 14.8,
-   "shares": 14.9,
-   "edge": 0.0017,
-   "fees": 0.0489,
-   "buy": 0.048,
-   "sell": 0.053
-  },
-  {
-   "symbol": "UNL_26SEP29_ESPCRO_ML.DRAW",
-   "slug": "unl-esp-hrv-2026-09-29-draw",
-   "event": "Spain vs Croatia, Moneyline - Reg Time",
-   "outcome": "Draw",
-   "days": 0.978,
-   "resolves": "2026-09-30T18:45:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.9417,
-   "capital": 25.0,
-   "shares": 26.1,
-   "edge": 0.036,
-   "fees": 0.1816,
-   "buy": 0.1,
-   "sell": 0.143
-  },
-  {
-   "symbol": "UNL_26SEP29_ESPCRO_ML.ESP",
-   "slug": "unl-esp-hrv-2026-09-29-esp",
-   "event": "Spain vs Croatia, Moneyline - Reg Time",
-   "outcome": "Spain",
-   "days": 0.978,
-   "resolves": "2026-09-30T18:45:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 2.2525,
-   "capital": 25.0,
-   "shares": 27.5,
-   "edge": 0.0819,
-   "fees": 0.2502,
-   "buy": 0.779,
-   "sell": 0.87
-  }
- ]
+ "hits": []
 }
