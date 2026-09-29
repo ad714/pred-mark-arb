@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-09-29T02:20:27Z",
+ "checked_at": "2026-09-29T02:30:52Z",
  "pairs_joined": 2604,
  "pairs_watched": 263,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "NFL_26SEP28_PHICHI_ML.PHI",
-   "slug": "nfl-phi-chi-2026-09-29",
-   "event": "Eagles vs Bears, Sep 28, Moneyline",
-   "outcome": "Philadelphia Eagles",
-   "days": 0.08,
-   "resolves": "2026-09-29T04:15:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.3377,
-   "capital": 25.0,
-   "shares": 25.4,
-   "edge": 0.0133,
-   "fees": 0.0946,
-   "buy": 0.23,
-   "sell": 0.247
-  }
- ]
+ "hits": []
 }
