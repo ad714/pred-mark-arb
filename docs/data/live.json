@@ -1,28 +1,30 @@
 {
- "generated_at": "2026-09-30T05:55:40Z",
+ "generated_at": "2026-09-30T08:39:25Z",
  "matches": [
   {
    "cb_id": 151543,
-   "teams": "IND v WI",
-   "teams_full": "India v West Indies",
-   "state": "Preview",
-   "status": "Match starts at Sep 30, 08:30 GMT",
-   "series": "India v West Indies",
+   "teams": "WI v IND",
+   "teams_full": "West Indies v India",
+   "state": "In Progress",
+   "status": "India opt to bowl",
+   "series": "West Indies tour of India, 2026",
    "format": "ODI",
    "date": "2026-09-30",
-   "start_ms": 1790757000000
+   "start_ms": 1790757000000,
+   "last_ball_min": 0.3,
+   "balls_flowing": true
   },
   {
    "cb_id": 155422,
    "teams": "AUSA v INDA",
    "teams_full": "Australia A v India A",
    "state": "In Progress",
-   "status": "Day 2: 1st Session",
+   "status": "Day 2: 2nd Session - India A trail by 307 runs",
    "series": "Australia A tour of India 2026",
    "format": "TEST",
    "date": "2026-09-29",
    "start_ms": 1790654400000,
-   "last_ball_min": 0.7,
+   "last_ball_min": 0.3,
    "balls_flowing": true
   },
   {
@@ -30,12 +32,12 @@
    "teams": "INDWA v AUSWA",
    "teams_full": "India A Women v Australia A Women",
    "state": "In Progress",
-   "status": "Day 2: 1st Session - Australia A Women trail by 293 runs",
+   "status": "Day 2: 2nd Session - Australia A Women trail by 206 runs",
    "series": "Australia A Women tour of India 2026",
    "format": "TEST",
    "date": "2026-09-29",
    "start_ms": 1790654400000,
-   "last_ball_min": 0.6,
+   "last_ball_min": 3.6,
    "balls_flowing": true
   },
   {
@@ -50,17 +52,6 @@
    "start_ms": 1790767800000
   },
   {
-   "cb_id": 173100,
-   "teams": "ZIMW v WIW",
-   "teams_full": "Zimbabwe Women v West Indies Women",
-   "state": "Preview",
-   "status": "Match starts at Sep 30, 07:30 GMT",
-   "series": "West Indies Women tour of Zimbabwe, 2026",
-   "format": "ODI",
-   "date": "2026-09-30",
-   "start_ms": 1790753400000
-  },
-  {
    "cb_id": 171060,
    "teams": "IND v SL",
    "teams_full": "India v Sri Lanka",
@@ -70,6 +61,19 @@
    "format": "T20",
    "date": "2026-10-01",
    "start_ms": 1790829000000
+  },
+  {
+   "cb_id": 173100,
+   "teams": "WIW v ZIMW",
+   "teams_full": "West Indies Women v Zimbabwe Women",
+   "state": "In Progress",
+   "status": "Zimbabwe Women opt to bowl",
+   "series": "West Indies Women tour of Zimbabwe, 2026",
+   "format": "ODI",
+   "date": "2026-09-30",
+   "start_ms": 1790753400000,
+   "last_ball_min": 10.2,
+   "balls_flowing": true
   },
   {
    "cb_id": 171051,
@@ -83,9 +87,9 @@
    "start_ms": 1790812800000
   },
   {
-   "cb_id": 173153,
-   "teams": "DOL v NCAPE",
-   "teams_full": "Dolphins v Northern Cape",
+   "cb_id": 173163,
+   "teams": "ESTORM v MPR",
+   "teams_full": "Eastern Storm v Mpumalanga Rhinos",
    "state": "Preview",
    "status": "Match starts at Sep 30, 16:00 GMT",
    "series": "CSA T20 Challenge 2026",
@@ -94,9 +98,9 @@
    "start_ms": 1790784000000
   },
   {
-   "cb_id": 173163,
-   "teams": "ESTORM v MPR",
-   "teams_full": "Eastern Storm v Mpumalanga Rhinos",
+   "cb_id": 173153,
+   "teams": "DOL v NCAPE",
+   "teams_full": "Dolphins v Northern Cape",
    "state": "Preview",
    "status": "Match starts at Sep 30, 16:00 GMT",
    "series": "CSA T20 Challenge 2026",
@@ -122,17 +126,17 @@
    "cb_id": 151543,
    "question": "West Indies Tour of India ODIs: India vs West Indies",
    "score": 1.0,
-   "state": "Preview",
+   "state": "In Progress",
    "prices": {
     "India": {
-     "bid": 0.86,
-     "ask": 0.87,
-     "mid": 0.865
+     "bid": 0.87,
+     "ask": 0.88,
+     "mid": 0.875
     },
     "West Indies": {
-     "bid": 0.13,
-     "ask": 0.14,
-     "mid": 0.135
+     "bid": 0.12,
+     "ask": 0.13,
+     "mid": 0.125
     }
    }
   },
@@ -156,25 +160,6 @@
    }
   },
   {
-   "slug": "crint-zwew-wstw-2026-09-30",
-   "cb_id": 173100,
-   "question": "West Indies Women Tour of Zimbabwe ODIs: Zimbabwe Women vs West Indies Women",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Zimbabwe Women": {
-     "bid": 0.13,
-     "ask": 0.17,
-     "mid": 0.15000000000000002
-    },
-    "West Indies Women": {
-     "bid": 0.83,
-     "ask": 0.87,
-     "mid": 0.85
-    }
-   }
-  },
-  {
    "slug": "crint-ind-lka-2026-10-01",
    "cb_id": 171060,
    "question": "Asian Games Men: India vs Sri Lanka",
@@ -183,13 +168,32 @@
    "prices": {
     "India": {
      "bid": 0.86,
-     "ask": 0.87,
-     "mid": 0.865
+     "ask": 0.88,
+     "mid": 0.87
     },
     "Sri Lanka": {
-     "bid": 0.13,
+     "bid": 0.12,
      "ask": 0.14,
-     "mid": 0.135
+     "mid": 0.13
+    }
+   }
+  },
+  {
+   "slug": "crint-zwew-wstw-2026-09-30",
+   "cb_id": 173100,
+   "question": "West Indies Women Tour of Zimbabwe ODIs: Zimbabwe Women vs West Indies Women",
+   "score": 1.0,
+   "state": "In Progress",
+   "prices": {
+    "Zimbabwe Women": {
+     "bid": 0.07,
+     "ask": 0.1,
+     "mid": 0.085
+    },
+    "West Indies Women": {
+     "bid": 0.9,
+     "ask": 0.93,
+     "mid": 0.915
     }
    }
   },
@@ -231,16 +235,16 @@
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 173153,
-   "teams": "Dolphins v Northern Cape",
+   "cb_id": 173163,
+   "teams": "Eastern Storm v Mpumalanga Rhinos",
    "series": "CSA T20 Challenge 2026",
    "state": "Preview",
    "date": "2026-09-30",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 173163,
-   "teams": "Eastern Storm v Mpumalanga Rhinos",
+   "cb_id": 173153,
+   "teams": "Dolphins v Northern Cape",
    "series": "CSA T20 Challenge 2026",
    "state": "Preview",
    "date": "2026-09-30",
@@ -256,21 +260,21 @@
   }
  ],
  "next_fixture": {
-  "cb_id": 173100,
-  "teams": "ZIMW v WIW",
-  "teams_full": "Zimbabwe Women v West Indies Women",
+  "cb_id": 147909,
+  "teams": "RSA v AUS",
+  "teams_full": "South Africa v Australia",
   "state": "Preview",
-  "status": "Match starts at Sep 30, 07:30 GMT",
-  "series": "West Indies Women tour of Zimbabwe, 2026",
+  "status": "Match starts at Sep 30, 11:30 GMT",
+  "series": "SA v AUS 2026",
   "format": "ODI",
   "date": "2026-09-30",
-  "start_ms": 1790753400000
+  "start_ms": 1790767800000
  },
  "coverage": {
   "seen_total": 88,
   "ever_paired": 20,
-  "balls_flowing": 2,
-  "state_says_live": 2
+  "balls_flowing": 4,
+  "state_says_live": 4
  },
  "trader": {
   "state": "in_progress",
@@ -278,7 +282,7 @@
   "run_number": 65,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36640333983",
   "started_at": "2026-09-29T22:34:09Z",
-  "elapsed_s": 26491,
+  "elapsed_s": 36317,
   "elapsed_means": "running for",
   "runs_total": 67
  }
