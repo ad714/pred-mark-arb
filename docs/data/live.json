@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-30T12:58:40Z",
+ "generated_at": "2026-09-30T15:19:14Z",
  "matches": [
   {
    "cb_id": 151543,
    "teams": "WI v IND",
    "teams_full": "West Indies v India",
-   "state": "Innings Break",
-   "status": "Innings Break",
+   "state": "In Progress",
+   "status": "India need 151 runs",
    "series": "West Indies tour of India, 2026",
    "format": "ODI",
    "date": "2026-09-30",
    "start_ms": 1790757000000,
-   "last_ball_min": 15.9,
+   "last_ball_min": 0.4,
    "balls_flowing": true
   },
   {
@@ -24,7 +24,7 @@
    "format": "ODI",
    "date": "2026-09-30",
    "start_ms": 1790767800000,
-   "last_ball_min": 0.2,
+   "last_ball_min": 0.8,
    "balls_flowing": true
   },
   {
@@ -59,19 +59,6 @@
    "format": "T20",
    "date": "2026-10-01",
    "start_ms": 1790812800000
-  },
-  {
-   "cb_id": 173100,
-   "teams": "WIW v ZIMW",
-   "teams_full": "West Indies Women v Zimbabwe Women",
-   "state": "In Progress",
-   "status": "Zimbabwe Women need 165 runs",
-   "series": "West Indies Women tour of Zimbabwe, 2026",
-   "format": "ODI",
-   "date": "2026-09-30",
-   "start_ms": 1790753400000,
-   "last_ball_min": 1.7,
-   "balls_flowing": true
   },
   {
    "cb_id": 173153,
@@ -131,25 +118,6 @@
  ],
  "pairings": [
   {
-   "slug": "crint-ind-wst-2026-09-30",
-   "cb_id": 151543,
-   "question": "West Indies Tour of India ODIs: India vs West Indies",
-   "score": 1.0,
-   "state": "Innings Break",
-   "prices": {
-    "India": {
-     "bid": 0.35,
-     "ask": 0.37,
-     "mid": 0.36
-    },
-    "West Indies": {
-     "bid": 0.63,
-     "ask": 0.65,
-     "mid": 0.64
-    }
-   }
-  },
-  {
    "slug": "crint-zaf-aus-2026-09-30",
    "cb_id": 147909,
    "question": "Australia Tour of South Africa ODIs: South Africa vs Australia",
@@ -157,14 +125,14 @@
    "state": "In Progress",
    "prices": {
     "South Africa": {
-     "bid": 0.31,
-     "ask": 0.33,
-     "mid": 0.32
+     "bid": 0.26,
+     "ask": 0.27,
+     "mid": 0.265
     },
     "Australia": {
-     "bid": 0.67,
-     "ask": 0.69,
-     "mid": 0.6799999999999999
+     "bid": 0.73,
+     "ask": 0.74,
+     "mid": 0.735
     }
    }
   },
@@ -195,33 +163,33 @@
    "state": "Preview",
    "prices": {
     "Pakistan": {
-     "bid": 0.59,
-     "ask": 0.6,
-     "mid": 0.595
+     "bid": 0.55,
+     "ask": 0.58,
+     "mid": 0.565
     },
     "Bangladesh": {
-     "bid": 0.4,
-     "ask": 0.41,
-     "mid": 0.405
+     "bid": 0.42,
+     "ask": 0.45,
+     "mid": 0.435
     }
    }
   }
  ],
  "unpaired": [
   {
+   "cb_id": 151543,
+   "teams": "West Indies v India",
+   "series": "West Indies tour of India, 2026",
+   "state": "In Progress",
+   "date": "2026-09-30",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
    "cb_id": 155422,
    "teams": "Australia A v India A",
    "series": "Australia A tour of India 2026",
    "state": "Stumps",
    "date": "2026-09-29",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 173100,
-   "teams": "West Indies Women v Zimbabwe Women",
-   "series": "West Indies Women tour of Zimbabwe, 2026",
-   "state": "In Progress",
-   "date": "2026-09-30",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
@@ -279,16 +247,16 @@
  "coverage": {
   "seen_total": 89,
   "ever_paired": 20,
-  "balls_flowing": 3,
-  "state_says_live": 3
+  "balls_flowing": 2,
+  "state_says_live": 2
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 67,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36675643867",
-  "started_at": "2026-09-30T05:55:14Z",
-  "elapsed_s": 25407,
+  "run_number": 69,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36718288876",
+  "started_at": "2026-09-30T12:58:11Z",
+  "elapsed_s": 8464,
   "elapsed_means": "running for",
   "runs_total": 69
  }
