@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T22:34:12Z",
+ "generated_at": "2026-09-30T23:49:41Z",
  "matches": [
   {
    "cb_id": 171051,
@@ -89,13 +89,13 @@
    "prices": {
     "Pakistan": {
      "bid": 0.6,
-     "ask": 0.62,
-     "mid": 0.61
+     "ask": 0.61,
+     "mid": 0.605
     },
     "Bangladesh": {
-     "bid": 0.38,
+     "bid": 0.39,
      "ask": 0.4,
-     "mid": 0.39
+     "mid": 0.395
     }
    }
   },
@@ -107,14 +107,14 @@
    "state": "Preview",
    "prices": {
     "India": {
-     "bid": 0.85,
-     "ask": 0.86,
-     "mid": 0.855
+     "bid": 0.84,
+     "ask": 0.85,
+     "mid": 0.845
     },
     "Sri Lanka": {
-     "bid": 0.14,
-     "ask": 0.15,
-     "mid": 0.14500000000000002
+     "bid": 0.15,
+     "ask": 0.16,
+     "mid": 0.155
     }
    }
   }
@@ -184,7 +184,7 @@
   "run_number": 70,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36784010921",
   "started_at": "2026-09-30T22:10:32Z",
-  "elapsed_s": 1420,
+  "elapsed_s": 5949,
   "elapsed_means": "running for",
   "runs_total": 71
  }
