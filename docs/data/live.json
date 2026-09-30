@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-29T23:23:07Z",
+ "generated_at": "2026-09-30T02:15:18Z",
  "matches": [
   {
    "cb_id": 151543,
@@ -44,6 +44,17 @@
    "format": "ODI",
    "date": "2026-09-30",
    "start_ms": 1790767800000
+  },
+  {
+   "cb_id": 171051,
+   "teams": "PAK v BAN",
+   "teams_full": "Pakistan v Bangladesh",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 01, 00:00 GMT",
+   "series": "Asian Games 2026",
+   "format": "T20",
+   "date": "2026-10-01",
+   "start_ms": 1790812800000
   },
   {
    "cb_id": 173133,
@@ -148,14 +159,14 @@
    "state": "Preview",
    "prices": {
     "Zimbabwe Women": {
-     "bid": 0.15,
-     "ask": 0.16,
-     "mid": 0.155
+     "bid": 0.13,
+     "ask": 0.14,
+     "mid": 0.135
     },
     "West Indies Women": {
-     "bid": 0.84,
-     "ask": 0.85,
-     "mid": 0.845
+     "bid": 0.86,
+     "ask": 0.87,
+     "mid": 0.865
     }
    }
   }
@@ -222,7 +233,7 @@
   "start_ms": 1790753400000
  },
  "coverage": {
-  "seen_total": 85,
+  "seen_total": 86,
   "ever_paired": 18,
   "balls_flowing": 0,
   "state_says_live": 0
@@ -233,7 +244,7 @@
   "run_number": 64,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36637969895",
   "started_at": "2026-09-29T22:10:28Z",
-  "elapsed_s": 4360,
+  "elapsed_s": 14691,
   "elapsed_means": "running for",
   "runs_total": 65
  }
