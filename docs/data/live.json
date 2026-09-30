@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-30T02:15:18Z",
+ "generated_at": "2026-09-30T05:55:40Z",
  "matches": [
   {
    "cb_id": 151543,
@@ -16,23 +16,27 @@
    "cb_id": 155422,
    "teams": "AUSA v INDA",
    "teams_full": "Australia A v India A",
-   "state": "Stumps",
-   "status": "Day 1: Stumps",
+   "state": "In Progress",
+   "status": "Day 2: 1st Session",
    "series": "Australia A tour of India 2026",
    "format": "TEST",
    "date": "2026-09-29",
-   "start_ms": 1790654400000
+   "start_ms": 1790654400000,
+   "last_ball_min": 0.7,
+   "balls_flowing": true
   },
   {
    "cb_id": 155650,
    "teams": "INDWA v AUSWA",
    "teams_full": "India A Women v Australia A Women",
-   "state": "Stumps",
-   "status": "Day 1: Stumps",
+   "state": "In Progress",
+   "status": "Day 2: 1st Session - Australia A Women trail by 293 runs",
    "series": "Australia A Women tour of India 2026",
    "format": "TEST",
    "date": "2026-09-29",
-   "start_ms": 1790654400000
+   "start_ms": 1790654400000,
+   "last_ball_min": 0.6,
+   "balls_flowing": true
   },
   {
    "cb_id": 147909,
@@ -46,37 +50,37 @@
    "start_ms": 1790767800000
   },
   {
+   "cb_id": 173100,
+   "teams": "ZIMW v WIW",
+   "teams_full": "Zimbabwe Women v West Indies Women",
+   "state": "Preview",
+   "status": "Match starts at Sep 30, 07:30 GMT",
+   "series": "West Indies Women tour of Zimbabwe, 2026",
+   "format": "ODI",
+   "date": "2026-09-30",
+   "start_ms": 1790753400000
+  },
+  {
+   "cb_id": 171060,
+   "teams": "IND v SL",
+   "teams_full": "India v Sri Lanka",
+   "state": "Preview",
+   "status": "Match starts at Oct 01, 04:30 GMT",
+   "series": "Asian Games 2026",
+   "format": "T20",
+   "date": "2026-10-01",
+   "start_ms": 1790829000000
+  },
+  {
    "cb_id": 171051,
    "teams": "PAK v BAN",
    "teams_full": "Pakistan v Bangladesh",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 01, 00:00 GMT",
    "series": "Asian Games 2026",
    "format": "T20",
    "date": "2026-10-01",
    "start_ms": 1790812800000
-  },
-  {
-   "cb_id": 173133,
-   "teams": "WAR v LIMPO",
-   "teams_full": "Warriors v Limpopo",
-   "state": "Toss",
-   "status": "Warriors opt to bat",
-   "series": "CSA T20 Challenge 2026",
-   "format": "T20",
-   "date": "2026-09-29",
-   "start_ms": 1790683200000
-  },
-  {
-   "cb_id": 173143,
-   "teams": "KNG v BOL",
-   "teams_full": "Knights v Boland",
-   "state": "Toss",
-   "status": "Boland opt to bowl",
-   "series": "CSA T20 Challenge 2026",
-   "format": "T20",
-   "date": "2026-09-29",
-   "start_ms": 1790697600000
   },
   {
    "cb_id": 173153,
@@ -101,15 +105,15 @@
    "start_ms": 1790784000000
   },
   {
-   "cb_id": 173100,
-   "teams": "ZIMW v WIW",
-   "teams_full": "Zimbabwe Women v West Indies Women",
+   "cb_id": 163077,
+   "teams": "JK v ROI",
+   "teams_full": "Jammu and Kashmir v Rest of India",
    "state": "Preview",
-   "status": "Match starts at Sep 30, 07:30 GMT",
-   "series": "West Indies Women tour of Zimbabwe, 2026",
-   "format": "ODI",
-   "date": "2026-09-30",
-   "start_ms": 1790753400000
+   "status": "Match starts at Oct 01, 04:00 GMT",
+   "series": "Irani Cup 2026",
+   "format": "TEST",
+   "date": "2026-10-01",
+   "start_ms": 1790827200000
   }
  ],
  "pairings": [
@@ -121,14 +125,14 @@
    "state": "Preview",
    "prices": {
     "India": {
-     "bid": 0.87,
-     "ask": 0.88,
-     "mid": 0.875
+     "bid": 0.86,
+     "ask": 0.87,
+     "mid": 0.865
     },
     "West Indies": {
-     "bid": 0.12,
-     "ask": 0.13,
-     "mid": 0.125
+     "bid": 0.13,
+     "ask": 0.14,
+     "mid": 0.135
     }
    }
   },
@@ -160,13 +164,51 @@
    "prices": {
     "Zimbabwe Women": {
      "bid": 0.13,
-     "ask": 0.14,
-     "mid": 0.135
+     "ask": 0.17,
+     "mid": 0.15000000000000002
     },
     "West Indies Women": {
+     "bid": 0.83,
+     "ask": 0.87,
+     "mid": 0.85
+    }
+   }
+  },
+  {
+   "slug": "crint-ind-lka-2026-10-01",
+   "cb_id": 171060,
+   "question": "Asian Games Men: India vs Sri Lanka",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "India": {
      "bid": 0.86,
      "ask": 0.87,
      "mid": 0.865
+    },
+    "Sri Lanka": {
+     "bid": 0.13,
+     "ask": 0.14,
+     "mid": 0.135
+    }
+   }
+  },
+  {
+   "slug": "crint-pak-bgd-2026-09-30",
+   "cb_id": 171051,
+   "question": "Asian Games Men: Pakistan vs Bangladesh",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Pakistan": {
+     "bid": 0.59,
+     "ask": 0.6,
+     "mid": 0.595
+    },
+    "Bangladesh": {
+     "bid": 0.4,
+     "ask": 0.41,
+     "mid": 0.405
     }
    }
   }
@@ -176,7 +218,7 @@
    "cb_id": 155422,
    "teams": "Australia A v India A",
    "series": "Australia A tour of India 2026",
-   "state": "Stumps",
+   "state": "In Progress",
    "date": "2026-09-29",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -184,23 +226,7 @@
    "cb_id": 155650,
    "teams": "India A Women v Australia A Women",
    "series": "Australia A Women tour of India 2026",
-   "state": "Stumps",
-   "date": "2026-09-29",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 173133,
-   "teams": "Warriors v Limpopo",
-   "series": "CSA T20 Challenge 2026",
-   "state": "Toss",
-   "date": "2026-09-29",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 173143,
-   "teams": "Knights v Boland",
-   "series": "CSA T20 Challenge 2026",
-   "state": "Toss",
+   "state": "In Progress",
    "date": "2026-09-29",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -219,6 +245,14 @@
    "state": "Preview",
    "date": "2026-09-30",
    "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 163077,
+   "teams": "Jammu and Kashmir v Rest of India",
+   "series": "Irani Cup 2026",
+   "state": "Preview",
+   "date": "2026-10-01",
+   "reason": "no open two outcome cricket market to compare against"
   }
  ],
  "next_fixture": {
@@ -233,19 +267,19 @@
   "start_ms": 1790753400000
  },
  "coverage": {
-  "seen_total": 86,
-  "ever_paired": 18,
-  "balls_flowing": 0,
-  "state_says_live": 0
+  "seen_total": 88,
+  "ever_paired": 20,
+  "balls_flowing": 2,
+  "state_says_live": 2
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 64,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36637969895",
-  "started_at": "2026-09-29T22:10:28Z",
-  "elapsed_s": 14691,
+  "run_number": 65,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36640333983",
+  "started_at": "2026-09-29T22:34:09Z",
+  "elapsed_s": 26491,
   "elapsed_means": "running for",
-  "runs_total": 65
+  "runs_total": 67
  }
 }
