@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-01T20:34:04Z",
+ "checked_at": "2026-10-01T20:37:14Z",
  "pairs_joined": 3007,
  "pairs_watched": 577,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "UNL_26OCT01_GRENED_ML.NED",
-   "slug": "unl-grc-nld-2026-10-01-nld",
-   "event": "Greece vs Netherlands, Moneyline - Reg Time",
-   "outcome": "Netherlands",
-   "days": 0.924,
-   "resolves": "2026-10-02T18:45:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.4959,
-   "capital": 25.0,
-   "shares": 25.7,
-   "edge": 0.0193,
-   "fees": 0.1554,
-   "buy": 0.089,
-   "sell": 0.114
-  }
- ]
+ "hits": []
 }
