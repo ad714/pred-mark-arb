@@ -1,75 +1,10 @@
 {
- "checked_at": "2026-10-01T19:22:31Z",
+ "checked_at": "2026-10-01T19:25:40Z",
  "pairs_joined": 3014,
  "pairs_watched": 584,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "UNL_26OCT01_WALNOR_ML.DRAW",
-   "slug": "unl-wal-nor-2026-10-01-draw",
-   "event": "Wales vs Norway, Moneyline - Reg Time",
-   "outcome": "Draw",
-   "days": 0.974,
-   "resolves": "2026-10-02T18:45:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.5157,
-   "capital": 25.0,
-   "shares": 25.8,
-   "edge": 0.02,
-   "fees": 0.3107,
-   "buy": 0.198,
-   "sell": 0.23
-  },
-  {
-   "symbol": "UNL_26OCT01_WALNOR_ML.NOR",
-   "slug": "unl-wal-nor-2026-10-01-nor",
-   "event": "Wales vs Norway, Moneyline - Reg Time",
-   "outcome": "Norway",
-   "days": 0.974,
-   "resolves": "2026-10-02T18:45:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 1.8864,
-   "capital": 25.0,
-   "shares": 27.3,
-   "edge": 0.0691,
-   "fees": 0.4259,
-   "buy": 0.64,
-   "sell": 0.721
-  },
-  {
-   "symbol": "UNL_26OCT01_WALNOR_ML.WAL",
-   "slug": "unl-wal-nor-2026-10-01-wal",
-   "event": "Wales vs Norway, Moneyline - Reg Time",
-   "outcome": "Wales",
-   "days": 0.974,
-   "resolves": "2026-10-02T18:45:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.1868,
-   "capital": 25.0,
-   "shares": 25.4,
-   "edge": 0.0074,
-   "fees": 0.1681,
-   "buy": 0.096,
-   "sell": 0.11
-  },
-  {
-   "symbol": "UNL_26OCT01_WALNOR_TT.2",
-   "slug": "unl-wal-nor-2026-10-01-total-2pt5",
-   "event": "Wales vs Norway, Totals - Reg Time",
-   "outcome": "Total Over 2.5",
-   "days": 0.974,
-   "resolves": "2026-10-02T18:45:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.1121,
-   "capital": 25.0,
-   "shares": 25.5,
-   "edge": 0.0044,
-   "fees": 0.3981,
-   "buy": 0.65,
-   "sell": 0.67
-  }
- ]
+ "hits": []
 }
