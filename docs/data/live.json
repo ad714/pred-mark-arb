@@ -1,17 +1,6 @@
 {
- "generated_at": "2026-09-30T23:49:41Z",
+ "generated_at": "2026-10-01T03:46:44Z",
  "matches": [
-  {
-   "cb_id": 171051,
-   "teams": "PAK v BAN",
-   "teams_full": "Pakistan v Bangladesh",
-   "state": "Preview",
-   "status": "Match starts at Oct 01, 00:00 GMT",
-   "series": "Asian Games 2026",
-   "format": "T20",
-   "date": "2026-10-01",
-   "start_ms": 1790812800000
-  },
   {
    "cb_id": 171060,
    "teams": "IND v SL",
@@ -25,10 +14,10 @@
   },
   {
    "cb_id": 163077,
-   "teams": "JK v ROI",
-   "teams_full": "Jammu and Kashmir v Rest of India",
-   "state": "Preview",
-   "status": "Match starts at Oct 01, 04:00 GMT",
+   "teams": "ROI v JK",
+   "teams_full": "Rest of India v Jammu and Kashmir",
+   "state": "Toss",
+   "status": "Jammu and Kashmir opt to bowl",
    "series": "Irani Cup 2026",
    "format": "TEST",
    "date": "2026-10-01",
@@ -49,12 +38,14 @@
    "cb_id": 173153,
    "teams": "DOL v NCAPE",
    "teams_full": "Dolphins v Northern Cape",
-   "state": "Toss",
-   "status": "Dolphins opt to bat",
+   "state": "Innings Break",
+   "status": "Innings Break",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
    "date": "2026-09-30",
-   "start_ms": 1790784000000
+   "start_ms": 1790784000000,
+   "last_ball_min": 10.5,
+   "balls_flowing": true
   },
   {
    "cb_id": 173170,
@@ -81,25 +72,6 @@
  ],
  "pairings": [
   {
-   "slug": "crint-pak-bgd-2026-09-30",
-   "cb_id": 171051,
-   "question": "Asian Games Men: Pakistan vs Bangladesh",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Pakistan": {
-     "bid": 0.6,
-     "ask": 0.61,
-     "mid": 0.605
-    },
-    "Bangladesh": {
-     "bid": 0.39,
-     "ask": 0.4,
-     "mid": 0.395
-    }
-   }
-  },
-  {
    "slug": "crint-ind-lka-2026-10-01",
    "cb_id": 171060,
    "question": "Asian Games Men: India vs Sri Lanka",
@@ -107,14 +79,14 @@
    "state": "Preview",
    "prices": {
     "India": {
-     "bid": 0.84,
-     "ask": 0.85,
-     "mid": 0.845
+     "bid": 0.88,
+     "ask": 0.89,
+     "mid": 0.885
     },
     "Sri Lanka": {
-     "bid": 0.15,
-     "ask": 0.16,
-     "mid": 0.155
+     "bid": 0.11,
+     "ask": 0.12,
+     "mid": 0.11499999999999999
     }
    }
   }
@@ -122,9 +94,9 @@
  "unpaired": [
   {
    "cb_id": 163077,
-   "teams": "Jammu and Kashmir v Rest of India",
+   "teams": "Rest of India v Jammu and Kashmir",
    "series": "Irani Cup 2026",
-   "state": "Preview",
+   "state": "Toss",
    "date": "2026-10-01",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -140,7 +112,7 @@
    "cb_id": 173153,
    "teams": "Dolphins v Northern Cape",
    "series": "CSA T20 Challenge 2026",
-   "state": "Toss",
+   "state": "Innings Break",
    "date": "2026-09-30",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -162,29 +134,29 @@
   }
  ],
  "next_fixture": {
-  "cb_id": 171051,
-  "teams": "PAK v BAN",
-  "teams_full": "Pakistan v Bangladesh",
+  "cb_id": 171060,
+  "teams": "IND v SL",
+  "teams_full": "India v Sri Lanka",
   "state": "Preview",
-  "status": "Match starts at Oct 01, 00:00 GMT",
+  "status": "Match starts at Oct 01, 04:30 GMT",
   "series": "Asian Games 2026",
   "format": "T20",
   "date": "2026-10-01",
-  "start_ms": 1790812800000
+  "start_ms": 1790829000000
  },
  "coverage": {
   "seen_total": 89,
   "ever_paired": 20,
-  "balls_flowing": 0,
-  "state_says_live": 0
+  "balls_flowing": 1,
+  "state_says_live": 1
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 70,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36784010921",
-  "started_at": "2026-09-30T22:10:32Z",
-  "elapsed_s": 5949,
+  "run_number": 71,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36786285806",
+  "started_at": "2026-09-30T22:33:48Z",
+  "elapsed_s": 18777,
   "elapsed_means": "running for",
   "runs_total": 71
  }
