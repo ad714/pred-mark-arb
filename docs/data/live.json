@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T13:51:13Z",
+ "generated_at": "2026-10-01T17:08:48Z",
  "matches": [
   {
    "cb_id": 163077,
@@ -24,17 +24,6 @@
    "start_ms": 1790654400000
   },
   {
-   "cb_id": 173170,
-   "teams": "SWD v BOR",
-   "teams_full": "South Western Districts v Border",
-   "state": "Toss",
-   "status": "South Western Districts opt to bat",
-   "series": "CSA T20 Challenge 2026",
-   "format": "T20",
-   "date": "2026-10-01",
-   "start_ms": 1790852400000
-  },
-  {
    "cb_id": 173187,
    "teams": "MPR v KZNIN",
    "teams_full": "Mpumalanga Rhinos v KwaZulu-Natal Inland Tuskers",
@@ -44,6 +33,28 @@
    "format": "T20",
    "date": "2026-10-02",
    "start_ms": 1790938800000
+  },
+  {
+   "cb_id": 173180,
+   "teams": "KNG v TIT",
+   "teams_full": "Knights v Titans",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 02, 16:00 GMT",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-10-02",
+   "start_ms": 1790956800000
+  },
+  {
+   "cb_id": 173197,
+   "teams": "LIONS v NWEST",
+   "teams_full": "Lions v North West - Eastvaal Renault Dragons",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 02, 16:00 GMT",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-10-02",
+   "start_ms": 1790956800000
   }
  ],
  "pairings": [],
@@ -65,14 +76,6 @@
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 173170,
-   "teams": "South Western Districts v Border",
-   "series": "CSA T20 Challenge 2026",
-   "state": "Toss",
-   "date": "2026-10-01",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
    "cb_id": 173187,
    "teams": "Mpumalanga Rhinos v KwaZulu-Natal Inland Tuskers",
    "series": "CSA T20 Challenge 2026",
@@ -83,7 +86,7 @@
  ],
  "next_fixture": null,
  "coverage": {
-  "seen_total": 90,
+  "seen_total": 92,
   "ever_paired": 20,
   "balls_flowing": 0,
   "state_says_live": 0
@@ -94,7 +97,7 @@
   "run_number": 74,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36865974988",
   "started_at": "2026-10-01T13:03:17Z",
-  "elapsed_s": 2877,
+  "elapsed_s": 14731,
   "elapsed_means": "running for",
   "runs_total": 75
  }
