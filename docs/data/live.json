@@ -1,51 +1,42 @@
 {
- "generated_at": "2026-10-01T03:46:44Z",
+ "generated_at": "2026-10-01T06:29:24Z",
  "matches": [
   {
    "cb_id": 171060,
    "teams": "IND v SL",
    "teams_full": "India v Sri Lanka",
-   "state": "Preview",
-   "status": "Match starts at Oct 01, 04:30 GMT",
+   "state": "In Progress",
+   "status": "Sri Lanka need 152 runs",
    "series": "Asian Games 2026",
    "format": "T20",
    "date": "2026-10-01",
-   "start_ms": 1790829000000
+   "start_ms": 1790829000000,
+   "last_ball_min": 0.5,
+   "balls_flowing": true
   },
   {
    "cb_id": 163077,
    "teams": "ROI v JK",
    "teams_full": "Rest of India v Jammu and Kashmir",
-   "state": "Toss",
-   "status": "Jammu and Kashmir opt to bowl",
+   "state": "In Progress",
+   "status": "Day 1: 1st Session",
    "series": "Irani Cup 2026",
    "format": "TEST",
    "date": "2026-10-01",
-   "start_ms": 1790827200000
+   "start_ms": 1790827200000,
+   "last_ball_min": 0.1,
+   "balls_flowing": true
   },
   {
    "cb_id": 155422,
    "teams": "AUSA v INDA",
    "teams_full": "Australia A v India A",
-   "state": "Stumps",
-   "status": "Day 2: Stumps - India A trail by 236 runs",
+   "state": "Lunch",
+   "status": "Day 3: Lunch Break - Australia A lead by 203 runs",
    "series": "Australia A tour of India 2026",
    "format": "TEST",
    "date": "2026-09-29",
    "start_ms": 1790654400000
-  },
-  {
-   "cb_id": 173153,
-   "teams": "DOL v NCAPE",
-   "teams_full": "Dolphins v Northern Cape",
-   "state": "Innings Break",
-   "status": "Innings Break",
-   "series": "CSA T20 Challenge 2026",
-   "format": "T20",
-   "date": "2026-09-30",
-   "start_ms": 1790784000000,
-   "last_ball_min": 10.5,
-   "balls_flowing": true
   },
   {
    "cb_id": 173170,
@@ -62,58 +53,32 @@
    "cb_id": 155650,
    "teams": "INDWA v AUSWA",
    "teams_full": "India A Women v Australia A Women",
-   "state": "Stumps",
-   "status": "Day 2: Stumps - India A Women lead by 322 runs",
+   "state": "Innings Break",
+   "status": "Day 3: Innings Break - India A Women lead by 445 runs",
    "series": "Australia A Women tour of India 2026",
    "format": "TEST",
    "date": "2026-09-29",
-   "start_ms": 1790654400000
+   "start_ms": 1790654400000,
+   "last_ball_min": 11.5,
+   "balls_flowing": true
   }
  ],
- "pairings": [
-  {
-   "slug": "crint-ind-lka-2026-10-01",
-   "cb_id": 171060,
-   "question": "Asian Games Men: India vs Sri Lanka",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "India": {
-     "bid": 0.88,
-     "ask": 0.89,
-     "mid": 0.885
-    },
-    "Sri Lanka": {
-     "bid": 0.11,
-     "ask": 0.12,
-     "mid": 0.11499999999999999
-    }
-   }
-  }
- ],
+ "pairings": [],
  "unpaired": [
   {
-   "cb_id": 163077,
-   "teams": "Rest of India v Jammu and Kashmir",
-   "series": "Irani Cup 2026",
-   "state": "Toss",
+   "cb_id": 171060,
+   "teams": "India v Sri Lanka",
+   "series": "Asian Games 2026",
+   "state": "In Progress",
    "date": "2026-10-01",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 155422,
-   "teams": "Australia A v India A",
-   "series": "Australia A tour of India 2026",
-   "state": "Stumps",
-   "date": "2026-09-29",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 173153,
-   "teams": "Dolphins v Northern Cape",
-   "series": "CSA T20 Challenge 2026",
-   "state": "Innings Break",
-   "date": "2026-09-30",
+   "cb_id": 163077,
+   "teams": "Rest of India v Jammu and Kashmir",
+   "series": "Irani Cup 2026",
+   "state": "In Progress",
+   "date": "2026-10-01",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
@@ -128,27 +93,17 @@
    "cb_id": 155650,
    "teams": "India A Women v Australia A Women",
    "series": "Australia A Women tour of India 2026",
-   "state": "Stumps",
+   "state": "Innings Break",
    "date": "2026-09-29",
    "reason": "no open two outcome cricket market to compare against"
   }
  ],
- "next_fixture": {
-  "cb_id": 171060,
-  "teams": "IND v SL",
-  "teams_full": "India v Sri Lanka",
-  "state": "Preview",
-  "status": "Match starts at Oct 01, 04:30 GMT",
-  "series": "Asian Games 2026",
-  "format": "T20",
-  "date": "2026-10-01",
-  "start_ms": 1790829000000
- },
+ "next_fixture": null,
  "coverage": {
   "seen_total": 89,
   "ever_paired": 20,
-  "balls_flowing": 1,
-  "state_says_live": 1
+  "balls_flowing": 3,
+  "state_says_live": 3
  },
  "trader": {
   "state": "in_progress",
@@ -156,8 +111,8 @@
   "run_number": 71,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36786285806",
   "started_at": "2026-09-30T22:33:48Z",
-  "elapsed_s": 18777,
+  "elapsed_s": 28536,
   "elapsed_means": "running for",
-  "runs_total": 71
+  "runs_total": 73
  }
 }
