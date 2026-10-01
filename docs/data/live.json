@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-01T17:08:48Z",
+ "generated_at": "2026-10-01T21:49:38Z",
  "matches": [
   {
    "cb_id": 163077,
@@ -38,7 +38,7 @@
    "cb_id": 173180,
    "teams": "KNG v TIT",
    "teams_full": "Knights v Titans",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 02, 16:00 GMT",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
@@ -49,7 +49,7 @@
    "cb_id": 173197,
    "teams": "LIONS v NWEST",
    "teams_full": "Lions v North West - Eastvaal Renault Dragons",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 02, 16:00 GMT",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
@@ -82,6 +82,22 @@
    "state": "Preview",
    "date": "2026-10-02",
    "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 173180,
+   "teams": "Knights v Titans",
+   "series": "CSA T20 Challenge 2026",
+   "state": "Preview",
+   "date": "2026-10-02",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 173197,
+   "teams": "Lions v North West - Eastvaal Renault Dragons",
+   "series": "CSA T20 Challenge 2026",
+   "state": "Preview",
+   "date": "2026-10-02",
+   "reason": "no open two outcome cricket market to compare against"
   }
  ],
  "next_fixture": null,
@@ -94,10 +110,10 @@
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 74,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36865974988",
-  "started_at": "2026-10-01T13:03:17Z",
-  "elapsed_s": 14731,
+  "run_number": 75,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36871738333",
+  "started_at": "2026-10-01T13:50:49Z",
+  "elapsed_s": 28730,
   "elapsed_means": "running for",
   "runs_total": 75
  }
