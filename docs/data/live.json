@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T22:32:01Z",
+ "generated_at": "2026-10-02T22:48:03Z",
  "matches": [
   {
    "cb_id": 171070,
@@ -178,14 +178,14 @@
    "state": "Preview",
    "prices": {
     "India Champions": {
-     "bid": 0.36,
+     "bid": 0.05,
      "ask": 0.51,
-     "mid": 0.435
+     "mid": 0.28
     },
     "Australia Champions": {
      "bid": 0.49,
-     "ask": 0.64,
-     "mid": 0.565
+     "ask": 0.95,
+     "mid": 0.72
     }
    }
   },
@@ -197,13 +197,13 @@
    "state": "Preview",
    "prices": {
     "Pakistan Champions": {
-     "bid": 0.61,
-     "ask": 0.73,
+     "bid": 0.62,
+     "ask": 0.72,
      "mid": 0.6699999999999999
     },
     "Bangladesh Champions": {
-     "bid": 0.27,
-     "ask": 0.39,
+     "bid": 0.28,
+     "ask": 0.38,
      "mid": 0.33
     }
    }
@@ -217,13 +217,13 @@
    "prices": {
     "Zimbabwe Women": {
      "bid": 0.18,
-     "ask": 0.19,
-     "mid": 0.185
+     "ask": 0.2,
+     "mid": 0.19
     },
     "West Indies Women": {
-     "bid": 0.81,
+     "bid": 0.8,
      "ask": 0.82,
-     "mid": 0.815
+     "mid": 0.81
     }
    }
   }
@@ -277,7 +277,7 @@
   "run_number": 82,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37070810008",
   "started_at": "2026-10-02T22:07:57Z",
-  "elapsed_s": 1445,
+  "elapsed_s": 2407,
   "elapsed_means": "running for",
   "runs_total": 83
  }
