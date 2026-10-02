@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-02T17:04:25Z",
+ "checked_at": "2026-10-02T17:07:38Z",
  "pairs_joined": 3216,
  "pairs_watched": 810,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "BLAST8_26OCT02_GLLIQ_ML.GL",
-   "slug": "dota2-gl-liquid-2026-10-02",
-   "event": "GamerLegion vs Team Liquid, Match Winner",
-   "outcome": "GamerLegion",
-   "days": 0.205,
-   "resolves": "2026-10-02T22:00:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.1654,
-   "capital": 25.0,
-   "shares": 25.5,
-   "edge": 0.0065,
-   "fees": 0.3709,
-   "buy": 0.7,
-   "sell": 0.721
-  }
- ]
+ "hits": []
 }
