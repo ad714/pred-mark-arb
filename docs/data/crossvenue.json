@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-02T19:37:20Z",
- "pairs_joined": 3185,
- "pairs_watched": 779,
+ "checked_at": "2026-10-02T19:53:24Z",
+ "pairs_joined": 3179,
+ "pairs_watched": 773,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "UNL_26OCT02_FRAITA_ML.FRA",
+   "slug": "unl-fra-ita-2026-10-02-fra",
+   "event": "France vs Italy, Moneyline - Reg Time",
+   "outcome": "France",
+   "days": 0.953,
+   "resolves": "2026-10-03T18:45:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.8693,
+   "capital": 25.0,
+   "shares": 26.3,
+   "edge": 0.033,
+   "fees": 0.4465,
+   "buy": 0.57,
+   "sell": 0.62
+  }
+ ]
 }
