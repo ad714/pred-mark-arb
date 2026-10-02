@@ -1517,3 +1517,9 @@
 {"checked_at": "2026-10-02T17:01:17Z", "watched": 810, "hits": []}
 {"checked_at": "2026-10-02T17:04:25Z", "watched": 810, "hits": [{"symbol": "BLAST8_26OCT02_GLLIQ_ML.GL", "slug": "dota2-gl-liquid-2026-10-02", "event": "GamerLegion vs Team Liquid, Match Winner", "outcome": "GamerLegion", "days": 0.205, "resolves": "2026-10-02T22:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.1654, "capital": 25.0, "shares": 25.5, "edge": 0.0065, "fees": 0.3709, "buy": 0.7, "sell": 0.721}]}
 {"checked_at": "2026-10-02T17:07:38Z", "watched": 810, "hits": []}
+{"checked_at": "2026-10-02T17:10:49Z", "watched": 810, "hits": []}
+{"checked_at": "2026-10-02T17:14:00Z", "watched": 810, "hits": [{"symbol": "BLAST8_26OCT02_GLLIQ_M2ML.GL", "slug": "dota2-gl-liquid-2026-10-02-game2", "event": "GamerLegion vs Team Liquid, Map 2 Winner", "outcome": "GamerLegion", "days": 0.115, "resolves": "2026-10-02T20:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.0384, "capital": 25.0, "shares": 25.3, "edge": 0.0015, "fees": 0.2653, "buy": 0.808, "sell": 0.82}]}
+{"checked_at": "2026-10-02T17:17:08Z", "watched": 810, "hits": []}
+{"checked_at": "2026-10-02T17:20:18Z", "watched": 810, "hits": []}
+{"checked_at": "2026-10-02T17:23:25Z", "watched": 810, "hits": []}
+{"checked_at": "2026-10-02T17:26:36Z", "watched": 810, "hits": [{"symbol": "BLAST8_26OCT02_OGBB_M1ML.OG", "slug": "dota2-og-bb4-2026-10-02-game1", "event": "OG vs BetBoom Team, Map 1 Winner", "outcome": "OG", "days": 0.107, "resolves": "2026-10-02T20:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.5986, "capital": 25.0, "shares": 26.0, "edge": 0.023, "fees": 0.443, "buy": 0.39, "sell": 0.43}]}
