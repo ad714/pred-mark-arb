@@ -1,29 +1,31 @@
 {
- "generated_at": "2026-10-02T06:07:48Z",
+ "generated_at": "2026-10-02T07:14:59Z",
  "matches": [
   {
    "cb_id": 163077,
    "teams": "ROI v JK",
    "teams_full": "Rest of India v Jammu and Kashmir",
    "state": "In Progress",
-   "status": "Day 2: 1st Session - Jammu and Kashmir trail by 132 runs",
+   "status": "Day 2: 2nd Session - Jammu and Kashmir trail by 103 runs",
    "series": "Irani Cup 2026",
    "format": "TEST",
    "date": "2026-10-01",
    "start_ms": 1790827200000,
-   "last_ball_min": 1.0,
+   "last_ball_min": 2.3,
    "balls_flowing": true
   },
   {
    "cb_id": 155422,
    "teams": "AUSA v INDA",
    "teams_full": "Australia A v India A",
-   "state": "Lunch",
-   "status": "Day 4: Lunch Break - India A need 266 runs",
+   "state": "In Progress",
+   "status": "Day 4: 2nd Session - India A need 236 runs",
    "series": "Australia A tour of India 2026",
    "format": "TEST",
    "date": "2026-09-29",
-   "start_ms": 1790654400000
+   "start_ms": 1790654400000,
+   "last_ball_min": 0.4,
+   "balls_flowing": true
   },
   {
    "cb_id": 171070,
@@ -153,6 +155,14 @@
    "reason": "no open two outcome cricket market to compare against"
   },
   {
+   "cb_id": 155422,
+   "teams": "Australia A v India A",
+   "series": "Australia A tour of India 2026",
+   "state": "In Progress",
+   "date": "2026-09-29",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
    "cb_id": 173187,
    "teams": "Mpumalanga Rhinos v KwaZulu-Natal Inland Tuskers",
    "series": "CSA T20 Challenge 2026",
@@ -191,8 +201,8 @@
  "coverage": {
   "seen_total": 96,
   "ever_paired": 22,
-  "balls_flowing": 1,
-  "state_says_live": 1
+  "balls_flowing": 2,
+  "state_says_live": 2
  },
  "trader": {
   "state": "in_progress",
@@ -200,7 +210,7 @@
   "run_number": 78,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36968981794",
   "started_at": "2026-10-02T05:27:03Z",
-  "elapsed_s": 2445,
+  "elapsed_s": 6477,
   "elapsed_means": "running for",
   "runs_total": 79
  }
