@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-02T13:07:04Z",
+ "generated_at": "2026-10-02T13:54:39Z",
  "matches": [
   {
    "cb_id": 163077,
@@ -60,7 +60,7 @@
    "cb_id": 174313,
    "teams": "INDCH v AUSCH",
    "teams_full": "India Champions v Australia Champions",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 03, 11:30 GMT",
    "series": "World Championship of Legends 2026",
    "format": "T20",
@@ -132,14 +132,14 @@
    "state": "Preview",
    "prices": {
     "Pakistan": {
-     "bid": 0.23,
-     "ask": 0.24,
-     "mid": 0.235
+     "bid": 0.21,
+     "ask": 0.22,
+     "mid": 0.215
     },
     "India": {
-     "bid": 0.76,
-     "ask": 0.77,
-     "mid": 0.765
+     "bid": 0.78,
+     "ask": 0.79,
+     "mid": 0.785
     }
    }
   },
@@ -151,14 +151,14 @@
    "state": "Preview",
    "prices": {
     "Bangladesh": {
-     "bid": 0.6,
-     "ask": 0.61,
-     "mid": 0.605
+     "bid": 0.63,
+     "ask": 0.64,
+     "mid": 0.635
     },
     "Sri Lanka": {
-     "bid": 0.39,
-     "ask": 0.4,
-     "mid": 0.395
+     "bid": 0.36,
+     "ask": 0.37,
+     "mid": 0.365
     }
    }
   },
@@ -178,6 +178,25 @@
      "bid": 0.14,
      "ask": 0.15,
      "mid": 0.14500000000000002
+    }
+   }
+  },
+  {
+   "slug": "cricwcl-ind-aus-2026-10-03",
+   "cb_id": 174313,
+   "question": "World Championship of Legends: India Champions vs Australia Champions",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "India Champions": {
+     "bid": 0.49,
+     "ask": 0.5,
+     "mid": 0.495
+    },
+    "Australia Champions": {
+     "bid": 0.5,
+     "ask": 0.51,
+     "mid": 0.505
     }
    }
   },
@@ -248,7 +267,7 @@
  },
  "coverage": {
   "seen_total": 99,
-  "ever_paired": 24,
+  "ever_paired": 25,
   "balls_flowing": 0,
   "state_says_live": 0
  },
@@ -258,7 +277,7 @@
   "run_number": 79,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36972048545",
   "started_at": "2026-10-02T06:07:20Z",
-  "elapsed_s": 25185,
+  "elapsed_s": 28040,
   "elapsed_means": "running for",
   "runs_total": 81
  }
