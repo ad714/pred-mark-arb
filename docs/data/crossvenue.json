@@ -1,10 +1,59 @@
 {
- "checked_at": "2026-10-02T19:24:30Z",
+ "checked_at": "2026-10-02T19:34:08Z",
  "pairs_joined": 3185,
  "pairs_watched": 779,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "UNL_26OCT02_BIHSWE_ML.BIH",
+   "slug": "unl-bih-swe-2026-10-02-bih",
+   "event": "Bosnia and Herzegovina vs Sweden, Moneyline - Reg Time",
+   "outcome": "Bosnia and Herzegovina",
+   "days": 0.966,
+   "resolves": "2026-10-03T18:45:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.9268,
+   "capital": 25.0,
+   "shares": 26.3,
+   "edge": 0.0352,
+   "fees": 0.389,
+   "buy": 0.29,
+   "sell": 0.34
+  },
+  {
+   "symbol": "UNL_26OCT02_BIHSWE_ML.DRAW",
+   "slug": "unl-bih-swe-2026-10-02-draw",
+   "event": "Bosnia and Herzegovina vs Sweden, Moneyline - Reg Time",
+   "outcome": "Draw",
+   "days": 0.966,
+   "resolves": "2026-10-03T18:45:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 1.2058,
+   "capital": 25.0,
+   "shares": 26.6,
+   "edge": 0.0453,
+   "fees": 0.4183,
+   "buy": 0.299,
+   "sell": 0.36
+  },
+  {
+   "symbol": "UNL_26OCT02_BIHSWE_PP.BTTS",
+   "slug": "unl-bih-swe-2026-10-02-btts",
+   "event": "Bosnia and Herzegovina vs Sweden (Reg Time), Game Props",
+   "outcome": "Both teams to score",
+   "days": 0.966,
+   "resolves": "2026-10-03T18:45:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 4.8352,
+   "capital": 25.0,
+   "shares": 30.3,
+   "edge": 0.1594,
+   "fees": 0.4962,
+   "buy": 0.35,
+   "sell": 0.487
+  }
+ ]
 }
