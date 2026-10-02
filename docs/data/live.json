@@ -1,17 +1,6 @@
 {
- "generated_at": "2026-10-02T13:54:39Z",
+ "generated_at": "2026-10-02T18:55:45Z",
  "matches": [
-  {
-   "cb_id": 163077,
-   "teams": "ROI v JK",
-   "teams_full": "Rest of India v Jammu and Kashmir",
-   "state": "Stumps",
-   "status": "Day 2: Stumps - Rest of India trail by 17 runs",
-   "series": "Irani Cup 2026",
-   "format": "TEST",
-   "date": "2026-10-01",
-   "start_ms": 1790827200000
-  },
   {
    "cb_id": 171070,
    "teams": "PAK v IND",
@@ -22,6 +11,17 @@
    "format": "T20",
    "date": "2026-10-03",
    "start_ms": 1791001800000
+  },
+  {
+   "cb_id": 163077,
+   "teams": "ROI v JK",
+   "teams_full": "Rest of India v Jammu and Kashmir",
+   "state": "Stumps",
+   "status": "Day 2: Stumps - Rest of India trail by 17 runs",
+   "series": "Irani Cup 2026",
+   "format": "TEST",
+   "date": "2026-10-01",
+   "start_ms": 1790827200000
   },
   {
    "cb_id": 171061,
@@ -46,17 +46,6 @@
    "start_ms": 1791016200000
   },
   {
-   "cb_id": 174108,
-   "teams": "SKR v IDN",
-   "teams_full": "South Korea v Indonesia",
-   "state": "Upcoming",
-   "status": "Match starts at Oct 03, 01:00 GMT",
-   "series": "Indonesia tour of South Korea, 2026",
-   "format": "T20",
-   "date": "2026-10-03",
-   "start_ms": 1790989200000
-  },
-  {
    "cb_id": 174313,
    "teams": "INDCH v AUSCH",
    "teams_full": "India Champions v Australia Champions",
@@ -68,37 +57,63 @@
    "start_ms": 1791027000000
   },
   {
-   "cb_id": 173187,
-   "teams": "MPR v KZNIN",
-   "teams_full": "Mpumalanga Rhinos v KwaZulu-Natal Inland Tuskers",
-   "state": "Toss",
-   "status": "KwaZulu-Natal Inland Tuskers opt to bowl",
-   "series": "CSA T20 Challenge 2026",
+   "cb_id": 174108,
+   "teams": "SKR v IDN",
+   "teams_full": "South Korea v Indonesia",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 03, 01:00 GMT",
+   "series": "Indonesia tour of South Korea, 2026",
    "format": "T20",
-   "date": "2026-10-02",
-   "start_ms": 1790938800000
+   "date": "2026-10-03",
+   "start_ms": 1790989200000
+  },
+  {
+   "cb_id": 174047,
+   "teams": "NAM v UAE",
+   "teams_full": "Namibia v United Arab Emirates",
+   "state": "Preview",
+   "status": "Match starts at Oct 03, 15:00 GMT",
+   "series": "ICC CWC League Two 2023-27",
+   "format": "ODI",
+   "date": "2026-10-03",
+   "start_ms": 1791039600000
+  },
+  {
+   "cb_id": 174320,
+   "teams": "PAKCH v BANCH",
+   "teams_full": "Pakistan Champions v Bangladesh Champions",
+   "state": "Preview",
+   "status": "Match starts at Oct 03, 15:30 GMT",
+   "series": "World Championship of Legends 2026",
+   "format": "T20",
+   "date": "2026-10-03",
+   "start_ms": 1791041400000
   },
   {
    "cb_id": 173180,
-   "teams": "KNG v TIT",
-   "teams_full": "Knights v Titans",
-   "state": "Preview",
-   "status": "Match starts at Oct 02, 16:00 GMT",
+   "teams": "TIT v KNG",
+   "teams_full": "Titans v Knights",
+   "state": "Innings Break",
+   "status": "Innings Break",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
    "date": "2026-10-02",
-   "start_ms": 1790956800000
+   "start_ms": 1790956800000,
+   "last_ball_min": 38.6,
+   "balls_flowing": false
   },
   {
    "cb_id": 173197,
    "teams": "LIONS v NWEST",
    "teams_full": "Lions v North West - Eastvaal Renault Dragons",
-   "state": "Preview",
-   "status": "Match starts at Oct 02, 16:00 GMT",
+   "state": "Innings Break",
+   "status": "Innings Break",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
    "date": "2026-10-02",
-   "start_ms": 1790956800000
+   "start_ms": 1790956800000,
+   "last_ball_min": 30.5,
+   "balls_flowing": false
   },
   {
    "cb_id": 173107,
@@ -115,7 +130,7 @@
    "cb_id": 174881,
    "teams": "MLYW v WSMW",
    "teams_full": "Malaysia Women v Samoa Women",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 03, 02:00 GMT",
    "series": "Malaysia Women's T20I Tri-Series 2026",
    "format": "T20",
@@ -132,14 +147,14 @@
    "state": "Preview",
    "prices": {
     "Pakistan": {
-     "bid": 0.21,
-     "ask": 0.22,
-     "mid": 0.215
+     "bid": 0.18,
+     "ask": 0.19,
+     "mid": 0.185
     },
     "India": {
-     "bid": 0.78,
-     "ask": 0.79,
-     "mid": 0.785
+     "bid": 0.81,
+     "ask": 0.82,
+     "mid": 0.815
     }
    }
   },
@@ -151,14 +166,14 @@
    "state": "Preview",
    "prices": {
     "Bangladesh": {
-     "bid": 0.63,
-     "ask": 0.64,
-     "mid": 0.635
+     "bid": 0.65,
+     "ask": 0.66,
+     "mid": 0.655
     },
     "Sri Lanka": {
-     "bid": 0.36,
-     "ask": 0.37,
-     "mid": 0.365
+     "bid": 0.34,
+     "ask": 0.35,
+     "mid": 0.345
     }
    }
   },
@@ -189,14 +204,33 @@
    "state": "Preview",
    "prices": {
     "India Champions": {
-     "bid": 0.49,
-     "ask": 0.5,
-     "mid": 0.495
+     "bid": 0.46,
+     "ask": 0.51,
+     "mid": 0.485
     },
     "Australia Champions": {
-     "bid": 0.5,
-     "ask": 0.51,
-     "mid": 0.505
+     "bid": 0.49,
+     "ask": 0.54,
+     "mid": 0.515
+    }
+   }
+  },
+  {
+   "slug": "cricwcl-pak-ban-2026-10-03",
+   "cb_id": 174320,
+   "question": "World Championship of Legends: Pakistan Champions vs Bangladesh Champions",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Pakistan Champions": {
+     "bid": 0.62,
+     "ask": 0.75,
+     "mid": 0.685
+    },
+    "Bangladesh Champions": {
+     "bid": 0.25,
+     "ask": 0.38,
+     "mid": 0.315
     }
    }
   },
@@ -208,14 +242,14 @@
    "state": "Preview",
    "prices": {
     "Zimbabwe Women": {
-     "bid": 0.15,
-     "ask": 0.16,
-     "mid": 0.155
+     "bid": 0.17,
+     "ask": 0.18,
+     "mid": 0.175
     },
     "West Indies Women": {
-     "bid": 0.84,
-     "ask": 0.85,
-     "mid": 0.845
+     "bid": 0.82,
+     "ask": 0.83,
+     "mid": 0.825
     }
    }
   }
@@ -230,18 +264,18 @@
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 173187,
-   "teams": "Mpumalanga Rhinos v KwaZulu-Natal Inland Tuskers",
-   "series": "CSA T20 Challenge 2026",
-   "state": "Toss",
-   "date": "2026-10-02",
+   "cb_id": 174047,
+   "teams": "Namibia v United Arab Emirates",
+   "series": "ICC CWC League Two 2023-27",
+   "state": "Preview",
+   "date": "2026-10-03",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
    "cb_id": 173180,
-   "teams": "Knights v Titans",
+   "teams": "Titans v Knights",
    "series": "CSA T20 Challenge 2026",
-   "state": "Preview",
+   "state": "Innings Break",
    "date": "2026-10-02",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -249,8 +283,16 @@
    "cb_id": 173197,
    "teams": "Lions v North West - Eastvaal Renault Dragons",
    "series": "CSA T20 Challenge 2026",
-   "state": "Preview",
+   "state": "Innings Break",
    "date": "2026-10-02",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 174881,
+   "teams": "Malaysia Women v Samoa Women",
+   "series": "Malaysia Women's T20I Tri-Series 2026",
+   "state": "Preview",
+   "date": "2026-10-03",
    "reason": "no open two outcome cricket market to compare against"
   }
  ],
@@ -266,18 +308,18 @@
   "start_ms": 1790985600000
  },
  "coverage": {
-  "seen_total": 99,
-  "ever_paired": 25,
+  "seen_total": 101,
+  "ever_paired": 26,
   "balls_flowing": 0,
-  "state_says_live": 0
+  "state_says_live": 2
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 79,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36972048545",
-  "started_at": "2026-10-02T06:07:20Z",
-  "elapsed_s": 28040,
+  "run_number": 81,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37010825248",
+  "started_at": "2026-10-02T13:06:35Z",
+  "elapsed_s": 20950,
   "elapsed_means": "running for",
   "runs_total": 81
  }
