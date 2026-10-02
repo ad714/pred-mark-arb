@@ -1,10 +1,43 @@
 {
- "checked_at": "2026-10-02T13:22:05Z",
- "pairs_joined": 3188,
- "pairs_watched": 782,
+ "checked_at": "2026-10-02T15:45:20Z",
+ "pairs_joined": 3221,
+ "pairs_watched": 815,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "LOL_26OCT02_CGTSC_M1ML.CG",
+   "slug": "lol-cg-tsc-2026-10-02-game1",
+   "event": "Colossal Gaming vs The Secret Club Esport, Map 1 Winner",
+   "outcome": "Colossal Gaming",
+   "days": 0.219,
+   "resolves": "2026-10-02T21:00:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 3.7501,
+   "capital": 25.0,
+   "shares": 28.8,
+   "edge": 0.1301,
+   "fees": 0.0849,
+   "buy": 0.01,
+   "sell": 0.143
+  },
+  {
+   "symbol": "LOL_26OCT02_CGTSC_ML.CG",
+   "slug": "lol-cg-tsc-2026-10-02",
+   "event": "Colossal Gaming vs The Secret Club Esport, Match Winner",
+   "outcome": "Colossal Gaming",
+   "days": 0.219,
+   "resolves": "2026-10-02T21:00:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 1.216,
+   "capital": 25.0,
+   "shares": 26.6,
+   "edge": 0.0457,
+   "fees": 0.3797,
+   "buy": 0.27,
+   "sell": 0.33
+  }
+ ]
 }
