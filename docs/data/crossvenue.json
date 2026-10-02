@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-02T17:58:35Z",
+ "checked_at": "2026-10-02T18:01:46Z",
  "pairs_joined": 3197,
  "pairs_watched": 791,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "LOL_26OCT02_BOOMBAR_ML.BOOM",
-   "slug": "lol-bombat-bar-2026-10-02",
-   "event": "BOMBA Team vs Bar\u00e7a eSports, Match Winner",
-   "outcome": "BOMBA Team",
-   "days": 0.251,
-   "resolves": "2026-10-03T00:00:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.2565,
-   "capital": 25.0,
-   "shares": 25.4,
-   "edge": 0.0101,
-   "fees": 0.1243,
-   "buy": 0.065,
-   "sell": 0.08
-  }
- ]
+ "hits": []
 }
