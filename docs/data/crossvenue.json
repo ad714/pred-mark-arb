@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-02T17:26:36Z",
+ "checked_at": "2026-10-02T17:29:47Z",
  "pairs_joined": 3216,
  "pairs_watched": 810,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "BLAST8_26OCT02_OGBB_M1ML.OG",
-   "slug": "dota2-og-bb4-2026-10-02-game1",
-   "event": "OG vs BetBoom Team, Map 1 Winner",
-   "outcome": "OG",
-   "days": 0.107,
-   "resolves": "2026-10-02T20:00:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.5986,
-   "capital": 25.0,
-   "shares": 26.0,
-   "edge": 0.023,
-   "fees": 0.443,
-   "buy": 0.39,
-   "sell": 0.43
-  }
- ]
+ "hits": []
 }
