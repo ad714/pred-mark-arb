@@ -1492,3 +1492,9 @@
 {"checked_at": "2026-10-02T15:42:11Z", "watched": 815, "hits": []}
 {"checked_at": "2026-10-02T15:45:20Z", "watched": 815, "hits": [{"symbol": "LOL_26OCT02_CGTSC_M1ML.CG", "slug": "lol-cg-tsc-2026-10-02-game1", "event": "Colossal Gaming vs The Secret Club Esport, Map 1 Winner", "outcome": "Colossal Gaming", "days": 0.219, "resolves": "2026-10-02T21:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 3.7501, "capital": 25.0, "shares": 28.8, "edge": 0.1301, "fees": 0.0849, "buy": 0.01, "sell": 0.143}, {"symbol": "LOL_26OCT02_CGTSC_ML.CG", "slug": "lol-cg-tsc-2026-10-02", "event": "Colossal Gaming vs The Secret Club Esport, Match Winner", "outcome": "Colossal Gaming", "days": 0.219, "resolves": "2026-10-02T21:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 1.216, "capital": 25.0, "shares": 26.6, "edge": 0.0457, "fees": 0.3797, "buy": 0.27, "sell": 0.33}]}
 {"checked_at": "2026-10-02T15:48:33Z", "watched": 815, "hits": []}
+{"checked_at": "2026-10-02T15:51:46Z", "watched": 815, "hits": []}
+{"checked_at": "2026-10-02T15:54:55Z", "watched": 815, "hits": []}
+{"checked_at": "2026-10-02T15:58:04Z", "watched": 815, "hits": []}
+{"checked_at": "2026-10-02T16:01:13Z", "watched": 815, "hits": []}
+{"checked_at": "2026-10-02T16:04:22Z", "watched": 815, "hits": []}
+{"checked_at": "2026-10-02T16:07:35Z", "watched": 814, "hits": [{"symbol": "BLAST8_26OCT02_GLLIQ_ML.GL", "slug": "dota2-gl-liquid-2026-10-02", "event": "GamerLegion vs Team Liquid, Match Winner", "outcome": "GamerLegion", "days": 0.245, "resolves": "2026-10-02T22:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.1537, "capital": 25.0, "shares": 25.5, "edge": 0.006, "fees": 0.3565, "buy": 0.27, "sell": 0.29}]}
