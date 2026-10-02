@@ -1240,3 +1240,24 @@
 {"checked_at": "2026-10-02T02:19:08Z", "watched": 676, "hits": []}
 {"checked_at": "2026-10-02T02:22:14Z", "watched": 676, "hits": []}
 {"checked_at": "2026-10-02T02:25:21Z", "watched": 676, "hits": []}
+{"checked_at": "2026-10-02T02:25:49Z", "watched": 676, "hits": []}
+{"checked_at": "2026-10-02T02:28:56Z", "watched": 676, "hits": []}
+{"checked_at": "2026-10-02T02:32:03Z", "watched": 676, "hits": []}
+{"checked_at": "2026-10-02T02:35:12Z", "watched": 674, "hits": []}
+{"checked_at": "2026-10-02T02:38:23Z", "watched": 673, "hits": []}
+{"checked_at": "2026-10-02T02:41:28Z", "watched": 673, "hits": []}
+{"checked_at": "2026-10-02T02:44:35Z", "watched": 673, "hits": []}
+{"checked_at": "2026-10-02T02:47:41Z", "watched": 673, "hits": []}
+{"checked_at": "2026-10-02T02:50:48Z", "watched": 673, "hits": []}
+{"checked_at": "2026-10-02T02:53:53Z", "watched": 673, "hits": []}
+{"checked_at": "2026-10-02T02:57:00Z", "watched": 673, "hits": []}
+{"checked_at": "2026-10-02T03:00:05Z", "watched": 673, "hits": []}
+{"checked_at": "2026-10-02T03:03:12Z", "watched": 673, "hits": []}
+{"checked_at": "2026-10-02T03:06:18Z", "watched": 673, "hits": []}
+{"checked_at": "2026-10-02T03:09:24Z", "watched": 673, "hits": []}
+{"checked_at": "2026-10-02T03:12:30Z", "watched": 673, "hits": []}
+{"checked_at": "2026-10-02T03:15:36Z", "watched": 673, "hits": []}
+{"checked_at": "2026-10-02T03:18:41Z", "watched": 673, "hits": []}
+{"checked_at": "2026-10-02T03:21:48Z", "watched": 673, "hits": []}
+{"checked_at": "2026-10-02T03:24:57Z", "watched": 670, "hits": []}
+{"checked_at": "2026-10-02T03:28:03Z", "watched": 670, "hits": [{"symbol": "NFL_26OCT01_PITCLE_SP.PIT_1", "slug": "nfl-pit-cle-2026-10-02-spread-away-1pt5", "event": "Steelers vs Browns, Oct 1, Spreads", "outcome": "Pittsburgh Steelers -1.5", "days": 0.033, "resolves": "2026-10-02T04:15:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.7946, "capital": 25.0, "shares": 25.9, "edge": 0.0307, "fees": 0.1, "buy": 0.064, "sell": 0.09}]}
