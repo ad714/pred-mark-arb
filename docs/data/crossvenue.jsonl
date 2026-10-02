@@ -1528,3 +1528,4 @@
 {"checked_at": "2026-10-02T17:36:15Z", "watched": 802, "hits": []}
 {"checked_at": "2026-10-02T17:39:22Z", "watched": 802, "hits": []}
 {"checked_at": "2026-10-02T17:42:35Z", "watched": 801, "hits": [{"symbol": "BLAST8_26OCT02_OGBB_M1ML.OG", "slug": "dota2-og-bb4-2026-10-02-game1", "event": "OG vs BetBoom Team, Map 1 Winner", "outcome": "OG", "days": 0.096, "resolves": "2026-10-02T20:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.1135, "capital": 25.0, "shares": 25.2, "edge": 0.0045, "fees": 0.0374, "buy": 0.02, "sell": 0.026}]}
+{"checked_at": "2026-10-02T17:45:47Z", "watched": 801, "hits": [{"symbol": "LOL_26OCT02_VLRMGZ_ML.VLR", "slug": "lol-vlr-mgz-2026-10-02", "event": "Valerion vs MAGAZA, Match Winner", "outcome": "Valerion", "days": 0.26, "resolves": "2026-10-03T00:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.0398, "capital": 25.0, "shares": 25.1, "edge": 0.0016, "fees": 0.0858, "buy": 0.945, "sell": 0.95}]}
