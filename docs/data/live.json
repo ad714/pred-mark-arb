@@ -1,31 +1,16 @@
 {
- "generated_at": "2026-10-02T07:14:59Z",
+ "generated_at": "2026-10-02T13:07:04Z",
  "matches": [
   {
    "cb_id": 163077,
    "teams": "ROI v JK",
    "teams_full": "Rest of India v Jammu and Kashmir",
-   "state": "In Progress",
-   "status": "Day 2: 2nd Session - Jammu and Kashmir trail by 103 runs",
+   "state": "Stumps",
+   "status": "Day 2: Stumps - Rest of India trail by 17 runs",
    "series": "Irani Cup 2026",
    "format": "TEST",
    "date": "2026-10-01",
-   "start_ms": 1790827200000,
-   "last_ball_min": 2.3,
-   "balls_flowing": true
-  },
-  {
-   "cb_id": 155422,
-   "teams": "AUSA v INDA",
-   "teams_full": "Australia A v India A",
-   "state": "In Progress",
-   "status": "Day 4: 2nd Session - India A need 236 runs",
-   "series": "Australia A tour of India 2026",
-   "format": "TEST",
-   "date": "2026-09-29",
-   "start_ms": 1790654400000,
-   "last_ball_min": 0.4,
-   "balls_flowing": true
+   "start_ms": 1790827200000
   },
   {
    "cb_id": 171070,
@@ -50,6 +35,17 @@
    "start_ms": 1790985600000
   },
   {
+   "cb_id": 151554,
+   "teams": "IND v WI",
+   "teams_full": "India v West Indies",
+   "state": "Preview",
+   "status": "Match starts at Oct 03, 08:30 GMT",
+   "series": "India v West Indies",
+   "format": "ODI",
+   "date": "2026-10-03",
+   "start_ms": 1791016200000
+  },
+  {
    "cb_id": 174108,
    "teams": "SKR v IDN",
    "teams_full": "South Korea v Indonesia",
@@ -61,11 +57,22 @@
    "start_ms": 1790989200000
   },
   {
+   "cb_id": 174313,
+   "teams": "INDCH v AUSCH",
+   "teams_full": "India Champions v Australia Champions",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 03, 11:30 GMT",
+   "series": "World Championship of Legends 2026",
+   "format": "T20",
+   "date": "2026-10-03",
+   "start_ms": 1791027000000
+  },
+  {
    "cb_id": 173187,
    "teams": "MPR v KZNIN",
    "teams_full": "Mpumalanga Rhinos v KwaZulu-Natal Inland Tuskers",
-   "state": "Preview",
-   "status": "Match starts at Oct 02, 11:00 GMT",
+   "state": "Toss",
+   "status": "KwaZulu-Natal Inland Tuskers opt to bowl",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
    "date": "2026-10-02",
@@ -94,6 +101,17 @@
    "start_ms": 1790956800000
   },
   {
+   "cb_id": 173107,
+   "teams": "ZIMW v WIW",
+   "teams_full": "Zimbabwe Women v West Indies Women",
+   "state": "Preview",
+   "status": "Match starts at Oct 03, 11:00 GMT",
+   "series": "West Indies Women tour of Zimbabwe, 2026",
+   "format": "T20",
+   "date": "2026-10-03",
+   "start_ms": 1791025200000
+  },
+  {
    "cb_id": 174881,
    "teams": "MLYW v WSMW",
    "teams_full": "Malaysia Women v Samoa Women",
@@ -114,14 +132,14 @@
    "state": "Preview",
    "prices": {
     "Pakistan": {
-     "bid": 0.19,
-     "ask": 0.21,
-     "mid": 0.2
+     "bid": 0.23,
+     "ask": 0.24,
+     "mid": 0.235
     },
     "India": {
-     "bid": 0.79,
-     "ask": 0.81,
-     "mid": 0.8
+     "bid": 0.76,
+     "ask": 0.77,
+     "mid": 0.765
     }
    }
   },
@@ -133,14 +151,52 @@
    "state": "Preview",
    "prices": {
     "Bangladesh": {
-     "bid": 0.58,
-     "ask": 0.6,
-     "mid": 0.59
+     "bid": 0.6,
+     "ask": 0.61,
+     "mid": 0.605
     },
     "Sri Lanka": {
-     "bid": 0.4,
-     "ask": 0.42,
-     "mid": 0.41000000000000003
+     "bid": 0.39,
+     "ask": 0.4,
+     "mid": 0.395
+    }
+   }
+  },
+  {
+   "slug": "crint-ind-wst-2026-10-03",
+   "cb_id": 151554,
+   "question": "West Indies Tour of India ODIs: India vs West Indies",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "India": {
+     "bid": 0.85,
+     "ask": 0.86,
+     "mid": 0.855
+    },
+    "West Indies": {
+     "bid": 0.14,
+     "ask": 0.15,
+     "mid": 0.14500000000000002
+    }
+   }
+  },
+  {
+   "slug": "crint-zwew-wstw-2026-10-03",
+   "cb_id": 173107,
+   "question": "West Indies Women Tour of Zimbabwe T20s: Zimbabwe Women vs West Indies Women",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Zimbabwe Women": {
+     "bid": 0.15,
+     "ask": 0.16,
+     "mid": 0.155
+    },
+    "West Indies Women": {
+     "bid": 0.84,
+     "ask": 0.85,
+     "mid": 0.845
     }
    }
   }
@@ -150,23 +206,15 @@
    "cb_id": 163077,
    "teams": "Rest of India v Jammu and Kashmir",
    "series": "Irani Cup 2026",
-   "state": "In Progress",
+   "state": "Stumps",
    "date": "2026-10-01",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 155422,
-   "teams": "Australia A v India A",
-   "series": "Australia A tour of India 2026",
-   "state": "In Progress",
-   "date": "2026-09-29",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
    "cb_id": 173187,
    "teams": "Mpumalanga Rhinos v KwaZulu-Natal Inland Tuskers",
    "series": "CSA T20 Challenge 2026",
-   "state": "Preview",
+   "state": "Toss",
    "date": "2026-10-02",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -199,19 +247,19 @@
   "start_ms": 1790985600000
  },
  "coverage": {
-  "seen_total": 96,
-  "ever_paired": 22,
-  "balls_flowing": 2,
-  "state_says_live": 2
+  "seen_total": 99,
+  "ever_paired": 24,
+  "balls_flowing": 0,
+  "state_says_live": 0
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 78,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36968981794",
-  "started_at": "2026-10-02T05:27:03Z",
-  "elapsed_s": 6477,
+  "run_number": 79,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36972048545",
+  "started_at": "2026-10-02T06:07:20Z",
+  "elapsed_s": 25185,
   "elapsed_means": "running for",
-  "runs_total": 79
+  "runs_total": 81
  }
 }
