@@ -1,33 +1,46 @@
 {
- "generated_at": "2026-10-02T01:15:50Z",
+ "generated_at": "2026-10-02T06:07:48Z",
  "matches": [
   {
    "cb_id": 163077,
    "teams": "ROI v JK",
    "teams_full": "Rest of India v Jammu and Kashmir",
-   "state": "Stumps",
-   "status": "Day 1: Stumps - Jammu and Kashmir trail by 216 runs",
+   "state": "In Progress",
+   "status": "Day 2: 1st Session - Jammu and Kashmir trail by 132 runs",
    "series": "Irani Cup 2026",
    "format": "TEST",
    "date": "2026-10-01",
-   "start_ms": 1790827200000
+   "start_ms": 1790827200000,
+   "last_ball_min": 1.0,
+   "balls_flowing": true
   },
   {
    "cb_id": 155422,
    "teams": "AUSA v INDA",
    "teams_full": "Australia A v India A",
-   "state": "Stumps",
-   "status": "Day 3: Stumps - India A need 337 runs",
+   "state": "Lunch",
+   "status": "Day 4: Lunch Break - India A need 266 runs",
    "series": "Australia A tour of India 2026",
    "format": "TEST",
    "date": "2026-09-29",
    "start_ms": 1790654400000
   },
   {
+   "cb_id": 171070,
+   "teams": "PAK v IND",
+   "teams_full": "Pakistan v India",
+   "state": "Preview",
+   "status": "Match starts at Oct 03, 04:30 GMT",
+   "series": "Asian Games 2026",
+   "format": "T20",
+   "date": "2026-10-03",
+   "start_ms": 1791001800000
+  },
+  {
    "cb_id": 171061,
    "teams": "BAN v SL",
    "teams_full": "Bangladesh v Sri Lanka",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 03, 00:00 GMT",
    "series": "Asian Games 2026",
    "format": "T20",
@@ -77,24 +90,66 @@
    "format": "T20",
    "date": "2026-10-02",
    "start_ms": 1790956800000
+  },
+  {
+   "cb_id": 174881,
+   "teams": "MLYW v WSMW",
+   "teams_full": "Malaysia Women v Samoa Women",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 03, 02:00 GMT",
+   "series": "Malaysia Women's T20I Tri-Series 2026",
+   "format": "T20",
+   "date": "2026-10-03",
+   "start_ms": 1790992800000
   }
  ],
- "pairings": [],
+ "pairings": [
+  {
+   "slug": "crint-pak-ind-2026-10-03",
+   "cb_id": 171070,
+   "question": "Asian Games Men: Pakistan vs India",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Pakistan": {
+     "bid": 0.19,
+     "ask": 0.21,
+     "mid": 0.2
+    },
+    "India": {
+     "bid": 0.79,
+     "ask": 0.81,
+     "mid": 0.8
+    }
+   }
+  },
+  {
+   "slug": "crint-bgd-lka-2026-10-02",
+   "cb_id": 171061,
+   "question": "Asian Games Men: Bangladesh vs Sri Lanka",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Bangladesh": {
+     "bid": 0.58,
+     "ask": 0.6,
+     "mid": 0.59
+    },
+    "Sri Lanka": {
+     "bid": 0.4,
+     "ask": 0.42,
+     "mid": 0.41000000000000003
+    }
+   }
+  }
+ ],
  "unpaired": [
   {
    "cb_id": 163077,
    "teams": "Rest of India v Jammu and Kashmir",
    "series": "Irani Cup 2026",
-   "state": "Stumps",
+   "state": "In Progress",
    "date": "2026-10-01",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 155422,
-   "teams": "Australia A v India A",
-   "series": "Australia A tour of India 2026",
-   "state": "Stumps",
-   "date": "2026-09-29",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
@@ -122,21 +177,31 @@
    "reason": "no open two outcome cricket market to compare against"
   }
  ],
- "next_fixture": null,
+ "next_fixture": {
+  "cb_id": 171061,
+  "teams": "BAN v SL",
+  "teams_full": "Bangladesh v Sri Lanka",
+  "state": "Preview",
+  "status": "Match starts at Oct 03, 00:00 GMT",
+  "series": "Asian Games 2026",
+  "format": "T20",
+  "date": "2026-10-03",
+  "start_ms": 1790985600000
+ },
  "coverage": {
-  "seen_total": 94,
-  "ever_paired": 20,
-  "balls_flowing": 0,
-  "state_says_live": 0
+  "seen_total": 96,
+  "ever_paired": 22,
+  "balls_flowing": 1,
+  "state_says_live": 1
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 77,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36937707448",
-  "started_at": "2026-10-01T22:53:15Z",
-  "elapsed_s": 8556,
+  "run_number": 78,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/36968981794",
+  "started_at": "2026-10-02T05:27:03Z",
+  "elapsed_s": 2445,
   "elapsed_means": "running for",
-  "runs_total": 77
+  "runs_total": 79
  }
 }
