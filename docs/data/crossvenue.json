@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-03T16:27:48Z",
+ "checked_at": "2026-10-03T16:34:23Z",
  "pairs_joined": 3258,
  "pairs_watched": 852,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "NCAAF_26OCT03_UCFHOU_ML.UCF",
+   "slug": "cfb-ucf-hou-2026-10-03",
+   "event": "UCF vs Houston, Oct 3, Moneyline",
+   "outcome": "UCF Knights",
+   "days": 0.143,
+   "resolves": "2026-10-03T20:00:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.3344,
+   "capital": 25.0,
+   "shares": 25.5,
+   "edge": 0.0131,
+   "fees": 0.1239,
+   "buy": 0.4,
+   "sell": 0.418
+  }
+ ]
 }
