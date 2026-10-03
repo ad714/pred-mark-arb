@@ -1,40 +1,31 @@
 {
- "generated_at": "2026-10-03T01:40:47Z",
+ "generated_at": "2026-10-03T05:42:12Z",
  "matches": [
   {
-   "cb_id": 171061,
-   "teams": "SL v BAN",
-   "teams_full": "Sri Lanka v Bangladesh",
-   "state": "Innings Break",
-   "status": "Innings Break",
-   "series": "Asian Games 2026",
-   "format": "T20",
-   "date": "2026-10-03",
-   "start_ms": 1790985600000,
-   "last_ball_min": 2.2,
-   "balls_flowing": true
-  },
-  {
    "cb_id": 171070,
-   "teams": "PAK v IND",
-   "teams_full": "Pakistan v India",
-   "state": "Preview",
-   "status": "Match starts at Oct 03, 04:30 GMT",
+   "teams": "IND v PAK",
+   "teams_full": "India v Pakistan",
+   "state": "In Progress",
+   "status": "India opt to bat",
    "series": "Asian Games 2026",
    "format": "T20",
    "date": "2026-10-03",
-   "start_ms": 1791001800000
+   "start_ms": 1791001800000,
+   "last_ball_min": 0.4,
+   "balls_flowing": true
   },
   {
    "cb_id": 163077,
    "teams": "ROI v JK",
    "teams_full": "Rest of India v Jammu and Kashmir",
-   "state": "Stumps",
-   "status": "Day 2: Stumps - Rest of India trail by 17 runs",
+   "state": "In Progress",
+   "status": "Day 3: 1st Session - Rest of India lead by 52 runs",
    "series": "Irani Cup 2026",
    "format": "TEST",
    "date": "2026-10-01",
-   "start_ms": 1790827200000
+   "start_ms": 1790827200000,
+   "last_ball_min": 0.5,
+   "balls_flowing": true
   },
   {
    "cb_id": 151554,
@@ -60,14 +51,16 @@
   },
   {
    "cb_id": 174108,
-   "teams": "SKR v IDN",
-   "teams_full": "South Korea v Indonesia",
-   "state": "Upcoming",
-   "status": "Match starts at Oct 03, 01:00 GMT",
+   "teams": "IDN v SKR",
+   "teams_full": "Indonesia v South Korea",
+   "state": "Innings Break",
+   "status": "Innings Break",
    "series": "Indonesia tour of South Korea, 2026",
    "format": "T20",
    "date": "2026-10-03",
-   "start_ms": 1790989200000
+   "start_ms": 1790989200000,
+   "last_ball_min": 107.4,
+   "balls_flowing": false
   },
   {
    "cb_id": 174123,
@@ -115,52 +108,46 @@
   },
   {
    "cb_id": 174881,
-   "teams": "MLYW v WSMW",
-   "teams_full": "Malaysia Women v Samoa Women",
-   "state": "Preview",
-   "status": "Match starts at Oct 03, 02:00 GMT",
+   "teams": "WSMW v MLYW",
+   "teams_full": "Samoa Women v Malaysia Women",
+   "state": "In Progress",
+   "status": "Malaysia Women need 84 runs",
    "series": "Malaysia Women's T20I Tri-Series 2026",
    "format": "T20",
    "date": "2026-10-03",
-   "start_ms": 1790992800000
+   "start_ms": 1790992800000,
+   "last_ball_min": 42.3,
+   "balls_flowing": false
+  },
+  {
+   "cb_id": 174891,
+   "teams": "IDNW v WSMW",
+   "teams_full": "Indonesia Women v Samoa Women",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 04, 02:30 GMT",
+   "series": "Malaysia Women's T20I Tri-Series 2026",
+   "format": "T20",
+   "date": "2026-10-04",
+   "start_ms": 1791081000000
   }
  ],
  "pairings": [
-  {
-   "slug": "crint-bgd-lka-2026-10-02",
-   "cb_id": 171061,
-   "question": "Asian Games Men: Bangladesh vs Sri Lanka",
-   "score": 1.0,
-   "state": "Innings Break",
-   "prices": {
-    "Bangladesh": {
-     "bid": 0.34,
-     "ask": 0.35,
-     "mid": 0.345
-    },
-    "Sri Lanka": {
-     "bid": 0.65,
-     "ask": 0.66,
-     "mid": 0.655
-    }
-   }
-  },
   {
    "slug": "crint-pak-ind-2026-10-03",
    "cb_id": 171070,
    "question": "Asian Games Men: Pakistan vs India",
    "score": 1.0,
-   "state": "Preview",
+   "state": "In Progress",
    "prices": {
     "Pakistan": {
-     "bid": 0.19,
-     "ask": 0.2,
-     "mid": 0.195
+     "bid": 0.13,
+     "ask": 0.15,
+     "mid": 0.14
     },
     "India": {
-     "bid": 0.8,
-     "ask": 0.81,
-     "mid": 0.805
+     "bid": 0.85,
+     "ask": 0.87,
+     "mid": 0.86
     }
    }
   },
@@ -172,14 +159,14 @@
    "state": "Preview",
    "prices": {
     "India": {
-     "bid": 0.84,
-     "ask": 0.85,
-     "mid": 0.845
+     "bid": 0.8,
+     "ask": 0.82,
+     "mid": 0.81
     },
     "West Indies": {
-     "bid": 0.15,
-     "ask": 0.16,
-     "mid": 0.155
+     "bid": 0.18,
+     "ask": 0.2,
+     "mid": 0.19
     }
    }
   },
@@ -191,14 +178,14 @@
    "state": "Preview",
    "prices": {
     "India Champions": {
-     "bid": 0.04,
-     "ask": 0.51,
-     "mid": 0.275
+     "bid": 0.35,
+     "ask": 0.48,
+     "mid": 0.415
     },
     "Australia Champions": {
-     "bid": 0.49,
-     "ask": 0.96,
-     "mid": 0.725
+     "bid": 0.52,
+     "ask": 0.65,
+     "mid": 0.585
     }
    }
   },
@@ -210,14 +197,14 @@
    "state": "Preview",
    "prices": {
     "Pakistan Champions": {
-     "bid": 0.61,
-     "ask": 0.73,
-     "mid": 0.6699999999999999
+     "bid": 0.62,
+     "ask": 0.74,
+     "mid": 0.6799999999999999
     },
     "Bangladesh Champions": {
-     "bid": 0.27,
-     "ask": 0.39,
-     "mid": 0.33
+     "bid": 0.26,
+     "ask": 0.38,
+     "mid": 0.32
     }
    }
   },
@@ -246,9 +233,17 @@
    "cb_id": 163077,
    "teams": "Rest of India v Jammu and Kashmir",
    "series": "Irani Cup 2026",
-   "state": "Stumps",
+   "state": "In Progress",
    "date": "2026-10-01",
    "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 174108,
+   "teams": "Indonesia v South Korea",
+   "series": "Indonesia tour of South Korea, 2026",
+   "state": "Innings Break",
+   "date": "2026-10-03",
+   "reason": "closest market crint-kor-idn-2026-10-04 only scored 0.33 on team names"
   },
   {
    "cb_id": 174047,
@@ -260,38 +255,38 @@
   },
   {
    "cb_id": 174881,
-   "teams": "Malaysia Women v Samoa Women",
+   "teams": "Samoa Women v Malaysia Women",
    "series": "Malaysia Women's T20I Tri-Series 2026",
-   "state": "Preview",
+   "state": "In Progress",
    "date": "2026-10-03",
    "reason": "no open two outcome cricket market to compare against"
   }
  ],
  "next_fixture": {
-  "cb_id": 171070,
-  "teams": "PAK v IND",
-  "teams_full": "Pakistan v India",
+  "cb_id": 151554,
+  "teams": "IND v WI",
+  "teams_full": "India v West Indies",
   "state": "Preview",
-  "status": "Match starts at Oct 03, 04:30 GMT",
-  "series": "Asian Games 2026",
-  "format": "T20",
+  "status": "Match starts at Oct 03, 08:30 GMT",
+  "series": "India v West Indies",
+  "format": "ODI",
   "date": "2026-10-03",
-  "start_ms": 1791001800000
+  "start_ms": 1791016200000
  },
  "coverage": {
-  "seen_total": 102,
+  "seen_total": 103,
   "ever_paired": 26,
-  "balls_flowing": 1,
-  "state_says_live": 1
+  "balls_flowing": 2,
+  "state_says_live": 4
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 82,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37070810008",
-  "started_at": "2026-10-02T22:07:57Z",
-  "elapsed_s": 12770,
+  "run_number": 83,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37072961466",
+  "started_at": "2026-10-02T22:31:38Z",
+  "elapsed_s": 25834,
   "elapsed_means": "running for",
-  "runs_total": 83
+  "runs_total": 85
  }
 }
