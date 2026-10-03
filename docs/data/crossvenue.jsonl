@@ -1683,3 +1683,14 @@
 {"checked_at": "2026-10-03T01:44:04Z", "watched": 778, "hits": []}
 {"checked_at": "2026-10-03T01:47:14Z", "watched": 778, "hits": [{"symbol": "CFB_26OCT02_PITTVT_ML.PITT", "slug": "cfb-pitt-vtech-2026-10-02", "event": "Pittsburgh vs Virginia Tech, Oct 2, Moneyline", "outcome": "Pittsburgh", "days": 0.051, "resolves": "2026-10-03T03:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.8185, "capital": 25.0, "shares": 26.1, "edge": 0.0313, "fees": 0.3048, "buy": 0.61, "sell": 0.653}]}
 {"checked_at": "2026-10-03T01:50:26Z", "watched": 778, "hits": []}
+{"checked_at": "2026-10-03T01:53:38Z", "watched": 778, "hits": []}
+{"checked_at": "2026-10-03T01:56:48Z", "watched": 778, "hits": []}
+{"checked_at": "2026-10-03T01:59:57Z", "watched": 778, "hits": []}
+{"checked_at": "2026-10-03T02:03:10Z", "watched": 777, "hits": []}
+{"checked_at": "2026-10-03T02:06:21Z", "watched": 777, "hits": []}
+{"checked_at": "2026-10-03T02:09:30Z", "watched": 777, "hits": []}
+{"checked_at": "2026-10-03T02:12:38Z", "watched": 777, "hits": []}
+{"checked_at": "2026-10-03T02:15:48Z", "watched": 777, "hits": []}
+{"checked_at": "2026-10-03T02:18:57Z", "watched": 777, "hits": []}
+{"checked_at": "2026-10-03T02:22:08Z", "watched": 777, "hits": []}
+{"checked_at": "2026-10-03T02:25:17Z", "watched": 777, "hits": [{"symbol": "NCAAF_26OCT02_PSUNU_ML.PSU", "slug": "cfb-pennst-nw-2026-10-02", "event": "Penn State vs Northwestern, Oct 2, Moneyline", "outcome": "Penn State Nittany Lions", "days": 0.066, "resolves": "2026-10-03T04:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.2717, "capital": 25.0, "shares": 25.4, "edge": 0.0107, "fees": 0.109, "buy": 0.086, "sell": 0.101}]}
