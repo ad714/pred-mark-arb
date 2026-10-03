@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-03T02:34:57Z",
+ "checked_at": "2026-10-03T02:38:10Z",
  "pairs_joined": 3182,
  "pairs_watched": 776,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "CFB_26OCT02_PITTVT_ML.PITT",
-   "slug": "cfb-pitt-vtech-2026-10-02",
-   "event": "Pittsburgh vs Virginia Tech, Oct 2, Moneyline",
-   "outcome": "Pittsburgh",
-   "days": 0.018,
-   "resolves": "2026-10-03T03:00:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 2.5258,
-   "capital": 25.0,
-   "shares": 27.9,
-   "edge": 0.0906,
-   "fees": 0.3448,
-   "buy": 0.437,
-   "sell": 0.54
-  }
- ]
+ "hits": []
 }
