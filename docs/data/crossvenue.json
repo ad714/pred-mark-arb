@@ -1,10 +1,43 @@
 {
- "checked_at": "2026-10-03T16:07:40Z",
- "pairs_joined": 3262,
- "pairs_watched": 856,
+ "checked_at": "2026-10-03T16:24:30Z",
+ "pairs_joined": 3258,
+ "pairs_watched": 852,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "BLAST8_26OCT03_LGDGL_ML.LGD",
+   "slug": "dota2-lgd-gl-2026-10-03",
+   "event": "LGD Gaming vs GamerLegion, Match Winner",
+   "outcome": "LGD Gaming",
+   "days": 0.108,
+   "resolves": "2026-10-03T19:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 2.8859,
+   "capital": 25.0,
+   "shares": 28.3,
+   "edge": 0.1018,
+   "fees": 0.4588,
+   "buy": 0.542,
+   "sell": 0.66
+  },
+  {
+   "symbol": "CFB_26OCT03_SYRUCONN_ML.SYR",
+   "slug": "cfb-syra-uconn-2026-10-03",
+   "event": "Syracuse vs UConn, Oct 3, Moneyline",
+   "outcome": "Syracuse",
+   "days": 0.15,
+   "resolves": "2026-10-03T20:00:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.0255,
+   "capital": 6.95,
+   "shares": 7.0,
+   "edge": 0.0036,
+   "fees": 0.0306,
+   "buy": 0.67,
+   "sell": 0.678
+  }
+ ]
 }
