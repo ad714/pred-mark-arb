@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-03T23:03:16Z",
- "pairs_joined": 3154,
- "pairs_watched": 748,
+ "checked_at": "2026-10-03T23:16:03Z",
+ "pairs_joined": 3146,
+ "pairs_watched": 740,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "CFB_26OCT03_CALUNLV_ML.CAL",
+   "slug": "cfb-cah-unlv-2026-10-03",
+   "event": "California vs UNLV, Oct 3, Moneyline",
+   "outcome": "California",
+   "days": 0.01,
+   "resolves": "2026-10-03T23:30:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.2049,
+   "capital": 25.0,
+   "shares": 25.2,
+   "edge": 0.0081,
+   "fees": 0.0221,
+   "buy": 0.037,
+   "sell": 0.046
+  }
+ ]
 }
