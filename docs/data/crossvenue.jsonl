@@ -2093,3 +2093,4 @@
 {"checked_at": "2026-10-03T23:28:55Z", "watched": 739, "hits": []}
 {"checked_at": "2026-10-03T23:32:14Z", "watched": 682, "hits": []}
 {"checked_at": "2026-10-03T23:35:27Z", "watched": 674, "hits": [{"symbol": "LOL_26OCT03_C9LY_M4ML.C9", "slug": "lol-c9-ly-2026-10-03-game4", "event": "Cloud9 vs LYON, Map 4 Winner", "outcome": "Cloud9", "days": 0.101, "resolves": "2026-10-04T02:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 5.724, "capital": 25.0, "shares": 31.3, "edge": 0.1832, "fees": 0.526, "buy": 0.48, "sell": 0.68}, {"symbol": "LOL_26OCT03_C9LY_ML.C9", "slug": "lol-c9-ly-2026-10-03", "event": "Cloud9 vs LYON, Match Winner", "outcome": "Cloud9", "days": 0.101, "resolves": "2026-10-04T02:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 1.2173, "capital": 25.0, "shares": 26.6, "edge": 0.0458, "fees": 0.3369, "buy": 0.23, "sell": 0.281}]}
+{"checked_at": "2026-10-03T23:38:38Z", "watched": 674, "hits": []}
