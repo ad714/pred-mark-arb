@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-03T12:31:51Z",
+ "generated_at": "2026-10-03T16:41:27Z",
  "matches": [
   {
    "cb_id": 151554,
    "teams": "IND v WI",
    "teams_full": "India v West Indies",
    "state": "In Progress",
-   "status": "India opt to bat",
+   "status": "West Indies need 81 runs in 61 balls",
    "series": "West Indies tour of India, 2026",
    "format": "ODI",
    "date": "2026-10-03",
    "start_ms": 1791016200000,
-   "last_ball_min": 0.4,
+   "last_ball_min": 0.7,
    "balls_flowing": true
   },
   {
@@ -26,25 +26,12 @@
    "start_ms": 1790827200000
   },
   {
-   "cb_id": 174313,
-   "teams": "INDCH v AUSCH",
-   "teams_full": "India Champions v Australia Champions",
-   "state": "In Progress",
-   "status": "Australia Champions opt to bowl",
-   "series": "World Championship of Legends 2026",
-   "format": "T20",
-   "date": "2026-10-03",
-   "start_ms": 1791027000000,
-   "last_ball_min": 0.3,
-   "balls_flowing": true
-  },
-  {
    "cb_id": 174047,
    "teams": "NAM v UAE",
    "teams_full": "Namibia v United Arab Emirates",
-   "state": "Preview",
-   "status": "Match starts at Oct 03, 15:00 GMT",
-   "series": "ICC CWC League Two 2023-27",
+   "state": "Delay",
+   "status": "Toss delayed due to rain",
+   "series": "ICC Cricket World Cup League Two 2023-27",
    "format": "ODI",
    "date": "2026-10-03",
    "start_ms": 1791039600000
@@ -52,10 +39,10 @@
   {
    "cb_id": 174923,
    "teams": "CSA Inv XI v AUS",
-   "teams_full": "Cricket South African Invitation XI v Australia",
-   "state": "Upcoming",
-   "status": "Match starts at Oct 03, 07:30 GMT",
-   "series": "SA v AUS 2026",
+   "teams_full": "Cricket South Africa Invitation XI v Australia",
+   "state": "Stumps",
+   "status": "Day 1: Stumps",
+   "series": "Australia tour of South Africa, 2026",
    "format": "TEST",
    "date": "2026-10-03",
    "start_ms": 1791012600000
@@ -64,7 +51,7 @@
    "cb_id": 174123,
    "teams": "SKR v IDN",
    "teams_full": "South Korea v Indonesia",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 04, 01:00 GMT",
    "series": "Indonesia tour of South Korea, 2026",
    "format": "T20",
@@ -75,7 +62,7 @@
    "cb_id": 174330,
    "teams": "SACH v WICH",
    "teams_full": "South Africa Champions v West Indies Champions",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 04, 11:30 GMT",
    "series": "World Championship of Legends 2026",
    "format": "T20",
@@ -83,10 +70,21 @@
    "start_ms": 1791113400000
   },
   {
+   "cb_id": 174340,
+   "teams": "INDCH v ENGCH",
+   "teams_full": "India Champions v England Champions",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 04, 15:30 GMT",
+   "series": "World Championship of Legends 2026",
+   "format": "T20",
+   "date": "2026-10-04",
+   "start_ms": 1791127800000
+  },
+  {
    "cb_id": 173191,
    "teams": "LIMPO v DOL",
    "teams_full": "Limpopo v Dolphins",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 04, 11:00 GMT",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
@@ -97,7 +95,7 @@
    "cb_id": 173220,
    "teams": "KZNIN v BOL",
    "teams_full": "KwaZulu-Natal Inland Tuskers v Boland",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 04, 11:00 GMT",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
@@ -105,28 +103,26 @@
    "start_ms": 1791111600000
   },
   {
-   "cb_id": 173107,
-   "teams": "ZIMW v WIW",
-   "teams_full": "Zimbabwe Women v West Indies Women",
-   "state": "In Progress",
-   "status": "West Indies Women opt to bowl",
-   "series": "West Indies Women tour of Zimbabwe, 2026",
-   "format": "T20",
-   "date": "2026-10-03",
-   "start_ms": 1791025200000,
-   "last_ball_min": 8.2,
-   "balls_flowing": true
-  },
-  {
-   "cb_id": 174891,
-   "teams": "IDNW v WSMW",
-   "teams_full": "Indonesia Women v Samoa Women",
+   "cb_id": 173207,
+   "teams": "WPR v SAEP",
+   "teams_full": "Western Province v South Africa Emerging Players",
    "state": "Upcoming",
-   "status": "Match starts at Oct 04, 02:30 GMT",
-   "series": "Malaysia Women's T20I Tri-Series 2026",
+   "status": "Match starts at Oct 04, 16:00 GMT",
+   "series": "CSA T20 Challenge 2026",
    "format": "T20",
    "date": "2026-10-04",
-   "start_ms": 1791081000000
+   "start_ms": 1791129600000
+  },
+  {
+   "cb_id": 173217,
+   "teams": "WAR v LIONS",
+   "teams_full": "Warriors v Lions",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 04, 16:00 GMT",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-10-04",
+   "start_ms": 1791129600000
   }
  ],
  "pairings": [
@@ -138,52 +134,33 @@
    "state": "In Progress",
    "prices": {
     "India": {
-     "bid": 0.83,
-     "ask": 0.85,
-     "mid": 0.84
+     "bid": 0.53,
+     "ask": 0.56,
+     "mid": 0.545
     },
     "West Indies": {
-     "bid": 0.15,
-     "ask": 0.17,
-     "mid": 0.16
+     "bid": 0.44,
+     "ask": 0.47,
+     "mid": 0.45499999999999996
     }
    }
   },
   {
-   "slug": "cricwcl-ind-aus-2026-10-03",
-   "cb_id": 174313,
-   "question": "World Championship of Legends: India Champions vs Australia Champions",
+   "slug": "cricwcl-sou-wes-2026-10-04",
+   "cb_id": 174330,
+   "question": "World Championship of Legends: South Africa Champions vs West Indies Champions",
    "score": 1.0,
-   "state": "In Progress",
+   "state": "Preview",
    "prices": {
-    "India Champions": {
-     "bid": 0.31,
-     "ask": 0.35,
-     "mid": 0.32999999999999996
+    "South Africa Champions": {
+     "bid": 0.53,
+     "ask": 0.71,
+     "mid": 0.62
     },
-    "Australia Champions": {
-     "bid": 0.65,
-     "ask": 0.69,
-     "mid": 0.6699999999999999
-    }
-   }
-  },
-  {
-   "slug": "crint-zwew-wstw-2026-10-03",
-   "cb_id": 173107,
-   "question": "West Indies Women Tour of Zimbabwe T20s: Zimbabwe Women vs West Indies Women",
-   "score": 1.0,
-   "state": "In Progress",
-   "prices": {
-    "Zimbabwe Women": {
-     "bid": 0.026,
-     "ask": 0.055,
-     "mid": 0.0405
-    },
-    "West Indies Women": {
-     "bid": 0.945,
-     "ask": 0.974,
-     "mid": 0.9595
+    "West Indies Champions": {
+     "bid": 0.29,
+     "ask": 0.47,
+     "mid": 0.38
     }
    }
   }
@@ -198,29 +175,63 @@
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 174047,
-   "teams": "Namibia v United Arab Emirates",
-   "series": "ICC CWC League Two 2023-27",
-   "state": "Preview",
+   "cb_id": 174923,
+   "teams": "Cricket South Africa Invitation XI v Australia",
+   "series": "Australia tour of South Africa, 2026",
+   "state": "Stumps",
    "date": "2026-10-03",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 174123,
+   "teams": "South Korea v Indonesia",
+   "series": "Indonesia tour of South Korea, 2026",
+   "state": "Preview",
+   "date": "2026-10-04",
+   "reason": "closest market crint-kor-idn-2026-10-04 only scored 0.33 on team names"
+  },
+  {
+   "cb_id": 173191,
+   "teams": "Limpopo v Dolphins",
+   "series": "CSA T20 Challenge 2026",
+   "state": "Preview",
+   "date": "2026-10-04",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 173220,
+   "teams": "KwaZulu-Natal Inland Tuskers v Boland",
+   "series": "CSA T20 Challenge 2026",
+   "state": "Preview",
+   "date": "2026-10-04",
    "reason": "no open two outcome cricket market to compare against"
   }
  ],
- "next_fixture": null,
+ "next_fixture": {
+  "cb_id": 174330,
+  "teams": "SACH v WICH",
+  "teams_full": "South Africa Champions v West Indies Champions",
+  "state": "Preview",
+  "status": "Match starts at Oct 04, 11:30 GMT",
+  "series": "World Championship of Legends 2026",
+  "format": "T20",
+  "date": "2026-10-04",
+  "start_ms": 1791113400000
+ },
  "coverage": {
-  "seen_total": 107,
-  "ever_paired": 26,
-  "balls_flowing": 3,
-  "state_says_live": 3
+  "seen_total": 110,
+  "ever_paired": 27,
+  "balls_flowing": 1,
+  "state_says_live": 1
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 85,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37100651100",
-  "started_at": "2026-10-03T05:41:50Z",
-  "elapsed_s": 24601,
+  "run_number": 87,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37121359793",
+  "started_at": "2026-10-03T11:58:40Z",
+  "elapsed_s": 16968,
   "elapsed_means": "running for",
-  "runs_total": 87
+  "runs_total": 89
  }
 }
