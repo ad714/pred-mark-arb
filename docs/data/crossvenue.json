@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-03T17:04:40Z",
+ "checked_at": "2026-10-03T17:07:59Z",
  "pairs_joined": 3253,
  "pairs_watched": 847,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "UNL_26OCT03_BLRSMR_ML.DRAW",
-   "slug": "unl-bela-smr-2026-10-03-draw",
-   "event": "Belarus vs San Marino, Moneyline - Reg Time",
-   "outcome": "Draw",
-   "days": 0.955,
-   "resolves": "2026-10-04T16:00:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.2873,
-   "capital": 25.0,
-   "shares": 25.4,
-   "edge": 0.0113,
-   "fees": 0.0934,
-   "buy": 0.045,
-   "sell": 0.06
-  }
- ]
+ "hits": []
 }
