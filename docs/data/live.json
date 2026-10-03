@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T21:43:59Z",
+ "generated_at": "2026-10-03T22:22:01Z",
  "matches": [
   {
    "cb_id": 163077,
@@ -110,13 +110,13 @@
    "state": "Preview",
    "prices": {
     "South Africa Champions": {
-     "bid": 0.56,
-     "ask": 0.69,
+     "bid": 0.57,
+     "ask": 0.68,
      "mid": 0.625
     },
     "West Indies Champions": {
-     "bid": 0.31,
-     "ask": 0.44,
+     "bid": 0.32,
+     "ask": 0.43,
      "mid": 0.375
     }
    }
@@ -129,13 +129,13 @@
    "state": "Preview",
    "prices": {
     "India Champions": {
-     "bid": 0.5,
-     "ask": 0.68,
+     "bid": 0.51,
+     "ask": 0.67,
      "mid": 0.5900000000000001
     },
     "England Champions": {
-     "bid": 0.32,
-     "ask": 0.5,
+     "bid": 0.33,
+     "ask": 0.49,
      "mid": 0.41000000000000003
     }
    }
@@ -148,14 +148,14 @@
    "state": "Preview",
    "prices": {
     "Warriors": {
-     "bid": 0.33,
+     "bid": 0.14,
      "ask": 0.46,
-     "mid": 0.395
+     "mid": 0.30000000000000004
     },
     "Lions": {
      "bid": 0.54,
-     "ask": 0.67,
-     "mid": 0.605
+     "ask": 0.86,
+     "mid": 0.7
     }
    }
   }
@@ -233,7 +233,7 @@
   "run_number": 89,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37137752102",
   "started_at": "2026-10-03T16:41:03Z",
-  "elapsed_s": 18177,
+  "elapsed_s": 20459,
   "elapsed_means": "running for",
   "runs_total": 91
  }
