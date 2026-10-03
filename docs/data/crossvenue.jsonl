@@ -2025,3 +2025,9 @@
 {"checked_at": "2026-10-03T19:54:42Z", "watched": 811, "hits": []}
 {"checked_at": "2026-10-03T19:57:52Z", "watched": 811, "hits": [{"symbol": "CFB_26OCT03_SYRUCONN_ML.SYR", "slug": "cfb-syra-uconn-2026-10-03", "event": "Syracuse vs UConn, Oct 3, Moneyline", "outcome": "Syracuse", "days": 0.002, "resolves": "2026-10-03T20:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.8903, "capital": 25.0, "shares": 26.0, "edge": 0.0342, "fees": 0.1242, "buy": 0.394, "sell": 0.433}]}
 {"checked_at": "2026-10-03T20:01:10Z", "watched": 732, "hits": []}
+{"checked_at": "2026-10-03T20:04:21Z", "watched": 732, "hits": []}
+{"checked_at": "2026-10-03T20:07:30Z", "watched": 732, "hits": []}
+{"checked_at": "2026-10-03T20:10:39Z", "watched": 732, "hits": []}
+{"checked_at": "2026-10-03T20:13:51Z", "watched": 707, "hits": []}
+{"checked_at": "2026-10-03T20:17:00Z", "watched": 707, "hits": []}
+{"checked_at": "2026-10-03T20:20:12Z", "watched": 706, "hits": [{"symbol": "CFB_26OCT03_AUBRNTENN_ML.AUBRN", "slug": "cfb-aubrn-tenn-2026-10-03", "event": "Auburn vs Tennessee, Oct 3, Moneyline", "outcome": "Auburn Tigers", "days": 0.132, "resolves": "2026-10-03T23:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.3362, "capital": 25.0, "shares": 25.4, "edge": 0.0132, "fees": 0.0961, "buy": 0.253, "sell": 0.27}, {"symbol": "CFB_26OCT03_LOUNCST_ML.LOU", "slug": "cfb-lou-ncst-2026-10-03", "event": "Louisville vs NC State, Oct 3, Moneyline", "outcome": "Louisville", "days": 0.132, "resolves": "2026-10-03T23:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.5688, "capital": 25.0, "shares": 25.7, "edge": 0.0221, "fees": 0.1249, "buy": 0.39, "sell": 0.417}]}

@@ -1,10 +1,43 @@
 {
- "checked_at": "2026-10-03T20:01:10Z",
- "pairs_joined": 3217,
- "pairs_watched": 732,
+ "checked_at": "2026-10-03T20:20:12Z",
+ "pairs_joined": 3171,
+ "pairs_watched": 706,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "CFB_26OCT03_AUBRNTENN_ML.AUBRN",
+   "slug": "cfb-aubrn-tenn-2026-10-03",
+   "event": "Auburn vs Tennessee, Oct 3, Moneyline",
+   "outcome": "Auburn Tigers",
+   "days": 0.132,
+   "resolves": "2026-10-03T23:30:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 0.3362,
+   "capital": 25.0,
+   "shares": 25.4,
+   "edge": 0.0132,
+   "fees": 0.0961,
+   "buy": 0.253,
+   "sell": 0.27
+  },
+  {
+   "symbol": "CFB_26OCT03_LOUNCST_ML.LOU",
+   "slug": "cfb-lou-ncst-2026-10-03",
+   "event": "Louisville vs NC State, Oct 3, Moneyline",
+   "outcome": "Louisville",
+   "days": 0.132,
+   "resolves": "2026-10-03T23:30:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.5688,
+   "capital": 25.0,
+   "shares": 25.7,
+   "edge": 0.0221,
+   "fees": 0.1249,
+   "buy": 0.39,
+   "sell": 0.417
+  }
+ ]
 }
