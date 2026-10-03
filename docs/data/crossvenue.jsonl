@@ -1661,3 +1661,14 @@
 {"checked_at": "2026-10-03T00:37:07Z", "watched": 778, "hits": []}
 {"checked_at": "2026-10-03T00:40:17Z", "watched": 778, "hits": []}
 {"checked_at": "2026-10-03T00:43:25Z", "watched": 778, "hits": []}
+{"checked_at": "2026-10-03T00:43:50Z", "watched": 778, "hits": []}
+{"checked_at": "2026-10-03T00:47:00Z", "watched": 778, "hits": []}
+{"checked_at": "2026-10-03T00:50:09Z", "watched": 778, "hits": []}
+{"checked_at": "2026-10-03T00:53:20Z", "watched": 778, "hits": []}
+{"checked_at": "2026-10-03T00:56:28Z", "watched": 778, "hits": []}
+{"checked_at": "2026-10-03T00:59:39Z", "watched": 778, "hits": []}
+{"checked_at": "2026-10-03T01:02:49Z", "watched": 778, "hits": []}
+{"checked_at": "2026-10-03T01:05:59Z", "watched": 778, "hits": []}
+{"checked_at": "2026-10-03T01:09:10Z", "watched": 778, "hits": []}
+{"checked_at": "2026-10-03T01:12:20Z", "watched": 778, "hits": []}
+{"checked_at": "2026-10-03T01:15:30Z", "watched": 778, "hits": [{"symbol": "NCAAF_26OCT02_PSUNU_ML.PSU", "slug": "cfb-pennst-nw-2026-10-02", "event": "Penn State vs Northwestern, Oct 2, Moneyline", "outcome": "Penn State Nittany Lions", "days": 0.114, "resolves": "2026-10-03T04:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 1.0803, "capital": 25.0, "shares": 26.4, "edge": 0.041, "fees": 0.291, "buy": 0.31, "sell": 0.362}]}
