@@ -1,75 +1,42 @@
 {
- "generated_at": "2026-10-03T07:06:27Z",
+ "generated_at": "2026-10-03T11:59:08Z",
  "matches": [
   {
-   "cb_id": 171070,
-   "teams": "IND v PAK",
-   "teams_full": "India v Pakistan",
+   "cb_id": 151554,
+   "teams": "IND v WI",
+   "teams_full": "India v West Indies",
    "state": "In Progress",
-   "status": "Pakistan need 150 runs in 66 balls",
-   "series": "Asian Games 2026",
-   "format": "T20",
+   "status": "India opt to bat",
+   "series": "West Indies tour of India, 2026",
+   "format": "ODI",
    "date": "2026-10-03",
-   "start_ms": 1791001800000,
-   "last_ball_min": 1.0,
+   "start_ms": 1791016200000,
+   "last_ball_min": 0.5,
    "balls_flowing": true
   },
   {
    "cb_id": 163077,
    "teams": "ROI v JK",
    "teams_full": "Rest of India v Jammu and Kashmir",
-   "state": "Lunch",
-   "status": "Day 3: Lunch Break - Rest of India lead by 79 runs",
+   "state": "Stumps",
+   "status": "Day 3: Stumps - Rest of India lead by 265 runs",
    "series": "Irani Cup 2026",
    "format": "TEST",
    "date": "2026-10-01",
    "start_ms": 1790827200000
   },
   {
-   "cb_id": 151554,
-   "teams": "IND v WI",
-   "teams_full": "India v West Indies",
-   "state": "Preview",
-   "status": "Match starts at Oct 03, 08:30 GMT",
-   "series": "India v West Indies",
-   "format": "ODI",
-   "date": "2026-10-03",
-   "start_ms": 1791016200000
-  },
-  {
    "cb_id": 174313,
    "teams": "INDCH v AUSCH",
    "teams_full": "India Champions v Australia Champions",
-   "state": "Preview",
-   "status": "Match starts at Oct 03, 11:30 GMT",
+   "state": "In Progress",
+   "status": "Australia Champions opt to bowl",
    "series": "World Championship of Legends 2026",
    "format": "T20",
    "date": "2026-10-03",
-   "start_ms": 1791027000000
-  },
-  {
-   "cb_id": 174108,
-   "teams": "IDN v SKR",
-   "teams_full": "Indonesia v South Korea",
-   "state": "Innings Break",
-   "status": "Innings Break",
-   "series": "Indonesia tour of South Korea, 2026",
-   "format": "T20",
-   "date": "2026-10-03",
-   "start_ms": 1790989200000,
-   "last_ball_min": 191.6,
-   "balls_flowing": false
-  },
-  {
-   "cb_id": 174123,
-   "teams": "SKR v IDN",
-   "teams_full": "South Korea v Indonesia",
-   "state": "Upcoming",
-   "status": "Match starts at Oct 04, 01:00 GMT",
-   "series": "Indonesia tour of South Korea, 2026",
-   "format": "T20",
-   "date": "2026-10-04",
-   "start_ms": 1791075600000
+   "start_ms": 1791027000000,
+   "last_ball_min": 0.6,
+   "balls_flowing": true
   },
   {
    "cb_id": 174047,
@@ -83,6 +50,17 @@
    "start_ms": 1791039600000
   },
   {
+   "cb_id": 174123,
+   "teams": "SKR v IDN",
+   "teams_full": "South Korea v Indonesia",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 04, 01:00 GMT",
+   "series": "Indonesia tour of South Korea, 2026",
+   "format": "T20",
+   "date": "2026-10-04",
+   "start_ms": 1791075600000
+  },
+  {
    "cb_id": 174320,
    "teams": "PAKCH v BANCH",
    "teams_full": "Pakistan Champions v Bangladesh Champions",
@@ -94,28 +72,50 @@
    "start_ms": 1791041400000
   },
   {
+   "cb_id": 174330,
+   "teams": "SACH v WICH",
+   "teams_full": "South Africa Champions v West Indies Champions",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 04, 11:30 GMT",
+   "series": "World Championship of Legends 2026",
+   "format": "T20",
+   "date": "2026-10-04",
+   "start_ms": 1791113400000
+  },
+  {
+   "cb_id": 173191,
+   "teams": "LIMPO v DOL",
+   "teams_full": "Limpopo v Dolphins",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 04, 11:00 GMT",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-10-04",
+   "start_ms": 1791111600000
+  },
+  {
+   "cb_id": 173220,
+   "teams": "KZNIN v BOL",
+   "teams_full": "KwaZulu-Natal Inland Tuskers v Boland",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 04, 11:00 GMT",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-10-04",
+   "start_ms": 1791111600000
+  },
+  {
    "cb_id": 173107,
    "teams": "ZIMW v WIW",
    "teams_full": "Zimbabwe Women v West Indies Women",
-   "state": "Preview",
-   "status": "Match starts at Oct 03, 11:00 GMT",
+   "state": "In Progress",
+   "status": "West Indies Women opt to bowl",
    "series": "West Indies Women tour of Zimbabwe, 2026",
    "format": "T20",
    "date": "2026-10-03",
-   "start_ms": 1791025200000
-  },
-  {
-   "cb_id": 174881,
-   "teams": "WSMW v MLYW",
-   "teams_full": "Samoa Women v Malaysia Women",
-   "state": "In Progress",
-   "status": "Malaysia Women need 84 runs",
-   "series": "Malaysia Women's T20I Tri-Series 2026",
-   "format": "T20",
-   "date": "2026-10-03",
-   "start_ms": 1790992800000,
-   "last_ball_min": 126.5,
-   "balls_flowing": false
+   "start_ms": 1791025200000,
+   "last_ball_min": 3.8,
+   "balls_flowing": true
   },
   {
    "cb_id": 174891,
@@ -135,17 +135,17 @@
    "cb_id": 151554,
    "question": "West Indies Tour of India ODIs: India vs West Indies",
    "score": 1.0,
-   "state": "Preview",
+   "state": "In Progress",
    "prices": {
     "India": {
-     "bid": 0.8,
-     "ask": 0.81,
-     "mid": 0.805
+     "bid": 0.75,
+     "ask": 0.76,
+     "mid": 0.755
     },
     "West Indies": {
-     "bid": 0.19,
-     "ask": 0.2,
-     "mid": 0.195
+     "bid": 0.24,
+     "ask": 0.25,
+     "mid": 0.245
     }
    }
   },
@@ -154,17 +154,17 @@
    "cb_id": 174313,
    "question": "World Championship of Legends: India Champions vs Australia Champions",
    "score": 1.0,
-   "state": "Preview",
+   "state": "In Progress",
    "prices": {
     "India Champions": {
-     "bid": 0.37,
-     "ask": 0.45,
-     "mid": 0.41000000000000003
+     "bid": 0.3,
+     "ask": 0.4,
+     "mid": 0.35
     },
     "Australia Champions": {
-     "bid": 0.55,
-     "ask": 0.63,
-     "mid": 0.5900000000000001
+     "bid": 0.6,
+     "ask": 0.7,
+     "mid": 0.6499999999999999
     }
    }
   },
@@ -176,14 +176,14 @@
    "state": "Preview",
    "prices": {
     "Pakistan Champions": {
-     "bid": 0.62,
-     "ask": 0.74,
-     "mid": 0.6799999999999999
+     "bid": 0.78,
+     "ask": 0.8,
+     "mid": 0.79
     },
     "Bangladesh Champions": {
-     "bid": 0.26,
-     "ask": 0.38,
-     "mid": 0.32
+     "bid": 0.2,
+     "ask": 0.22,
+     "mid": 0.21000000000000002
     }
    }
   },
@@ -192,37 +192,29 @@
    "cb_id": 173107,
    "question": "West Indies Women Tour of Zimbabwe T20s: Zimbabwe Women vs West Indies Women",
    "score": 1.0,
-   "state": "Preview",
+   "state": "In Progress",
    "prices": {
     "Zimbabwe Women": {
-     "bid": 0.17,
-     "ask": 0.18,
-     "mid": 0.175
+     "bid": 0.025,
+     "ask": 0.054,
+     "mid": 0.0395
     },
     "West Indies Women": {
-     "bid": 0.82,
-     "ask": 0.83,
-     "mid": 0.825
+     "bid": 0.946,
+     "ask": 0.975,
+     "mid": 0.9604999999999999
     }
    }
   }
  ],
  "unpaired": [
   {
-   "cb_id": 171070,
-   "teams": "India v Pakistan",
-   "series": "Asian Games 2026",
-   "state": "In Progress",
-   "date": "2026-10-03",
+   "cb_id": 163077,
+   "teams": "Rest of India v Jammu and Kashmir",
+   "series": "Irani Cup 2026",
+   "state": "Stumps",
+   "date": "2026-10-01",
    "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 174108,
-   "teams": "Indonesia v South Korea",
-   "series": "Indonesia tour of South Korea, 2026",
-   "state": "Innings Break",
-   "date": "2026-10-03",
-   "reason": "closest market crint-kor-idn-2026-10-04 only scored 0.33 on team names"
   },
   {
    "cb_id": 174047,
@@ -231,41 +223,33 @@
    "state": "Preview",
    "date": "2026-10-03",
    "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 174881,
-   "teams": "Samoa Women v Malaysia Women",
-   "series": "Malaysia Women's T20I Tri-Series 2026",
-   "state": "In Progress",
-   "date": "2026-10-03",
-   "reason": "no open two outcome cricket market to compare against"
   }
  ],
  "next_fixture": {
-  "cb_id": 151554,
-  "teams": "IND v WI",
-  "teams_full": "India v West Indies",
+  "cb_id": 174320,
+  "teams": "PAKCH v BANCH",
+  "teams_full": "Pakistan Champions v Bangladesh Champions",
   "state": "Preview",
-  "status": "Match starts at Oct 03, 08:30 GMT",
-  "series": "India v West Indies",
-  "format": "ODI",
+  "status": "Match starts at Oct 03, 15:30 GMT",
+  "series": "World Championship of Legends 2026",
+  "format": "T20",
   "date": "2026-10-03",
-  "start_ms": 1791016200000
+  "start_ms": 1791041400000
  },
  "coverage": {
-  "seen_total": 103,
+  "seen_total": 106,
   "ever_paired": 26,
-  "balls_flowing": 1,
+  "balls_flowing": 3,
   "state_says_live": 3
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 83,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37072961466",
-  "started_at": "2026-10-02T22:31:38Z",
-  "elapsed_s": 30889,
+  "run_number": 85,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37100651100",
+  "started_at": "2026-10-03T05:41:50Z",
+  "elapsed_s": 22639,
   "elapsed_means": "running for",
-  "runs_total": 85
+  "runs_total": 87
  }
 }
