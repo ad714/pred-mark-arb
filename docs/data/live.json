@@ -1,31 +1,29 @@
 {
- "generated_at": "2026-10-03T05:42:12Z",
+ "generated_at": "2026-10-03T07:06:27Z",
  "matches": [
   {
    "cb_id": 171070,
    "teams": "IND v PAK",
    "teams_full": "India v Pakistan",
    "state": "In Progress",
-   "status": "India opt to bat",
+   "status": "Pakistan need 150 runs in 66 balls",
    "series": "Asian Games 2026",
    "format": "T20",
    "date": "2026-10-03",
    "start_ms": 1791001800000,
-   "last_ball_min": 0.4,
+   "last_ball_min": 1.0,
    "balls_flowing": true
   },
   {
    "cb_id": 163077,
    "teams": "ROI v JK",
    "teams_full": "Rest of India v Jammu and Kashmir",
-   "state": "In Progress",
-   "status": "Day 3: 1st Session - Rest of India lead by 52 runs",
+   "state": "Lunch",
+   "status": "Day 3: Lunch Break - Rest of India lead by 79 runs",
    "series": "Irani Cup 2026",
    "format": "TEST",
    "date": "2026-10-01",
-   "start_ms": 1790827200000,
-   "last_ball_min": 0.5,
-   "balls_flowing": true
+   "start_ms": 1790827200000
   },
   {
    "cb_id": 151554,
@@ -59,7 +57,7 @@
    "format": "T20",
    "date": "2026-10-03",
    "start_ms": 1790989200000,
-   "last_ball_min": 107.4,
+   "last_ball_min": 191.6,
    "balls_flowing": false
   },
   {
@@ -116,7 +114,7 @@
    "format": "T20",
    "date": "2026-10-03",
    "start_ms": 1790992800000,
-   "last_ball_min": 42.3,
+   "last_ball_min": 126.5,
    "balls_flowing": false
   },
   {
@@ -133,25 +131,6 @@
  ],
  "pairings": [
   {
-   "slug": "crint-pak-ind-2026-10-03",
-   "cb_id": 171070,
-   "question": "Asian Games Men: Pakistan vs India",
-   "score": 1.0,
-   "state": "In Progress",
-   "prices": {
-    "Pakistan": {
-     "bid": 0.13,
-     "ask": 0.15,
-     "mid": 0.14
-    },
-    "India": {
-     "bid": 0.85,
-     "ask": 0.87,
-     "mid": 0.86
-    }
-   }
-  },
-  {
    "slug": "crint-ind-wst-2026-10-03",
    "cb_id": 151554,
    "question": "West Indies Tour of India ODIs: India vs West Indies",
@@ -160,13 +139,13 @@
    "prices": {
     "India": {
      "bid": 0.8,
-     "ask": 0.82,
-     "mid": 0.81
+     "ask": 0.81,
+     "mid": 0.805
     },
     "West Indies": {
-     "bid": 0.18,
+     "bid": 0.19,
      "ask": 0.2,
-     "mid": 0.19
+     "mid": 0.195
     }
    }
   },
@@ -178,14 +157,14 @@
    "state": "Preview",
    "prices": {
     "India Champions": {
-     "bid": 0.35,
-     "ask": 0.48,
-     "mid": 0.415
+     "bid": 0.37,
+     "ask": 0.45,
+     "mid": 0.41000000000000003
     },
     "Australia Champions": {
-     "bid": 0.52,
-     "ask": 0.65,
-     "mid": 0.585
+     "bid": 0.55,
+     "ask": 0.63,
+     "mid": 0.5900000000000001
     }
    }
   },
@@ -230,11 +209,11 @@
  ],
  "unpaired": [
   {
-   "cb_id": 163077,
-   "teams": "Rest of India v Jammu and Kashmir",
-   "series": "Irani Cup 2026",
+   "cb_id": 171070,
+   "teams": "India v Pakistan",
+   "series": "Asian Games 2026",
    "state": "In Progress",
-   "date": "2026-10-01",
+   "date": "2026-10-03",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
@@ -276,8 +255,8 @@
  "coverage": {
   "seen_total": 103,
   "ever_paired": 26,
-  "balls_flowing": 2,
-  "state_says_live": 4
+  "balls_flowing": 1,
+  "state_says_live": 3
  },
  "trader": {
   "state": "in_progress",
@@ -285,7 +264,7 @@
   "run_number": 83,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37072961466",
   "started_at": "2026-10-02T22:31:38Z",
-  "elapsed_s": 25834,
+  "elapsed_s": 30889,
   "elapsed_means": "running for",
   "runs_total": 85
  }
