@@ -1,27 +1,27 @@
 {
- "checked_at": "2026-10-03T17:11:20Z",
- "pairs_joined": 3253,
- "pairs_watched": 847,
+ "checked_at": "2026-10-03T18:15:35Z",
+ "pairs_joined": 3244,
+ "pairs_watched": 836,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
  "hits": [
   {
-   "symbol": "CFB_26OCT03_SYRUCONN_ML.SYR",
-   "slug": "cfb-syra-uconn-2026-10-03",
-   "event": "Syracuse vs UConn, Oct 3, Moneyline",
-   "outcome": "Syracuse",
-   "days": 0.117,
-   "resolves": "2026-10-03T20:00:00+00:00",
+   "symbol": "CS2_26OCT03_G2NAVI_TT.2",
+   "slug": "cs2-g2-navi-2026-10-03-total-games-2pt5",
+   "event": "G2 vs Natus Vincere, Total Maps",
+   "outcome": "Total Over 2.5",
+   "days": 0.177,
+   "resolves": "2026-10-03T22:30:00+00:00",
    "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.1297,
+   "profit": 0.1305,
    "capital": 25.0,
    "shares": 25.2,
    "edge": 0.0052,
-   "fees": 0.0465,
-   "buy": 0.89,
-   "sell": 0.897
+   "fees": 0.0204,
+   "buy": 0.01,
+   "sell": 0.016
   }
  ]
 }

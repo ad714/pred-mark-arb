@@ -1971,3 +1971,24 @@
 {"checked_at": "2026-10-03T17:04:40Z", "watched": 847, "hits": [{"symbol": "UNL_26OCT03_BLRSMR_ML.DRAW", "slug": "unl-bela-smr-2026-10-03-draw", "event": "Belarus vs San Marino, Moneyline - Reg Time", "outcome": "Draw", "days": 0.955, "resolves": "2026-10-04T16:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.2873, "capital": 25.0, "shares": 25.4, "edge": 0.0113, "fees": 0.0934, "buy": 0.045, "sell": 0.06}]}
 {"checked_at": "2026-10-03T17:07:59Z", "watched": 847, "hits": []}
 {"checked_at": "2026-10-03T17:11:20Z", "watched": 847, "hits": [{"symbol": "CFB_26OCT03_SYRUCONN_ML.SYR", "slug": "cfb-syra-uconn-2026-10-03", "event": "Syracuse vs UConn, Oct 3, Moneyline", "outcome": "Syracuse", "days": 0.117, "resolves": "2026-10-03T20:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.1297, "capital": 25.0, "shares": 25.2, "edge": 0.0052, "fees": 0.0465, "buy": 0.89, "sell": 0.897}]}
+{"checked_at": "2026-10-03T17:11:59Z", "watched": 847, "hits": []}
+{"checked_at": "2026-10-03T17:15:11Z", "watched": 847, "hits": [{"symbol": "CFB_26OCT03_ALAMSPST_ML.ALA", "slug": "cfb-ala-mspst-2026-10-03", "event": "Alabama vs Mississippi State, Oct 3, Moneyline", "outcome": "Alabama Crimson Tide", "days": 0.115, "resolves": "2026-10-03T20:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.0882, "capital": 19.86, "shares": 20.0, "edge": 0.0044, "fees": 0.0518, "buy": 0.84, "sell": 0.847}]}
+{"checked_at": "2026-10-03T17:18:21Z", "watched": 847, "hits": []}
+{"checked_at": "2026-10-03T17:21:29Z", "watched": 847, "hits": []}
+{"checked_at": "2026-10-03T17:24:41Z", "watched": 847, "hits": []}
+{"checked_at": "2026-10-03T17:27:51Z", "watched": 847, "hits": []}
+{"checked_at": "2026-10-03T17:31:01Z", "watched": 847, "hits": []}
+{"checked_at": "2026-10-03T17:34:10Z", "watched": 847, "hits": []}
+{"checked_at": "2026-10-03T17:37:19Z", "watched": 847, "hits": []}
+{"checked_at": "2026-10-03T17:40:31Z", "watched": 840, "hits": [{"symbol": "CS2_26OCT03_G2NAVI_M2W.G2", "slug": "cs2-g2-navi-2026-10-03-game2", "event": "G2 vs Natus Vincere, Map 2 Winner", "outcome": "G2", "days": 0.118, "resolves": "2026-10-03T20:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.0387, "capital": 25.0, "shares": 25.5, "edge": 0.0015, "fees": 0.4455, "buy": 0.48, "sell": 0.499}, {"symbol": "UNL_26OCT03_ISLBUL_TT.2", "slug": "unl-isl-bul-2026-10-03-total-2pt5", "event": "Iceland vs Bulgaria, Totals - Reg Time", "outcome": "Total Over 2.5", "days": 0.93, "resolves": "2026-10-04T16:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.0615, "capital": 25.0, "shares": 25.3, "edge": 0.0024, "fees": 0.2421, "buy": 0.828, "sell": 0.84}]}
+{"checked_at": "2026-10-03T17:43:39Z", "watched": 840, "hits": []}
+{"checked_at": "2026-10-03T17:46:49Z", "watched": 840, "hits": []}
+{"checked_at": "2026-10-03T17:49:59Z", "watched": 840, "hits": []}
+{"checked_at": "2026-10-03T17:53:08Z", "watched": 840, "hits": []}
+{"checked_at": "2026-10-03T17:56:18Z", "watched": 840, "hits": []}
+{"checked_at": "2026-10-03T17:59:35Z", "watched": 839, "hits": []}
+{"checked_at": "2026-10-03T18:02:52Z", "watched": 837, "hits": [{"symbol": "MLB_26OCT03_CWSCLE_ML.CWS", "slug": "mlb-cws-cle-2026-10-03", "event": "White Sox vs Guardians, Oct 3, Moneyline", "outcome": "Chicago White Sox", "days": 0.123, "resolves": "2026-10-03T21:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.046, "capital": 25.0, "shares": 25.5, "edge": 0.0018, "fees": 0.4382, "buy": 0.421, "sell": 0.44}]}
+{"checked_at": "2026-10-03T18:06:01Z", "watched": 837, "hits": []}
+{"checked_at": "2026-10-03T18:09:11Z", "watched": 837, "hits": []}
+{"checked_at": "2026-10-03T18:12:20Z", "watched": 837, "hits": []}
+{"checked_at": "2026-10-03T18:15:35Z", "watched": 836, "hits": [{"symbol": "CS2_26OCT03_G2NAVI_TT.2", "slug": "cs2-g2-navi-2026-10-03-total-games-2pt5", "event": "G2 vs Natus Vincere, Total Maps", "outcome": "Total Over 2.5", "days": 0.177, "resolves": "2026-10-03T22:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.1305, "capital": 25.0, "shares": 25.2, "edge": 0.0052, "fees": 0.0204, "buy": 0.01, "sell": 0.016}]}
