@@ -1911,3 +1911,8 @@
 {"checked_at": "2026-10-03T13:44:13Z", "watched": 871, "hits": []}
 {"checked_at": "2026-10-03T13:47:30Z", "watched": 871, "hits": [{"symbol": "CS2_26OCT03_TSSHN_M2W.TS", "slug": "cs2-ts7-shin-2026-10-03-game2", "event": "Spirit vs ShindeN, Map 2 Winner", "outcome": "Spirit", "days": 0.071, "resolves": "2026-10-03T15:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.3957, "capital": 25.0, "shares": 25.8, "edge": 0.0154, "fees": 0.3775, "buy": 0.68, "sell": 0.71}]}
 {"checked_at": "2026-10-03T13:50:49Z", "watched": 871, "hits": []}
+{"checked_at": "2026-10-03T13:54:12Z", "watched": 871, "hits": []}
+{"checked_at": "2026-10-03T13:57:42Z", "watched": 869, "hits": []}
+{"checked_at": "2026-10-03T14:01:12Z", "watched": 868, "hits": []}
+{"checked_at": "2026-10-03T14:04:28Z", "watched": 868, "hits": []}
+{"checked_at": "2026-10-03T14:07:45Z", "watched": 868, "hits": [{"symbol": "BLAST8_26OCT03_PRVAUR_SP.PRV_1", "slug": "dota2-pari-aur1-2026-10-03-game-handicap-away-1pt5", "event": "PARIVISION vs Aurora, Map Handicap", "outcome": "PARIVISION -1.5", "days": 0.203, "resolves": "2026-10-03T19:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.244, "capital": 25.0, "shares": 25.5, "edge": 0.0096, "fees": 0.2922, "buy": 0.779, "sell": 0.8}]}
