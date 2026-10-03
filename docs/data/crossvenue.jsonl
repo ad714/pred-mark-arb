@@ -2032,3 +2032,21 @@
 {"checked_at": "2026-10-03T20:17:00Z", "watched": 707, "hits": []}
 {"checked_at": "2026-10-03T20:20:12Z", "watched": 706, "hits": [{"symbol": "CFB_26OCT03_AUBRNTENN_ML.AUBRN", "slug": "cfb-aubrn-tenn-2026-10-03", "event": "Auburn vs Tennessee, Oct 3, Moneyline", "outcome": "Auburn Tigers", "days": 0.132, "resolves": "2026-10-03T23:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.3362, "capital": 25.0, "shares": 25.4, "edge": 0.0132, "fees": 0.0961, "buy": 0.253, "sell": 0.27}, {"symbol": "CFB_26OCT03_LOUNCST_ML.LOU", "slug": "cfb-lou-ncst-2026-10-03", "event": "Louisville vs NC State, Oct 3, Moneyline", "outcome": "Louisville", "days": 0.132, "resolves": "2026-10-03T23:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.5688, "capital": 25.0, "shares": 25.7, "edge": 0.0221, "fees": 0.1249, "buy": 0.39, "sell": 0.417}]}
 {"checked_at": "2026-10-03T20:23:24Z", "watched": 706, "hits": []}
+{"checked_at": "2026-10-03T20:26:39Z", "watched": 706, "hits": []}
+{"checked_at": "2026-10-03T20:29:47Z", "watched": 706, "hits": []}
+{"checked_at": "2026-10-03T20:33:01Z", "watched": 697, "hits": []}
+{"checked_at": "2026-10-03T20:36:15Z", "watched": 692, "hits": []}
+{"checked_at": "2026-10-03T20:39:23Z", "watched": 692, "hits": []}
+{"checked_at": "2026-10-03T20:42:31Z", "watched": 692, "hits": []}
+{"checked_at": "2026-10-03T20:45:46Z", "watched": 681, "hits": []}
+{"checked_at": "2026-10-03T20:48:56Z", "watched": 681, "hits": []}
+{"checked_at": "2026-10-03T20:52:05Z", "watched": 681, "hits": []}
+{"checked_at": "2026-10-03T20:55:13Z", "watched": 681, "hits": []}
+{"checked_at": "2026-10-03T20:58:27Z", "watched": 672, "hits": []}
+{"checked_at": "2026-10-03T21:01:42Z", "watched": 670, "hits": []}
+{"checked_at": "2026-10-03T21:04:55Z", "watched": 669, "hits": []}
+{"checked_at": "2026-10-03T21:08:03Z", "watched": 669, "hits": []}
+{"checked_at": "2026-10-03T21:11:11Z", "watched": 669, "hits": []}
+{"checked_at": "2026-10-03T21:14:19Z", "watched": 669, "hits": []}
+{"checked_at": "2026-10-03T21:17:27Z", "watched": 669, "hits": [{"symbol": "CFB_26OCT03_FLMISSR_ML.FL", "slug": "cfb-fl-missr-2026-10-03", "event": "Florida vs Missouri, Oct 3, Moneyline", "outcome": "Florida Gators", "days": 0.092, "resolves": "2026-10-03T23:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.0916, "capital": 25.0, "shares": 25.2, "edge": 0.0036, "fees": 0.11, "buy": 0.322, "sell": 0.33}]}
+{"checked_at": "2026-10-03T21:20:41Z", "watched": 666, "hits": [{"symbol": "NCAAF_26OCT03_PURILL_ML.PUR", "slug": "cfb-pur-ill-2026-10-03", "event": "Purdue vs Illinois, Oct 3, Moneyline", "outcome": "Purdue Boilermakers", "days": 0.121, "resolves": "2026-10-04T00:15:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.4382, "capital": 25.0, "shares": 25.6, "edge": 0.0171, "fees": 0.1218, "buy": 0.59, "sell": 0.608}]}
