@@ -1940,3 +1940,14 @@
 {"checked_at": "2026-10-03T15:20:53Z", "watched": 862, "hits": []}
 {"checked_at": "2026-10-03T15:24:23Z", "watched": 861, "hits": [{"symbol": "CS2_26OCT03_AUR9Z_M2W.AUR", "slug": "cs2-aur1-9z-2026-10-03-game2", "event": "Aurora Gaming vs 9z, Map 2 Winner", "outcome": "Aurora Gaming", "days": 0.108, "resolves": "2026-10-03T18:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.7366, "capital": 25.0, "shares": 26.1, "edge": 0.0282, "fees": 0.4092, "buy": 0.63, "sell": 0.67}]}
 {"checked_at": "2026-10-03T15:27:42Z", "watched": 861, "hits": []}
+{"checked_at": "2026-10-03T15:31:03Z", "watched": 861, "hits": []}
+{"checked_at": "2026-10-03T15:34:17Z", "watched": 861, "hits": []}
+{"checked_at": "2026-10-03T15:37:35Z", "watched": 861, "hits": []}
+{"checked_at": "2026-10-03T15:40:49Z", "watched": 861, "hits": []}
+{"checked_at": "2026-10-03T15:44:18Z", "watched": 860, "hits": [{"symbol": "CS2_26OCT03_AUR9Z_TT.2", "slug": "cs2-aur1-9z-2026-10-03-total-games-2pt5", "event": "Aurora Gaming vs 9z, Total Maps", "outcome": "Total Over 2.5", "days": 0.178, "resolves": "2026-10-03T20:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.0519, "capital": 9.94, "shares": 10.0, "edge": 0.0052, "fees": 0.0081, "buy": 0.01, "sell": 0.016}]}
+{"checked_at": "2026-10-03T15:47:32Z", "watched": 860, "hits": []}
+{"checked_at": "2026-10-03T15:50:49Z", "watched": 860, "hits": []}
+{"checked_at": "2026-10-03T15:54:04Z", "watched": 860, "hits": []}
+{"checked_at": "2026-10-03T15:57:22Z", "watched": 860, "hits": []}
+{"checked_at": "2026-10-03T16:00:53Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-03T16:04:21Z", "watched": 856, "hits": [{"symbol": "NCAAF_26OCT03_UCFHOU_ML.UCF", "slug": "cfb-ucf-hou-2026-10-03", "event": "UCF vs Houston, Oct 3, Moneyline", "outcome": "UCF Knights", "days": 0.164, "resolves": "2026-10-03T20:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.3362, "capital": 25.0, "shares": 25.4, "edge": 0.0132, "fees": 0.0961, "buy": 0.253, "sell": 0.27}]}
