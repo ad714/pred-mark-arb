@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-03T11:40:01Z",
- "pairs_joined": 3258,
- "pairs_watched": 852,
+ "checked_at": "2026-10-03T11:43:30Z",
+ "pairs_joined": 3257,
+ "pairs_watched": 851,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "CS2_26OCT03_LGCPRV_ML.LGC",
-   "slug": "cs2-lgc-prv-2026-10-03",
-   "event": "Legacy vs PARIVISION, Match Winner",
-   "outcome": "Legacy",
-   "days": 0.139,
-   "resolves": "2026-10-03T15:00:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 1.2182,
-   "capital": 25.0,
-   "shares": 26.6,
-   "edge": 0.0458,
-   "fees": 0.4058,
-   "buy": 0.279,
-   "sell": 0.34
-  }
- ]
+ "hits": []
 }
