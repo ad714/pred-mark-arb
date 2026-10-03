@@ -1,6 +1,19 @@
 {
- "generated_at": "2026-10-02T22:48:03Z",
+ "generated_at": "2026-10-03T01:40:47Z",
  "matches": [
+  {
+   "cb_id": 171061,
+   "teams": "SL v BAN",
+   "teams_full": "Sri Lanka v Bangladesh",
+   "state": "Innings Break",
+   "status": "Innings Break",
+   "series": "Asian Games 2026",
+   "format": "T20",
+   "date": "2026-10-03",
+   "start_ms": 1790985600000,
+   "last_ball_min": 2.2,
+   "balls_flowing": true
+  },
   {
    "cb_id": 171070,
    "teams": "PAK v IND",
@@ -22,17 +35,6 @@
    "format": "TEST",
    "date": "2026-10-01",
    "start_ms": 1790827200000
-  },
-  {
-   "cb_id": 171061,
-   "teams": "BAN v SL",
-   "teams_full": "Bangladesh v Sri Lanka",
-   "state": "Preview",
-   "status": "Match starts at Oct 03, 00:00 GMT",
-   "series": "Asian Games 2026",
-   "format": "T20",
-   "date": "2026-10-03",
-   "start_ms": 1790985600000
   },
   {
    "cb_id": 151554,
@@ -66,6 +68,17 @@
    "format": "T20",
    "date": "2026-10-03",
    "start_ms": 1790989200000
+  },
+  {
+   "cb_id": 174123,
+   "teams": "SKR v IDN",
+   "teams_full": "South Korea v Indonesia",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 04, 01:00 GMT",
+   "series": "Indonesia tour of South Korea, 2026",
+   "format": "T20",
+   "date": "2026-10-04",
+   "start_ms": 1791075600000
   },
   {
    "cb_id": 174047,
@@ -114,6 +127,25 @@
  ],
  "pairings": [
   {
+   "slug": "crint-bgd-lka-2026-10-02",
+   "cb_id": 171061,
+   "question": "Asian Games Men: Bangladesh vs Sri Lanka",
+   "score": 1.0,
+   "state": "Innings Break",
+   "prices": {
+    "Bangladesh": {
+     "bid": 0.34,
+     "ask": 0.35,
+     "mid": 0.345
+    },
+    "Sri Lanka": {
+     "bid": 0.65,
+     "ask": 0.66,
+     "mid": 0.655
+    }
+   }
+  },
+  {
    "slug": "crint-pak-ind-2026-10-03",
    "cb_id": 171070,
    "question": "Asian Games Men: Pakistan vs India",
@@ -121,33 +153,14 @@
    "state": "Preview",
    "prices": {
     "Pakistan": {
-     "bid": 0.2,
-     "ask": 0.21,
-     "mid": 0.20500000000000002
+     "bid": 0.19,
+     "ask": 0.2,
+     "mid": 0.195
     },
     "India": {
-     "bid": 0.79,
-     "ask": 0.8,
-     "mid": 0.795
-    }
-   }
-  },
-  {
-   "slug": "crint-bgd-lka-2026-10-02",
-   "cb_id": 171061,
-   "question": "Asian Games Men: Bangladesh vs Sri Lanka",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Bangladesh": {
-     "bid": 0.68,
-     "ask": 0.69,
-     "mid": 0.685
-    },
-    "Sri Lanka": {
-     "bid": 0.31,
-     "ask": 0.32,
-     "mid": 0.315
+     "bid": 0.8,
+     "ask": 0.81,
+     "mid": 0.805
     }
    }
   },
@@ -178,14 +191,14 @@
    "state": "Preview",
    "prices": {
     "India Champions": {
-     "bid": 0.05,
+     "bid": 0.04,
      "ask": 0.51,
-     "mid": 0.28
+     "mid": 0.275
     },
     "Australia Champions": {
      "bid": 0.49,
-     "ask": 0.95,
-     "mid": 0.72
+     "ask": 0.96,
+     "mid": 0.725
     }
    }
   },
@@ -197,13 +210,13 @@
    "state": "Preview",
    "prices": {
     "Pakistan Champions": {
-     "bid": 0.62,
-     "ask": 0.72,
+     "bid": 0.61,
+     "ask": 0.73,
      "mid": 0.6699999999999999
     },
     "Bangladesh Champions": {
-     "bid": 0.28,
-     "ask": 0.38,
+     "bid": 0.27,
+     "ask": 0.39,
      "mid": 0.33
     }
    }
@@ -216,14 +229,14 @@
    "state": "Preview",
    "prices": {
     "Zimbabwe Women": {
-     "bid": 0.18,
-     "ask": 0.2,
-     "mid": 0.19
+     "bid": 0.17,
+     "ask": 0.18,
+     "mid": 0.175
     },
     "West Indies Women": {
-     "bid": 0.8,
-     "ask": 0.82,
-     "mid": 0.81
+     "bid": 0.82,
+     "ask": 0.83,
+     "mid": 0.825
     }
    }
   }
@@ -255,21 +268,21 @@
   }
  ],
  "next_fixture": {
-  "cb_id": 171061,
-  "teams": "BAN v SL",
-  "teams_full": "Bangladesh v Sri Lanka",
+  "cb_id": 171070,
+  "teams": "PAK v IND",
+  "teams_full": "Pakistan v India",
   "state": "Preview",
-  "status": "Match starts at Oct 03, 00:00 GMT",
+  "status": "Match starts at Oct 03, 04:30 GMT",
   "series": "Asian Games 2026",
   "format": "T20",
   "date": "2026-10-03",
-  "start_ms": 1790985600000
+  "start_ms": 1791001800000
  },
  "coverage": {
-  "seen_total": 101,
+  "seen_total": 102,
   "ever_paired": 26,
-  "balls_flowing": 0,
-  "state_says_live": 0
+  "balls_flowing": 1,
+  "state_says_live": 1
  },
  "trader": {
   "state": "in_progress",
@@ -277,7 +290,7 @@
   "run_number": 82,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37070810008",
   "started_at": "2026-10-02T22:07:57Z",
-  "elapsed_s": 2407,
+  "elapsed_s": 12770,
   "elapsed_means": "running for",
   "runs_total": 83
  }
