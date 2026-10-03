@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-03T09:37:21Z",
+ "checked_at": "2026-10-03T09:40:31Z",
  "pairs_joined": 3161,
  "pairs_watched": 755,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "CS2_26OCT03_FALTYL_M1W.FAL",
-   "slug": "cs2-fal2-tyloo-2026-10-03-game1",
-   "event": "Team Falcons vs TYLOO, Map 1 Winner",
-   "outcome": "Team Falcons",
-   "days": 0.141,
-   "resolves": "2026-10-03T13:00:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.1072,
-   "capital": 25.0,
-   "shares": 25.5,
-   "edge": 0.0042,
-   "fees": 0.403,
-   "buy": 0.65,
-   "sell": 0.67
-  }
- ]
+ "hits": []
 }
