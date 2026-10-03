@@ -2020,3 +2020,7 @@
 {"checked_at": "2026-10-03T19:38:36Z", "watched": 814, "hits": []}
 {"checked_at": "2026-10-03T19:41:50Z", "watched": 814, "hits": [{"symbol": "NCAAF_26OCT03_OSUIOWA_ML.OSU", "slug": "cfb-ohiost-iowa-2026-10-03", "event": "Ohio State vs Iowa, Oct 3, Moneyline", "outcome": "Ohio State Buckeyes", "days": 0.159, "resolves": "2026-10-03T23:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.6368, "capital": 25.0, "shares": 25.7, "edge": 0.0248, "fees": 0.057, "buy": 0.873, "sell": 0.9}]}
 {"checked_at": "2026-10-03T19:45:02Z", "watched": 814, "hits": []}
+{"checked_at": "2026-10-03T19:48:16Z", "watched": 814, "hits": []}
+{"checked_at": "2026-10-03T19:51:33Z", "watched": 811, "hits": []}
+{"checked_at": "2026-10-03T19:54:42Z", "watched": 811, "hits": []}
+{"checked_at": "2026-10-03T19:57:52Z", "watched": 811, "hits": [{"symbol": "CFB_26OCT03_SYRUCONN_ML.SYR", "slug": "cfb-syra-uconn-2026-10-03", "event": "Syracuse vs UConn, Oct 3, Moneyline", "outcome": "Syracuse", "days": 0.002, "resolves": "2026-10-03T20:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.8903, "capital": 25.0, "shares": 26.0, "edge": 0.0342, "fees": 0.1242, "buy": 0.394, "sell": 0.433}]}

@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-03T19:45:02Z",
- "pairs_joined": 3220,
- "pairs_watched": 814,
+ "checked_at": "2026-10-03T19:57:52Z",
+ "pairs_joined": 3217,
+ "pairs_watched": 811,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "CFB_26OCT03_SYRUCONN_ML.SYR",
+   "slug": "cfb-syra-uconn-2026-10-03",
+   "event": "Syracuse vs UConn, Oct 3, Moneyline",
+   "outcome": "Syracuse",
+   "days": 0.002,
+   "resolves": "2026-10-03T20:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 0.8903,
+   "capital": 25.0,
+   "shares": 26.0,
+   "edge": 0.0342,
+   "fees": 0.1242,
+   "buy": 0.394,
+   "sell": 0.433
+  }
+ ]
 }
