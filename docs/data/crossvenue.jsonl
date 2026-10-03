@@ -1930,3 +1930,12 @@
 {"checked_at": "2026-10-03T14:47:46Z", "watched": 864, "hits": [{"symbol": "BLAST8_26OCT03_PRVAUR_M2ML.PRV", "slug": "dota2-pari-aur1-2026-10-03-game2", "event": "PARIVISION vs Aurora, Map 2 Winner", "outcome": "PARIVISION", "days": 0.092, "resolves": "2026-10-03T17:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.1977, "capital": 25.0, "shares": 25.5, "edge": 0.0077, "fees": 0.3385, "buy": 0.74, "sell": 0.761}]}
 {"checked_at": "2026-10-03T14:51:06Z", "watched": 864, "hits": [{"symbol": "CS2_26OCT03_AUR9Z_SP.AUR_1", "slug": "cs2-aur1-9z-2026-10-03-map-handicap-away-1pt5", "event": "Aurora Gaming vs 9z, Map Handicap", "outcome": "Aurora Gaming -1.5", "days": 0.215, "resolves": "2026-10-03T20:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.6092, "capital": 25.0, "shares": 26.0, "edge": 0.0234, "fees": 0.4325, "buy": 0.6, "sell": 0.64}]}
 {"checked_at": "2026-10-03T14:54:28Z", "watched": 864, "hits": []}
+{"checked_at": "2026-10-03T14:57:49Z", "watched": 864, "hits": []}
+{"checked_at": "2026-10-03T15:01:06Z", "watched": 864, "hits": [{"symbol": "CS2_26OCT03_TSSHN_ML.TS", "slug": "cs2-ts7-shin-2026-10-03", "event": "Spirit vs ShindeN, Match Winner", "outcome": "Spirit", "days": 0.104, "resolves": "2026-10-03T17:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.0949, "capital": 25.0, "shares": 25.1, "edge": 0.0038, "fees": 0.0055, "buy": 0.994, "sell": 0.998}]}
+{"checked_at": "2026-10-03T15:04:21Z", "watched": 864, "hits": []}
+{"checked_at": "2026-10-03T15:07:38Z", "watched": 864, "hits": []}
+{"checked_at": "2026-10-03T15:10:53Z", "watched": 864, "hits": []}
+{"checked_at": "2026-10-03T15:14:10Z", "watched": 864, "hits": []}
+{"checked_at": "2026-10-03T15:17:24Z", "watched": 864, "hits": []}
+{"checked_at": "2026-10-03T15:20:53Z", "watched": 862, "hits": []}
+{"checked_at": "2026-10-03T15:24:23Z", "watched": 861, "hits": [{"symbol": "CS2_26OCT03_AUR9Z_M2W.AUR", "slug": "cs2-aur1-9z-2026-10-03-game2", "event": "Aurora Gaming vs 9z, Map 2 Winner", "outcome": "Aurora Gaming", "days": 0.108, "resolves": "2026-10-03T18:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.7366, "capital": 25.0, "shares": 26.1, "edge": 0.0282, "fees": 0.4092, "buy": 0.63, "sell": 0.67}]}
