@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-03T02:25:17Z",
+ "checked_at": "2026-10-03T02:28:30Z",
  "pairs_joined": 3183,
  "pairs_watched": 777,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "NCAAF_26OCT02_PSUNU_ML.PSU",
-   "slug": "cfb-pennst-nw-2026-10-02",
-   "event": "Penn State vs Northwestern, Oct 2, Moneyline",
-   "outcome": "Penn State Nittany Lions",
-   "days": 0.066,
-   "resolves": "2026-10-03T04:00:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.2717,
-   "capital": 25.0,
-   "shares": 25.4,
-   "edge": 0.0107,
-   "fees": 0.109,
-   "buy": 0.086,
-   "sell": 0.101
-  }
- ]
+ "hits": []
 }
