@@ -1,19 +1,6 @@
 {
- "generated_at": "2026-10-03T16:43:39Z",
+ "generated_at": "2026-10-03T19:29:15Z",
  "matches": [
-  {
-   "cb_id": 151554,
-   "teams": "IND v WI",
-   "teams_full": "India v West Indies",
-   "state": "In Progress",
-   "status": "West Indies need 81 runs in 59 balls",
-   "series": "West Indies tour of India, 2026",
-   "format": "ODI",
-   "date": "2026-10-03",
-   "start_ms": 1791016200000,
-   "last_ball_min": 0.9,
-   "balls_flowing": true
-  },
   {
    "cb_id": 163077,
    "teams": "ROI v JK",
@@ -106,7 +93,7 @@
    "cb_id": 173207,
    "teams": "WPR v SAEP",
    "teams_full": "Western Province v South Africa Emerging Players",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 04, 16:00 GMT",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
@@ -117,7 +104,7 @@
    "cb_id": 173217,
    "teams": "WAR v LIONS",
    "teams_full": "Warriors v Lions",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 04, 16:00 GMT",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
@@ -127,25 +114,6 @@
  ],
  "pairings": [
   {
-   "slug": "crint-ind-wst-2026-10-03",
-   "cb_id": 151554,
-   "question": "West Indies Tour of India ODIs: India vs West Indies",
-   "score": 1.0,
-   "state": "In Progress",
-   "prices": {
-    "India": {
-     "bid": 0.58,
-     "ask": 0.62,
-     "mid": 0.6
-    },
-    "West Indies": {
-     "bid": 0.38,
-     "ask": 0.42,
-     "mid": 0.4
-    }
-   }
-  },
-  {
    "slug": "cricwcl-sou-wes-2026-10-04",
    "cb_id": 174330,
    "question": "World Championship of Legends: South Africa Champions vs West Indies Champions",
@@ -153,14 +121,33 @@
    "state": "Preview",
    "prices": {
     "South Africa Champions": {
-     "bid": 0.52,
-     "ask": 0.72,
-     "mid": 0.62
+     "bid": 0.55,
+     "ask": 0.67,
+     "mid": 0.6100000000000001
     },
     "West Indies Champions": {
-     "bid": 0.28,
-     "ask": 0.48,
-     "mid": 0.38
+     "bid": 0.33,
+     "ask": 0.45,
+     "mid": 0.39
+    }
+   }
+  },
+  {
+   "slug": "criccsat20w-war-lio-2026-10-04",
+   "cb_id": 173217,
+   "question": "T20 Series South Africa, Women: Warriors vs Lions",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Warriors": {
+     "bid": 0.06,
+     "ask": 0.46,
+     "mid": 0.26
+    },
+    "Lions": {
+     "bid": 0.54,
+     "ask": 0.94,
+     "mid": 0.74
     }
    }
   }
@@ -205,6 +192,14 @@
    "state": "Preview",
    "date": "2026-10-04",
    "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 173207,
+   "teams": "Western Province v South Africa Emerging Players",
+   "series": "CSA T20 Challenge 2026",
+   "state": "Preview",
+   "date": "2026-10-04",
+   "reason": "no open two outcome cricket market to compare against"
   }
  ],
  "next_fixture": {
@@ -220,9 +215,9 @@
  },
  "coverage": {
   "seen_total": 110,
-  "ever_paired": 27,
-  "balls_flowing": 1,
-  "state_says_live": 1
+  "ever_paired": 28,
+  "balls_flowing": 0,
+  "state_says_live": 0
  },
  "trader": {
   "state": "in_progress",
@@ -230,7 +225,7 @@
   "run_number": 87,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37121359793",
   "started_at": "2026-10-03T11:58:40Z",
-  "elapsed_s": 17100,
+  "elapsed_s": 27035,
   "elapsed_means": "running for",
   "runs_total": 89
  }
