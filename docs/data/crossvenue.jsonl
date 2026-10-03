@@ -1872,3 +1872,16 @@
 {"checked_at": "2026-10-03T11:36:46Z", "watched": 853, "hits": []}
 {"checked_at": "2026-10-03T11:40:01Z", "watched": 852, "hits": [{"symbol": "CS2_26OCT03_LGCPRV_ML.LGC", "slug": "cs2-lgc-prv-2026-10-03", "event": "Legacy vs PARIVISION, Match Winner", "outcome": "Legacy", "days": 0.139, "resolves": "2026-10-03T15:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 1.2182, "capital": 25.0, "shares": 26.6, "edge": 0.0458, "fees": 0.4058, "buy": 0.279, "sell": 0.34}]}
 {"checked_at": "2026-10-03T11:43:30Z", "watched": 851, "hits": []}
+{"checked_at": "2026-10-03T11:44:21Z", "watched": 851, "hits": []}
+{"checked_at": "2026-10-03T11:47:35Z", "watched": 851, "hits": []}
+{"checked_at": "2026-10-03T11:50:49Z", "watched": 851, "hits": []}
+{"checked_at": "2026-10-03T11:54:02Z", "watched": 851, "hits": []}
+{"checked_at": "2026-10-03T11:57:18Z", "watched": 851, "hits": []}
+{"checked_at": "2026-10-03T12:00:46Z", "watched": 847, "hits": []}
+{"checked_at": "2026-10-03T12:03:59Z", "watched": 847, "hits": []}
+{"checked_at": "2026-10-03T12:07:15Z", "watched": 847, "hits": []}
+{"checked_at": "2026-10-03T12:10:29Z", "watched": 847, "hits": []}
+{"checked_at": "2026-10-03T12:13:44Z", "watched": 847, "hits": []}
+{"checked_at": "2026-10-03T12:16:58Z", "watched": 847, "hits": []}
+{"checked_at": "2026-10-03T12:20:14Z", "watched": 847, "hits": []}
+{"checked_at": "2026-10-03T12:23:29Z", "watched": 847, "hits": [{"symbol": "CS2_26OCT03_VIT1WIN_ML.VIT", "slug": "cs2-vit-1win-2026-10-03", "event": "Vitality vs 1WIN, Match Winner", "outcome": "Vitality", "days": 0.213, "resolves": "2026-10-03T17:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.1073, "capital": 25.0, "shares": 25.2, "edge": 0.0043, "fees": 0.0944, "buy": 0.941, "sell": 0.949}]}

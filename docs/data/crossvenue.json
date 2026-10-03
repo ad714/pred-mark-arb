@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-03T11:43:30Z",
- "pairs_joined": 3257,
- "pairs_watched": 851,
+ "checked_at": "2026-10-03T12:23:29Z",
+ "pairs_joined": 3253,
+ "pairs_watched": 847,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "CS2_26OCT03_VIT1WIN_ML.VIT",
+   "slug": "cs2-vit-1win-2026-10-03",
+   "event": "Vitality vs 1WIN, Match Winner",
+   "outcome": "Vitality",
+   "days": 0.213,
+   "resolves": "2026-10-03T17:30:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.1073,
+   "capital": 25.0,
+   "shares": 25.2,
+   "edge": 0.0043,
+   "fees": 0.0944,
+   "buy": 0.941,
+   "sell": 0.949
+  }
+ ]
 }
