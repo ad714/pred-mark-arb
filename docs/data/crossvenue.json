@@ -1,43 +1,10 @@
 {
- "checked_at": "2026-10-03T23:00:04Z",
+ "checked_at": "2026-10-03T23:03:16Z",
  "pairs_joined": 3154,
  "pairs_watched": 748,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "CFB_26OCT03_FLMISSR_TT.57",
-   "slug": "cfb-fl-missr-2026-10-03-total-57pt5",
-   "event": "Florida vs Missouri, Oct 3, Totals",
-   "outcome": "Total Over 57.5",
-   "days": 0.021,
-   "resolves": "2026-10-03T23:30:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.3878,
-   "capital": 25.0,
-   "shares": 25.4,
-   "edge": 0.0152,
-   "fees": 0.0446,
-   "buy": 0.08,
-   "sell": 0.097
-  },
-  {
-   "symbol": "CFB_26OCT03_LOUNCST_ML.LOU",
-   "slug": "cfb-lou-ncst-2026-10-03",
-   "event": "Louisville vs NC State, Oct 3, Moneyline",
-   "outcome": "Louisville",
-   "days": 0.021,
-   "resolves": "2026-10-03T23:30:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.1583,
-   "capital": 25.0,
-   "shares": 25.2,
-   "edge": 0.0063,
-   "fees": 0.0179,
-   "buy": 0.03,
-   "sell": 0.037
-  }
- ]
+ "hits": []
 }
