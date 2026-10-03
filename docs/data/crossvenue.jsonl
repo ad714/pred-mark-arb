@@ -1916,3 +1916,4 @@
 {"checked_at": "2026-10-03T14:01:12Z", "watched": 868, "hits": []}
 {"checked_at": "2026-10-03T14:04:28Z", "watched": 868, "hits": []}
 {"checked_at": "2026-10-03T14:07:45Z", "watched": 868, "hits": [{"symbol": "BLAST8_26OCT03_PRVAUR_SP.PRV_1", "slug": "dota2-pari-aur1-2026-10-03-game-handicap-away-1pt5", "event": "PARIVISION vs Aurora, Map Handicap", "outcome": "PARIVISION -1.5", "days": 0.203, "resolves": "2026-10-03T19:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.244, "capital": 25.0, "shares": 25.5, "edge": 0.0096, "fees": 0.2922, "buy": 0.779, "sell": 0.8}]}
+{"checked_at": "2026-10-03T14:11:05Z", "watched": 868, "hits": []}
