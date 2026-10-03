@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-03T22:15:06Z",
+ "checked_at": "2026-10-03T22:40:14Z",
  "pairs_joined": 3072,
  "pairs_watched": 666,
  "capital_cap": 25.0,
@@ -12,16 +12,16 @@
    "slug": "cfb-lou-ncst-2026-10-03",
    "event": "Louisville vs NC State, Oct 3, Moneyline",
    "outcome": "Louisville",
-   "days": 0.052,
+   "days": 0.035,
    "resolves": "2026-10-03T23:30:00+00:00",
    "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.0858,
+   "profit": 0.3329,
    "capital": 25.0,
-   "shares": 25.2,
-   "edge": 0.0034,
-   "fees": 0.1158,
-   "buy": 0.35,
-   "sell": 0.358
+   "shares": 25.5,
+   "edge": 0.0131,
+   "fees": 0.1253,
+   "buy": 0.42,
+   "sell": 0.438
   }
  ]
 }
