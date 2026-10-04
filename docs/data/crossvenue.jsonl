@@ -2212,3 +2212,4 @@
 {"checked_at": "2026-10-04T05:40:15Z", "watched": 503, "hits": []}
 {"checked_at": "2026-10-04T05:43:21Z", "watched": 503, "hits": []}
 {"checked_at": "2026-10-04T05:46:29Z", "watched": 499, "hits": [{"symbol": "CFB_26OCT03_TXSTSDSU_ML.TXST", "slug": "cfb-txst-sdst-2026-10-03", "event": "Texas State vs San Diego State, Oct 3, Moneyline", "outcome": "Texas State Bobcats", "days": 0.03, "resolves": "2026-10-04T06:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.1205, "capital": 25.0, "shares": 25.2, "edge": 0.0048, "fees": 0.1066, "buy": 0.303, "sell": 0.312}]}
+{"checked_at": "2026-10-04T05:49:36Z", "watched": 499, "hits": []}
