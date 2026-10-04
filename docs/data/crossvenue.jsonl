@@ -2114,3 +2114,17 @@
 {"checked_at": "2026-10-04T00:35:39Z", "watched": 628, "hits": []}
 {"checked_at": "2026-10-04T00:38:46Z", "watched": 628, "hits": [{"symbol": "NHL_26OCT03_CHIBUF_ML.CHI", "slug": "nhl-chi-buf-2026-10-03", "event": "Blackhawks vs Sabres, Oct 3, Moneyline", "outcome": "Chicago Blackhawks", "days": 0.098, "resolves": "2026-10-04T03:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.5, "capital": 25.0, "shares": 26.0, "edge": 0.0193, "fees": 0.4526, "buy": 0.451, "sell": 0.48}, {"symbol": "NCAAF_26OCT03_TTUCU_ML.TTU", "slug": "cfb-txtech-col-2026-10-03", "event": "Texas Tech vs Colorado, Oct 3, Moneyline", "outcome": "Texas Tech Red Raiders", "days": 0.119, "resolves": "2026-10-04T03:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.0954, "capital": 25.0, "shares": 25.2, "edge": 0.0038, "fees": 0.1062, "buy": 0.69, "sell": 0.698}]}
 {"checked_at": "2026-10-04T00:41:57Z", "watched": 628, "hits": []}
+{"checked_at": "2026-10-04T00:45:07Z", "watched": 628, "hits": []}
+{"checked_at": "2026-10-04T00:48:16Z", "watched": 628, "hits": []}
+{"checked_at": "2026-10-04T00:51:22Z", "watched": 628, "hits": [{"symbol": "CFB_26OCT03_MIACLEM_ML.MIA", "slug": "cfb-mia-clmsn-2026-10-03", "event": "Miami (FL) vs Clemson, Oct 3, Moneyline", "outcome": "Miami (FL)", "days": 0.11, "resolves": "2026-10-04T03:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.0327, "capital": 25.0, "shares": 25.1, "edge": 0.0013, "fees": 0.0174, "buy": 0.964, "sell": 0.966}]}
+{"checked_at": "2026-10-04T00:54:30Z", "watched": 628, "hits": []}
+{"checked_at": "2026-10-04T00:57:38Z", "watched": 628, "hits": []}
+{"checked_at": "2026-10-04T01:00:50Z", "watched": 624, "hits": [{"symbol": "NCAAF_26OCT03_WASHUSC_ML.WASH", "slug": "cfb-wash-usc-2026-10-03", "event": "Washington vs USC, Oct 3, Moneyline", "outcome": "Washington Huskies", "days": 0.104, "resolves": "2026-10-04T03:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.0888, "capital": 25.0, "shares": 25.2, "edge": 0.0035, "fees": 0.1128, "buy": 0.33, "sell": 0.338}]}
+{"checked_at": "2026-10-04T01:03:59Z", "watched": 621, "hits": []}
+{"checked_at": "2026-10-04T01:07:11Z", "watched": 620, "hits": [{"symbol": "MLB_26OCT03_NYYTB_ML.NYY", "slug": "mlb-nyy-tb-2026-10-03", "event": "Yankees vs Rays, Oct 3, Moneyline", "outcome": "New York Yankees", "days": 0.058, "resolves": "2026-10-04T02:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.0629, "capital": 18.27, "shares": 18.4, "edge": 0.0034, "fees": 0.0474, "buy": 0.034, "sell": 0.04}]}
+{"checked_at": "2026-10-04T01:10:18Z", "watched": 620, "hits": []}
+{"checked_at": "2026-10-04T01:13:27Z", "watched": 620, "hits": []}
+{"checked_at": "2026-10-04T01:16:35Z", "watched": 620, "hits": []}
+{"checked_at": "2026-10-04T01:19:43Z", "watched": 620, "hits": []}
+{"checked_at": "2026-10-04T01:22:55Z", "watched": 619, "hits": []}
+{"checked_at": "2026-10-04T01:26:03Z", "watched": 619, "hits": [{"symbol": "NHL_26OCT03_OTTTOR_ML.OTT", "slug": "nhl-ott-tor-2026-10-03", "event": "Senators vs Maple Leafs, Oct 3, Moneyline", "outcome": "Ottawa Senators", "days": 0.065, "resolves": "2026-10-04T03:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 1.9759, "capital": 25.0, "shares": 27.4, "edge": 0.072, "fees": 0.4665, "buy": 0.511, "sell": 0.6}]}

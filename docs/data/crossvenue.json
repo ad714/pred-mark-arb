@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-04T00:41:57Z",
- "pairs_joined": 3058,
- "pairs_watched": 628,
+ "checked_at": "2026-10-04T01:26:03Z",
+ "pairs_joined": 3047,
+ "pairs_watched": 619,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "NHL_26OCT03_OTTTOR_ML.OTT",
+   "slug": "nhl-ott-tor-2026-10-03",
+   "event": "Senators vs Maple Leafs, Oct 3, Moneyline",
+   "outcome": "Ottawa Senators",
+   "days": 0.065,
+   "resolves": "2026-10-04T03:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 1.9759,
+   "capital": 25.0,
+   "shares": 27.4,
+   "edge": 0.072,
+   "fees": 0.4665,
+   "buy": 0.511,
+   "sell": 0.6
+  }
+ ]
 }
