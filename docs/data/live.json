@@ -1,19 +1,6 @@
 {
- "generated_at": "2026-10-04T17:46:42Z",
+ "generated_at": "2026-10-04T20:48:00Z",
  "matches": [
-  {
-   "cb_id": 174340,
-   "teams": "ENGCH v INDCH",
-   "teams_full": "England Champions v India Champions",
-   "state": "In Progress",
-   "status": "India Champions opt to bowl",
-   "series": "World Championship of Legends 2026",
-   "format": "T20",
-   "date": "2026-10-04",
-   "start_ms": 1791127800000,
-   "last_ball_min": 0.6,
-   "balls_flowing": true
-  },
   {
    "cb_id": 174134,
    "teams": "SKR v IDN",
@@ -40,7 +27,7 @@
    "cb_id": 174057,
    "teams": "USA v UAE",
    "teams_full": "United States of America v United Arab Emirates",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 05, 15:00 GMT",
    "series": "ICC CWC League Two 2023-27",
    "format": "ODI",
@@ -114,17 +101,6 @@
    "start_ms": 1791129600000
   },
   {
-   "cb_id": 173217,
-   "teams": "WAR v LIONS",
-   "teams_full": "Warriors v Lions",
-   "state": "Preview",
-   "status": "Match starts at Oct 04, 16:00 GMT",
-   "series": "CSA T20 Challenge 2026",
-   "format": "T20",
-   "date": "2026-10-04",
-   "start_ms": 1791129600000
-  },
-  {
    "cb_id": 173227,
    "teams": "LIMPO v SWD",
    "teams_full": "Limpopo v South Western Districts",
@@ -160,25 +136,6 @@
  ],
  "pairings": [
   {
-   "slug": "cricwcl-ind-eng-2026-10-04",
-   "cb_id": 174340,
-   "question": "World Championship of Legends: India Champions vs England Champions",
-   "score": 1.0,
-   "state": "In Progress",
-   "prices": {
-    "India Champions": {
-     "bid": 0.49,
-     "ask": 0.52,
-     "mid": 0.505
-    },
-    "England Champions": {
-     "bid": 0.48,
-     "ask": 0.51,
-     "mid": 0.495
-    }
-   }
-  },
-  {
    "slug": "crint-btn-mmr-2026-10-04",
    "cb_id": 173691,
    "question": "T20 World Cup Asia Sub-Regional Qualifier A: Bhutan vs Myanmar",
@@ -186,14 +143,14 @@
    "state": "Preview",
    "prices": {
     "Bhutan": {
-     "bid": 0.84,
+     "bid": 0.85,
      "ask": 0.86,
-     "mid": 0.85
+     "mid": 0.855
     },
     "Myanmar": {
      "bid": 0.14,
-     "ask": 0.16,
-     "mid": 0.15000000000000002
+     "ask": 0.15,
+     "mid": 0.14500000000000002
     }
    }
   },
@@ -205,14 +162,14 @@
    "state": "Preview",
    "prices": {
     "Bahrain": {
-     "bid": 0.79,
-     "ask": 0.81,
-     "mid": 0.8
+     "bid": 0.84,
+     "ask": 0.86,
+     "mid": 0.85
     },
     "Thailand": {
-     "bid": 0.19,
-     "ask": 0.21,
-     "mid": 0.2
+     "bid": 0.14,
+     "ask": 0.16,
+     "mid": 0.15000000000000002
     }
    }
   },
@@ -225,13 +182,13 @@
    "prices": {
     "Kuwait": {
      "bid": 0.41,
-     "ask": 0.48,
-     "mid": 0.44499999999999995
+     "ask": 0.49,
+     "mid": 0.44999999999999996
     },
     "Qatar": {
-     "bid": 0.52,
+     "bid": 0.51,
      "ask": 0.59,
-     "mid": 0.5549999999999999
+     "mid": 0.55
     }
    }
   },
@@ -243,33 +200,14 @@
    "state": "Preview",
    "prices": {
     "Australia Champions": {
-     "bid": 0.27,
+     "bid": 0.25,
      "ask": 0.61,
-     "mid": 0.44
+     "mid": 0.43
     },
     "Pakistan Champions": {
      "bid": 0.39,
-     "ask": 0.73,
-     "mid": 0.56
-    }
-   }
-  },
-  {
-   "slug": "criccsat20w-war-lio-2026-10-04",
-   "cb_id": 173217,
-   "question": "T20 Series South Africa, Women: Warriors vs Lions",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Warriors": {
-     "bid": 0.47,
-     "ask": 0.5,
-     "mid": 0.485
-    },
-    "Lions": {
-     "bid": 0.5,
-     "ask": 0.53,
-     "mid": 0.515
+     "ask": 0.75,
+     "mid": 0.5700000000000001
     }
    }
   },
@@ -281,14 +219,14 @@
    "state": "Preview",
    "prices": {
     "India Under-19s": {
-     "bid": 0.52,
-     "ask": 0.89,
-     "mid": 0.7050000000000001
+     "bid": 0.54,
+     "ask": 0.9,
+     "mid": 0.72
     },
     "Australia Under-19s": {
-     "bid": 0.11,
-     "ask": 0.48,
-     "mid": 0.295
+     "bid": 0.1,
+     "ask": 0.46,
+     "mid": 0.28
     }
    }
   },
@@ -301,13 +239,13 @@
    "prices": {
     "Zimbabwe Women": {
      "bid": 0.11,
-     "ask": 0.13,
-     "mid": 0.12
+     "ask": 0.12,
+     "mid": 0.11499999999999999
     },
     "West Indies Women": {
-     "bid": 0.87,
+     "bid": 0.88,
      "ask": 0.89,
-     "mid": 0.88
+     "mid": 0.885
     }
    }
   }
@@ -328,6 +266,14 @@
    "state": "Preview",
    "date": "2026-10-05",
    "reason": "closest market crint-kor-idn-2026-10-04 only scored 0.33 on team names"
+  },
+  {
+   "cb_id": 174057,
+   "teams": "United States of America v United Arab Emirates",
+   "series": "ICC CWC League Two 2023-27",
+   "state": "Preview",
+   "date": "2026-10-05",
+   "reason": "no open two outcome cricket market to compare against"
   },
   {
    "cb_id": 173207,
@@ -360,8 +306,8 @@
  "coverage": {
   "seen_total": 121,
   "ever_paired": 35,
-  "balls_flowing": 1,
-  "state_says_live": 1
+  "balls_flowing": 0,
+  "state_says_live": 0
  },
  "trader": {
   "state": "in_progress",
@@ -369,7 +315,7 @@
   "run_number": 95,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37203444475",
   "started_at": "2026-10-04T12:49:36Z",
-  "elapsed_s": 17827,
+  "elapsed_s": 28704,
   "elapsed_means": "running for",
   "runs_total": 95
  }
