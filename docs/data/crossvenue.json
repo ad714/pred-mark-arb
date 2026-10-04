@@ -1,10 +1,43 @@
 {
- "checked_at": "2026-10-04T11:26:30Z",
- "pairs_joined": 2888,
- "pairs_watched": 466,
+ "checked_at": "2026-10-04T12:28:32Z",
+ "pairs_joined": 2906,
+ "pairs_watched": 484,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "LOL_26OCT04_WEBRO_M2ML.WE",
+   "slug": "lol-we-bro2-2026-10-04-game2",
+   "event": "Team WE vs HANJIN BRION, Map 2 Winner",
+   "outcome": "Team WE",
+   "days": 0.189,
+   "resolves": "2026-10-04T17:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 1.305,
+   "capital": 25.0,
+   "shares": 26.8,
+   "edge": 0.0488,
+   "fees": 0.4503,
+   "buy": 0.36,
+   "sell": 0.42
+  },
+  {
+   "symbol": "LOL_26OCT04_WEBRO_ML.WE",
+   "slug": "lol-we-bro2-2026-10-04",
+   "event": "Team WE vs HANJIN BRION, Match Winner",
+   "outcome": "Team WE",
+   "days": 0.189,
+   "resolves": "2026-10-04T17:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 0.1182,
+   "capital": 25.0,
+   "shares": 25.5,
+   "edge": 0.0046,
+   "fees": 0.392,
+   "buy": 0.66,
+   "sell": 0.68
+  }
+ ]
 }
