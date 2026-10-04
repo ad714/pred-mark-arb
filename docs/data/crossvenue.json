@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-04T17:30:55Z",
+ "checked_at": "2026-10-04T17:34:03Z",
  "pairs_joined": 2890,
  "pairs_watched": 445,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "CS2_26OCT04_VITNAVI_M2W.VIT",
-   "slug": "cs2-vit-navi-2026-10-04-game2",
-   "event": "Vitality vs Natus Vincere, Map 2 Winner",
-   "outcome": "Vitality",
-   "days": 0.124,
-   "resolves": "2026-10-04T20:30:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.4064,
-   "capital": 25.0,
-   "shares": 25.8,
-   "edge": 0.0158,
-   "fees": 0.3934,
-   "buy": 0.67,
-   "sell": 0.701
-  }
- ]
+ "hits": []
 }
