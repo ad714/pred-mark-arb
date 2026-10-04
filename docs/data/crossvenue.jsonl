@@ -2129,3 +2129,19 @@
 {"checked_at": "2026-10-04T01:22:55Z", "watched": 619, "hits": []}
 {"checked_at": "2026-10-04T01:26:03Z", "watched": 619, "hits": [{"symbol": "NHL_26OCT03_OTTTOR_ML.OTT", "slug": "nhl-ott-tor-2026-10-03", "event": "Senators vs Maple Leafs, Oct 3, Moneyline", "outcome": "Ottawa Senators", "days": 0.065, "resolves": "2026-10-04T03:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 1.9759, "capital": 25.0, "shares": 27.4, "edge": 0.072, "fees": 0.4665, "buy": 0.511, "sell": 0.6}]}
 {"checked_at": "2026-10-04T01:29:13Z", "watched": 619, "hits": []}
+{"checked_at": "2026-10-04T01:32:24Z", "watched": 619, "hits": []}
+{"checked_at": "2026-10-04T01:35:32Z", "watched": 619, "hits": []}
+{"checked_at": "2026-10-04T01:38:39Z", "watched": 619, "hits": [{"symbol": "NCAAF_26OCT03_TTUCU_ML.TTU", "slug": "cfb-txtech-col-2026-10-03", "event": "Texas Tech vs Colorado, Oct 3, Moneyline", "outcome": "Texas Tech Red Raiders", "days": 0.077, "resolves": "2026-10-04T03:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.0882, "capital": 25.0, "shares": 25.2, "edge": 0.0035, "fees": 0.1134, "buy": 0.65, "sell": 0.658}]}
+{"checked_at": "2026-10-04T01:41:47Z", "watched": 619, "hits": []}
+{"checked_at": "2026-10-04T01:45:00Z", "watched": 611, "hits": []}
+{"checked_at": "2026-10-04T01:48:06Z", "watched": 611, "hits": []}
+{"checked_at": "2026-10-04T01:51:15Z", "watched": 611, "hits": []}
+{"checked_at": "2026-10-04T01:54:23Z", "watched": 611, "hits": []}
+{"checked_at": "2026-10-04T01:57:32Z", "watched": 611, "hits": []}
+{"checked_at": "2026-10-04T02:00:45Z", "watched": 605, "hits": []}
+{"checked_at": "2026-10-04T02:03:57Z", "watched": 604, "hits": []}
+{"checked_at": "2026-10-04T02:07:05Z", "watched": 604, "hits": []}
+{"checked_at": "2026-10-04T02:10:13Z", "watched": 604, "hits": []}
+{"checked_at": "2026-10-04T02:13:21Z", "watched": 604, "hits": []}
+{"checked_at": "2026-10-04T02:16:28Z", "watched": 604, "hits": []}
+{"checked_at": "2026-10-04T02:19:42Z", "watched": 601, "hits": [{"symbol": "NCAAF_26OCT03_TTUCU_ML.TTU", "slug": "cfb-txtech-col-2026-10-03", "event": "Texas Tech vs Colorado, Oct 3, Moneyline", "outcome": "Texas Tech Red Raiders", "days": 0.049, "resolves": "2026-10-04T03:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.3854, "capital": 25.0, "shares": 25.4, "edge": 0.0152, "fees": 0.047, "buy": 0.88, "sell": 0.897}]}
