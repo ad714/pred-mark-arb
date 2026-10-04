@@ -2180,3 +2180,18 @@
 {"checked_at": "2026-10-04T04:03:51Z", "watched": 520, "hits": []}
 {"checked_at": "2026-10-04T04:06:57Z", "watched": 520, "hits": []}
 {"checked_at": "2026-10-04T04:10:03Z", "watched": 520, "hits": []}
+{"checked_at": "2026-10-04T04:10:29Z", "watched": 520, "hits": []}
+{"checked_at": "2026-10-04T04:13:37Z", "watched": 520, "hits": []}
+{"checked_at": "2026-10-04T04:16:41Z", "watched": 520, "hits": [{"symbol": "CFB_26OCT03_FRESWSU_ML.FRES", "slug": "cfb-frest-washst-2026-10-03", "event": "Fresno State vs Washington State, Oct 3, Moneyline", "outcome": "Fresno State Bulldogs", "days": 0.051, "resolves": "2026-10-04T05:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.0817, "capital": 19.86, "shares": 20.0, "edge": 0.0041, "fees": 0.0583, "buy": 0.823, "sell": 0.83}]}
+{"checked_at": "2026-10-04T04:19:47Z", "watched": 520, "hits": []}
+{"checked_at": "2026-10-04T04:22:52Z", "watched": 520, "hits": []}
+{"checked_at": "2026-10-04T04:25:57Z", "watched": 520, "hits": []}
+{"checked_at": "2026-10-04T04:29:05Z", "watched": 519, "hits": []}
+{"checked_at": "2026-10-04T04:32:13Z", "watched": 511, "hits": []}
+{"checked_at": "2026-10-04T04:35:18Z", "watched": 511, "hits": []}
+{"checked_at": "2026-10-04T04:38:23Z", "watched": 511, "hits": []}
+{"checked_at": "2026-10-04T04:41:28Z", "watched": 511, "hits": []}
+{"checked_at": "2026-10-04T04:44:33Z", "watched": 511, "hits": []}
+{"checked_at": "2026-10-04T04:47:37Z", "watched": 511, "hits": []}
+{"checked_at": "2026-10-04T04:50:43Z", "watched": 511, "hits": []}
+{"checked_at": "2026-10-04T04:53:48Z", "watched": 511, "hits": [{"symbol": "NCAAF_26OCT03_CINARZ_ML.CIN", "slug": "cfb-cin-arz-2026-10-03", "event": "Cincinnati vs Arizona, Oct 3, Moneyline", "outcome": "Cincinnati Bearcats", "days": 0.088, "resolves": "2026-10-04T07:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.3531, "capital": 25.0, "shares": 25.4, "edge": 0.0139, "fees": 0.0792, "buy": 0.193, "sell": 0.21}]}

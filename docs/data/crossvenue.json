@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-04T04:10:03Z",
- "pairs_joined": 2947,
- "pairs_watched": 520,
+ "checked_at": "2026-10-04T04:53:48Z",
+ "pairs_joined": 2942,
+ "pairs_watched": 511,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "NCAAF_26OCT03_CINARZ_ML.CIN",
+   "slug": "cfb-cin-arz-2026-10-03",
+   "event": "Cincinnati vs Arizona, Oct 3, Moneyline",
+   "outcome": "Cincinnati Bearcats",
+   "days": 0.088,
+   "resolves": "2026-10-04T07:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 0.3531,
+   "capital": 25.0,
+   "shares": 25.4,
+   "edge": 0.0139,
+   "fees": 0.0792,
+   "buy": 0.193,
+   "sell": 0.21
+  }
+ ]
 }
