@@ -2161,3 +2161,16 @@
 {"checked_at": "2026-10-04T03:03:55Z", "watched": 574, "hits": []}
 {"checked_at": "2026-10-04T03:07:02Z", "watched": 574, "hits": [{"symbol": "CFB_26OCT03_FRESWSU_ML.FRES", "slug": "cfb-frest-washst-2026-10-03", "event": "Fresno State vs Washington State, Oct 3, Moneyline", "outcome": "Fresno State Bulldogs", "days": 0.099, "resolves": "2026-10-04T05:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.5947, "capital": 25.0, "shares": 25.7, "edge": 0.0231, "fees": 0.1255, "buy": 0.55, "sell": 0.578}]}
 {"checked_at": "2026-10-04T03:10:12Z", "watched": 574, "hits": []}
+{"checked_at": "2026-10-04T03:13:28Z", "watched": 574, "hits": []}
+{"checked_at": "2026-10-04T03:16:42Z", "watched": 571, "hits": []}
+{"checked_at": "2026-10-04T03:19:48Z", "watched": 571, "hits": []}
+{"checked_at": "2026-10-04T03:22:55Z", "watched": 571, "hits": []}
+{"checked_at": "2026-10-04T03:26:01Z", "watched": 571, "hits": []}
+{"checked_at": "2026-10-04T03:29:08Z", "watched": 571, "hits": []}
+{"checked_at": "2026-10-04T03:32:20Z", "watched": 534, "hits": []}
+{"checked_at": "2026-10-04T03:35:28Z", "watched": 531, "hits": []}
+{"checked_at": "2026-10-04T03:38:35Z", "watched": 531, "hits": []}
+{"checked_at": "2026-10-04T03:41:42Z", "watched": 531, "hits": []}
+{"checked_at": "2026-10-04T03:44:49Z", "watched": 531, "hits": []}
+{"checked_at": "2026-10-04T03:48:01Z", "watched": 529, "hits": []}
+{"checked_at": "2026-10-04T03:51:07Z", "watched": 529, "hits": [{"symbol": "CFB_26OCT03_FRESWSU_ML.FRES", "slug": "cfb-frest-washst-2026-10-03", "event": "Fresno State vs Washington State, Oct 3, Moneyline", "outcome": "Fresno State Bulldogs", "days": 0.069, "resolves": "2026-10-04T05:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 1.6984, "capital": 25.0, "shares": 26.8, "edge": 0.0634, "fees": 0.0969, "buy": 0.763, "sell": 0.83}]}
