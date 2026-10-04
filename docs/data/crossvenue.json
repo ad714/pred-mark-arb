@@ -1,10 +1,43 @@
 {
- "checked_at": "2026-10-04T20:42:54Z",
- "pairs_joined": 2822,
- "pairs_watched": 390,
+ "checked_at": "2026-10-04T20:58:42Z",
+ "pairs_joined": 2813,
+ "pairs_watched": 381,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "NFL_26OCT04_DENSF_SP.SF_2",
+   "slug": "nfl-den-sf-2026-10-04-spread-home-2pt5",
+   "event": "Broncos vs 49ers, Oct 4, Spreads",
+   "outcome": "San Francisco 49ers -2.5",
+   "days": 0.143,
+   "resolves": "2026-10-05T00:25:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.0765,
+   "capital": 25.0,
+   "shares": 25.2,
+   "edge": 0.003,
+   "fees": 0.1251,
+   "buy": 0.45,
+   "sell": 0.458
+  },
+  {
+   "symbol": "NFL_26OCT04_DENSF_SP.SF_3",
+   "slug": "nfl-den-sf-2026-10-04-spread-home-3pt5",
+   "event": "Broncos vs 49ers, Oct 4, Spreads",
+   "outcome": "San Francisco 49ers -3.5",
+   "days": 0.143,
+   "resolves": "2026-10-05T00:25:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.6005,
+   "capital": 25.0,
+   "shares": 25.7,
+   "edge": 0.0233,
+   "fees": 0.1196,
+   "buy": 0.34,
+   "sell": 0.368
+  }
+ ]
 }

@@ -2501,3 +2501,9 @@
 {"checked_at": "2026-10-04T20:36:42Z", "watched": 398, "hits": []}
 {"checked_at": "2026-10-04T20:39:46Z", "watched": 398, "hits": []}
 {"checked_at": "2026-10-04T20:42:54Z", "watched": 390, "hits": []}
+{"checked_at": "2026-10-04T20:43:16Z", "watched": 387, "hits": []}
+{"checked_at": "2026-10-04T20:46:22Z", "watched": 387, "hits": [{"symbol": "LCS_2026_SUMMER.TL", "slug": "will-team-liquid-win-lcs-2026-summer-split-20260703175356402", "event": "LCS Summer Split winner", "outcome": "Team Liquid", "days": 0.093, "resolves": "2026-10-04T23:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.077, "capital": 9.8, "shares": 10.0, "edge": 0.0077, "fees": 0.123, "buy": 0.43, "sell": 0.45}]}
+{"checked_at": "2026-10-04T20:49:27Z", "watched": 387, "hits": []}
+{"checked_at": "2026-10-04T20:52:31Z", "watched": 387, "hits": []}
+{"checked_at": "2026-10-04T20:55:35Z", "watched": 387, "hits": []}
+{"checked_at": "2026-10-04T20:58:42Z", "watched": 381, "hits": [{"symbol": "NFL_26OCT04_DENSF_SP.SF_2", "slug": "nfl-den-sf-2026-10-04-spread-home-2pt5", "event": "Broncos vs 49ers, Oct 4, Spreads", "outcome": "San Francisco 49ers -2.5", "days": 0.143, "resolves": "2026-10-05T00:25:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.0765, "capital": 25.0, "shares": 25.2, "edge": 0.003, "fees": 0.1251, "buy": 0.45, "sell": 0.458}, {"symbol": "NFL_26OCT04_DENSF_SP.SF_3", "slug": "nfl-den-sf-2026-10-04-spread-home-3pt5", "event": "Broncos vs 49ers, Oct 4, Spreads", "outcome": "San Francisco 49ers -3.5", "days": 0.143, "resolves": "2026-10-05T00:25:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.6005, "capital": 25.0, "shares": 25.7, "edge": 0.0233, "fees": 0.1196, "buy": 0.34, "sell": 0.368}]}
