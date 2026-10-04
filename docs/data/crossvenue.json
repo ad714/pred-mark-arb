@@ -1,10 +1,59 @@
 {
- "checked_at": "2026-10-04T18:57:32Z",
- "pairs_joined": 2873,
+ "checked_at": "2026-10-04T19:19:18Z",
+ "pairs_joined": 2866,
  "pairs_watched": 434,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "NFL_26OCT04_DALHOU_ML.DAL",
+   "slug": "nfl-dal-hou-2026-10-04",
+   "event": "Cowboys vs Texans, Oct 4, Moneyline",
+   "outcome": "Dallas Cowboys",
+   "days": 0.07,
+   "resolves": "2026-10-04T21:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 0.5955,
+   "capital": 25.0,
+   "shares": 25.7,
+   "edge": 0.0232,
+   "fees": 0.1246,
+   "buy": 0.412,
+   "sell": 0.44
+  },
+  {
+   "symbol": "NFL_26OCT04_LARPHI_ML.LAR",
+   "slug": "nfl-la-phi-2026-10-04",
+   "event": "Rams vs Eagles, Oct 4, Moneyline",
+   "outcome": "Los Angeles Rams",
+   "days": 0.07,
+   "resolves": "2026-10-04T21:00:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.0852,
+   "capital": 25.0,
+   "shares": 25.2,
+   "edge": 0.0034,
+   "fees": 0.0911,
+   "buy": 0.23,
+   "sell": 0.237
+  },
+  {
+   "symbol": "UNL_26OCT04_GREGER_ML.GER",
+   "slug": "unl-grc-ger-2026-10-04-ger",
+   "event": "Greece vs Germany, Moneyline - Reg Time",
+   "outcome": "Germany",
+   "days": 0.976,
+   "resolves": "2026-10-05T18:45:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.4931,
+   "capital": 25.0,
+   "shares": 25.9,
+   "edge": 0.0191,
+   "fees": 0.3583,
+   "buy": 0.72,
+   "sell": 0.751
+  }
+ ]
 }
