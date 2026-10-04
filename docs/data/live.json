@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T21:53:52Z",
+ "generated_at": "2026-10-04T23:47:33Z",
  "matches": [
   {
    "cb_id": 174134,
@@ -144,13 +144,13 @@
    "prices": {
     "Bhutan": {
      "bid": 0.84,
-     "ask": 0.87,
-     "mid": 0.855
+     "ask": 0.88,
+     "mid": 0.86
     },
     "Myanmar": {
-     "bid": 0.13,
+     "bid": 0.12,
      "ask": 0.16,
-     "mid": 0.14500000000000002
+     "mid": 0.14
     }
    }
   },
@@ -181,14 +181,14 @@
    "state": "Preview",
    "prices": {
     "Kuwait": {
-     "bid": 0.43,
+     "bid": 0.42,
      "ask": 0.47,
-     "mid": 0.44999999999999996
+     "mid": 0.44499999999999995
     },
     "Qatar": {
      "bid": 0.53,
-     "ask": 0.57,
-     "mid": 0.55
+     "ask": 0.58,
+     "mid": 0.5549999999999999
     }
    }
   },
@@ -200,14 +200,14 @@
    "state": "Preview",
    "prices": {
     "Australia Champions": {
-     "bid": 0.25,
+     "bid": 0.43,
      "ask": 0.61,
-     "mid": 0.43
+     "mid": 0.52
     },
     "Pakistan Champions": {
      "bid": 0.39,
-     "ask": 0.75,
-     "mid": 0.5700000000000001
+     "ask": 0.57,
+     "mid": 0.48
     }
    }
   },
@@ -225,8 +225,8 @@
     },
     "Australia Under-19s": {
      "bid": 0.1,
-     "ask": 0.47,
-     "mid": 0.285
+     "ask": 0.46,
+     "mid": 0.28
     }
    }
   },
@@ -312,10 +312,10 @@
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 95,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37203444475",
-  "started_at": "2026-10-04T12:49:36Z",
-  "elapsed_s": 32657,
+  "run_number": 97,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37237888488",
+  "started_at": "2026-10-04T21:53:29Z",
+  "elapsed_s": 6844,
   "elapsed_means": "running for",
   "runs_total": 97
  }
