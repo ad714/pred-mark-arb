@@ -1,30 +1,30 @@
 {
- "generated_at": "2026-10-04T12:50:06Z",
+ "generated_at": "2026-10-04T13:28:50Z",
  "matches": [
   {
    "cb_id": 174923,
    "teams": "CSA Inv XI v AUS",
    "teams_full": "Cricket South Africa Invitation XI v Australia",
    "state": "In Progress",
-   "status": "Day 2: 2nd Session - Australia trail by 60 runs",
+   "status": "Day 2: 3rd Session - Australia trail by 45 runs",
    "series": "Australia tour of South Africa, 2026",
    "format": "TEST",
    "date": "2026-10-03",
    "start_ms": 1791012600000,
-   "last_ball_min": 5.9,
+   "last_ball_min": 1.9,
    "balls_flowing": true
   },
   {
    "cb_id": 174330,
    "teams": "SACH v WICH",
    "teams_full": "South Africa Champions v West Indies Champions",
-   "state": "In Progress",
-   "status": "South Africa Champions opt to bat",
+   "state": "Innings Break",
+   "status": "Innings Break",
    "series": "World Championship of Legends 2026",
    "format": "T20",
    "date": "2026-10-04",
    "start_ms": 1791113400000,
-   "last_ball_min": 1.1,
+   "last_ball_min": 3.9,
    "balls_flowing": true
   },
   {
@@ -117,10 +117,10 @@
   },
   {
    "cb_id": 173220,
-   "teams": "KZNIN v BOL",
-   "teams_full": "KwaZulu-Natal Inland Tuskers v Boland",
-   "state": "Preview",
-   "status": "Match starts at Oct 04, 11:00 GMT",
+   "teams": "BOL v KZNIN",
+   "teams_full": "Boland v KwaZulu-Natal Inland Tuskers",
+   "state": "Toss",
+   "status": "Boland opt to bat",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
    "date": "2026-10-04",
@@ -188,17 +188,17 @@
    "cb_id": 174330,
    "question": "World Championship of Legends: South Africa Champions vs West Indies Champions",
    "score": 1.0,
-   "state": "In Progress",
+   "state": "Innings Break",
    "prices": {
     "South Africa Champions": {
-     "bid": 0.93,
-     "ask": 0.95,
-     "mid": 0.94
+     "bid": 0.94,
+     "ask": 0.96,
+     "mid": 0.95
     },
     "West Indies Champions": {
-     "bid": 0.05,
-     "ask": 0.07,
-     "mid": 0.060000000000000005
+     "bid": 0.04,
+     "ask": 0.06,
+     "mid": 0.05
     }
    }
   },
@@ -210,14 +210,14 @@
    "state": "Preview",
    "prices": {
     "India Champions": {
-     "bid": 0.53,
+     "bid": 0.54,
      "ask": 0.62,
-     "mid": 0.575
+     "mid": 0.5800000000000001
     },
     "England Champions": {
      "bid": 0.38,
-     "ask": 0.47,
-     "mid": 0.425
+     "ask": 0.46,
+     "mid": 0.42000000000000004
     }
    }
   },
@@ -267,14 +267,14 @@
    "state": "Preview",
    "prices": {
     "Kuwait": {
-     "bid": 0.4,
-     "ask": 0.48,
-     "mid": 0.44
+     "bid": 0.39,
+     "ask": 0.47,
+     "mid": 0.43
     },
     "Qatar": {
-     "bid": 0.52,
-     "ask": 0.6,
-     "mid": 0.56
+     "bid": 0.53,
+     "ask": 0.61,
+     "mid": 0.5700000000000001
     }
    }
   },
@@ -306,13 +306,13 @@
    "prices": {
     "India Under-19s": {
      "bid": 0.52,
-     "ask": 0.92,
-     "mid": 0.72
+     "ask": 0.9,
+     "mid": 0.71
     },
     "Australia Under-19s": {
-     "bid": 0.08,
+     "bid": 0.1,
      "ask": 0.48,
-     "mid": 0.27999999999999997
+     "mid": 0.29
     }
    }
   },
@@ -371,9 +371,9 @@
   },
   {
    "cb_id": 173220,
-   "teams": "KwaZulu-Natal Inland Tuskers v Boland",
+   "teams": "Boland v KwaZulu-Natal Inland Tuskers",
    "series": "CSA T20 Challenge 2026",
-   "state": "Preview",
+   "state": "Toss",
    "date": "2026-10-04",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -409,7 +409,7 @@
   "run_number": 94,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37201453211",
   "started_at": "2026-10-04T12:15:03Z",
-  "elapsed_s": 2103,
+  "elapsed_s": 4428,
   "elapsed_means": "running for",
   "runs_total": 95
  }
