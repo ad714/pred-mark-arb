@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-03T22:22:01Z",
+ "generated_at": "2026-10-04T01:46:32Z",
  "matches": [
   {
    "cb_id": 163077,
@@ -33,6 +33,39 @@
    "format": "T20",
    "date": "2026-10-04",
    "start_ms": 1791075600000
+  },
+  {
+   "cb_id": 174134,
+   "teams": "SKR v IDN",
+   "teams_full": "South Korea v Indonesia",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 05, 01:00 GMT",
+   "series": "Indonesia tour of South Korea, 2026",
+   "format": "T20",
+   "date": "2026-10-05",
+   "start_ms": 1791162000000
+  },
+  {
+   "cb_id": 173691,
+   "teams": "BTN v MMR",
+   "teams_full": "Bhutan v Myanmar",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 05, 01:15 GMT",
+   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+   "format": "T20",
+   "date": "2026-10-05",
+   "start_ms": 1791162900000
+  },
+  {
+   "cb_id": 173701,
+   "teams": "BHR v THAI",
+   "teams_full": "Bahrain v Thailand",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 05, 01:15 GMT",
+   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+   "format": "T20",
+   "date": "2026-10-05",
+   "start_ms": 1791162900000
   },
   {
    "cb_id": 174330,
@@ -148,14 +181,14 @@
    "state": "Preview",
    "prices": {
     "Warriors": {
-     "bid": 0.14,
+     "bid": 0.19,
      "ask": 0.46,
-     "mid": 0.30000000000000004
+     "mid": 0.325
     },
     "Lions": {
      "bid": 0.54,
-     "ask": 0.86,
-     "mid": 0.7
+     "ask": 0.81,
+     "mid": 0.675
     }
    }
   }
@@ -222,7 +255,7 @@
   "start_ms": 1791113400000
  },
  "coverage": {
-  "seen_total": 110,
+  "seen_total": 113,
   "ever_paired": 29,
   "balls_flowing": 0,
   "state_says_live": 0
@@ -230,10 +263,10 @@
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 89,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37137752102",
-  "started_at": "2026-10-03T16:41:03Z",
-  "elapsed_s": 20459,
+  "run_number": 91,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37156110825",
+  "started_at": "2026-10-03T21:43:33Z",
+  "elapsed_s": 14580,
   "elapsed_means": "running for",
   "runs_total": 91
  }
