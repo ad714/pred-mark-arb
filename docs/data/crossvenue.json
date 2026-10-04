@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-10-04T00:19:48Z",
- "pairs_joined": 3071,
+ "checked_at": "2026-10-04T00:22:59Z",
+ "pairs_joined": 3070,
  "pairs_watched": 628,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
@@ -8,20 +8,20 @@
  "unread_poly": 0,
  "hits": [
   {
-   "symbol": "NCAAF_26OCT03_TTUCU_ML.TTU",
-   "slug": "cfb-txtech-col-2026-10-03",
-   "event": "Texas Tech vs Colorado, Oct 3, Moneyline",
-   "outcome": "Texas Tech Red Raiders",
-   "days": 0.132,
-   "resolves": "2026-10-04T03:30:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.3261,
-   "capital": 25.0,
-   "shares": 25.4,
-   "edge": 0.0128,
-   "fees": 0.1062,
-   "buy": 0.703,
-   "sell": 0.72
+   "symbol": "NHL_26OCT03_OTTTOR_ML.OTT",
+   "slug": "nhl-ott-tor-2026-10-03",
+   "event": "Senators vs Maple Leafs, Oct 3, Moneyline",
+   "outcome": "Ottawa Senators",
+   "days": 0.109,
+   "resolves": "2026-10-04T03:00:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.2396,
+   "capital": 19.42,
+   "shares": 20.0,
+   "edge": 0.012,
+   "fees": 0.3404,
+   "buy": 0.41,
+   "sell": 0.439
   }
  ]
 }
