@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-04T20:48:00Z",
+ "generated_at": "2026-10-04T21:53:52Z",
  "matches": [
   {
    "cb_id": 174134,
@@ -143,13 +143,13 @@
    "state": "Preview",
    "prices": {
     "Bhutan": {
-     "bid": 0.85,
-     "ask": 0.86,
+     "bid": 0.84,
+     "ask": 0.87,
      "mid": 0.855
     },
     "Myanmar": {
-     "bid": 0.14,
-     "ask": 0.15,
+     "bid": 0.13,
+     "ask": 0.16,
      "mid": 0.14500000000000002
     }
    }
@@ -181,13 +181,13 @@
    "state": "Preview",
    "prices": {
     "Kuwait": {
-     "bid": 0.41,
-     "ask": 0.49,
+     "bid": 0.43,
+     "ask": 0.47,
      "mid": 0.44999999999999996
     },
     "Qatar": {
-     "bid": 0.51,
-     "ask": 0.59,
+     "bid": 0.53,
+     "ask": 0.57,
      "mid": 0.55
     }
    }
@@ -225,8 +225,8 @@
     },
     "Australia Under-19s": {
      "bid": 0.1,
-     "ask": 0.46,
-     "mid": 0.28
+     "ask": 0.47,
+     "mid": 0.285
     }
    }
   },
@@ -315,8 +315,8 @@
   "run_number": 95,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37203444475",
   "started_at": "2026-10-04T12:49:36Z",
-  "elapsed_s": 28704,
+  "elapsed_s": 32657,
   "elapsed_means": "running for",
-  "runs_total": 95
+  "runs_total": 97
  }
 }
