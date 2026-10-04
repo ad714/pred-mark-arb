@@ -1,10 +1,43 @@
 {
- "checked_at": "2026-10-04T15:20:53Z",
- "pairs_joined": 2901,
- "pairs_watched": 467,
+ "checked_at": "2026-10-04T17:12:14Z",
+ "pairs_joined": 2890,
+ "pairs_watched": 456,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "NFL_26OCT04_JAXCIN_ML.JAX",
+   "slug": "nfl-jax-cin-2026-10-04",
+   "event": "Jaguars vs Bengals, Oct 4, Moneyline",
+   "outcome": "Jacksonville Jaguars",
+   "days": 0.158,
+   "resolves": "2026-10-04T21:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 0.0839,
+   "capital": 25.0,
+   "shares": 25.2,
+   "edge": 0.0033,
+   "fees": 0.1178,
+   "buy": 0.372,
+   "sell": 0.38
+  },
+  {
+   "symbol": "LOL_26OCT04_MKFUCAM_M2ML.MKF",
+   "slug": "lol-koia-ucam1-2026-10-04-game2",
+   "event": "Movistar KOI F\u00e9nix vs UCAM Esports Club, Map 2 Winner",
+   "outcome": "Movistar KOI F\u00e9nix",
+   "days": 0.2,
+   "resolves": "2026-10-04T22:00:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.1427,
+   "capital": 17.75,
+   "shares": 18.0,
+   "edge": 0.0079,
+   "fees": 0.1093,
+   "buy": 0.9,
+   "sell": 0.914
+  }
+ ]
 }
