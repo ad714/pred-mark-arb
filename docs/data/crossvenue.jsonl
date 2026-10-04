@@ -2160,3 +2160,4 @@
 {"checked_at": "2026-10-04T03:00:48Z", "watched": 574, "hits": []}
 {"checked_at": "2026-10-04T03:03:55Z", "watched": 574, "hits": []}
 {"checked_at": "2026-10-04T03:07:02Z", "watched": 574, "hits": [{"symbol": "CFB_26OCT03_FRESWSU_ML.FRES", "slug": "cfb-frest-washst-2026-10-03", "event": "Fresno State vs Washington State, Oct 3, Moneyline", "outcome": "Fresno State Bulldogs", "days": 0.099, "resolves": "2026-10-04T05:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.5947, "capital": 25.0, "shares": 25.7, "edge": 0.0231, "fees": 0.1255, "buy": 0.55, "sell": 0.578}]}
+{"checked_at": "2026-10-04T03:10:12Z", "watched": 574, "hits": []}
