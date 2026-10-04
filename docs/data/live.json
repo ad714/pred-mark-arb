@@ -1,42 +1,18 @@
 {
- "generated_at": "2026-10-04T13:28:50Z",
+ "generated_at": "2026-10-04T17:46:42Z",
  "matches": [
   {
-   "cb_id": 174923,
-   "teams": "CSA Inv XI v AUS",
-   "teams_full": "Cricket South Africa Invitation XI v Australia",
-   "state": "In Progress",
-   "status": "Day 2: 3rd Session - Australia trail by 45 runs",
-   "series": "Australia tour of South Africa, 2026",
-   "format": "TEST",
-   "date": "2026-10-03",
-   "start_ms": 1791012600000,
-   "last_ball_min": 1.9,
-   "balls_flowing": true
-  },
-  {
-   "cb_id": 174330,
-   "teams": "SACH v WICH",
-   "teams_full": "South Africa Champions v West Indies Champions",
-   "state": "Innings Break",
-   "status": "Innings Break",
-   "series": "World Championship of Legends 2026",
-   "format": "T20",
-   "date": "2026-10-04",
-   "start_ms": 1791113400000,
-   "last_ball_min": 3.9,
-   "balls_flowing": true
-  },
-  {
    "cb_id": 174340,
-   "teams": "INDCH v ENGCH",
-   "teams_full": "India Champions v England Champions",
-   "state": "Preview",
-   "status": "Match starts at Oct 04, 15:30 GMT",
+   "teams": "ENGCH v INDCH",
+   "teams_full": "England Champions v India Champions",
+   "state": "In Progress",
+   "status": "India Champions opt to bowl",
    "series": "World Championship of Legends 2026",
    "format": "T20",
    "date": "2026-10-04",
-   "start_ms": 1791127800000
+   "start_ms": 1791127800000,
+   "last_ball_min": 0.6,
+   "balls_flowing": true
   },
   {
    "cb_id": 174134,
@@ -59,6 +35,17 @@
    "format": "T20",
    "date": "2026-10-05",
    "start_ms": 1791176400000
+  },
+  {
+   "cb_id": 174057,
+   "teams": "USA v UAE",
+   "teams_full": "United States of America v United Arab Emirates",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 05, 15:00 GMT",
+   "series": "ICC CWC League Two 2023-27",
+   "format": "ODI",
+   "date": "2026-10-05",
+   "start_ms": 1791212400000
   },
   {
    "cb_id": 173691,
@@ -97,7 +84,7 @@
    "cb_id": 174347,
    "teams": "AUSCH v PAKCH",
    "teams_full": "Australia Champions v Pakistan Champions",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 05, 11:30 GMT",
    "series": "World Championship of Legends 2026",
    "format": "T20",
@@ -105,33 +92,22 @@
    "start_ms": 1791199800000
   },
   {
-   "cb_id": 173191,
-   "teams": "LIMPO v DOL",
-   "teams_full": "Limpopo v Dolphins",
-   "state": "Preview",
-   "status": "Match starts at Oct 04, 11:00 GMT",
-   "series": "CSA T20 Challenge 2026",
+   "cb_id": 174351,
+   "teams": "BANCH v ENGCH",
+   "teams_full": "Bangladesh Champions v England Champions",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 05, 15:30 GMT",
+   "series": "World Championship of Legends 2026",
    "format": "T20",
-   "date": "2026-10-04",
-   "start_ms": 1791111600000
-  },
-  {
-   "cb_id": 173220,
-   "teams": "BOL v KZNIN",
-   "teams_full": "Boland v KwaZulu-Natal Inland Tuskers",
-   "state": "Toss",
-   "status": "Boland opt to bat",
-   "series": "CSA T20 Challenge 2026",
-   "format": "T20",
-   "date": "2026-10-04",
-   "start_ms": 1791111600000
+   "date": "2026-10-05",
+   "start_ms": 1791214200000
   },
   {
    "cb_id": 173207,
-   "teams": "WPR v SAEP",
-   "teams_full": "Western Province v South Africa Emerging Players",
-   "state": "Preview",
-   "status": "Match starts at Oct 04, 16:00 GMT",
+   "teams": "SAEP v WPR",
+   "teams_full": "South Africa Emerging Players v Western Province",
+   "state": "Toss",
+   "status": "South Africa Emerging Players opt to bat",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
    "date": "2026-10-04",
@@ -152,7 +128,7 @@
    "cb_id": 173227,
    "teams": "LIMPO v SWD",
    "teams_full": "Limpopo v South Western Districts",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 05, 11:00 GMT",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
@@ -184,40 +160,21 @@
  ],
  "pairings": [
   {
-   "slug": "cricwcl-sou-wes-2026-10-04",
-   "cb_id": 174330,
-   "question": "World Championship of Legends: South Africa Champions vs West Indies Champions",
-   "score": 1.0,
-   "state": "Innings Break",
-   "prices": {
-    "South Africa Champions": {
-     "bid": 0.94,
-     "ask": 0.96,
-     "mid": 0.95
-    },
-    "West Indies Champions": {
-     "bid": 0.04,
-     "ask": 0.06,
-     "mid": 0.05
-    }
-   }
-  },
-  {
    "slug": "cricwcl-ind-eng-2026-10-04",
    "cb_id": 174340,
    "question": "World Championship of Legends: India Champions vs England Champions",
    "score": 1.0,
-   "state": "Preview",
+   "state": "In Progress",
    "prices": {
     "India Champions": {
-     "bid": 0.54,
-     "ask": 0.62,
-     "mid": 0.5800000000000001
+     "bid": 0.49,
+     "ask": 0.52,
+     "mid": 0.505
     },
     "England Champions": {
-     "bid": 0.38,
-     "ask": 0.46,
-     "mid": 0.42000000000000004
+     "bid": 0.48,
+     "ask": 0.51,
+     "mid": 0.495
     }
    }
   },
@@ -229,14 +186,14 @@
    "state": "Preview",
    "prices": {
     "Bhutan": {
-     "bid": 0.82,
+     "bid": 0.84,
      "ask": 0.86,
-     "mid": 0.84
+     "mid": 0.85
     },
     "Myanmar": {
      "bid": 0.14,
-     "ask": 0.18,
-     "mid": 0.16
+     "ask": 0.16,
+     "mid": 0.15000000000000002
     }
    }
   },
@@ -248,14 +205,14 @@
    "state": "Preview",
    "prices": {
     "Bahrain": {
-     "bid": 0.8,
-     "ask": 0.83,
-     "mid": 0.815
+     "bid": 0.79,
+     "ask": 0.81,
+     "mid": 0.8
     },
     "Thailand": {
-     "bid": 0.17,
-     "ask": 0.2,
-     "mid": 0.185
+     "bid": 0.19,
+     "ask": 0.21,
+     "mid": 0.2
     }
    }
   },
@@ -267,14 +224,33 @@
    "state": "Preview",
    "prices": {
     "Kuwait": {
-     "bid": 0.39,
-     "ask": 0.47,
-     "mid": 0.43
+     "bid": 0.41,
+     "ask": 0.48,
+     "mid": 0.44499999999999995
     },
     "Qatar": {
-     "bid": 0.53,
+     "bid": 0.52,
+     "ask": 0.59,
+     "mid": 0.5549999999999999
+    }
+   }
+  },
+  {
+   "slug": "cricwcl-aus-pak-2026-10-05",
+   "cb_id": 174347,
+   "question": "World Championship of Legends: Australia Champions vs Pakistan Champions",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Australia Champions": {
+     "bid": 0.27,
      "ask": 0.61,
-     "mid": 0.5700000000000001
+     "mid": 0.44
+    },
+    "Pakistan Champions": {
+     "bid": 0.39,
+     "ask": 0.73,
+     "mid": 0.56
     }
    }
   },
@@ -286,14 +262,14 @@
    "state": "Preview",
    "prices": {
     "Warriors": {
-     "bid": 0.5,
-     "ask": 0.55,
-     "mid": 0.525
+     "bid": 0.47,
+     "ask": 0.5,
+     "mid": 0.485
     },
     "Lions": {
-     "bid": 0.45,
-     "ask": 0.5,
-     "mid": 0.475
+     "bid": 0.5,
+     "ask": 0.53,
+     "mid": 0.515
     }
    }
   },
@@ -306,13 +282,13 @@
    "prices": {
     "India Under-19s": {
      "bid": 0.52,
-     "ask": 0.9,
-     "mid": 0.71
+     "ask": 0.89,
+     "mid": 0.7050000000000001
     },
     "Australia Under-19s": {
-     "bid": 0.1,
+     "bid": 0.11,
      "ask": 0.48,
-     "mid": 0.29
+     "mid": 0.295
     }
    }
   },
@@ -324,27 +300,19 @@
    "state": "Preview",
    "prices": {
     "Zimbabwe Women": {
-     "bid": 0.1,
-     "ask": 0.11,
-     "mid": 0.10500000000000001
+     "bid": 0.11,
+     "ask": 0.13,
+     "mid": 0.12
     },
     "West Indies Women": {
-     "bid": 0.89,
-     "ask": 0.9,
-     "mid": 0.895
+     "bid": 0.87,
+     "ask": 0.89,
+     "mid": 0.88
     }
    }
   }
  ],
  "unpaired": [
-  {
-   "cb_id": 174923,
-   "teams": "Cricket South Africa Invitation XI v Australia",
-   "series": "Australia tour of South Africa, 2026",
-   "state": "In Progress",
-   "date": "2026-10-03",
-   "reason": "no open two outcome cricket market to compare against"
-  },
   {
    "cb_id": 174134,
    "teams": "South Korea v Indonesia",
@@ -362,54 +330,46 @@
    "reason": "closest market crint-kor-idn-2026-10-04 only scored 0.33 on team names"
   },
   {
-   "cb_id": 173191,
-   "teams": "Limpopo v Dolphins",
-   "series": "CSA T20 Challenge 2026",
-   "state": "Preview",
-   "date": "2026-10-04",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 173220,
-   "teams": "Boland v KwaZulu-Natal Inland Tuskers",
+   "cb_id": 173207,
+   "teams": "South Africa Emerging Players v Western Province",
    "series": "CSA T20 Challenge 2026",
    "state": "Toss",
    "date": "2026-10-04",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 173207,
-   "teams": "Western Province v South Africa Emerging Players",
+   "cb_id": 173227,
+   "teams": "Limpopo v South Western Districts",
    "series": "CSA T20 Challenge 2026",
    "state": "Preview",
-   "date": "2026-10-04",
+   "date": "2026-10-05",
    "reason": "no open two outcome cricket market to compare against"
   }
  ],
  "next_fixture": {
-  "cb_id": 174340,
-  "teams": "INDCH v ENGCH",
-  "teams_full": "India Champions v England Champions",
+  "cb_id": 173691,
+  "teams": "BTN v MMR",
+  "teams_full": "Bhutan v Myanmar",
   "state": "Preview",
-  "status": "Match starts at Oct 04, 15:30 GMT",
-  "series": "World Championship of Legends 2026",
+  "status": "Match starts at Oct 05, 01:15 GMT",
+  "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
   "format": "T20",
-  "date": "2026-10-04",
-  "start_ms": 1791127800000
+  "date": "2026-10-05",
+  "start_ms": 1791162900000
  },
  "coverage": {
-  "seen_total": 119,
-  "ever_paired": 34,
-  "balls_flowing": 2,
-  "state_says_live": 2
+  "seen_total": 121,
+  "ever_paired": 35,
+  "balls_flowing": 1,
+  "state_says_live": 1
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 94,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37201453211",
-  "started_at": "2026-10-04T12:15:03Z",
-  "elapsed_s": 4428,
+  "run_number": 95,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37203444475",
+  "started_at": "2026-10-04T12:49:36Z",
+  "elapsed_s": 17827,
   "elapsed_means": "running for",
   "runs_total": 95
  }
