@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T15:14:12Z",
+ "generated_at": "2026-10-05T19:29:47Z",
  "matches": [
   {
    "cb_id": 151565,
@@ -16,14 +16,14 @@
    "cb_id": 174057,
    "teams": "UAE v USA",
    "teams_full": "United Arab Emirates v United States of America",
-   "state": "In Progress",
-   "status": "United States of America opt to bowl",
+   "state": "Innings Break",
+   "status": "Innings Break",
    "series": "ICC Cricket World Cup League Two 2023-27",
    "format": "ODI",
    "date": "2026-10-05",
    "start_ms": 1791212400000,
-   "last_ball_min": 4.7,
-   "balls_flowing": true
+   "last_ball_min": 27.5,
+   "balls_flowing": false
   },
   {
    "cb_id": 155433,
@@ -46,17 +46,6 @@
    "format": "TEST",
    "date": "2026-10-05",
    "start_ms": 1791172800000
-  },
-  {
-   "cb_id": 174351,
-   "teams": "BANCH v ENGCH",
-   "teams_full": "Bangladesh Champions v England Champions",
-   "state": "Toss",
-   "status": "England Champions opt to bowl",
-   "series": "World Championship of Legends 2026",
-   "format": "T20",
-   "date": "2026-10-05",
-   "start_ms": 1791214200000
   },
   {
    "cb_id": 173721,
@@ -92,15 +81,15 @@
    "start_ms": 1791266400000
   },
   {
-   "cb_id": 173227,
-   "teams": "LIMPO v SWD",
-   "teams_full": "Limpopo v South Western Districts",
-   "state": "Toss",
-   "status": "Limpopo opt to bat",
+   "cb_id": 173237,
+   "teams": "WPR v ESTORM",
+   "teams_full": "Western Province v Eastern Storm",
+   "state": "Preview",
+   "status": "Match starts at Oct 06, 16:00 GMT",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
-   "date": "2026-10-05",
-   "start_ms": 1791198000000
+   "date": "2026-10-06",
+   "start_ms": 1791302400000
   }
  ],
  "pairings": [
@@ -131,14 +120,14 @@
    "state": "Preview",
    "prices": {
     "India A": {
-     "bid": 0.65,
-     "ask": 0.7,
-     "mid": 0.675
+     "bid": 0.66,
+     "ask": 0.67,
+     "mid": 0.665
     },
     "Australia A": {
-     "bid": 0.3,
-     "ask": 0.35,
-     "mid": 0.32499999999999996
+     "bid": 0.33,
+     "ask": 0.34,
+     "mid": 0.335
     }
    }
   },
@@ -158,25 +147,6 @@
      "bid": 0.05,
      "ask": 0.7,
      "mid": 0.375
-    }
-   }
-  },
-  {
-   "slug": "cricwcl-ban-eng-2026-10-05",
-   "cb_id": 174351,
-   "question": "World Championship of Legends: Bangladesh Champions vs England Champions",
-   "score": 1.0,
-   "state": "Toss",
-   "prices": {
-    "Bangladesh Champions": {
-     "bid": 0.15,
-     "ask": 0.16,
-     "mid": 0.155
-    },
-    "England Champions": {
-     "bid": 0.84,
-     "ask": 0.85,
-     "mid": 0.845
     }
    }
   },
@@ -208,13 +178,13 @@
    "prices": {
     "Bahrain": {
      "bid": 0.82,
-     "ask": 0.85,
-     "mid": 0.835
+     "ask": 0.84,
+     "mid": 0.83
     },
     "Bhutan": {
-     "bid": 0.15,
+     "bid": 0.16,
      "ask": 0.18,
-     "mid": 0.16499999999999998
+     "mid": 0.16999999999999998
     }
    }
   },
@@ -226,14 +196,14 @@
    "state": "Preview",
    "prices": {
     "Kuwait": {
-     "bid": 0.95,
-     "ask": 0.959,
-     "mid": 0.9544999999999999
+     "bid": 0.94,
+     "ask": 0.949,
+     "mid": 0.9444999999999999
     },
     "Mongolia": {
-     "bid": 0.041,
-     "ask": 0.05,
-     "mid": 0.0455
+     "bid": 0.051,
+     "ask": 0.06,
+     "mid": 0.055499999999999994
     }
    }
   }
@@ -243,43 +213,43 @@
    "cb_id": 174057,
    "teams": "United Arab Emirates v United States of America",
    "series": "ICC Cricket World Cup League Two 2023-27",
-   "state": "In Progress",
+   "state": "Innings Break",
    "date": "2026-10-05",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 173227,
-   "teams": "Limpopo v South Western Districts",
+   "cb_id": 173237,
+   "teams": "Western Province v Eastern Storm",
    "series": "CSA T20 Challenge 2026",
-   "state": "Toss",
-   "date": "2026-10-05",
+   "state": "Preview",
+   "date": "2026-10-06",
    "reason": "no open two outcome cricket market to compare against"
   }
  ],
  "next_fixture": {
-  "cb_id": 174351,
-  "teams": "BANCH v ENGCH",
-  "teams_full": "Bangladesh Champions v England Champions",
-  "state": "Toss",
-  "status": "England Champions opt to bowl",
-  "series": "World Championship of Legends 2026",
+  "cb_id": 173721,
+  "teams": "QAT v THAI",
+  "teams_full": "Qatar v Thailand",
+  "state": "Preview",
+  "status": "Match starts at Oct 06, 01:15 GMT",
+  "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
   "format": "T20",
-  "date": "2026-10-05",
-  "start_ms": 1791214200000
+  "date": "2026-10-06",
+  "start_ms": 1791249300000
  },
  "coverage": {
-  "seen_total": 126,
+  "seen_total": 127,
   "ever_paired": 41,
-  "balls_flowing": 1,
+  "balls_flowing": 0,
   "state_says_live": 1
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 99,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37271054938",
-  "started_at": "2026-10-05T06:10:08Z",
-  "elapsed_s": 32645,
+  "run_number": 101,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37331105499",
+  "started_at": "2026-10-05T15:13:47Z",
+  "elapsed_s": 15360,
   "elapsed_means": "running for",
   "runs_total": 101
  }
