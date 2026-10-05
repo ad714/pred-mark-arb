@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-05T11:58:54Z",
- "pairs_joined": 2695,
- "pairs_watched": 284,
+ "checked_at": "2026-10-05T12:02:04Z",
+ "pairs_joined": 2689,
+ "pairs_watched": 278,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "CS2_26OCT05_PRVFUR_ML.PRV",
-   "slug": "cs2-prv-furia-2026-10-05",
-   "event": "PARIVISION vs FURIA, Match Winner",
-   "outcome": "PARIVISION",
-   "days": 0.126,
-   "resolves": "2026-10-05T15:00:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.1079,
-   "capital": 25.0,
-   "shares": 25.3,
-   "edge": 0.0043,
-   "fees": 0.2214,
-   "buy": 0.137,
-   "sell": 0.15
-  }
- ]
+ "hits": []
 }
