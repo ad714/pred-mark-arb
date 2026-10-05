@@ -1,16 +1,18 @@
 {
- "generated_at": "2026-10-04T23:47:33Z",
+ "generated_at": "2026-10-05T03:43:21Z",
  "matches": [
   {
    "cb_id": 174134,
-   "teams": "SKR v IDN",
-   "teams_full": "South Korea v Indonesia",
-   "state": "Preview",
-   "status": "Match starts at Oct 05, 01:00 GMT",
+   "teams": "IDN v SKR",
+   "teams_full": "Indonesia v South Korea",
+   "state": "In Progress",
+   "status": "South Korea opt to bowl",
    "series": "Indonesia tour of South Korea, 2026",
    "format": "T20",
    "date": "2026-10-05",
-   "start_ms": 1791162000000
+   "start_ms": 1791162000000,
+   "last_ball_min": 0.7,
+   "balls_flowing": true
   },
   {
    "cb_id": 174141,
@@ -38,23 +40,27 @@
    "cb_id": 173691,
    "teams": "BTN v MMR",
    "teams_full": "Bhutan v Myanmar",
-   "state": "Preview",
-   "status": "Match starts at Oct 05, 01:15 GMT",
+   "state": "In Progress",
+   "status": "Bhutan opt to bat",
    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
    "format": "T20",
    "date": "2026-10-05",
-   "start_ms": 1791162900000
+   "start_ms": 1791162900000,
+   "last_ball_min": 1.3,
+   "balls_flowing": true
   },
   {
    "cb_id": 173701,
    "teams": "BHR v THAI",
    "teams_full": "Bahrain v Thailand",
-   "state": "Preview",
-   "status": "Match starts at Oct 05, 01:15 GMT",
+   "state": "In Progress",
+   "status": "Thailand opt to bowl",
    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
    "format": "T20",
    "date": "2026-10-05",
-   "start_ms": 1791162900000
+   "start_ms": 1791162900000,
+   "last_ball_min": 0.9,
+   "balls_flowing": true
   },
   {
    "cb_id": 173711,
@@ -66,6 +72,17 @@
    "format": "T20",
    "date": "2026-10-05",
    "start_ms": 1791180000000
+  },
+  {
+   "cb_id": 173721,
+   "teams": "QAT v THAI",
+   "teams_full": "Qatar v Thailand",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 06, 01:15 GMT",
+   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+   "format": "T20",
+   "date": "2026-10-06",
+   "start_ms": 1791249300000
   },
   {
    "cb_id": 174347,
@@ -82,23 +99,12 @@
    "cb_id": 174351,
    "teams": "BANCH v ENGCH",
    "teams_full": "Bangladesh Champions v England Champions",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 05, 15:30 GMT",
    "series": "World Championship of Legends 2026",
    "format": "T20",
    "date": "2026-10-05",
    "start_ms": 1791214200000
-  },
-  {
-   "cb_id": 173207,
-   "teams": "SAEP v WPR",
-   "teams_full": "South Africa Emerging Players v Western Province",
-   "state": "Toss",
-   "status": "South Africa Emerging Players opt to bat",
-   "series": "CSA T20 Challenge 2026",
-   "format": "T20",
-   "date": "2026-10-04",
-   "start_ms": 1791129600000
   },
   {
    "cb_id": 173227,
@@ -140,17 +146,17 @@
    "cb_id": 173691,
    "question": "T20 World Cup Asia Sub-Regional Qualifier A: Bhutan vs Myanmar",
    "score": 1.0,
-   "state": "Preview",
+   "state": "In Progress",
    "prices": {
     "Bhutan": {
-     "bid": 0.84,
-     "ask": 0.88,
-     "mid": 0.86
+     "bid": 0.7,
+     "ask": 0.76,
+     "mid": 0.73
     },
     "Myanmar": {
-     "bid": 0.12,
-     "ask": 0.16,
-     "mid": 0.14
+     "bid": 0.24,
+     "ask": 0.3,
+     "mid": 0.27
     }
    }
   },
@@ -159,17 +165,17 @@
    "cb_id": 173701,
    "question": "T20 World Cup Asia Sub-Regional Qualifier A: Bahrain vs Thailand",
    "score": 1.0,
-   "state": "Preview",
+   "state": "In Progress",
    "prices": {
     "Bahrain": {
-     "bid": 0.84,
-     "ask": 0.86,
-     "mid": 0.85
+     "bid": 0.85,
+     "ask": 0.88,
+     "mid": 0.865
     },
     "Thailand": {
-     "bid": 0.14,
-     "ask": 0.16,
-     "mid": 0.15000000000000002
+     "bid": 0.12,
+     "ask": 0.15,
+     "mid": 0.135
     }
    }
   },
@@ -181,14 +187,14 @@
    "state": "Preview",
    "prices": {
     "Kuwait": {
-     "bid": 0.42,
-     "ask": 0.47,
-     "mid": 0.44499999999999995
+     "bid": 0.41,
+     "ask": 0.45,
+     "mid": 0.43
     },
     "Qatar": {
-     "bid": 0.53,
-     "ask": 0.58,
-     "mid": 0.5549999999999999
+     "bid": 0.55,
+     "ask": 0.59,
+     "mid": 0.5700000000000001
     }
    }
   },
@@ -200,14 +206,33 @@
    "state": "Preview",
    "prices": {
     "Australia Champions": {
-     "bid": 0.43,
+     "bid": 0.49,
      "ask": 0.61,
-     "mid": 0.52
+     "mid": 0.55
     },
     "Pakistan Champions": {
      "bid": 0.39,
-     "ask": 0.57,
-     "mid": 0.48
+     "ask": 0.51,
+     "mid": 0.45
+    }
+   }
+  },
+  {
+   "slug": "cricwcl-ban-eng-2026-10-05",
+   "cb_id": 174351,
+   "question": "World Championship of Legends: Bangladesh Champions vs England Champions",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Bangladesh Champions": {
+     "bid": 0.15,
+     "ask": 0.41,
+     "mid": 0.27999999999999997
+    },
+    "England Champions": {
+     "bid": 0.59,
+     "ask": 0.85,
+     "mid": 0.72
     }
    }
   },
@@ -219,14 +244,14 @@
    "state": "Preview",
    "prices": {
     "India Under-19s": {
-     "bid": 0.54,
-     "ask": 0.9,
-     "mid": 0.72
+     "bid": 0.56,
+     "ask": 0.89,
+     "mid": 0.7250000000000001
     },
     "Australia Under-19s": {
-     "bid": 0.1,
-     "ask": 0.46,
-     "mid": 0.28
+     "bid": 0.11,
+     "ask": 0.44,
+     "mid": 0.275
     }
    }
   },
@@ -253,11 +278,11 @@
  "unpaired": [
   {
    "cb_id": 174134,
-   "teams": "South Korea v Indonesia",
+   "teams": "Indonesia v South Korea",
    "series": "Indonesia tour of South Korea, 2026",
-   "state": "Preview",
+   "state": "In Progress",
    "date": "2026-10-05",
-   "reason": "closest market crint-kor-idn-2026-10-04 only scored 0.33 on team names"
+   "reason": "closest market crint-kor-idn-2026-10-05 only scored 0.33 on team names"
   },
   {
    "cb_id": 174141,
@@ -265,7 +290,7 @@
    "series": "Indonesia tour of South Korea, 2026",
    "state": "Preview",
    "date": "2026-10-05",
-   "reason": "closest market crint-kor-idn-2026-10-04 only scored 0.33 on team names"
+   "reason": "closest market crint-kor-idn-2026-10-05 only scored 0.33 on team names"
   },
   {
    "cb_id": 174057,
@@ -273,14 +298,6 @@
    "series": "ICC CWC League Two 2023-27",
    "state": "Preview",
    "date": "2026-10-05",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 173207,
-   "teams": "South Africa Emerging Players v Western Province",
-   "series": "CSA T20 Challenge 2026",
-   "state": "Toss",
-   "date": "2026-10-04",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
@@ -293,21 +310,21 @@
   }
  ],
  "next_fixture": {
-  "cb_id": 173691,
-  "teams": "BTN v MMR",
-  "teams_full": "Bhutan v Myanmar",
+  "cb_id": 155510,
+  "teams": "INDU19 v AUSU19",
+  "teams_full": "India U19 v Australia U19",
   "state": "Preview",
-  "status": "Match starts at Oct 05, 01:15 GMT",
-  "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
-  "format": "T20",
+  "status": "Match starts at Oct 05, 04:00 GMT",
+  "series": "Australia U19 tour of India 2026",
+  "format": "TEST",
   "date": "2026-10-05",
-  "start_ms": 1791162900000
+  "start_ms": 1791172800000
  },
  "coverage": {
-  "seen_total": 121,
-  "ever_paired": 35,
-  "balls_flowing": 0,
-  "state_says_live": 0
+  "seen_total": 122,
+  "ever_paired": 36,
+  "balls_flowing": 3,
+  "state_says_live": 3
  },
  "trader": {
   "state": "in_progress",
@@ -315,7 +332,7 @@
   "run_number": 97,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37237888488",
   "started_at": "2026-10-04T21:53:29Z",
-  "elapsed_s": 6844,
+  "elapsed_s": 20992,
   "elapsed_means": "running for",
   "runs_total": 97
  }
