@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-05T09:46:29Z",
- "pairs_joined": 2718,
+ "checked_at": "2026-10-05T09:49:36Z",
+ "pairs_joined": 2717,
  "pairs_watched": 299,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "ATP_26OCT05_SHENIS_ML.SHE",
-   "slug": "atp-shevche-nishiok-2026-10-05",
-   "event": "Shevchenko vs Nishioka, Match Winner",
-   "outcome": "Alexander Shevchenko",
-   "days": 0.134,
-   "resolves": "2026-10-05T13:00:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.3715,
-   "capital": 25.0,
-   "shares": 25.4,
-   "edge": 0.0146,
-   "fees": 0.0093,
-   "buy": 0.001,
-   "sell": 0.016
-  }
- ]
+ "hits": []
 }
