@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-04T21:01:55Z",
- "pairs_joined": 2807,
- "pairs_watched": 334,
+ "checked_at": "2026-10-05T02:12:40Z",
+ "pairs_joined": 2701,
+ "pairs_watched": 277,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "UNL_26OCT04_PORNOR_ML.POR",
-   "slug": "unl-prt-nor-2026-10-04-prt",
-   "event": "Portugal vs Norway, Moneyline - Reg Time",
-   "outcome": "Portugal",
-   "days": 0.905,
-   "resolves": "2026-10-05T18:45:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.0029,
-   "capital": 1.0,
-   "shares": 1.0,
-   "edge": 0.0029,
-   "fees": 0.0001,
-   "buy": 0.996,
-   "sell": 0.999
-  }
- ]
+ "hits": []
 }
