@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T19:32:03Z",
+ "generated_at": "2026-10-06T22:47:00Z",
  "matches": [
   {
    "cb_id": 155510,
@@ -130,13 +130,13 @@
    "prices": {
     "Zimbabwe Women": {
      "bid": 0.1,
-     "ask": 0.11,
-     "mid": 0.10500000000000001
+     "ask": 0.12,
+     "mid": 0.11
     },
     "West Indies Women": {
-     "bid": 0.89,
+     "bid": 0.88,
      "ask": 0.9,
-     "mid": 0.895
+     "mid": 0.89
     }
    }
   },
@@ -167,14 +167,14 @@
    "state": "Preview",
    "prices": {
     "England Champions": {
-     "bid": 0.63,
+     "bid": 0.66,
      "ask": 0.67,
-     "mid": 0.65
+     "mid": 0.665
     },
     "West Indies Champions": {
      "bid": 0.33,
-     "ask": 0.37,
-     "mid": 0.35
+     "ask": 0.34,
+     "mid": 0.335
     }
    }
   }
@@ -244,7 +244,7 @@
   "run_number": 105,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
   "started_at": "2026-10-06T06:49:04Z",
-  "elapsed_s": 14211,
+  "elapsed_s": 25908,
   "elapsed_means": "idle for",
   "runs_total": 105
  }
