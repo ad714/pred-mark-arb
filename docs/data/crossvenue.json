@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-06T20:25:46Z",
- "pairs_joined": 2718,
- "pairs_watched": 301,
+ "checked_at": "2026-10-06T21:21:24Z",
+ "pairs_joined": 2706,
+ "pairs_watched": 289,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "LOL_26OCT06_CPDFUE_M1ML.CPD",
+   "slug": "lol-cpd-fue-2026-10-06-game1",
+   "event": "Cupid Esports vs Fuego, Map 1 Winner",
+   "outcome": "Cupid Esports",
+   "days": 0.235,
+   "resolves": "2026-10-07T03:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 0.561,
+   "capital": 25.0,
+   "shares": 25.8,
+   "edge": 0.0217,
+   "fees": 0.2655,
+   "buy": 0.798,
+   "sell": 0.83
+  }
+ ]
 }
