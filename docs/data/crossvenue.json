@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-06T16:12:51Z",
+ "checked_at": "2026-10-06T16:15:58Z",
  "pairs_joined": 2770,
  "pairs_watched": 352,
  "capital_cap": 25.0,
@@ -8,20 +8,20 @@
  "unread_poly": 0,
  "hits": [
   {
-   "symbol": "LOL_26OCT06_GALBIG_M1ML.GAL",
-   "slug": "lol-gal-big1-2026-10-06-game1",
-   "event": "Galions vs BIG, Map 1 Winner",
-   "outcome": "Galions",
-   "days": 0.241,
-   "resolves": "2026-10-06T22:00:00+00:00",
+   "symbol": "CS2_26OCT06_FURAUR_ML.FUR",
+   "slug": "cs2-furia-aur1-2026-10-06",
+   "event": "FURIA vs Aurora Gaming, Match Winner",
+   "outcome": "FURIA",
+   "days": 0.176,
+   "resolves": "2026-10-06T20:30:00+00:00",
    "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.4325,
+   "profit": 0.0419,
    "capital": 25.0,
-   "shares": 25.6,
-   "edge": 0.0169,
-   "fees": 0.1561,
-   "buy": 0.887,
-   "sell": 0.91
+   "shares": 25.5,
+   "edge": 0.0016,
+   "fees": 0.4423,
+   "buy": 0.531,
+   "sell": 0.55
   }
  ]
 }
