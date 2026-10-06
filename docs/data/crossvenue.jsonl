@@ -3148,3 +3148,28 @@
 {"checked_at": "2026-10-06T12:47:31Z", "watched": 339, "hits": []}
 {"checked_at": "2026-10-06T12:50:35Z", "watched": 339, "hits": []}
 {"checked_at": "2026-10-06T12:53:41Z", "watched": 347, "hits": []}
+{"checked_at": "2026-10-06T14:58:41Z", "watched": 357, "hits": []}
+{"checked_at": "2026-10-06T15:01:49Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:04:54Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:08:03Z", "watched": 352, "hits": [{"symbol": "CS2_26OCT06_9ZBB_M1ML.9Z", "slug": "cs2-9z-bb3-2026-10-06-game1", "event": "9z vs BetBoom Team, Map 1 Winner", "outcome": "9z", "days": 0.224, "resolves": "2026-10-06T20:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.0167, "capital": 25.0, "shares": 25.3, "edge": 0.0007, "fees": 0.287, "buy": 0.788, "sell": 0.8}]}
+{"checked_at": "2026-10-06T15:11:07Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:14:13Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:17:17Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:20:24Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:23:28Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:26:33Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:29:37Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:32:44Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:35:49Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:38:54Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:41:59Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:45:04Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:48:08Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:51:13Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:54:16Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T15:57:21Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T16:00:31Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T16:03:36Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T16:06:41Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T16:09:46Z", "watched": 352, "hits": []}
+{"checked_at": "2026-10-06T16:12:51Z", "watched": 352, "hits": [{"symbol": "LOL_26OCT06_GALBIG_M1ML.GAL", "slug": "lol-gal-big1-2026-10-06-game1", "event": "Galions vs BIG, Map 1 Winner", "outcome": "Galions", "days": 0.241, "resolves": "2026-10-06T22:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.4325, "capital": 25.0, "shares": 25.6, "edge": 0.0169, "fees": 0.1561, "buy": 0.887, "sell": 0.91}]}
