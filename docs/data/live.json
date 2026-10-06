@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T00:55:35Z",
+ "generated_at": "2026-10-06T06:49:25Z",
  "matches": [
   {
    "cb_id": 151565,
@@ -27,30 +27,21 @@
    "cb_id": 155510,
    "teams": "AUSU19 v INDU19",
    "teams_full": "Australia U19 v India U19",
-   "state": "Stumps",
-   "status": "Day 1: Stumps - India U19 trail by 136 runs",
+   "state": "In Progress",
+   "status": "Day 2: 2nd Session - India U19 trail by 9 runs",
    "series": "Australia U19 tour of India 2026",
    "format": "TEST",
    "date": "2026-10-05",
-   "start_ms": 1791172800000
-  },
-  {
-   "cb_id": 173721,
-   "teams": "QAT v THAI",
-   "teams_full": "Qatar v Thailand",
-   "state": "Preview",
-   "status": "Match starts at Oct 06, 01:15 GMT",
-   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
-   "format": "T20",
-   "date": "2026-10-06",
-   "start_ms": 1791249300000
+   "start_ms": 1791172800000,
+   "last_ball_min": 1.8,
+   "balls_flowing": true
   },
   {
    "cb_id": 173723,
    "teams": "BHR v BTN",
    "teams_full": "Bahrain v Bhutan",
-   "state": "Preview",
-   "status": "Match starts at Oct 06, 06:00 GMT",
+   "state": "Toss",
+   "status": "Bahrain opt to bat",
    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
    "format": "T20",
    "date": "2026-10-06",
@@ -58,10 +49,10 @@
   },
   {
    "cb_id": 173727,
-   "teams": "KUW v MGL",
-   "teams_full": "Kuwait v Mongolia",
-   "state": "Preview",
-   "status": "Match starts at Oct 06, 06:00 GMT",
+   "teams": "MGL v KUW",
+   "teams_full": "Mongolia v Kuwait",
+   "state": "Toss",
+   "status": "Kuwait opt to bowl",
    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
    "format": "T20",
    "date": "2026-10-06",
@@ -99,14 +90,14 @@
    "state": "Preview",
    "prices": {
     "India": {
-     "bid": 0.76,
-     "ask": 0.77,
-     "mid": 0.765
+     "bid": 0.75,
+     "ask": 0.76,
+     "mid": 0.755
     },
     "West Indies": {
-     "bid": 0.23,
-     "ask": 0.24,
-     "mid": 0.235
+     "bid": 0.24,
+     "ask": 0.25,
+     "mid": 0.245
     }
    }
   },
@@ -118,14 +109,14 @@
    "state": "Preview",
    "prices": {
     "India A": {
-     "bid": 0.66,
-     "ask": 0.67,
-     "mid": 0.665
+     "bid": 0.68,
+     "ask": 0.69,
+     "mid": 0.685
     },
     "Australia A": {
-     "bid": 0.33,
-     "ask": 0.34,
-     "mid": 0.335
+     "bid": 0.31,
+     "ask": 0.32,
+     "mid": 0.315
     }
    }
   },
@@ -134,36 +125,17 @@
    "cb_id": 155510,
    "question": "Youth Test Match: India Under-19s vs Australia Under-19s",
    "score": 1.0,
-   "state": "Stumps",
+   "state": "In Progress",
    "prices": {
     "India Under-19s": {
-     "bid": 0.3,
+     "bid": 0.11,
      "ask": 0.95,
-     "mid": 0.625
+     "mid": 0.53
     },
     "Australia Under-19s": {
      "bid": 0.05,
-     "ask": 0.7,
-     "mid": 0.375
-    }
-   }
-  },
-  {
-   "slug": "crint-qat-tha-2026-10-05",
-   "cb_id": 173721,
-   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Qatar vs Thailand",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Qatar": {
-     "bid": 0.87,
      "ask": 0.89,
-     "mid": 0.88
-    },
-    "Thailand": {
-     "bid": 0.11,
-     "ask": 0.13,
-     "mid": 0.12
+     "mid": 0.47000000000000003
     }
    }
   },
@@ -172,41 +144,30 @@
    "cb_id": 173723,
    "question": "T20 World Cup Asia Sub-Regional Qualifier A: Bahrain vs Bhutan",
    "score": 1.0,
-   "state": "Preview",
+   "state": "Toss",
    "prices": {
     "Bahrain": {
-     "bid": 0.84,
-     "ask": 0.85,
-     "mid": 0.845
+     "bid": 0.9,
+     "ask": 0.91,
+     "mid": 0.905
     },
     "Bhutan": {
-     "bid": 0.15,
-     "ask": 0.16,
-     "mid": 0.155
-    }
-   }
-  },
-  {
-   "slug": "crint-kwt-mng-2026-10-06",
-   "cb_id": 173727,
-   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Kuwait vs Mongolia",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Kuwait": {
-     "bid": 0.942,
-     "ask": 0.958,
-     "mid": 0.95
-    },
-    "Mongolia": {
-     "bid": 0.042,
-     "ask": 0.058,
-     "mid": 0.05
+     "bid": 0.09,
+     "ask": 0.1,
+     "mid": 0.095
     }
    }
   }
  ],
  "unpaired": [
+  {
+   "cb_id": 173727,
+   "teams": "Mongolia v Kuwait",
+   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+   "state": "Toss",
+   "date": "2026-10-06",
+   "reason": "no open two outcome cricket market to compare against"
+  },
   {
    "cb_id": 173237,
    "teams": "Western Province v Eastern Storm",
@@ -217,30 +178,30 @@
   }
  ],
  "next_fixture": {
-  "cb_id": 173721,
-  "teams": "QAT v THAI",
-  "teams_full": "Qatar v Thailand",
+  "cb_id": 155433,
+  "teams": "INDA v AUSA",
+  "teams_full": "India A v Australia A",
   "state": "Preview",
-  "status": "Match starts at Oct 06, 01:15 GMT",
-  "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
-  "format": "T20",
+  "status": "Match starts at Oct 06, 08:30 GMT",
+  "series": "Australia A tour of India 2026",
+  "format": "ODI",
   "date": "2026-10-06",
-  "start_ms": 1791249300000
+  "start_ms": 1791275400000
  },
  "coverage": {
   "seen_total": 128,
   "ever_paired": 41,
-  "balls_flowing": 0,
-  "state_says_live": 0
+  "balls_flowing": 1,
+  "state_says_live": 1
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 102,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37391537017",
-  "started_at": "2026-10-05T23:59:31Z",
-  "elapsed_s": 3364,
+  "run_number": 103,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37393268118",
+  "started_at": "2026-10-06T00:18:03Z",
+  "elapsed_s": 23482,
   "elapsed_means": "running for",
-  "runs_total": 103
+  "runs_total": 105
  }
 }
