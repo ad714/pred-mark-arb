@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T18:36:02Z",
+ "generated_at": "2026-10-06T19:32:03Z",
  "matches": [
   {
    "cb_id": 155510,
@@ -66,19 +66,6 @@
    "format": "T20",
    "date": "2026-10-07",
    "start_ms": 1791387000000
-  },
-  {
-   "cb_id": 173237,
-   "teams": "ESTORM v WPR",
-   "teams_full": "Eastern Storm v Western Province",
-   "state": "Innings Break",
-   "status": "Innings Break",
-   "series": "CSA T20 Challenge 2026",
-   "format": "T20",
-   "date": "2026-10-06",
-   "start_ms": 1791302400000,
-   "last_ball_min": 63.7,
-   "balls_flowing": false
   },
   {
    "cb_id": 173257,
@@ -161,14 +148,14 @@
    "state": "Preview",
    "prices": {
     "Australia Champions": {
-     "bid": 0.83,
-     "ask": 0.85,
-     "mid": 0.84
+     "bid": 0.82,
+     "ask": 0.83,
+     "mid": 0.825
     },
     "Bangladesh Champions": {
-     "bid": 0.15,
-     "ask": 0.17,
-     "mid": 0.16
+     "bid": 0.17,
+     "ask": 0.18,
+     "mid": 0.175
     }
    }
   },
@@ -180,14 +167,14 @@
    "state": "Preview",
    "prices": {
     "England Champions": {
-     "bid": 0.6,
+     "bid": 0.63,
      "ask": 0.67,
-     "mid": 0.635
+     "mid": 0.65
     },
     "West Indies Champions": {
      "bid": 0.33,
-     "ask": 0.4,
-     "mid": 0.365
+     "ask": 0.37,
+     "mid": 0.35
     }
    }
   }
@@ -207,14 +194,6 @@
    "series": "ICC CWC League Two 2023-27",
    "state": "Preview",
    "date": "2026-10-07",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 173237,
-   "teams": "Eastern Storm v Western Province",
-   "series": "CSA T20 Challenge 2026",
-   "state": "Innings Break",
-   "date": "2026-10-06",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
@@ -257,7 +236,7 @@
   "seen_total": 135,
   "ever_paired": 44,
   "balls_flowing": 0,
-  "state_says_live": 1
+  "state_says_live": 0
  },
  "trader": {
   "state": "idle",
@@ -265,7 +244,7 @@
   "run_number": 105,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
   "started_at": "2026-10-06T06:49:04Z",
-  "elapsed_s": 10850,
+  "elapsed_s": 14211,
   "elapsed_means": "idle for",
   "runs_total": 105
  }
