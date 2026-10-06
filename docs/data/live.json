@@ -1,64 +1,53 @@
 {
- "generated_at": "2026-10-06T07:08:07Z",
+ "generated_at": "2026-10-06T14:11:11Z",
  "matches": [
   {
    "cb_id": 151565,
-   "teams": "IND v WI",
-   "teams_full": "India v West Indies",
-   "state": "Preview",
-   "status": "Match starts at Oct 06, 13:30 GMT",
-   "series": "India v West Indies",
+   "teams": "WI v IND",
+   "teams_full": "West Indies v India",
+   "state": "In Progress",
+   "status": "India opt to bowl",
+   "series": "West Indies tour of India, 2026",
    "format": "T20",
    "date": "2026-10-06",
-   "start_ms": 1791293400000
+   "start_ms": 1791293400000,
+   "last_ball_min": 0.3,
+   "balls_flowing": true
   },
   {
    "cb_id": 155433,
-   "teams": "INDA v AUSA",
-   "teams_full": "India A v Australia A",
-   "state": "Preview",
-   "status": "Match starts at Oct 06, 08:30 GMT",
+   "teams": "AUSA v INDA",
+   "teams_full": "Australia A v India A",
+   "state": "In Progress",
+   "status": "India A need 197 runs",
    "series": "Australia A tour of India 2026",
    "format": "ODI",
    "date": "2026-10-06",
-   "start_ms": 1791275400000
+   "start_ms": 1791275400000,
+   "last_ball_min": 0.3,
+   "balls_flowing": true
   },
   {
    "cb_id": 155510,
    "teams": "AUSU19 v INDU19",
    "teams_full": "Australia U19 v India U19",
-   "state": "In Progress",
-   "status": "Day 2: 2nd Session - India U19 lead by 5 runs",
+   "state": "Stumps",
+   "status": "Day 2: Stumps - Australia U19 trail by 55 runs",
    "series": "Australia U19 tour of India 2026",
    "format": "TEST",
    "date": "2026-10-05",
-   "start_ms": 1791172800000,
-   "last_ball_min": 7.8,
-   "balls_flowing": true
+   "start_ms": 1791172800000
   },
   {
-   "cb_id": 173723,
-   "teams": "BHR v BTN",
-   "teams_full": "Bahrain v Bhutan",
-   "state": "Toss",
-   "status": "Bahrain opt to bat",
-   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+   "cb_id": 174981,
+   "teams": "AUSCH v BANCH",
+   "teams_full": "Australia Champions v Bangladesh Champions",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 07, 11:30 GMT",
+   "series": "World Championship of Legends 2026",
    "format": "T20",
-   "date": "2026-10-06",
-   "start_ms": 1791266400000
-  },
-  {
-   "cb_id": 173727,
-   "teams": "MGL v KUW",
-   "teams_full": "Mongolia v Kuwait",
-   "state": "In Progress",
-   "status": "Kuwait opt to bowl",
-   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
-   "format": "T20",
-   "date": "2026-10-06",
-   "start_ms": 1791266400000,
-   "last_ball_min": 0.1,
-   "balls_flowing": true
+   "date": "2026-10-07",
+   "start_ms": 1791372600000
   },
   {
    "cb_id": 173237,
@@ -72,15 +61,37 @@
    "start_ms": 1791302400000
   },
   {
+   "cb_id": 173257,
+   "teams": "SWD v LIONS",
+   "teams_full": "South Western Districts v Lions",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 07, 11:00 GMT",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-10-07",
+   "start_ms": 1791370800000
+  },
+  {
    "cb_id": 166583,
    "teams": "VIC v SAUS",
    "teams_full": "Victoria v South Australia",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 07, 23:30 GMT",
    "series": "Sheffield Shield 2026-27",
    "format": "TEST",
    "date": "2026-10-06",
    "start_ms": 1791329400000
+  },
+  {
+   "cb_id": 173123,
+   "teams": "ZIMW v WIW",
+   "teams_full": "Zimbabwe Women v West Indies Women",
+   "state": "Preview",
+   "status": "Match starts at Oct 07, 10:00 GMT",
+   "series": "West Indies Women tour of Zimbabwe, 2026",
+   "format": "T20",
+   "date": "2026-10-07",
+   "start_ms": 1791367200000
   }
  ],
  "pairings": [
@@ -89,17 +100,17 @@
    "cb_id": 151565,
    "question": "West Indies Tour of India T20s: India vs West Indies",
    "score": 1.0,
-   "state": "Preview",
+   "state": "In Progress",
    "prices": {
     "India": {
-     "bid": 0.75,
-     "ask": 0.76,
-     "mid": 0.755
+     "bid": 0.87,
+     "ask": 0.88,
+     "mid": 0.875
     },
     "West Indies": {
-     "bid": 0.24,
-     "ask": 0.25,
-     "mid": 0.245
+     "bid": 0.12,
+     "ask": 0.13,
+     "mid": 0.125
     }
    }
   },
@@ -108,17 +119,17 @@
    "cb_id": 155433,
    "question": "Australia A Tour of India Unofficial ODIs: India A vs Australia A",
    "score": 1.0,
-   "state": "Preview",
+   "state": "In Progress",
    "prices": {
     "India A": {
-     "bid": 0.68,
-     "ask": 0.69,
-     "mid": 0.685
+     "bid": 0.46,
+     "ask": 0.47,
+     "mid": 0.46499999999999997
     },
     "Australia A": {
-     "bid": 0.31,
-     "ask": 0.32,
-     "mid": 0.315
+     "bid": 0.53,
+     "ask": 0.54,
+     "mid": 0.535
     }
    }
   },
@@ -127,49 +138,41 @@
    "cb_id": 155510,
    "question": "Youth Test Match: India Under-19s vs Australia Under-19s",
    "score": 1.0,
-   "state": "In Progress",
+   "state": "Stumps",
    "prices": {
     "India Under-19s": {
-     "bid": 0.11,
-     "ask": 0.95,
-     "mid": 0.53
+     "bid": 0.51,
+     "ask": null,
+     "mid": null
     },
     "Australia Under-19s": {
-     "bid": 0.05,
-     "ask": 0.89,
-     "mid": 0.47000000000000003
+     "bid": null,
+     "ask": 0.49,
+     "mid": null
     }
    }
   },
   {
-   "slug": "crint-bhr-btn-2026-10-06",
-   "cb_id": 173723,
-   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Bahrain vs Bhutan",
+   "slug": "crint-zwew-wstw-2026-10-07",
+   "cb_id": 173123,
+   "question": "West Indies Women Tour of Zimbabwe T20s: Zimbabwe Women vs West Indies Women",
    "score": 1.0,
-   "state": "Toss",
+   "state": "Preview",
    "prices": {
-    "Bahrain": {
-     "bid": 0.93,
-     "ask": 0.94,
-     "mid": 0.935
+    "Zimbabwe Women": {
+     "bid": 0.1,
+     "ask": 0.11,
+     "mid": 0.10500000000000001
     },
-    "Bhutan": {
-     "bid": 0.06,
-     "ask": 0.07,
-     "mid": 0.065
+    "West Indies Women": {
+     "bid": 0.89,
+     "ask": 0.9,
+     "mid": 0.895
     }
    }
   }
  ],
  "unpaired": [
-  {
-   "cb_id": 173727,
-   "teams": "Mongolia v Kuwait",
-   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
-   "state": "In Progress",
-   "date": "2026-10-06",
-   "reason": "no open two outcome cricket market to compare against"
-  },
   {
    "cb_id": 173237,
    "teams": "Western Province v Eastern Storm",
@@ -177,32 +180,40 @@
    "state": "Preview",
    "date": "2026-10-06",
    "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 166583,
+   "teams": "Victoria v South Australia",
+   "series": "Sheffield Shield 2026-27",
+   "state": "Preview",
+   "date": "2026-10-06",
+   "reason": "no open two outcome cricket market to compare against"
   }
  ],
  "next_fixture": {
-  "cb_id": 155433,
-  "teams": "INDA v AUSA",
-  "teams_full": "India A v Australia A",
+  "cb_id": 173123,
+  "teams": "ZIMW v WIW",
+  "teams_full": "Zimbabwe Women v West Indies Women",
   "state": "Preview",
-  "status": "Match starts at Oct 06, 08:30 GMT",
-  "series": "Australia A tour of India 2026",
-  "format": "ODI",
-  "date": "2026-10-06",
-  "start_ms": 1791275400000
+  "status": "Match starts at Oct 07, 10:00 GMT",
+  "series": "West Indies Women tour of Zimbabwe, 2026",
+  "format": "T20",
+  "date": "2026-10-07",
+  "start_ms": 1791367200000
  },
  "coverage": {
-  "seen_total": 128,
-  "ever_paired": 41,
+  "seen_total": 131,
+  "ever_paired": 42,
   "balls_flowing": 2,
   "state_says_live": 2
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 103,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37393268118",
-  "started_at": "2026-10-06T00:18:03Z",
-  "elapsed_s": 24605,
+  "run_number": 105,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
+  "started_at": "2026-10-06T06:49:04Z",
+  "elapsed_s": 26528,
   "elapsed_means": "running for",
   "runs_total": 105
  }
