@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05T19:29:47Z",
+ "generated_at": "2026-10-06T00:18:36Z",
  "matches": [
   {
    "cb_id": 151565,
@@ -11,19 +11,6 @@
    "format": "T20",
    "date": "2026-10-06",
    "start_ms": 1791293400000
-  },
-  {
-   "cb_id": 174057,
-   "teams": "UAE v USA",
-   "teams_full": "United Arab Emirates v United States of America",
-   "state": "Innings Break",
-   "status": "Innings Break",
-   "series": "ICC Cricket World Cup League Two 2023-27",
-   "format": "ODI",
-   "date": "2026-10-05",
-   "start_ms": 1791212400000,
-   "last_ball_min": 27.5,
-   "balls_flowing": false
   },
   {
    "cb_id": 155433,
@@ -90,6 +77,17 @@
    "format": "T20",
    "date": "2026-10-06",
    "start_ms": 1791302400000
+  },
+  {
+   "cb_id": 166583,
+   "teams": "VIC v SAUS",
+   "teams_full": "Victoria v South Australia",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 07, 23:30 GMT",
+   "series": "Sheffield Shield 2026-27",
+   "format": "TEST",
+   "date": "2026-10-06",
+   "start_ms": 1791329400000
   }
  ],
  "pairings": [
@@ -158,14 +156,14 @@
    "state": "Preview",
    "prices": {
     "Qatar": {
-     "bid": 0.87,
-     "ask": 0.88,
-     "mid": 0.875
+     "bid": 0.86,
+     "ask": 0.87,
+     "mid": 0.865
     },
     "Thailand": {
-     "bid": 0.12,
-     "ask": 0.13,
-     "mid": 0.125
+     "bid": 0.13,
+     "ask": 0.14,
+     "mid": 0.135
     }
    }
   },
@@ -177,14 +175,14 @@
    "state": "Preview",
    "prices": {
     "Bahrain": {
-     "bid": 0.82,
-     "ask": 0.84,
-     "mid": 0.83
+     "bid": 0.84,
+     "ask": 0.85,
+     "mid": 0.845
     },
     "Bhutan": {
-     "bid": 0.16,
-     "ask": 0.18,
-     "mid": 0.16999999999999998
+     "bid": 0.15,
+     "ask": 0.16,
+     "mid": 0.155
     }
    }
   },
@@ -196,27 +194,19 @@
    "state": "Preview",
    "prices": {
     "Kuwait": {
-     "bid": 0.94,
-     "ask": 0.949,
-     "mid": 0.9444999999999999
+     "bid": 0.95,
+     "ask": 0.959,
+     "mid": 0.9544999999999999
     },
     "Mongolia": {
-     "bid": 0.051,
-     "ask": 0.06,
-     "mid": 0.055499999999999994
+     "bid": 0.041,
+     "ask": 0.05,
+     "mid": 0.0455
     }
    }
   }
  ],
  "unpaired": [
-  {
-   "cb_id": 174057,
-   "teams": "United Arab Emirates v United States of America",
-   "series": "ICC Cricket World Cup League Two 2023-27",
-   "state": "Innings Break",
-   "date": "2026-10-05",
-   "reason": "no open two outcome cricket market to compare against"
-  },
   {
    "cb_id": 173237,
    "teams": "Western Province v Eastern Storm",
@@ -238,19 +228,19 @@
   "start_ms": 1791249300000
  },
  "coverage": {
-  "seen_total": 127,
+  "seen_total": 128,
   "ever_paired": 41,
   "balls_flowing": 0,
-  "state_says_live": 1
+  "state_says_live": 0
  },
  "trader": {
   "state": "in_progress",
   "conclusion": null,
-  "run_number": 101,
-  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37331105499",
-  "started_at": "2026-10-05T15:13:47Z",
-  "elapsed_s": 15360,
+  "run_number": 102,
+  "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37391537017",
+  "started_at": "2026-10-05T23:59:31Z",
+  "elapsed_s": 1145,
   "elapsed_means": "running for",
-  "runs_total": 101
+  "runs_total": 103
  }
 }
