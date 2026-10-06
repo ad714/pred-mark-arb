@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T00:18:36Z",
+ "generated_at": "2026-10-06T00:55:35Z",
  "matches": [
   {
    "cb_id": 151565,
@@ -99,14 +99,14 @@
    "state": "Preview",
    "prices": {
     "India": {
-     "bid": 0.77,
-     "ask": 0.78,
-     "mid": 0.775
+     "bid": 0.76,
+     "ask": 0.77,
+     "mid": 0.765
     },
     "West Indies": {
-     "bid": 0.22,
-     "ask": 0.23,
-     "mid": 0.225
+     "bid": 0.23,
+     "ask": 0.24,
+     "mid": 0.235
     }
    }
   },
@@ -156,14 +156,14 @@
    "state": "Preview",
    "prices": {
     "Qatar": {
-     "bid": 0.86,
-     "ask": 0.87,
-     "mid": 0.865
+     "bid": 0.87,
+     "ask": 0.89,
+     "mid": 0.88
     },
     "Thailand": {
-     "bid": 0.13,
-     "ask": 0.14,
-     "mid": 0.135
+     "bid": 0.11,
+     "ask": 0.13,
+     "mid": 0.12
     }
    }
   },
@@ -194,14 +194,14 @@
    "state": "Preview",
    "prices": {
     "Kuwait": {
-     "bid": 0.95,
-     "ask": 0.959,
-     "mid": 0.9544999999999999
+     "bid": 0.942,
+     "ask": 0.958,
+     "mid": 0.95
     },
     "Mongolia": {
-     "bid": 0.041,
-     "ask": 0.05,
-     "mid": 0.0455
+     "bid": 0.042,
+     "ask": 0.058,
+     "mid": 0.05
     }
    }
   }
@@ -239,7 +239,7 @@
   "run_number": 102,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37391537017",
   "started_at": "2026-10-05T23:59:31Z",
-  "elapsed_s": 1145,
+  "elapsed_s": 3364,
   "elapsed_means": "running for",
   "runs_total": 103
  }
