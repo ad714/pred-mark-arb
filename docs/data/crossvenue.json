@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-07T19:11:04Z",
+ "checked_at": "2026-10-07T19:14:16Z",
  "pairs_joined": 3023,
  "pairs_watched": 606,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "LOL_26OCT07_KHKUSE_M4ML.KHK",
-   "slug": "lol-khk-use1-2026-10-07-game4",
-   "event": "Kaufland Hangry Knights vs Unicorns Of Love Sexy Edition, Map 4 Winner",
-   "outcome": "Kaufland Hangry Knights",
-   "days": 0.117,
-   "resolves": "2026-10-07T22:00:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.1259,
-   "capital": 19.72,
-   "shares": 20.0,
-   "edge": 0.0063,
-   "fees": 0.1541,
-   "buy": 0.87,
-   "sell": 0.884
-  }
- ]
+ "hits": []
 }
