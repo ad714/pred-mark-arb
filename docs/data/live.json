@@ -1,31 +1,29 @@
 {
- "generated_at": "2026-10-07T16:45:20Z",
+ "generated_at": "2026-10-07T21:38:01Z",
  "matches": [
   {
    "cb_id": 174067,
    "teams": "NAM v USA",
    "teams_full": "Namibia v United States of America",
    "state": "In Progress",
-   "status": "Namibia opt to bat",
+   "status": "United States of America need 75 runs in 79 balls",
    "series": "ICC Cricket World Cup League Two 2023-27",
    "format": "ODI",
    "date": "2026-10-07",
    "start_ms": 1791385200000,
-   "last_ball_min": 1.0,
+   "last_ball_min": 0.9,
    "balls_flowing": true
   },
   {
-   "cb_id": 174990,
-   "teams": "ENGCH v WICH",
-   "teams_full": "England Champions v West Indies Champions",
-   "state": "In Progress",
-   "status": "West Indies Champions opt to bowl",
-   "series": "World Championship of Legends 2026",
+   "cb_id": 173737,
+   "teams": "KUW v THAI",
+   "teams_full": "Kuwait v Thailand",
+   "state": "Preview",
+   "status": "Match starts at Oct 08, 01:15 GMT",
+   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
    "format": "T20",
-   "date": "2026-10-07",
-   "start_ms": 1791387000000,
-   "last_ball_min": 0.8,
-   "balls_flowing": true
+   "date": "2026-10-08",
+   "start_ms": 1791422100000
   },
   {
    "cb_id": 173740,
@@ -42,17 +40,6 @@
    "cb_id": 173750,
    "teams": "BHR v MMR",
    "teams_full": "Bahrain v Myanmar",
-   "state": "Preview",
-   "status": "Match starts at Oct 08, 01:15 GMT",
-   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
-   "format": "T20",
-   "date": "2026-10-08",
-   "start_ms": 1791422100000
-  },
-  {
-   "cb_id": 173737,
-   "teams": "KUW v THAI",
-   "teams_full": "Kuwait v Thailand",
    "state": "Preview",
    "status": "Match starts at Oct 08, 01:15 GMT",
    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
@@ -184,21 +171,21 @@
  ],
  "pairings": [
   {
-   "slug": "cricwcl-eng-wes-2026-10-07",
-   "cb_id": 174990,
-   "question": "World Championship of Legends: England Champions vs West Indies Champions",
+   "slug": "crint-kwt-tha-2026-10-07",
+   "cb_id": 173737,
+   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Kuwait vs Thailand",
    "score": 1.0,
-   "state": "In Progress",
+   "state": "Preview",
    "prices": {
-    "England Champions": {
-     "bid": 0.62,
-     "ask": 0.63,
-     "mid": 0.625
+    "Kuwait": {
+     "bid": 0.93,
+     "ask": 0.94,
+     "mid": 0.935
     },
-    "West Indies Champions": {
-     "bid": 0.37,
-     "ask": 0.38,
-     "mid": 0.375
+    "Thailand": {
+     "bid": 0.06,
+     "ask": 0.07,
+     "mid": 0.065
     }
    }
   },
@@ -210,14 +197,14 @@
    "state": "Preview",
    "prices": {
     "Bhutan": {
-     "bid": 0.95,
-     "ask": 0.959,
-     "mid": 0.9544999999999999
+     "bid": 0.969,
+     "ask": 0.97,
+     "mid": 0.9695
     },
     "Mongolia": {
-     "bid": 0.041,
-     "ask": 0.05,
-     "mid": 0.0455
+     "bid": 0.03,
+     "ask": 0.031,
+     "mid": 0.0305
     }
    }
   },
@@ -229,33 +216,14 @@
    "state": "Preview",
    "prices": {
     "Bahrain": {
-     "bid": 0.954,
-     "ask": 0.955,
-     "mid": 0.9544999999999999
+     "bid": 0.959,
+     "ask": 0.96,
+     "mid": 0.9595
     },
     "Myanmar": {
-     "bid": 0.045,
-     "ask": 0.046,
-     "mid": 0.0455
-    }
-   }
-  },
-  {
-   "slug": "crint-kwt-tha-2026-10-07",
-   "cb_id": 173737,
-   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Kuwait vs Thailand",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Kuwait": {
-     "bid": 0.91,
-     "ask": 0.92,
-     "mid": 0.915
-    },
-    "Thailand": {
-     "bid": 0.08,
-     "ask": 0.09,
-     "mid": 0.08499999999999999
+     "bid": 0.04,
+     "ask": 0.041,
+     "mid": 0.0405
     }
    }
   }
@@ -319,9 +287,9 @@
   }
  ],
  "next_fixture": {
-  "cb_id": 173740,
-  "teams": "BTN v MGL",
-  "teams_full": "Bhutan v Mongolia",
+  "cb_id": 173737,
+  "teams": "KUW v THAI",
+  "teams_full": "Kuwait v Thailand",
   "state": "Preview",
   "status": "Match starts at Oct 08, 01:15 GMT",
   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
@@ -332,8 +300,8 @@
  "coverage": {
   "seen_total": 145,
   "ever_paired": 47,
-  "balls_flowing": 2,
-  "state_says_live": 2
+  "balls_flowing": 1,
+  "state_says_live": 1
  },
  "trader": {
   "state": "idle",
@@ -341,7 +309,7 @@
   "run_number": 105,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
   "started_at": "2026-10-06T06:49:04Z",
-  "elapsed_s": 90608,
+  "elapsed_s": 108169,
   "elapsed_means": "idle for",
   "runs_total": 105
  }
