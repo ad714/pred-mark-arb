@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06T23:15:37Z",
+ "generated_at": "2026-10-07T02:34:13Z",
  "matches": [
   {
    "cb_id": 155510,
@@ -16,12 +16,14 @@
    "cb_id": 166583,
    "teams": "VIC v SAUS",
    "teams_full": "Victoria v South Australia",
-   "state": "Toss",
-   "status": "South Australia opt to bowl",
+   "state": "In Progress",
+   "status": "Day 1: 2nd Session",
    "series": "Sheffield Shield 2026-27",
    "format": "TEST",
    "date": "2026-10-06",
-   "start_ms": 1791329400000
+   "start_ms": 1791329400000,
+   "last_ball_min": 1.3,
+   "balls_flowing": true
   },
   {
    "cb_id": 173123,
@@ -55,6 +57,39 @@
    "format": "ODI",
    "date": "2026-10-07",
    "start_ms": 1791385200000
+  },
+  {
+   "cb_id": 173737,
+   "teams": "KUW v THAI",
+   "teams_full": "Kuwait v Thailand",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 08, 01:15 GMT",
+   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+   "format": "T20",
+   "date": "2026-10-08",
+   "start_ms": 1791422100000
+  },
+  {
+   "cb_id": 173740,
+   "teams": "BTN v MGL",
+   "teams_full": "Bhutan v Mongolia",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 08, 01:15 GMT",
+   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+   "format": "T20",
+   "date": "2026-10-08",
+   "start_ms": 1791422100000
+  },
+  {
+   "cb_id": 173750,
+   "teams": "BHR v MMR",
+   "teams_full": "Bahrain v Myanmar",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 08, 01:15 GMT",
+   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+   "format": "T20",
+   "date": "2026-10-08",
+   "start_ms": 1791422100000
   },
   {
    "cb_id": 174990,
@@ -99,6 +134,28 @@
    "format": "T20",
    "date": "2026-10-07",
    "start_ms": 1791388800000
+  },
+  {
+   "cb_id": 166587,
+   "teams": "NSW v TAS",
+   "teams_full": "New South Wales v Tasmania",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 08, 23:30 GMT",
+   "series": "Sheffield Shield 2026-27",
+   "format": "TEST",
+   "date": "2026-10-07",
+   "start_ms": 1791415800000
+  },
+  {
+   "cb_id": 166600,
+   "teams": "WA v QL",
+   "teams_full": "Western Australia v Queensland",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 08, 02:30 GMT",
+   "series": "Sheffield Shield 2026-27",
+   "format": "TEST",
+   "date": "2026-10-08",
+   "start_ms": 1791426600000
   }
  ],
  "pairings": [
@@ -129,14 +186,14 @@
    "state": "Preview",
    "prices": {
     "Zimbabwe Women": {
-     "bid": 0.1,
+     "bid": 0.11,
      "ask": 0.12,
-     "mid": 0.11
+     "mid": 0.11499999999999999
     },
     "West Indies Women": {
      "bid": 0.88,
-     "ask": 0.9,
-     "mid": 0.89
+     "ask": 0.89,
+     "mid": 0.885
     }
    }
   },
@@ -148,14 +205,14 @@
    "state": "Preview",
    "prices": {
     "Australia Champions": {
-     "bid": 0.83,
+     "bid": 0.85,
      "ask": 0.86,
-     "mid": 0.845
+     "mid": 0.855
     },
     "Bangladesh Champions": {
      "bid": 0.14,
-     "ask": 0.17,
-     "mid": 0.15500000000000003
+     "ask": 0.15,
+     "mid": 0.14500000000000002
     }
    }
   },
@@ -167,14 +224,14 @@
    "state": "Preview",
    "prices": {
     "England Champions": {
-     "bid": 0.66,
-     "ask": 0.67,
-     "mid": 0.665
+     "bid": 0.67,
+     "ask": 0.73,
+     "mid": 0.7
     },
     "West Indies Champions": {
-     "bid": 0.33,
-     "ask": 0.34,
-     "mid": 0.335
+     "bid": 0.27,
+     "ask": 0.33,
+     "mid": 0.30000000000000004
     }
    }
   }
@@ -184,7 +241,7 @@
    "cb_id": 166583,
    "teams": "Victoria v South Australia",
    "series": "Sheffield Shield 2026-27",
-   "state": "Toss",
+   "state": "In Progress",
    "date": "2026-10-06",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -233,10 +290,10 @@
   "start_ms": 1791367200000
  },
  "coverage": {
-  "seen_total": 135,
+  "seen_total": 140,
   "ever_paired": 44,
-  "balls_flowing": 0,
-  "state_says_live": 0
+  "balls_flowing": 1,
+  "state_says_live": 1
  },
  "trader": {
   "state": "idle",
@@ -244,7 +301,7 @@
   "run_number": 105,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
   "started_at": "2026-10-06T06:49:04Z",
-  "elapsed_s": 27625,
+  "elapsed_s": 39541,
   "elapsed_means": "idle for",
   "runs_total": 105
  }
