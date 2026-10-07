@@ -1,10 +1,43 @@
 {
- "checked_at": "2026-10-07T19:55:30Z",
- "pairs_joined": 3010,
- "pairs_watched": 594,
+ "checked_at": "2026-10-07T21:59:49Z",
+ "pairs_joined": 3006,
+ "pairs_watched": 590,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
- "unread_poly": 100,
- "hits": []
+ "unread_poly": 0,
+ "hits": [
+  {
+   "symbol": "MLB_26OCT07_CLECWS_ML.CLE",
+   "slug": "mlb-cle-cws-2026-10-07",
+   "event": "Guardians vs White Sox, Oct 7, Moneyline",
+   "outcome": "Cleveland Guardians",
+   "days": 0.084,
+   "resolves": "2026-10-08T00:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 4.1007,
+   "capital": 25.0,
+   "shares": 29.4,
+   "edge": 0.1394,
+   "fees": 0.311,
+   "buy": 0.7,
+   "sell": 0.85
+  },
+  {
+   "symbol": "LOL_26OCT07_DSGMU_ML.DSG",
+   "slug": "lol-dsg-mvu-2026-10-07",
+   "event": "Disguised vs Maryville University, Match Winner",
+   "outcome": "Disguised",
+   "days": 0.209,
+   "resolves": "2026-10-08T03:00:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.1445,
+   "capital": 25.0,
+   "shares": 25.6,
+   "edge": 0.0056,
+   "fees": 0.4416,
+   "buy": 0.44,
+   "sell": 0.459
+  }
+ ]
 }
