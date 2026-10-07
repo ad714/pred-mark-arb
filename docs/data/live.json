@@ -1,6 +1,19 @@
 {
- "generated_at": "2026-10-07T09:16:21Z",
+ "generated_at": "2026-10-07T13:51:22Z",
  "matches": [
+  {
+   "cb_id": 174981,
+   "teams": "AUSCH v BANCH",
+   "teams_full": "Australia Champions v Bangladesh Champions",
+   "state": "In Progress",
+   "status": "Bangladesh Champions need 147 runs in 80 balls",
+   "series": "World Championship of Legends 2026",
+   "format": "T20",
+   "date": "2026-10-07",
+   "start_ms": 1791372600000,
+   "last_ball_min": 0.6,
+   "balls_flowing": true
+  },
   {
    "cb_id": 166583,
    "teams": "VIC v SAUS",
@@ -11,28 +24,6 @@
    "format": "TEST",
    "date": "2026-10-06",
    "start_ms": 1791329400000
-  },
-  {
-   "cb_id": 173123,
-   "teams": "ZIMW v WIW",
-   "teams_full": "Zimbabwe Women v West Indies Women",
-   "state": "Preview",
-   "status": "Match starts at Oct 07, 10:00 GMT",
-   "series": "West Indies Women tour of Zimbabwe, 2026",
-   "format": "T20",
-   "date": "2026-10-07",
-   "start_ms": 1791367200000
-  },
-  {
-   "cb_id": 174981,
-   "teams": "AUSCH v BANCH",
-   "teams_full": "Australia Champions v Bangladesh Champions",
-   "state": "Preview",
-   "status": "Match starts at Oct 07, 11:30 GMT",
-   "series": "World Championship of Legends 2026",
-   "format": "T20",
-   "date": "2026-10-07",
-   "start_ms": 1791372600000
   },
   {
    "cb_id": 174067,
@@ -49,7 +40,7 @@
    "cb_id": 173737,
    "teams": "KUW v THAI",
    "teams_full": "Kuwait v Thailand",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 08, 01:15 GMT",
    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
    "format": "T20",
@@ -60,7 +51,7 @@
    "cb_id": 173740,
    "teams": "BTN v MGL",
    "teams_full": "Bhutan v Mongolia",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 08, 01:15 GMT",
    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
    "format": "T20",
@@ -124,10 +115,10 @@
   },
   {
    "cb_id": 173257,
-   "teams": "SWD v LIONS",
-   "teams_full": "South Western Districts v Lions",
-   "state": "Preview",
-   "status": "Match starts at Oct 07, 11:00 GMT",
+   "teams": "LIONS v SWD",
+   "teams_full": "Lions v South Western Districts",
+   "state": "Toss",
+   "status": "South Western Districts opt to bowl",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
    "date": "2026-10-07",
@@ -180,40 +171,59 @@
  ],
  "pairings": [
   {
-   "slug": "crint-zwew-wstw-2026-10-07",
-   "cb_id": 173123,
-   "question": "West Indies Women Tour of Zimbabwe T20s: Zimbabwe Women vs West Indies Women",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Zimbabwe Women": {
-     "bid": 0.1,
-     "ask": 0.11,
-     "mid": 0.10500000000000001
-    },
-    "West Indies Women": {
-     "bid": 0.89,
-     "ask": 0.9,
-     "mid": 0.895
-    }
-   }
-  },
-  {
    "slug": "cricwcl-aus-ban-2026-10-07",
    "cb_id": 174981,
    "question": "World Championship of Legends: Australia Champions vs Bangladesh Champions",
    "score": 1.0,
-   "state": "Preview",
+   "state": "In Progress",
    "prices": {
     "Australia Champions": {
-     "bid": 0.84,
-     "ask": 0.86,
-     "mid": 0.85
+     "bid": 0.95,
+     "ask": 0.958,
+     "mid": 0.954
     },
     "Bangladesh Champions": {
-     "bid": 0.14,
-     "ask": 0.16,
-     "mid": 0.15000000000000002
+     "bid": 0.042,
+     "ask": 0.05,
+     "mid": 0.046
+    }
+   }
+  },
+  {
+   "slug": "crint-kwt-tha-2026-10-07",
+   "cb_id": 173737,
+   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Kuwait vs Thailand",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Kuwait": {
+     "bid": 0.82,
+     "ask": 0.92,
+     "mid": 0.87
+    },
+    "Thailand": {
+     "bid": 0.08,
+     "ask": 0.18,
+     "mid": 0.13
+    }
+   }
+  },
+  {
+   "slug": "crint-btn-mng-2026-10-07",
+   "cb_id": 173740,
+   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Bhutan vs Mongolia",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Bhutan": {
+     "bid": 0.95,
+     "ask": 0.959,
+     "mid": 0.9544999999999999
+    },
+    "Mongolia": {
+     "bid": 0.041,
+     "ask": 0.05,
+     "mid": 0.0455
     }
    }
   },
@@ -226,13 +236,13 @@
    "prices": {
     "England Champions": {
      "bid": 0.67,
-     "ask": 0.68,
-     "mid": 0.675
+     "ask": 0.69,
+     "mid": 0.6799999999999999
     },
     "West Indies Champions": {
-     "bid": 0.32,
+     "bid": 0.31,
      "ask": 0.33,
-     "mid": 0.325
+     "mid": 0.32
     }
    }
   }
@@ -256,9 +266,9 @@
   },
   {
    "cb_id": 173257,
-   "teams": "South Western Districts v Lions",
+   "teams": "Lions v South Western Districts",
    "series": "CSA T20 Challenge 2026",
-   "state": "Preview",
+   "state": "Toss",
    "date": "2026-10-07",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -296,21 +306,21 @@
   }
  ],
  "next_fixture": {
-  "cb_id": 173123,
-  "teams": "ZIMW v WIW",
-  "teams_full": "Zimbabwe Women v West Indies Women",
+  "cb_id": 174990,
+  "teams": "ENGCH v WICH",
+  "teams_full": "England Champions v West Indies Champions",
   "state": "Preview",
-  "status": "Match starts at Oct 07, 10:00 GMT",
-  "series": "West Indies Women tour of Zimbabwe, 2026",
+  "status": "Match starts at Oct 07, 15:30 GMT",
+  "series": "World Championship of Legends 2026",
   "format": "T20",
   "date": "2026-10-07",
-  "start_ms": 1791367200000
+  "start_ms": 1791387000000
  },
  "coverage": {
   "seen_total": 143,
-  "ever_paired": 44,
-  "balls_flowing": 0,
-  "state_says_live": 0
+  "ever_paired": 46,
+  "balls_flowing": 1,
+  "state_says_live": 1
  },
  "trader": {
   "state": "idle",
@@ -318,7 +328,7 @@
   "run_number": 105,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
   "started_at": "2026-10-06T06:49:04Z",
-  "elapsed_s": 63669,
+  "elapsed_s": 80170,
   "elapsed_means": "idle for",
   "runs_total": 105
  }
