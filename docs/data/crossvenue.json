@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-07T19:07:49Z",
+ "checked_at": "2026-10-07T19:11:04Z",
  "pairs_joined": 3023,
  "pairs_watched": 606,
  "capital_cap": 25.0,
@@ -8,20 +8,20 @@
  "unread_poly": 0,
  "hits": [
   {
-   "symbol": "LOL_26OCT07_HRTSG2N_M4ML.HRTS",
-   "slug": "lol-hrts-g2nord-2026-10-07-game4",
-   "event": "Team Heretics Academy vs G2 NORD, Map 4 Winner",
-   "outcome": "Team Heretics Academy",
-   "days": 0.12,
+   "symbol": "LOL_26OCT07_KHKUSE_M4ML.KHK",
+   "slug": "lol-khk-use1-2026-10-07-game4",
+   "event": "Kaufland Hangry Knights vs Unicorns Of Love Sexy Edition, Map 4 Winner",
+   "outcome": "Kaufland Hangry Knights",
+   "days": 0.117,
    "resolves": "2026-10-07T22:00:00+00:00",
    "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.113,
-   "capital": 25.0,
-   "shares": 25.5,
-   "edge": 0.0044,
-   "fees": 0.3972,
-   "buy": 0.66,
-   "sell": 0.68
+   "profit": 0.1259,
+   "capital": 19.72,
+   "shares": 20.0,
+   "edge": 0.0063,
+   "fees": 0.1541,
+   "buy": 0.87,
+   "sell": 0.884
   }
  ]
 }
