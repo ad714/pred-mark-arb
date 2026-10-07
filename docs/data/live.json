@@ -1,19 +1,6 @@
 {
- "generated_at": "2026-10-07T21:38:01Z",
+ "generated_at": "2026-10-07T23:17:54Z",
  "matches": [
-  {
-   "cb_id": 174067,
-   "teams": "NAM v USA",
-   "teams_full": "Namibia v United States of America",
-   "state": "In Progress",
-   "status": "United States of America need 75 runs in 79 balls",
-   "series": "ICC Cricket World Cup League Two 2023-27",
-   "format": "ODI",
-   "date": "2026-10-07",
-   "start_ms": 1791385200000,
-   "last_ball_min": 0.9,
-   "balls_flowing": true
-  },
   {
    "cb_id": 173737,
    "teams": "KUW v THAI",
@@ -178,14 +165,14 @@
    "state": "Preview",
    "prices": {
     "Kuwait": {
-     "bid": 0.93,
-     "ask": 0.94,
-     "mid": 0.935
+     "bid": 0.9,
+     "ask": 0.92,
+     "mid": 0.91
     },
     "Thailand": {
-     "bid": 0.06,
-     "ask": 0.07,
-     "mid": 0.065
+     "bid": 0.08,
+     "ask": 0.1,
+     "mid": 0.09
     }
    }
   },
@@ -197,14 +184,14 @@
    "state": "Preview",
    "prices": {
     "Bhutan": {
-     "bid": 0.969,
-     "ask": 0.97,
-     "mid": 0.9695
+     "bid": 0.973,
+     "ask": 0.978,
+     "mid": 0.9755
     },
     "Mongolia": {
-     "bid": 0.03,
-     "ask": 0.031,
-     "mid": 0.0305
+     "bid": 0.022,
+     "ask": 0.027,
+     "mid": 0.0245
     }
    }
   },
@@ -216,27 +203,19 @@
    "state": "Preview",
    "prices": {
     "Bahrain": {
-     "bid": 0.959,
-     "ask": 0.96,
-     "mid": 0.9595
+     "bid": 0.958,
+     "ask": 0.959,
+     "mid": 0.9584999999999999
     },
     "Myanmar": {
-     "bid": 0.04,
-     "ask": 0.041,
-     "mid": 0.0405
+     "bid": 0.041,
+     "ask": 0.042,
+     "mid": 0.0415
     }
    }
   }
  ],
  "unpaired": [
-  {
-   "cb_id": 174067,
-   "teams": "Namibia v United States of America",
-   "series": "ICC Cricket World Cup League Two 2023-27",
-   "state": "In Progress",
-   "date": "2026-10-07",
-   "reason": "no open two outcome cricket market to compare against"
-  },
   {
    "cb_id": 173257,
    "teams": "Lions v South Western Districts",
@@ -300,8 +279,8 @@
  "coverage": {
   "seen_total": 145,
   "ever_paired": 47,
-  "balls_flowing": 1,
-  "state_says_live": 1
+  "balls_flowing": 0,
+  "state_says_live": 0
  },
  "trader": {
   "state": "idle",
@@ -309,7 +288,7 @@
   "run_number": 105,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
   "started_at": "2026-10-06T06:49:04Z",
-  "elapsed_s": 108169,
+  "elapsed_s": 114162,
   "elapsed_means": "idle for",
   "runs_total": 105
  }
