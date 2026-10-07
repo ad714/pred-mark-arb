@@ -1,51 +1,31 @@
 {
- "generated_at": "2026-10-07T13:51:22Z",
+ "generated_at": "2026-10-07T16:45:20Z",
  "matches": [
   {
-   "cb_id": 174981,
-   "teams": "AUSCH v BANCH",
-   "teams_full": "Australia Champions v Bangladesh Champions",
+   "cb_id": 174067,
+   "teams": "NAM v USA",
+   "teams_full": "Namibia v United States of America",
    "state": "In Progress",
-   "status": "Bangladesh Champions need 147 runs in 80 balls",
-   "series": "World Championship of Legends 2026",
-   "format": "T20",
+   "status": "Namibia opt to bat",
+   "series": "ICC Cricket World Cup League Two 2023-27",
+   "format": "ODI",
    "date": "2026-10-07",
-   "start_ms": 1791372600000,
-   "last_ball_min": 0.6,
+   "start_ms": 1791385200000,
+   "last_ball_min": 1.0,
    "balls_flowing": true
   },
   {
-   "cb_id": 166583,
-   "teams": "VIC v SAUS",
-   "teams_full": "Victoria v South Australia",
-   "state": "Stumps",
-   "status": "Day 1: Stumps - South Australia trail by 240 runs",
-   "series": "Sheffield Shield 2026-27",
-   "format": "TEST",
-   "date": "2026-10-06",
-   "start_ms": 1791329400000
-  },
-  {
-   "cb_id": 174067,
-   "teams": "USA v NAM",
-   "teams_full": "United States of America v Namibia",
-   "state": "Preview",
-   "status": "Match starts at Oct 07, 15:00 GMT",
-   "series": "ICC CWC League Two 2023-27",
-   "format": "ODI",
-   "date": "2026-10-07",
-   "start_ms": 1791385200000
-  },
-  {
-   "cb_id": 173737,
-   "teams": "KUW v THAI",
-   "teams_full": "Kuwait v Thailand",
-   "state": "Preview",
-   "status": "Match starts at Oct 08, 01:15 GMT",
-   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+   "cb_id": 174990,
+   "teams": "ENGCH v WICH",
+   "teams_full": "England Champions v West Indies Champions",
+   "state": "In Progress",
+   "status": "West Indies Champions opt to bowl",
+   "series": "World Championship of Legends 2026",
    "format": "T20",
-   "date": "2026-10-08",
-   "start_ms": 1791422100000
+   "date": "2026-10-07",
+   "start_ms": 1791387000000,
+   "last_ball_min": 0.8,
+   "balls_flowing": true
   },
   {
    "cb_id": 173740,
@@ -62,7 +42,18 @@
    "cb_id": 173750,
    "teams": "BHR v MMR",
    "teams_full": "Bahrain v Myanmar",
-   "state": "Upcoming",
+   "state": "Preview",
+   "status": "Match starts at Oct 08, 01:15 GMT",
+   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+   "format": "T20",
+   "date": "2026-10-08",
+   "start_ms": 1791422100000
+  },
+  {
+   "cb_id": 173737,
+   "teams": "KUW v THAI",
+   "teams_full": "Kuwait v Thailand",
+   "state": "Preview",
    "status": "Match starts at Oct 08, 01:15 GMT",
    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
    "format": "T20",
@@ -103,17 +94,6 @@
    "start_ms": 1791439200000
   },
   {
-   "cb_id": 174990,
-   "teams": "ENGCH v WICH",
-   "teams_full": "England Champions v West Indies Champions",
-   "state": "Preview",
-   "status": "Match starts at Oct 07, 15:30 GMT",
-   "series": "World Championship of Legends 2026",
-   "format": "T20",
-   "date": "2026-10-07",
-   "start_ms": 1791387000000
-  },
-  {
    "cb_id": 173257,
    "teams": "LIONS v SWD",
    "teams_full": "Lions v South Western Districts",
@@ -128,8 +108,8 @@
    "cb_id": 173247,
    "teams": "KNG v KZNIN",
    "teams_full": "Knights v KwaZulu-Natal Inland Tuskers",
-   "state": "Preview",
-   "status": "Match starts at Oct 07, 16:00 GMT",
+   "state": "Toss",
+   "status": "KwaZulu-Natal Inland - Tuskers opt to bowl",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
    "date": "2026-10-07",
@@ -137,14 +117,47 @@
   },
   {
    "cb_id": 173267,
-   "teams": "TIT v SAEP",
-   "teams_full": "Titans v South Africa Emerging Players",
-   "state": "Preview",
-   "status": "Match starts at Oct 07, 16:00 GMT",
+   "teams": "SAEP v TIT",
+   "teams_full": "South Africa Emerging Players v Titans",
+   "state": "Toss",
+   "status": "South Africa Emerging Players opt to bat",
    "series": "CSA T20 Challenge 2026",
    "format": "T20",
    "date": "2026-10-07",
    "start_ms": 1791388800000
+  },
+  {
+   "cb_id": 173277,
+   "teams": "BOL v ESTORM",
+   "teams_full": "Boland v Eastern Storm",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 08, 16:00 GMT",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-10-08",
+   "start_ms": 1791475200000
+  },
+  {
+   "cb_id": 173297,
+   "teams": "WAR v NCAPE",
+   "teams_full": "Warriors v Northern Cape",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 08, 16:00 GMT",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-10-08",
+   "start_ms": 1791475200000
+  },
+  {
+   "cb_id": 166583,
+   "teams": "VIC v SAUS",
+   "teams_full": "Victoria v South Australia",
+   "state": "Stumps",
+   "status": "Day 1: Stumps - South Australia trail by 240 runs",
+   "series": "Sheffield Shield 2026-27",
+   "format": "TEST",
+   "date": "2026-10-06",
+   "start_ms": 1791329400000
   },
   {
    "cb_id": 166587,
@@ -171,40 +184,21 @@
  ],
  "pairings": [
   {
-   "slug": "cricwcl-aus-ban-2026-10-07",
-   "cb_id": 174981,
-   "question": "World Championship of Legends: Australia Champions vs Bangladesh Champions",
+   "slug": "cricwcl-eng-wes-2026-10-07",
+   "cb_id": 174990,
+   "question": "World Championship of Legends: England Champions vs West Indies Champions",
    "score": 1.0,
    "state": "In Progress",
    "prices": {
-    "Australia Champions": {
-     "bid": 0.95,
-     "ask": 0.958,
-     "mid": 0.954
+    "England Champions": {
+     "bid": 0.62,
+     "ask": 0.63,
+     "mid": 0.625
     },
-    "Bangladesh Champions": {
-     "bid": 0.042,
-     "ask": 0.05,
-     "mid": 0.046
-    }
-   }
-  },
-  {
-   "slug": "crint-kwt-tha-2026-10-07",
-   "cb_id": 173737,
-   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Kuwait vs Thailand",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Kuwait": {
-     "bid": 0.82,
-     "ask": 0.92,
-     "mid": 0.87
-    },
-    "Thailand": {
-     "bid": 0.08,
-     "ask": 0.18,
-     "mid": 0.13
+    "West Indies Champions": {
+     "bid": 0.37,
+     "ask": 0.38,
+     "mid": 0.375
     }
    }
   },
@@ -228,39 +222,50 @@
    }
   },
   {
-   "slug": "cricwcl-eng-wes-2026-10-07",
-   "cb_id": 174990,
-   "question": "World Championship of Legends: England Champions vs West Indies Champions",
+   "slug": "crint-bhr-mmr-2026-10-07",
+   "cb_id": 173750,
+   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Bahrain vs Myanmar",
    "score": 1.0,
    "state": "Preview",
    "prices": {
-    "England Champions": {
-     "bid": 0.67,
-     "ask": 0.69,
-     "mid": 0.6799999999999999
+    "Bahrain": {
+     "bid": 0.954,
+     "ask": 0.955,
+     "mid": 0.9544999999999999
     },
-    "West Indies Champions": {
-     "bid": 0.31,
-     "ask": 0.33,
-     "mid": 0.32
+    "Myanmar": {
+     "bid": 0.045,
+     "ask": 0.046,
+     "mid": 0.0455
+    }
+   }
+  },
+  {
+   "slug": "crint-kwt-tha-2026-10-07",
+   "cb_id": 173737,
+   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Kuwait vs Thailand",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Kuwait": {
+     "bid": 0.91,
+     "ask": 0.92,
+     "mid": 0.915
+    },
+    "Thailand": {
+     "bid": 0.08,
+     "ask": 0.09,
+     "mid": 0.08499999999999999
     }
    }
   }
  ],
  "unpaired": [
   {
-   "cb_id": 166583,
-   "teams": "Victoria v South Australia",
-   "series": "Sheffield Shield 2026-27",
-   "state": "Stumps",
-   "date": "2026-10-06",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
    "cb_id": 174067,
-   "teams": "United States of America v Namibia",
-   "series": "ICC CWC League Two 2023-27",
-   "state": "Preview",
+   "teams": "Namibia v United States of America",
+   "series": "ICC Cricket World Cup League Two 2023-27",
+   "state": "In Progress",
    "date": "2026-10-07",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -276,16 +281,24 @@
    "cb_id": 173247,
    "teams": "Knights v KwaZulu-Natal Inland Tuskers",
    "series": "CSA T20 Challenge 2026",
-   "state": "Preview",
+   "state": "Toss",
    "date": "2026-10-07",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
    "cb_id": 173267,
-   "teams": "Titans v South Africa Emerging Players",
+   "teams": "South Africa Emerging Players v Titans",
    "series": "CSA T20 Challenge 2026",
-   "state": "Preview",
+   "state": "Toss",
    "date": "2026-10-07",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 166583,
+   "teams": "Victoria v South Australia",
+   "series": "Sheffield Shield 2026-27",
+   "state": "Stumps",
+   "date": "2026-10-06",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
@@ -306,21 +319,21 @@
   }
  ],
  "next_fixture": {
-  "cb_id": 174990,
-  "teams": "ENGCH v WICH",
-  "teams_full": "England Champions v West Indies Champions",
+  "cb_id": 173740,
+  "teams": "BTN v MGL",
+  "teams_full": "Bhutan v Mongolia",
   "state": "Preview",
-  "status": "Match starts at Oct 07, 15:30 GMT",
-  "series": "World Championship of Legends 2026",
+  "status": "Match starts at Oct 08, 01:15 GMT",
+  "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
   "format": "T20",
-  "date": "2026-10-07",
-  "start_ms": 1791387000000
+  "date": "2026-10-08",
+  "start_ms": 1791422100000
  },
  "coverage": {
-  "seen_total": 143,
-  "ever_paired": 46,
-  "balls_flowing": 1,
-  "state_says_live": 1
+  "seen_total": 145,
+  "ever_paired": 47,
+  "balls_flowing": 2,
+  "state_says_live": 2
  },
  "trader": {
   "state": "idle",
@@ -328,7 +341,7 @@
   "run_number": 105,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
   "started_at": "2026-10-06T06:49:04Z",
-  "elapsed_s": 80170,
+  "elapsed_s": 90608,
   "elapsed_means": "idle for",
   "runs_total": 105
  }
