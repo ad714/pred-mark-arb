@@ -1,6 +1,32 @@
 {
- "generated_at": "2026-10-07T23:17:54Z",
+ "generated_at": "2026-10-08T01:19:38Z",
  "matches": [
+  {
+   "cb_id": 166583,
+   "teams": "VIC v SAUS",
+   "teams_full": "Victoria v South Australia",
+   "state": "In Progress",
+   "status": "Day 2: 1st Session - South Australia trail by 165 runs",
+   "series": "Sheffield Shield 2026-27",
+   "format": "TEST",
+   "date": "2026-10-06",
+   "start_ms": 1791329400000,
+   "last_ball_min": 0.2,
+   "balls_flowing": true
+  },
+  {
+   "cb_id": 166587,
+   "teams": "TAS v NSW",
+   "teams_full": "Tasmania v New South Wales",
+   "state": "In Progress",
+   "status": "Day 1: 1st Session",
+   "series": "Sheffield Shield 2026-27",
+   "format": "TEST",
+   "date": "2026-10-07",
+   "start_ms": 1791415800000,
+   "last_ball_min": 1.4,
+   "balls_flowing": true
+  },
   {
    "cb_id": 173737,
    "teams": "KUW v THAI",
@@ -33,6 +59,39 @@
    "format": "T20",
    "date": "2026-10-08",
    "start_ms": 1791422100000
+  },
+  {
+   "cb_id": 173753,
+   "teams": "MGL v THAI",
+   "teams_full": "Mongolia v Thailand",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 09, 01:15 GMT",
+   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+   "format": "T20",
+   "date": "2026-10-09",
+   "start_ms": 1791508500000
+  },
+  {
+   "cb_id": 173760,
+   "teams": "BHR v KUW",
+   "teams_full": "Bahrain v Kuwait",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 09, 01:15 GMT",
+   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+   "format": "T20",
+   "date": "2026-10-09",
+   "start_ms": 1791508500000
+  },
+  {
+   "cb_id": 173761,
+   "teams": "QAT v MMR",
+   "teams_full": "Qatar v Myanmar",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 09, 01:15 GMT",
+   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
+   "format": "T20",
+   "date": "2026-10-09",
+   "start_ms": 1791508500000
   },
   {
    "cb_id": 173847,
@@ -123,28 +182,6 @@
    "start_ms": 1791475200000
   },
   {
-   "cb_id": 166583,
-   "teams": "VIC v SAUS",
-   "teams_full": "Victoria v South Australia",
-   "state": "Stumps",
-   "status": "Day 1: Stumps - South Australia trail by 240 runs",
-   "series": "Sheffield Shield 2026-27",
-   "format": "TEST",
-   "date": "2026-10-06",
-   "start_ms": 1791329400000
-  },
-  {
-   "cb_id": 166587,
-   "teams": "NSW v TAS",
-   "teams_full": "New South Wales v Tasmania",
-   "state": "Preview",
-   "status": "Match starts at Oct 08, 23:30 GMT",
-   "series": "Sheffield Shield 2026-27",
-   "format": "TEST",
-   "date": "2026-10-07",
-   "start_ms": 1791415800000
-  },
-  {
    "cb_id": 166600,
    "teams": "WA v QL",
    "teams_full": "Western Australia v Queensland",
@@ -165,14 +202,14 @@
    "state": "Preview",
    "prices": {
     "Kuwait": {
-     "bid": 0.9,
-     "ask": 0.92,
-     "mid": 0.91
+     "bid": 0.87,
+     "ask": 0.91,
+     "mid": 0.89
     },
     "Thailand": {
-     "bid": 0.08,
-     "ask": 0.1,
-     "mid": 0.09
+     "bid": 0.09,
+     "ask": 0.13,
+     "mid": 0.11
     }
    }
   },
@@ -184,14 +221,14 @@
    "state": "Preview",
    "prices": {
     "Bhutan": {
-     "bid": 0.973,
+     "bid": 0.963,
      "ask": 0.978,
-     "mid": 0.9755
+     "mid": 0.9704999999999999
     },
     "Mongolia": {
      "bid": 0.022,
-     "ask": 0.027,
-     "mid": 0.0245
+     "ask": 0.037,
+     "mid": 0.0295
     }
    }
   },
@@ -203,19 +240,35 @@
    "state": "Preview",
    "prices": {
     "Bahrain": {
-     "bid": 0.958,
-     "ask": 0.959,
-     "mid": 0.9584999999999999
+     "bid": 0.964,
+     "ask": 0.975,
+     "mid": 0.9695
     },
     "Myanmar": {
-     "bid": 0.041,
-     "ask": 0.042,
-     "mid": 0.0415
+     "bid": 0.025,
+     "ask": 0.036,
+     "mid": 0.0305
     }
    }
   }
  ],
  "unpaired": [
+  {
+   "cb_id": 166583,
+   "teams": "Victoria v South Australia",
+   "series": "Sheffield Shield 2026-27",
+   "state": "In Progress",
+   "date": "2026-10-06",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 166587,
+   "teams": "Tasmania v New South Wales",
+   "series": "Sheffield Shield 2026-27",
+   "state": "In Progress",
+   "date": "2026-10-07",
+   "reason": "no open two outcome cricket market to compare against"
+  },
   {
    "cb_id": 173257,
    "teams": "Lions v South Western Districts",
@@ -241,22 +294,6 @@
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 166583,
-   "teams": "Victoria v South Australia",
-   "series": "Sheffield Shield 2026-27",
-   "state": "Stumps",
-   "date": "2026-10-06",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 166587,
-   "teams": "New South Wales v Tasmania",
-   "series": "Sheffield Shield 2026-27",
-   "state": "Preview",
-   "date": "2026-10-07",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
    "cb_id": 166600,
    "teams": "Western Australia v Queensland",
    "series": "Sheffield Shield 2026-27",
@@ -265,22 +302,12 @@
    "reason": "no open two outcome cricket market to compare against"
   }
  ],
- "next_fixture": {
-  "cb_id": 173737,
-  "teams": "KUW v THAI",
-  "teams_full": "Kuwait v Thailand",
-  "state": "Preview",
-  "status": "Match starts at Oct 08, 01:15 GMT",
-  "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
-  "format": "T20",
-  "date": "2026-10-08",
-  "start_ms": 1791422100000
- },
+ "next_fixture": null,
  "coverage": {
-  "seen_total": 145,
+  "seen_total": 148,
   "ever_paired": 47,
-  "balls_flowing": 0,
-  "state_says_live": 0
+  "balls_flowing": 2,
+  "state_says_live": 2
  },
  "trader": {
   "state": "idle",
@@ -288,7 +315,7 @@
   "run_number": 105,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
   "started_at": "2026-10-06T06:49:04Z",
-  "elapsed_s": 114162,
+  "elapsed_s": 121466,
   "elapsed_means": "idle for",
   "runs_total": 105
  }
