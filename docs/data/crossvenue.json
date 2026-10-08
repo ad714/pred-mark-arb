@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-08T20:56:17Z",
- "pairs_joined": 3289,
- "pairs_watched": 777,
+ "checked_at": "2026-10-08T23:11:48Z",
+ "pairs_joined": 3341,
+ "pairs_watched": 834,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "NHL_26OCT08_NSHMTL_ML.NSH",
+   "slug": "nhl-nsh-mon-2026-10-08",
+   "event": "Predators vs Canadiens, Oct 8, Moneyline",
+   "outcome": "Nashville Predators",
+   "days": 0.159,
+   "resolves": "2026-10-09T03:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 0.1696,
+   "capital": 25.0,
+   "shares": 25.6,
+   "edge": 0.0066,
+   "fees": 0.4189,
+   "buy": 0.357,
+   "sell": 0.38
+  }
+ ]
 }
