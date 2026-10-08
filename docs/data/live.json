@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08T20:32:44Z",
+ "generated_at": "2026-10-08T23:33:06Z",
  "matches": [
   {
    "cb_id": 151576,
@@ -253,14 +253,14 @@
    "state": "Preview",
    "prices": {
     "India": {
-     "bid": 0.77,
+     "bid": 0.78,
      "ask": 0.79,
-     "mid": 0.78
+     "mid": 0.785
     },
     "West Indies": {
      "bid": 0.21,
-     "ask": 0.23,
-     "mid": 0.22
+     "ask": 0.22,
+     "mid": 0.215
     }
    }
   },
@@ -272,14 +272,14 @@
    "state": "Preview",
    "prices": {
     "India A": {
-     "bid": 0.6,
-     "ask": 0.62,
-     "mid": 0.61
+     "bid": 0.63,
+     "ask": 0.64,
+     "mid": 0.635
     },
     "Australia A": {
-     "bid": 0.38,
-     "ask": 0.4,
-     "mid": 0.39
+     "bid": 0.36,
+     "ask": 0.37,
+     "mid": 0.365
     }
    }
   },
@@ -310,14 +310,14 @@
    "state": "Preview",
    "prices": {
     "Mongolia": {
-     "bid": 0.03,
-     "ask": 0.05,
-     "mid": 0.04
+     "bid": 0.023,
+     "ask": 0.039,
+     "mid": 0.031
     },
     "Thailand": {
-     "bid": 0.95,
-     "ask": 0.97,
-     "mid": 0.96
+     "bid": 0.961,
+     "ask": 0.977,
+     "mid": 0.969
     }
    }
   },
@@ -329,14 +329,14 @@
    "state": "Preview",
    "prices": {
     "Bahrain": {
-     "bid": 0.31,
-     "ask": 0.34,
-     "mid": 0.325
+     "bid": 0.29,
+     "ask": 0.33,
+     "mid": 0.31
     },
     "Kuwait": {
-     "bid": 0.66,
-     "ask": 0.69,
-     "mid": 0.675
+     "bid": 0.67,
+     "ask": 0.71,
+     "mid": 0.69
     }
    }
   },
@@ -348,14 +348,14 @@
    "state": "Preview",
    "prices": {
     "Myanmar": {
-     "bid": 0.024,
-     "ask": 0.04,
-     "mid": 0.032
+     "bid": 0.026,
+     "ask": 0.044,
+     "mid": 0.034999999999999996
     },
     "Qatar": {
-     "bid": 0.96,
-     "ask": 0.976,
-     "mid": 0.968
+     "bid": 0.956,
+     "ask": 0.974,
+     "mid": 0.965
     }
    }
   },
@@ -367,14 +367,14 @@
    "state": "Preview",
    "prices": {
     "Malaysia": {
-     "bid": 0.6,
-     "ask": 0.65,
-     "mid": 0.625
+     "bid": 0.58,
+     "ask": 0.63,
+     "mid": 0.605
     },
     "Saudi Arabia": {
-     "bid": 0.35,
-     "ask": 0.4,
-     "mid": 0.375
+     "bid": 0.37,
+     "ask": 0.42,
+     "mid": 0.395
     }
    }
   },
@@ -386,14 +386,14 @@
    "state": "Preview",
    "prices": {
     "Maldives": {
-     "bid": 0.18,
-     "ask": 0.19,
-     "mid": 0.185
+     "bid": 0.19,
+     "ask": 0.25,
+     "mid": 0.22
     },
     "Singapore": {
-     "bid": 0.81,
-     "ask": 0.82,
-     "mid": 0.815
+     "bid": 0.75,
+     "ask": 0.81,
+     "mid": 0.78
     }
    }
   },
@@ -424,14 +424,14 @@
    "state": "Preview",
    "prices": {
     "Australia Champions": {
-     "bid": 0.54,
-     "ask": 0.55,
-     "mid": 0.545
+     "bid": 0.51,
+     "ask": 0.54,
+     "mid": 0.525
     },
     "South Africa Champions": {
-     "bid": 0.45,
-     "ask": 0.46,
-     "mid": 0.455
+     "bid": 0.46,
+     "ask": 0.49,
+     "mid": 0.475
     }
    }
   },
@@ -443,14 +443,14 @@
    "state": "Preview",
    "prices": {
     "Bangladesh Champions": {
-     "bid": 0.23,
-     "ask": 0.28,
-     "mid": 0.255
+     "bid": 0.27,
+     "ask": 0.3,
+     "mid": 0.28500000000000003
     },
     "West Indies Champions": {
-     "bid": 0.72,
-     "ask": 0.77,
-     "mid": 0.745
+     "bid": 0.7,
+     "ask": 0.73,
+     "mid": 0.715
     }
    }
   },
@@ -462,14 +462,14 @@
    "state": "Preview",
    "prices": {
     "Australia Women": {
-     "bid": 0.84,
+     "bid": 0.82,
      "ask": 0.95,
-     "mid": 0.895
+     "mid": 0.885
     },
     "Bangladesh Women": {
      "bid": 0.05,
-     "ask": 0.16,
-     "mid": 0.10500000000000001
+     "ask": 0.18,
+     "mid": 0.11499999999999999
     }
    }
   },
@@ -590,7 +590,7 @@
   "run_number": 105,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
   "started_at": "2026-10-06T06:49:04Z",
-  "elapsed_s": 190652,
+  "elapsed_s": 201473,
   "elapsed_means": "idle for",
   "runs_total": 105
  }
