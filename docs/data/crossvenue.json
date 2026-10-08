@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-08T23:15:00Z",
+ "checked_at": "2026-10-08T23:18:14Z",
  "pairs_joined": 3341,
  "pairs_watched": 834,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "NHL_26OCT08_MINTBL_ML.MIN",
+   "slug": "nhl-min-tb-2026-10-08",
+   "event": "Wild vs Lightning, Oct 8, Moneyline",
+   "outcome": "Minnesota Wild",
+   "days": 0.154,
+   "resolves": "2026-10-09T03:00:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 1.3306,
+   "capital": 25.0,
+   "shares": 26.6,
+   "edge": 0.05,
+   "fees": 0.3079,
+   "buy": 0.2,
+   "sell": 0.254
+  }
+ ]
 }
