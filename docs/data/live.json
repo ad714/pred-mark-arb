@@ -1,6 +1,17 @@
 {
- "generated_at": "2026-10-08T07:44:49Z",
+ "generated_at": "2026-10-08T13:59:41Z",
  "matches": [
+  {
+   "cb_id": 151576,
+   "teams": "IND v WI",
+   "teams_full": "India v West Indies",
+   "state": "Preview",
+   "status": "Match starts at Oct 09, 13:30 GMT",
+   "series": "India v West Indies",
+   "format": "T20",
+   "date": "2026-10-09",
+   "start_ms": 1791552600000
+  },
   {
    "cb_id": 155444,
    "teams": "INDA v AUSA",
@@ -11,6 +22,17 @@
    "format": "ODI",
    "date": "2026-10-09",
    "start_ms": 1791516600000
+  },
+  {
+   "cb_id": 147920,
+   "teams": "RSA v AUS",
+   "teams_full": "South Africa v Australia",
+   "state": "Preview",
+   "status": "Match starts at Oct 09, 07:30 GMT",
+   "series": "SA v AUS 2026",
+   "format": "TEST",
+   "date": "2026-10-09",
+   "start_ms": 1791531000000
   },
   {
    "cb_id": 172671,
@@ -24,43 +46,21 @@
    "start_ms": 1791523800000
   },
   {
-   "cb_id": 166583,
-   "teams": "VIC v SAUS",
-   "teams_full": "Victoria v South Australia",
-   "state": "Stumps",
-   "status": "Day 2: Stumps - South Australia lead by 108 runs",
-   "series": "Sheffield Shield 2026-27",
-   "format": "TEST",
-   "date": "2026-10-06",
-   "start_ms": 1791329400000
-  },
-  {
-   "cb_id": 166587,
-   "teams": "TAS v NSW",
-   "teams_full": "Tasmania v New South Wales",
-   "state": "Stumps",
-   "status": "Day 1: Stumps",
-   "series": "Sheffield Shield 2026-27",
-   "format": "TEST",
-   "date": "2026-10-07",
-   "start_ms": 1791415800000
-  },
-  {
-   "cb_id": 147920,
-   "teams": "RSA v AUS",
-   "teams_full": "South Africa v Australia",
-   "state": "Upcoming",
-   "status": "Match starts at Oct 09, 07:30 GMT",
-   "series": "SA v AUS 2026",
-   "format": "TEST",
+   "cb_id": 151389,
+   "teams": "AUSW v BANW",
+   "teams_full": "Australia Women v Bangladesh Women",
+   "state": "Preview",
+   "status": "Match starts at Oct 09, 03:50 GMT",
+   "series": "Bangladesh Women tour of Australia, 2026",
+   "format": "ODI",
    "date": "2026-10-09",
-   "start_ms": 1791531000000
+   "start_ms": 1791517800000
   },
   {
    "cb_id": 169910,
    "teams": "OMAN v CAN",
    "teams_full": "Oman v Canada",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 09, 06:00 GMT",
    "series": "ICC CWC League Two 2023-27",
    "format": "ODI",
@@ -101,49 +101,10 @@
    "start_ms": 1791508500000
   },
   {
-   "cb_id": 173847,
-   "teams": "CHN v MDV",
-   "teams_full": "China v Maldives",
-   "state": "Innings Break",
-   "status": "Innings Break",
-   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier B 2026",
-   "format": "T20",
-   "date": "2026-10-08",
-   "start_ms": 1791439200000,
-   "last_ball_min": 17.0,
-   "balls_flowing": true
-  },
-  {
-   "cb_id": 173853,
-   "teams": "SAU v SIN",
-   "teams_full": "Saudi Arabia v Singapore",
-   "state": "Innings Break",
-   "status": "Innings Break",
-   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier B 2026",
-   "format": "T20",
-   "date": "2026-10-08",
-   "start_ms": 1791439200000,
-   "last_ball_min": 4.9,
-   "balls_flowing": true
-  },
-  {
-   "cb_id": 173861,
-   "teams": "HKC v MLY",
-   "teams_full": "Hong Kong, China v Malaysia",
-   "state": "Innings Break",
-   "status": "Innings Break",
-   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier B 2026",
-   "format": "T20",
-   "date": "2026-10-08",
-   "start_ms": 1791439200000,
-   "last_ball_min": 7.6,
-   "balls_flowing": true
-  },
-  {
    "cb_id": 173871,
    "teams": "MLY v SAU",
    "teams_full": "Malaysia v Saudi Arabia",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 09, 06:00 GMT",
    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier B 2026",
    "format": "T20",
@@ -154,7 +115,7 @@
    "cb_id": 173873,
    "teams": "CHN v HKC",
    "teams_full": "China v Hong Kong, China",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 09, 06:00 GMT",
    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier B 2026",
    "format": "T20",
@@ -165,12 +126,23 @@
    "cb_id": 173883,
    "teams": "MDV v SIN",
    "teams_full": "Maldives v Singapore",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 09, 06:00 GMT",
    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier B 2026",
    "format": "T20",
    "date": "2026-10-09",
    "start_ms": 1791525600000
+  },
+  {
+   "cb_id": 174993,
+   "teams": "AUSCH v SACH",
+   "teams_full": "Australia Champions v South Africa Champions",
+   "state": "Preview",
+   "status": "Match starts at Oct 09, 11:30 GMT",
+   "series": "World Championship of Legends 2026",
+   "format": "T20",
+   "date": "2026-10-09",
+   "start_ms": 1791545400000
   },
   {
    "cb_id": 173277,
@@ -195,29 +167,70 @@
    "start_ms": 1791475200000
   },
   {
+   "cb_id": 173287,
+   "teams": "BOR v DOL",
+   "teams_full": "Border v Dolphins",
+   "state": "Preview",
+   "status": "Match starts at Oct 09, 11:00 GMT",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-10-09",
+   "start_ms": 1791543600000
+  },
+  {
+   "cb_id": 166583,
+   "teams": "VIC v SAUS",
+   "teams_full": "Victoria v South Australia",
+   "state": "Stumps",
+   "status": "Day 2: Stumps - South Australia lead by 108 runs",
+   "series": "Sheffield Shield 2026-27",
+   "format": "TEST",
+   "date": "2026-10-06",
+   "start_ms": 1791329400000
+  },
+  {
+   "cb_id": 166587,
+   "teams": "TAS v NSW",
+   "teams_full": "Tasmania v New South Wales",
+   "state": "Stumps",
+   "status": "Day 1: Stumps",
+   "series": "Sheffield Shield 2026-27",
+   "format": "TEST",
+   "date": "2026-10-07",
+   "start_ms": 1791415800000
+  },
+  {
    "cb_id": 166600,
    "teams": "QL v WA",
    "teams_full": "Queensland v Western Australia",
-   "state": "Tea",
-   "status": "Day 1: Tea Break",
+   "state": "Stumps",
+   "status": "Day 1: Stumps",
    "series": "Sheffield Shield 2026-27",
    "format": "TEST",
    "date": "2026-10-08",
    "start_ms": 1791426600000
-  },
-  {
-   "cb_id": 151389,
-   "teams": "AUSW v BANW",
-   "teams_full": "Australia Women v Bangladesh Women",
-   "state": "Preview",
-   "status": "Match starts at Oct 09, 03:50 GMT",
-   "series": "Bangladesh Women tour of Australia, 2026",
-   "format": "ODI",
-   "date": "2026-10-09",
-   "start_ms": 1791517800000
   }
  ],
  "pairings": [
+  {
+   "slug": "crint-ind-wst-2026-10-09",
+   "cb_id": 151576,
+   "question": "West Indies Tour of India T20s: India vs West Indies",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "India": {
+     "bid": 0.76,
+     "ask": 0.77,
+     "mid": 0.765
+    },
+    "West Indies": {
+     "bid": 0.23,
+     "ask": 0.24,
+     "mid": 0.235
+    }
+   }
+  },
   {
    "slug": "crint-inda-ausa-2026-10-09",
    "cb_id": 155444,
@@ -227,108 +240,13 @@
    "prices": {
     "India A": {
      "bid": 0.58,
-     "ask": 0.63,
-     "mid": 0.605
+     "ask": 0.61,
+     "mid": 0.595
     },
     "Australia A": {
-     "bid": 0.37,
-     "ask": 0.42,
-     "mid": 0.395
-    }
-   }
-  },
-  {
-   "slug": "crint-mng-tha-2026-10-08",
-   "cb_id": 173753,
-   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Mongolia vs Thailand",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Mongolia": {
-     "bid": 0.05,
-     "ask": 0.42,
-     "mid": 0.235
-    },
-    "Thailand": {
-     "bid": 0.58,
-     "ask": 0.95,
-     "mid": 0.7649999999999999
-    }
-   }
-  },
-  {
-   "slug": "crint-bhr-kwt-2026-10-08",
-   "cb_id": 173760,
-   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Bahrain vs Kuwait",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Bahrain": {
      "bid": 0.39,
-     "ask": 0.48,
-     "mid": 0.435
-    },
-    "Kuwait": {
-     "bid": 0.52,
-     "ask": 0.61,
-     "mid": 0.565
-    }
-   }
-  },
-  {
-   "slug": "crint-mmr-qat-2026-10-08",
-   "cb_id": 173761,
-   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Myanmar vs Qatar",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Myanmar": {
-     "bid": 0.05,
-     "ask": 0.07,
-     "mid": 0.060000000000000005
-    },
-    "Qatar": {
-     "bid": 0.93,
-     "ask": 0.95,
-     "mid": 0.94
-    }
-   }
-  },
-  {
-   "slug": "crint-chn-mdv-2026-10-08",
-   "cb_id": 173847,
-   "question": "T20 World Cup Asia Sub-Regional Qualifier B: China vs Maldives",
-   "score": 1.0,
-   "state": "Innings Break",
-   "prices": {
-    "China": {
-     "bid": 0.03,
-     "ask": 0.1,
-     "mid": 0.065
-    },
-    "Maldives": {
-     "bid": 0.9,
-     "ask": 0.97,
-     "mid": 0.935
-    }
-   }
-  },
-  {
-   "slug": "crint-sau-sgp-2026-10-08",
-   "cb_id": 173853,
-   "question": "T20 World Cup Asia Sub-Regional Qualifier B: Saudi Arabia vs Singapore",
-   "score": 1.0,
-   "state": "Innings Break",
-   "prices": {
-    "Saudi Arabia": {
-     "bid": 0.89,
-     "ask": 0.92,
-     "mid": 0.905
-    },
-    "Singapore": {
-     "bid": 0.08,
-     "ask": 0.11,
-     "mid": 0.095
+     "ask": 0.42,
+     "mid": 0.405
     }
    }
   },
@@ -352,30 +270,195 @@
    }
   },
   {
-   "slug": "crint-mys-hkg-2026-10-08",
-   "cb_id": 173861,
-   "question": "T20 World Cup Asia Sub-Regional Qualifier B: Malaysia vs Hong Kong",
-   "score": 0.667,
-   "state": "Innings Break",
+   "slug": "crint-omn-can-2026-10-09",
+   "cb_id": 169910,
+   "question": "Cricket World Cup League 2: Oman vs Canada",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Oman": {
+     "bid": 0.53,
+     "ask": 0.56,
+     "mid": 0.545
+    },
+    "Canada": {
+     "bid": 0.44,
+     "ask": 0.47,
+     "mid": 0.45499999999999996
+    }
+   }
+  },
+  {
+   "slug": "crint-mng-tha-2026-10-08",
+   "cb_id": 173753,
+   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Mongolia vs Thailand",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Mongolia": {
+     "bid": 0.05,
+     "ask": 0.06,
+     "mid": 0.055
+    },
+    "Thailand": {
+     "bid": 0.94,
+     "ask": 0.95,
+     "mid": 0.945
+    }
+   }
+  },
+  {
+   "slug": "crint-bhr-kwt-2026-10-08",
+   "cb_id": 173760,
+   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Bahrain vs Kuwait",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Bahrain": {
+     "bid": 0.36,
+     "ask": 0.37,
+     "mid": 0.365
+    },
+    "Kuwait": {
+     "bid": 0.63,
+     "ask": 0.64,
+     "mid": 0.635
+    }
+   }
+  },
+  {
+   "slug": "crint-mmr-qat-2026-10-08",
+   "cb_id": 173761,
+   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Myanmar vs Qatar",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Myanmar": {
+     "bid": 0.04,
+     "ask": 0.05,
+     "mid": 0.045
+    },
+    "Qatar": {
+     "bid": 0.95,
+     "ask": 0.96,
+     "mid": 0.955
+    }
+   }
+  },
+  {
+   "slug": "crint-mys-sau-2026-10-09",
+   "cb_id": 173871,
+   "question": "T20 World Cup Asia Sub-Regional Qualifier B: Malaysia vs Saudi Arabia",
+   "score": 1.0,
+   "state": "Preview",
    "prices": {
     "Malaysia": {
-     "bid": 0.38,
-     "ask": 0.51,
-     "mid": 0.445
+     "bid": 0.41,
+     "ask": 0.64,
+     "mid": 0.525
+    },
+    "Saudi Arabia": {
+     "bid": 0.36,
+     "ask": 0.59,
+     "mid": 0.475
+    }
+   }
+  },
+  {
+   "slug": "crint-mdv-sgp-2026-10-09",
+   "cb_id": 173883,
+   "question": "T20 World Cup Asia Sub-Regional Qualifier B: Maldives vs Singapore",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Maldives": {
+     "bid": 0.19,
+     "ask": 0.21,
+     "mid": 0.2
+    },
+    "Singapore": {
+     "bid": 0.79,
+     "ask": 0.81,
+     "mid": 0.8
+    }
+   }
+  },
+  {
+   "slug": "cricwcl-aus-sou-2026-10-09",
+   "cb_id": 174993,
+   "question": "World Championship of Legends: Australia Champions vs South Africa Champions",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Australia Champions": {
+     "bid": 0.52,
+     "ask": 0.56,
+     "mid": 0.54
+    },
+    "South Africa Champions": {
+     "bid": 0.44,
+     "ask": 0.48,
+     "mid": 0.45999999999999996
+    }
+   }
+  },
+  {
+   "slug": "crint-chn-hkg-2026-10-09",
+   "cb_id": 173873,
+   "question": "T20 World Cup Asia Sub-Regional Qualifier B: China vs Hong Kong",
+   "score": 0.667,
+   "state": "Preview",
+   "prices": {
+    "China": {
+     "bid": 0.04,
+     "ask": 0.06,
+     "mid": 0.05
     },
     "Hong Kong": {
-     "bid": 0.49,
-     "ask": 0.62,
-     "mid": 0.5549999999999999
+     "bid": 0.94,
+     "ask": 0.96,
+     "mid": 0.95
     }
    }
   }
  ],
  "unpaired": [
   {
+   "cb_id": 147920,
+   "teams": "South Africa v Australia",
+   "series": "SA v AUS 2026",
+   "state": "Preview",
+   "date": "2026-10-09",
+   "reason": "cricwcl-aus-sou-2026-10-09 matched on names but its date does not fit this fixture"
+  },
+  {
    "cb_id": 172671,
    "teams": "Afghanistan v Bangladesh",
    "series": "Afghanistan vs Bangladesh in UAE, 2026",
+   "state": "Preview",
+   "date": "2026-10-09",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 173277,
+   "teams": "Boland v Eastern Storm",
+   "series": "CSA T20 Challenge 2026",
+   "state": "Preview",
+   "date": "2026-10-08",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 173297,
+   "teams": "Warriors v Northern Cape",
+   "series": "CSA T20 Challenge 2026",
+   "state": "Preview",
+   "date": "2026-10-08",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 173287,
+   "teams": "Border v Dolphins",
+   "series": "CSA T20 Challenge 2026",
    "state": "Preview",
    "date": "2026-10-09",
    "reason": "no open two outcome cricket market to compare against"
@@ -397,18 +480,10 @@
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 173277,
-   "teams": "Boland v Eastern Storm",
-   "series": "CSA T20 Challenge 2026",
-   "state": "Preview",
-   "date": "2026-10-08",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 173297,
-   "teams": "Warriors v Northern Cape",
-   "series": "CSA T20 Challenge 2026",
-   "state": "Preview",
+   "cb_id": 166600,
+   "teams": "Queensland v Western Australia",
+   "series": "Sheffield Shield 2026-27",
+   "state": "Stumps",
    "date": "2026-10-08",
    "reason": "no open two outcome cricket market to compare against"
   }
@@ -425,10 +500,10 @@
   "start_ms": 1791508500000
  },
  "coverage": {
-  "seen_total": 156,
-  "ever_paired": 55,
-  "balls_flowing": 3,
-  "state_says_live": 3
+  "seen_total": 159,
+  "ever_paired": 61,
+  "balls_flowing": 0,
+  "state_says_live": 0
  },
  "trader": {
   "state": "idle",
@@ -436,7 +511,7 @@
   "run_number": 105,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
   "started_at": "2026-10-06T06:49:04Z",
-  "elapsed_s": 144576,
+  "elapsed_s": 167069,
   "elapsed_means": "idle for",
   "runs_total": 105
  }
