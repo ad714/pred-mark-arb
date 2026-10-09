@@ -1,43 +1,10 @@
 {
- "checked_at": "2026-10-09T20:13:32Z",
+ "checked_at": "2026-10-09T20:16:45Z",
  "pairs_joined": 3307,
  "pairs_watched": 803,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "LOL_26OCT09_MKFTLNP_M4ML.MKF",
-   "slug": "lol-koia-tlnpir-2026-10-09-game4",
-   "event": "Movistar KOI F\u00e9nix vs TLN Pirates, Map 4 Winner",
-   "outcome": "Movistar KOI F\u00e9nix",
-   "days": 0.074,
-   "resolves": "2026-10-09T22:00:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 2.0316,
-   "capital": 25.0,
-   "shares": 27.4,
-   "edge": 0.0743,
-   "fees": 0.3207,
-   "buy": 0.76,
-   "sell": 0.846
-  },
-  {
-   "symbol": "LOL_26OCT09_MKFTLNP_ML.MKF",
-   "slug": "lol-koia-tlnpir-2026-10-09",
-   "event": "Movistar KOI F\u00e9nix vs TLN Pirates, Match Winner",
-   "outcome": "Movistar KOI F\u00e9nix",
-   "days": 0.074,
-   "resolves": "2026-10-09T22:00:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.4616,
-   "capital": 25.0,
-   "shares": 25.6,
-   "edge": 0.018,
-   "fees": 0.1795,
-   "buy": 0.88,
-   "sell": 0.905
-  }
- ]
+ "hits": []
 }
