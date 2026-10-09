@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-09T04:26:21Z",
+ "checked_at": "2026-10-09T04:29:35Z",
  "pairs_joined": 3366,
  "pairs_watched": 857,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "NHL_26OCT08_TORVGK_ML.TOR",
-   "slug": "nhl-tor-las-2026-10-08",
-   "event": "Maple Leafs vs Golden Knights, Oct 8, Moneyline",
-   "outcome": "Toronto Maple Leafs",
-   "days": 0.065,
-   "resolves": "2026-10-09T06:00:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.1514,
-   "capital": 25.0,
-   "shares": 25.6,
-   "edge": 0.0059,
-   "fees": 0.4371,
-   "buy": 0.407,
-   "sell": 0.43
-  }
- ]
+ "hits": []
 }
