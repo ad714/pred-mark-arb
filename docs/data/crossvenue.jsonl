@@ -4450,3 +4450,15 @@
 {"checked_at": "2026-10-09T17:43:05Z", "watched": 820, "hits": []}
 {"checked_at": "2026-10-09T17:46:17Z", "watched": 820, "hits": [{"symbol": "CS2_26OCT09_FALSPT_M1W.FAL", "slug": "cs2-fal2-ts7-2026-10-09-game1", "event": "Team Falcons vs Spirit, Map 1 Winner", "outcome": "Team Falcons", "days": 0.176, "resolves": "2026-10-09T22:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.1021, "capital": 25.0, "shares": 25.1, "edge": 0.0041, "fees": 0.0235, "buy": 0.01, "sell": 0.015}]}
 {"checked_at": "2026-10-09T17:49:32Z", "watched": 820, "hits": []}
+{"checked_at": "2026-10-09T17:52:47Z", "watched": 820, "hits": []}
+{"checked_at": "2026-10-09T17:55:57Z", "watched": 820, "hits": []}
+{"checked_at": "2026-10-09T17:59:06Z", "watched": 820, "hits": []}
+{"checked_at": "2026-10-09T18:02:16Z", "watched": 820, "hits": []}
+{"checked_at": "2026-10-09T18:05:25Z", "watched": 820, "hits": []}
+{"checked_at": "2026-10-09T18:08:36Z", "watched": 820, "hits": []}
+{"checked_at": "2026-10-09T18:11:46Z", "watched": 820, "hits": []}
+{"checked_at": "2026-10-09T18:14:55Z", "watched": 820, "hits": []}
+{"checked_at": "2026-10-09T18:18:07Z", "watched": 820, "hits": []}
+{"checked_at": "2026-10-09T18:21:17Z", "watched": 820, "hits": []}
+{"checked_at": "2026-10-09T18:24:26Z", "watched": 820, "hits": []}
+{"checked_at": "2026-10-09T18:27:36Z", "watched": 820, "hits": [{"symbol": "CS2_26OCT09_FALSPT_M2W.FAL", "slug": "cs2-fal2-ts7-2026-10-09-game2", "event": "Team Falcons vs Spirit, Map 2 Winner", "outcome": "Team Falcons", "days": 0.148, "resolves": "2026-10-09T22:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.1152, "capital": 25.0, "shares": 25.6, "edge": 0.0045, "fees": 0.4471, "buy": 0.49, "sell": 0.512}]}
