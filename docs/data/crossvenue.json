@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-09T01:39:13Z",
- "pairs_joined": 3390,
- "pairs_watched": 883,
+ "checked_at": "2026-10-09T02:40:18Z",
+ "pairs_joined": 3384,
+ "pairs_watched": 877,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "NFL_26OCT08_TBDAL_ML.TB",
+   "slug": "nfl-tb-dal-2026-10-09",
+   "event": "Buccaneers vs Cowboys, Oct 8, Moneyline",
+   "outcome": "Tampa Bay Buccaneers",
+   "days": 0.066,
+   "resolves": "2026-10-09T04:15:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 0.5738,
+   "capital": 25.0,
+   "shares": 25.7,
+   "edge": 0.0223,
+   "fees": 0.1463,
+   "buy": 0.852,
+   "sell": 0.88
+  }
+ ]
 }
