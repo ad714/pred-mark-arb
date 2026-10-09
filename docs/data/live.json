@@ -1,6 +1,17 @@
 {
- "generated_at": "2026-10-08T23:33:06Z",
+ "generated_at": "2026-10-09T00:39:40Z",
  "matches": [
+  {
+   "cb_id": 155444,
+   "teams": "INDA v AUSA",
+   "teams_full": "India A v Australia A",
+   "state": "Preview",
+   "status": "Match starts at Oct 09, 03:30 GMT",
+   "series": "Australia A tour of India 2026",
+   "format": "ODI",
+   "date": "2026-10-09",
+   "start_ms": 1791516600000
+  },
   {
    "cb_id": 151576,
    "teams": "IND v WI",
@@ -13,15 +24,26 @@
    "start_ms": 1791552600000
   },
   {
-   "cb_id": 155444,
-   "teams": "INDA v AUSA",
-   "teams_full": "India A v Australia A",
+   "cb_id": 151389,
+   "teams": "AUSW v BANW",
+   "teams_full": "Australia Women v Bangladesh Women",
    "state": "Preview",
-   "status": "Match starts at Oct 09, 03:30 GMT",
-   "series": "Australia A tour of India 2026",
+   "status": "Match starts at Oct 09, 03:50 GMT",
+   "series": "Bangladesh Women tour of Australia, 2026",
    "format": "ODI",
    "date": "2026-10-09",
-   "start_ms": 1791516600000
+   "start_ms": 1791517800000
+  },
+  {
+   "cb_id": 172671,
+   "teams": "AFG v BAN",
+   "teams_full": "Afghanistan v Bangladesh",
+   "state": "Preview",
+   "status": "Match starts at Oct 09, 05:30 GMT",
+   "series": "Afghanistan vs Bangladesh in UAE, 2026",
+   "format": "TEST",
+   "date": "2026-10-09",
+   "start_ms": 1791523800000
   },
   {
    "cb_id": 147920,
@@ -44,17 +66,6 @@
    "format": "T20",
    "date": "2026-10-09",
    "start_ms": 1791550800000
-  },
-  {
-   "cb_id": 172671,
-   "teams": "AFG v BAN",
-   "teams_full": "Afghanistan v Bangladesh",
-   "state": "Preview",
-   "status": "Match starts at Oct 09, 05:30 GMT",
-   "series": "Afghanistan vs Bangladesh in UAE, 2026",
-   "format": "TEST",
-   "date": "2026-10-09",
-   "start_ms": 1791523800000
   },
   {
    "cb_id": 173753,
@@ -203,23 +214,27 @@
    "cb_id": 166583,
    "teams": "VIC v SAUS",
    "teams_full": "Victoria v South Australia",
-   "state": "Stumps",
-   "status": "Day 2: Stumps - South Australia lead by 108 runs",
+   "state": "In Progress",
+   "status": "Day 3: 1st Session - South Australia lead by 184 runs",
    "series": "Sheffield Shield 2026-27",
    "format": "TEST",
    "date": "2026-10-06",
-   "start_ms": 1791329400000
+   "start_ms": 1791329400000,
+   "last_ball_min": 0.4,
+   "balls_flowing": true
   },
   {
    "cb_id": 166587,
    "teams": "TAS v NSW",
    "teams_full": "Tasmania v New South Wales",
-   "state": "Stumps",
-   "status": "Day 1: Stumps",
+   "state": "In Progress",
+   "status": "Day 2: 1st Session - New South Wales trail by 198 runs",
    "series": "Sheffield Shield 2026-27",
    "format": "TEST",
    "date": "2026-10-07",
-   "start_ms": 1791415800000
+   "start_ms": 1791415800000,
+   "last_ball_min": 0.2,
+   "balls_flowing": true
   },
   {
    "cb_id": 166600,
@@ -231,20 +246,28 @@
    "format": "TEST",
    "date": "2026-10-08",
    "start_ms": 1791426600000
-  },
-  {
-   "cb_id": 151389,
-   "teams": "AUSW v BANW",
-   "teams_full": "Australia Women v Bangladesh Women",
-   "state": "Preview",
-   "status": "Match starts at Oct 09, 03:50 GMT",
-   "series": "Bangladesh Women tour of Australia, 2026",
-   "format": "ODI",
-   "date": "2026-10-09",
-   "start_ms": 1791517800000
   }
  ],
  "pairings": [
+  {
+   "slug": "crint-inda-ausa-2026-10-09",
+   "cb_id": 155444,
+   "question": "Australia A Tour of India Unofficial ODIs: India A vs Australia A",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "India A": {
+     "bid": 0.6,
+     "ask": 0.62,
+     "mid": 0.61
+    },
+    "Australia A": {
+     "bid": 0.38,
+     "ask": 0.4,
+     "mid": 0.39
+    }
+   }
+  },
   {
    "slug": "crint-ind-wst-2026-10-09",
    "cb_id": 151576,
@@ -265,21 +288,21 @@
    }
   },
   {
-   "slug": "crint-inda-ausa-2026-10-09",
-   "cb_id": 155444,
-   "question": "Australia A Tour of India Unofficial ODIs: India A vs Australia A",
+   "slug": "crint-ausw-bgdw-2026-10-10",
+   "cb_id": 151389,
+   "question": "Bangladesh Women Tour of Australia ODIs: Australia Women vs Bangladesh Women",
    "score": 1.0,
    "state": "Preview",
    "prices": {
-    "India A": {
-     "bid": 0.63,
-     "ask": 0.64,
-     "mid": 0.635
+    "Australia Women": {
+     "bid": 0.84,
+     "ask": 0.95,
+     "mid": 0.895
     },
-    "Australia A": {
-     "bid": 0.36,
-     "ask": 0.37,
-     "mid": 0.365
+    "Bangladesh Women": {
+     "bid": 0.05,
+     "ask": 0.16,
+     "mid": 0.10500000000000001
     }
    }
   },
@@ -291,14 +314,14 @@
    "state": "Preview",
    "prices": {
     "Pakistan": {
-     "bid": 0.67,
-     "ask": 0.68,
-     "mid": 0.675
+     "bid": 0.68,
+     "ask": 0.69,
+     "mid": 0.685
     },
     "Sri Lanka": {
-     "bid": 0.32,
-     "ask": 0.33,
-     "mid": 0.325
+     "bid": 0.31,
+     "ask": 0.32,
+     "mid": 0.315
     }
    }
   },
@@ -310,14 +333,14 @@
    "state": "Preview",
    "prices": {
     "Mongolia": {
-     "bid": 0.023,
-     "ask": 0.039,
-     "mid": 0.031
+     "bid": 0.022,
+     "ask": 0.036,
+     "mid": 0.028999999999999998
     },
     "Thailand": {
-     "bid": 0.961,
-     "ask": 0.977,
-     "mid": 0.969
+     "bid": 0.964,
+     "ask": 0.978,
+     "mid": 0.971
     }
    }
   },
@@ -329,13 +352,13 @@
    "state": "Preview",
    "prices": {
     "Bahrain": {
-     "bid": 0.29,
-     "ask": 0.33,
+     "bid": 0.3,
+     "ask": 0.32,
      "mid": 0.31
     },
     "Kuwait": {
-     "bid": 0.67,
-     "ask": 0.71,
+     "bid": 0.68,
+     "ask": 0.7,
      "mid": 0.69
     }
    }
@@ -348,14 +371,14 @@
    "state": "Preview",
    "prices": {
     "Myanmar": {
-     "bid": 0.026,
-     "ask": 0.044,
-     "mid": 0.034999999999999996
+     "bid": 0.017,
+     "ask": 0.034,
+     "mid": 0.025500000000000002
     },
     "Qatar": {
-     "bid": 0.956,
-     "ask": 0.974,
-     "mid": 0.965
+     "bid": 0.966,
+     "ask": 0.983,
+     "mid": 0.9744999999999999
     }
    }
   },
@@ -367,14 +390,14 @@
    "state": "Preview",
    "prices": {
     "Malaysia": {
-     "bid": 0.58,
+     "bid": 0.57,
      "ask": 0.63,
-     "mid": 0.605
+     "mid": 0.6
     },
     "Saudi Arabia": {
      "bid": 0.37,
-     "ask": 0.42,
-     "mid": 0.395
+     "ask": 0.43,
+     "mid": 0.4
     }
    }
   },
@@ -387,13 +410,13 @@
    "prices": {
     "Maldives": {
      "bid": 0.19,
-     "ask": 0.25,
-     "mid": 0.22
+     "ask": 0.24,
+     "mid": 0.215
     },
     "Singapore": {
-     "bid": 0.75,
+     "bid": 0.76,
      "ask": 0.81,
-     "mid": 0.78
+     "mid": 0.785
     }
    }
   },
@@ -424,14 +447,14 @@
    "state": "Preview",
    "prices": {
     "Australia Champions": {
-     "bid": 0.51,
+     "bid": 0.52,
      "ask": 0.54,
-     "mid": 0.525
+     "mid": 0.53
     },
     "South Africa Champions": {
      "bid": 0.46,
-     "ask": 0.49,
-     "mid": 0.475
+     "ask": 0.48,
+     "mid": 0.47
     }
    }
   },
@@ -455,25 +478,6 @@
    }
   },
   {
-   "slug": "crint-ausw-bgdw-2026-10-10",
-   "cb_id": 151389,
-   "question": "Bangladesh Women Tour of Australia ODIs: Australia Women vs Bangladesh Women",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "Australia Women": {
-     "bid": 0.82,
-     "ask": 0.95,
-     "mid": 0.885
-    },
-    "Bangladesh Women": {
-     "bid": 0.05,
-     "ask": 0.18,
-     "mid": 0.11499999999999999
-    }
-   }
-  },
-  {
    "slug": "crint-chn-hkg-2026-10-09",
    "cb_id": 173873,
    "question": "T20 World Cup Asia Sub-Regional Qualifier B: China vs Hong Kong",
@@ -482,26 +486,18 @@
    "prices": {
     "China": {
      "bid": 0.06,
-     "ask": 0.07,
-     "mid": 0.065
+     "ask": 0.09,
+     "mid": 0.075
     },
     "Hong Kong": {
-     "bid": 0.93,
+     "bid": 0.91,
      "ask": 0.94,
-     "mid": 0.935
+     "mid": 0.925
     }
    }
   }
  ],
  "unpaired": [
-  {
-   "cb_id": 147920,
-   "teams": "South Africa v Australia",
-   "series": "SA v AUS 2026",
-   "state": "Preview",
-   "date": "2026-10-09",
-   "reason": "cricwcl-aus-sou-2026-10-09 matched on names but its date does not fit this fixture"
-  },
   {
    "cb_id": 172671,
    "teams": "Afghanistan v Bangladesh",
@@ -509,6 +505,14 @@
    "state": "Preview",
    "date": "2026-10-09",
    "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 147920,
+   "teams": "South Africa v Australia",
+   "series": "SA v AUS 2026",
+   "state": "Preview",
+   "date": "2026-10-09",
+   "reason": "cricwcl-aus-sou-2026-10-09 matched on names but its date does not fit this fixture"
   },
   {
    "cb_id": 174077,
@@ -546,7 +550,7 @@
    "cb_id": 166583,
    "teams": "Victoria v South Australia",
    "series": "Sheffield Shield 2026-27",
-   "state": "Stumps",
+   "state": "In Progress",
    "date": "2026-10-06",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -554,7 +558,7 @@
    "cb_id": 166587,
    "teams": "Tasmania v New South Wales",
    "series": "Sheffield Shield 2026-27",
-   "state": "Stumps",
+   "state": "In Progress",
    "date": "2026-10-07",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -581,8 +585,8 @@
  "coverage": {
   "seen_total": 162,
   "ever_paired": 63,
-  "balls_flowing": 0,
-  "state_says_live": 0
+  "balls_flowing": 2,
+  "state_says_live": 2
  },
  "trader": {
   "state": "idle",
@@ -590,7 +594,7 @@
   "run_number": 105,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
   "started_at": "2026-10-06T06:49:04Z",
-  "elapsed_s": 201473,
+  "elapsed_s": 205467,
   "elapsed_means": "idle for",
   "runs_total": 105
  }
