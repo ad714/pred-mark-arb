@@ -4242,3 +4242,16 @@
 {"checked_at": "2026-10-09T04:23:12Z", "watched": 857, "hits": []}
 {"checked_at": "2026-10-09T04:26:21Z", "watched": 857, "hits": [{"symbol": "NHL_26OCT08_TORVGK_ML.TOR", "slug": "nhl-tor-las-2026-10-08", "event": "Maple Leafs vs Golden Knights, Oct 8, Moneyline", "outcome": "Toronto Maple Leafs", "days": 0.065, "resolves": "2026-10-09T06:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.1514, "capital": 25.0, "shares": 25.6, "edge": 0.0059, "fees": 0.4371, "buy": 0.407, "sell": 0.43}]}
 {"checked_at": "2026-10-09T04:29:35Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T04:32:50Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T04:36:01Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T04:39:12Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T04:42:22Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T04:45:34Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T04:48:47Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T04:51:58Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T04:55:09Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T04:58:21Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T05:01:34Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T05:04:45Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T05:07:58Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T05:11:09Z", "watched": 857, "hits": [{"symbol": "ATP_26OCT09_SAKRUB_ML.SAK", "slug": "atp-sakamot-rublev-2026-10-09", "event": "Sakamoto vs Rublev, Match Winner", "outcome": "Rei Sakamoto", "days": 0.201, "resolves": "2026-10-09T10:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.9145, "capital": 25.0, "shares": 26.4, "edge": 0.0347, "fees": 0.4568, "buy": 0.418, "sell": 0.47}]}
