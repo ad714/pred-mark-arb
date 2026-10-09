@@ -1,19 +1,6 @@
 {
- "generated_at": "2026-10-09T19:12:56Z",
+ "generated_at": "2026-10-09T22:52:40Z",
  "matches": [
-  {
-   "cb_id": 175003,
-   "teams": "BANCH v WICH",
-   "teams_full": "Bangladesh Champions v West Indies Champions",
-   "state": "In Progress",
-   "status": "West Indies Champions need 31 runs in 22 balls",
-   "series": "World Championship of Legends 2026",
-   "format": "T20",
-   "date": "2026-10-09",
-   "start_ms": 1791559800000,
-   "last_ball_min": 0.8,
-   "balls_flowing": true
-  },
   {
    "cb_id": 147920,
    "teams": "AUS v RSA",
@@ -37,19 +24,6 @@
    "start_ms": 1791525600000
   },
   {
-   "cb_id": 174077,
-   "teams": "UAE v NAM",
-   "teams_full": "United Arab Emirates v Namibia",
-   "state": "Innings Break",
-   "status": "Innings Break",
-   "series": "ICC Cricket World Cup League Two 2023-27",
-   "format": "ODI",
-   "date": "2026-10-09",
-   "start_ms": 1791558000000,
-   "last_ball_min": 87.2,
-   "balls_flowing": false
-  },
-  {
    "cb_id": 175010,
    "teams": "INDCH v SACH",
    "teams_full": "India Champions v South Africa Champions",
@@ -59,17 +33,6 @@
    "format": "T20",
    "date": "2026-10-10",
    "start_ms": 1791646200000
-  },
-  {
-   "cb_id": 173287,
-   "teams": "BOR v DOL",
-   "teams_full": "Border v Dolphins",
-   "state": "Toss",
-   "status": "Border opt to bat",
-   "series": "CSA T20 Challenge 2026",
-   "format": "T20",
-   "date": "2026-10-09",
-   "start_ms": 1791543600000
   },
   {
    "cb_id": 173307,
@@ -127,27 +90,7 @@
    "start_ms": 1791426600000
   }
  ],
- "pairings": [
-  {
-   "slug": "cricwcl-ban-wes-2026-10-09",
-   "cb_id": 175003,
-   "question": "World Championship of Legends: Bangladesh Champions vs West Indies Champions",
-   "score": 1.0,
-   "state": "In Progress",
-   "prices": {
-    "Bangladesh Champions": {
-     "bid": 0.15,
-     "ask": 0.16,
-     "mid": 0.155
-    },
-    "West Indies Champions": {
-     "bid": 0.84,
-     "ask": 0.85,
-     "mid": 0.845
-    }
-   }
-  }
- ],
+ "pairings": [],
  "unpaired": [
   {
    "cb_id": 147920,
@@ -162,22 +105,6 @@
    "teams": "Bangladesh v Afghanistan",
    "series": "Afghanistan vs Bangladesh in UAE, 2026",
    "state": "Stumps",
-   "date": "2026-10-09",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 174077,
-   "teams": "United Arab Emirates v Namibia",
-   "series": "ICC Cricket World Cup League Two 2023-27",
-   "state": "Innings Break",
-   "date": "2026-10-09",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 173287,
-   "teams": "Border v Dolphins",
-   "series": "CSA T20 Challenge 2026",
-   "state": "Toss",
    "date": "2026-10-09",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -210,8 +137,8 @@
  "coverage": {
   "seen_total": 165,
   "ever_paired": 63,
-  "balls_flowing": 1,
-  "state_says_live": 2
+  "balls_flowing": 0,
+  "state_says_live": 0
  },
  "trader": {
   "state": "idle",
@@ -219,7 +146,7 @@
   "run_number": 105,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
   "started_at": "2026-10-06T06:49:04Z",
-  "elapsed_s": 272263,
+  "elapsed_s": 285447,
   "elapsed_means": "idle for",
   "runs_total": 105
  }
