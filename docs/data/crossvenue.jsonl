@@ -4323,3 +4323,34 @@
 {"checked_at": "2026-10-09T09:14:17Z", "watched": 816, "hits": [{"symbol": "CS2_26OCT09_1WINAUR_M1W.1WIN", "slug": "cs2-1win-aur1-2026-10-09-game1", "event": "1WIN vs Aurora Gaming, Map 1 Winner", "outcome": "1WIN", "days": 0.219, "resolves": "2026-10-09T14:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.4369, "capital": 25.0, "shares": 25.9, "edge": 0.0169, "fees": 0.4163, "buy": 0.35, "sell": 0.383}]}
 {"checked_at": "2026-10-09T09:17:36Z", "watched": 813, "hits": [{"symbol": "CS2_26OCT09_1WINAUR_M1W.1WIN", "slug": "cs2-1win-aur1-2026-10-09-game1", "event": "1WIN vs Aurora Gaming, Map 1 Winner", "outcome": "1WIN", "days": 0.217, "resolves": "2026-10-09T14:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 1.3782, "capital": 25.0, "shares": 26.7, "edge": 0.0515, "fees": 0.3598, "buy": 0.215, "sell": 0.28}, {"symbol": "CS2_26OCT09_1WINAUR_ML.1WIN", "slug": "cs2-1win-aur1-2026-10-09", "event": "1WIN vs Aurora Gaming, Match Winner", "outcome": "1WIN", "days": 0.217, "resolves": "2026-10-09T14:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.0703, "capital": 25.0, "shares": 25.4, "edge": 0.0028, "fees": 0.3104, "buy": 0.215, "sell": 0.23}]}
 {"checked_at": "2026-10-09T09:20:45Z", "watched": 813, "hits": []}
+{"checked_at": "2026-10-09T09:23:59Z", "watched": 813, "hits": []}
+{"checked_at": "2026-10-09T09:27:06Z", "watched": 813, "hits": []}
+{"checked_at": "2026-10-09T09:30:17Z", "watched": 813, "hits": []}
+{"checked_at": "2026-10-09T09:33:33Z", "watched": 809, "hits": []}
+{"checked_at": "2026-10-09T09:36:41Z", "watched": 809, "hits": []}
+{"checked_at": "2026-10-09T09:39:51Z", "watched": 809, "hits": []}
+{"checked_at": "2026-10-09T09:42:59Z", "watched": 809, "hits": []}
+{"checked_at": "2026-10-09T09:46:10Z", "watched": 809, "hits": []}
+{"checked_at": "2026-10-09T09:49:18Z", "watched": 809, "hits": []}
+{"checked_at": "2026-10-09T09:52:30Z", "watched": 809, "hits": []}
+{"checked_at": "2026-10-09T09:55:38Z", "watched": 809, "hits": []}
+{"checked_at": "2026-10-09T09:58:48Z", "watched": 809, "hits": []}
+{"checked_at": "2026-10-09T10:01:59Z", "watched": 809, "hits": []}
+{"checked_at": "2026-10-09T10:05:10Z", "watched": 809, "hits": []}
+{"checked_at": "2026-10-09T10:08:19Z", "watched": 809, "hits": []}
+{"checked_at": "2026-10-09T10:11:30Z", "watched": 809, "hits": [{"symbol": "CS2_26OCT09_1WINAUR_M2W.1WIN", "slug": "cs2-1win-aur1-2026-10-09-game2", "event": "1WIN vs Aurora Gaming, Map 2 Winner", "outcome": "1WIN", "days": 0.18, "resolves": "2026-10-09T14:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.0249, "capital": 25.0, "shares": 25.1, "edge": 0.001, "fees": 0.0252, "buy": 0.014, "sell": 0.016}]}
+{"checked_at": "2026-10-09T10:14:38Z", "watched": 809, "hits": []}
+{"checked_at": "2026-10-09T10:17:48Z", "watched": 809, "hits": []}
+{"checked_at": "2026-10-09T10:21:02Z", "watched": 805, "hits": [{"symbol": "ATP_26OCT09_KECMEN_ML.KEC", "slug": "atp-kecmano-mensik-2026-10-09", "event": "Kecmanovic vs Mensik, Match Winner", "outcome": "Miomir Kecmanovic", "days": 0.173, "resolves": "2026-10-09T14:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.0686, "capital": 25.0, "shares": 25.1, "edge": 0.0027, "fees": 0.0571, "buy": 0.03, "sell": 0.035}]}
+{"checked_at": "2026-10-09T10:24:10Z", "watched": 805, "hits": []}
+{"checked_at": "2026-10-09T10:27:19Z", "watched": 805, "hits": []}
+{"checked_at": "2026-10-09T10:30:28Z", "watched": 805, "hits": []}
+{"checked_at": "2026-10-09T10:33:38Z", "watched": 805, "hits": []}
+{"checked_at": "2026-10-09T10:36:45Z", "watched": 805, "hits": []}
+{"checked_at": "2026-10-09T10:39:55Z", "watched": 805, "hits": []}
+{"checked_at": "2026-10-09T10:43:03Z", "watched": 805, "hits": []}
+{"checked_at": "2026-10-09T10:46:14Z", "watched": 805, "hits": []}
+{"checked_at": "2026-10-09T10:49:21Z", "watched": 805, "hits": []}
+{"checked_at": "2026-10-09T10:52:33Z", "watched": 805, "hits": []}
+{"checked_at": "2026-10-09T10:55:41Z", "watched": 805, "hits": []}
+{"checked_at": "2026-10-09T10:58:51Z", "watched": 805, "hits": [{"symbol": "ATP_26OCT09_KHAFER_ML.KHA", "slug": "atp-khachan-fery-2026-10-09", "event": "Khachanov vs Fery, Match Winner", "outcome": "Karen Khachanov", "days": 0.084, "resolves": "2026-10-09T13:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.3304, "capital": 25.0, "shares": 25.6, "edge": 0.0129, "fees": 0.3106, "buy": 0.77, "sell": 0.795}]}
