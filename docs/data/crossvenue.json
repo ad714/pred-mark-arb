@@ -1,10 +1,43 @@
 {
- "checked_at": "2026-10-09T05:49:51Z",
- "pairs_joined": 3361,
- "pairs_watched": 857,
+ "checked_at": "2026-10-09T07:03:26Z",
+ "pairs_joined": 3349,
+ "pairs_watched": 845,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "NOBEL_PEACE_2026.NAVALNAYA",
+   "slug": "will-yulia-navalnaya-win-the-nobel-peace-prize-in-2026-261",
+   "event": "Nobel Peace Prize winner 2026",
+   "outcome": "Yulia Navalnaya",
+   "days": 0.081,
+   "resolves": "2026-10-09T09:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 2.2663,
+   "capital": 25.0,
+   "shares": 27.7,
+   "edge": 0.0817,
+   "fees": 0.4776,
+   "buy": 0.384,
+   "sell": 0.482
+  },
+  {
+   "symbol": "NOBEL_PEACE_2026.WCK",
+   "slug": "will-world-central-kitchen-win-the-nobel-peace-prize-in-2026",
+   "event": "Nobel Peace Prize winner 2026",
+   "outcome": "World Central Kitchen",
+   "days": 0.081,
+   "resolves": "2026-10-09T09:00:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.2585,
+   "capital": 25.0,
+   "shares": 25.3,
+   "edge": 0.0102,
+   "fees": 0.0708,
+   "buy": 0.038,
+   "sell": 0.051
+  }
+ ]
 }
