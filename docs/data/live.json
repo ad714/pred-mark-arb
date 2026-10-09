@@ -1,38 +1,25 @@
 {
- "generated_at": "2026-10-09T13:49:02Z",
+ "generated_at": "2026-10-09T19:12:56Z",
  "matches": [
   {
-   "cb_id": 151576,
-   "teams": "IND v WI",
-   "teams_full": "India v West Indies",
+   "cb_id": 175003,
+   "teams": "BANCH v WICH",
+   "teams_full": "Bangladesh Champions v West Indies Champions",
    "state": "In Progress",
-   "status": "West Indies opt to bowl",
-   "series": "West Indies tour of India, 2026",
+   "status": "West Indies Champions need 31 runs in 22 balls",
+   "series": "World Championship of Legends 2026",
    "format": "T20",
    "date": "2026-10-09",
-   "start_ms": 1791552600000,
-   "last_ball_min": 5.6,
-   "balls_flowing": true
-  },
-  {
-   "cb_id": 170687,
-   "teams": "SL v PAK",
-   "teams_full": "Sri Lanka v Pakistan",
-   "state": "In Progress",
-   "status": "Sri Lanka opt to bat",
-   "series": "Sri Lanka tour of Pakistan, 2026",
-   "format": "T20",
-   "date": "2026-10-09",
-   "start_ms": 1791550800000,
-   "last_ball_min": 6.3,
+   "start_ms": 1791559800000,
+   "last_ball_min": 0.8,
    "balls_flowing": true
   },
   {
    "cb_id": 147920,
    "teams": "AUS v RSA",
    "teams_full": "Australia v South Africa",
-   "state": "Badlight",
-   "status": "Day 1: Play stopped due to bad light",
+   "state": "Stumps",
+   "status": "Day 1: Stumps",
    "series": "Australia tour of South Africa, 2026",
    "format": "TEST",
    "date": "2026-10-09",
@@ -50,39 +37,28 @@
    "start_ms": 1791525600000
   },
   {
-   "cb_id": 174993,
-   "teams": "AUSCH v SACH",
-   "teams_full": "Australia Champions v South Africa Champions",
-   "state": "In Progress",
-   "status": "South Africa Champions need 129 runs in 85 balls",
-   "series": "World Championship of Legends 2026",
-   "format": "T20",
-   "date": "2026-10-09",
-   "start_ms": 1791545400000,
-   "last_ball_min": 3.0,
-   "balls_flowing": true
-  },
-  {
    "cb_id": 174077,
-   "teams": "NAM v UAE",
-   "teams_full": "Namibia v United Arab Emirates",
-   "state": "Preview",
-   "status": "Match starts at Oct 09, 15:00 GMT",
-   "series": "ICC CWC League Two 2023-27",
+   "teams": "UAE v NAM",
+   "teams_full": "United Arab Emirates v Namibia",
+   "state": "Innings Break",
+   "status": "Innings Break",
+   "series": "ICC Cricket World Cup League Two 2023-27",
    "format": "ODI",
    "date": "2026-10-09",
-   "start_ms": 1791558000000
+   "start_ms": 1791558000000,
+   "last_ball_min": 87.2,
+   "balls_flowing": false
   },
   {
-   "cb_id": 175003,
-   "teams": "BANCH v WICH",
-   "teams_full": "Bangladesh Champions v West Indies Champions",
-   "state": "Preview",
-   "status": "Match starts at Oct 09, 15:30 GMT",
+   "cb_id": 175010,
+   "teams": "INDCH v SACH",
+   "teams_full": "India Champions v South Africa Champions",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 10, 15:30 GMT",
    "series": "World Championship of Legends 2026",
    "format": "T20",
-   "date": "2026-10-09",
-   "start_ms": 1791559800000
+   "date": "2026-10-10",
+   "start_ms": 1791646200000
   },
   {
    "cb_id": 173287,
@@ -105,6 +81,17 @@
    "format": "T20",
    "date": "2026-10-10",
    "start_ms": 1791630000000
+  },
+  {
+   "cb_id": 173317,
+   "teams": "NWEST v SWD",
+   "teams_full": "North West - Eastvaal Renault Dragons v South Western Districts",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 10, 16:00 GMT",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-10-10",
+   "start_ms": 1791648000000
   },
   {
    "cb_id": 166583,
@@ -142,83 +129,34 @@
  ],
  "pairings": [
   {
-   "slug": "crint-ind-wst-2026-10-09",
-   "cb_id": 151576,
-   "question": "West Indies Tour of India T20s: India vs West Indies",
-   "score": 1.0,
-   "state": "In Progress",
-   "prices": {
-    "India": {
-     "bid": 0.77,
-     "ask": 0.78,
-     "mid": 0.775
-    },
-    "West Indies": {
-     "bid": 0.22,
-     "ask": 0.23,
-     "mid": 0.225
-    }
-   }
-  },
-  {
-   "slug": "crint-pak-lka-2026-10-09",
-   "cb_id": 170687,
-   "question": "Sri Lanka Tour of Pakistan T20s: Pakistan vs Sri Lanka",
-   "score": 1.0,
-   "state": "In Progress",
-   "prices": {
-    "Pakistan": {
-     "bid": 0.69,
-     "ask": 0.71,
-     "mid": 0.7
-    },
-    "Sri Lanka": {
-     "bid": 0.29,
-     "ask": 0.31,
-     "mid": 0.3
-    }
-   }
-  },
-  {
-   "slug": "cricwcl-aus-sou-2026-10-09",
-   "cb_id": 174993,
-   "question": "World Championship of Legends: Australia Champions vs South Africa Champions",
-   "score": 1.0,
-   "state": "In Progress",
-   "prices": {
-    "Australia Champions": {
-     "bid": 0.1,
-     "ask": 0.13,
-     "mid": 0.115
-    },
-    "South Africa Champions": {
-     "bid": 0.87,
-     "ask": 0.9,
-     "mid": 0.885
-    }
-   }
-  },
-  {
    "slug": "cricwcl-ban-wes-2026-10-09",
    "cb_id": 175003,
    "question": "World Championship of Legends: Bangladesh Champions vs West Indies Champions",
    "score": 1.0,
-   "state": "Preview",
+   "state": "In Progress",
    "prices": {
     "Bangladesh Champions": {
-     "bid": 0.25,
-     "ask": 0.27,
-     "mid": 0.26
+     "bid": 0.15,
+     "ask": 0.16,
+     "mid": 0.155
     },
     "West Indies Champions": {
-     "bid": 0.73,
-     "ask": 0.75,
-     "mid": 0.74
+     "bid": 0.84,
+     "ask": 0.85,
+     "mid": 0.845
     }
    }
   }
  ],
  "unpaired": [
+  {
+   "cb_id": 147920,
+   "teams": "Australia v South Africa",
+   "series": "Australia tour of South Africa, 2026",
+   "state": "Stumps",
+   "date": "2026-10-09",
+   "reason": "no open two outcome cricket market to compare against"
+  },
   {
    "cb_id": 172671,
    "teams": "Bangladesh v Afghanistan",
@@ -229,9 +167,9 @@
   },
   {
    "cb_id": 174077,
-   "teams": "Namibia v United Arab Emirates",
-   "series": "ICC CWC League Two 2023-27",
-   "state": "Preview",
+   "teams": "United Arab Emirates v Namibia",
+   "series": "ICC Cricket World Cup League Two 2023-27",
+   "state": "Innings Break",
    "date": "2026-10-09",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -268,22 +206,12 @@
    "reason": "no open two outcome cricket market to compare against"
   }
  ],
- "next_fixture": {
-  "cb_id": 175003,
-  "teams": "BANCH v WICH",
-  "teams_full": "Bangladesh Champions v West Indies Champions",
-  "state": "Preview",
-  "status": "Match starts at Oct 09, 15:30 GMT",
-  "series": "World Championship of Legends 2026",
-  "format": "T20",
-  "date": "2026-10-09",
-  "start_ms": 1791559800000
- },
+ "next_fixture": null,
  "coverage": {
-  "seen_total": 163,
+  "seen_total": 165,
   "ever_paired": 63,
-  "balls_flowing": 3,
-  "state_says_live": 3
+  "balls_flowing": 1,
+  "state_says_live": 2
  },
  "trader": {
   "state": "idle",
@@ -291,7 +219,7 @@
   "run_number": 105,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
   "started_at": "2026-10-06T06:49:04Z",
-  "elapsed_s": 252830,
+  "elapsed_s": 272263,
   "elapsed_means": "idle for",
   "runs_total": 105
  }
