@@ -4208,3 +4208,36 @@
 {"checked_at": "2026-10-09T02:37:06Z", "watched": 877, "hits": []}
 {"checked_at": "2026-10-09T02:40:18Z", "watched": 877, "hits": [{"symbol": "NFL_26OCT08_TBDAL_ML.TB", "slug": "nfl-tb-dal-2026-10-09", "event": "Buccaneers vs Cowboys, Oct 8, Moneyline", "outcome": "Tampa Bay Buccaneers", "days": 0.066, "resolves": "2026-10-09T04:15:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.5738, "capital": 25.0, "shares": 25.7, "edge": 0.0223, "fees": 0.1463, "buy": 0.852, "sell": 0.88}]}
 {"checked_at": "2026-10-09T02:43:30Z", "watched": 877, "hits": [{"symbol": "NFL_26OCT08_TBDAL_ML.TB", "slug": "nfl-tb-dal-2026-10-09", "event": "Buccaneers vs Cowboys, Oct 8, Moneyline", "outcome": "Tampa Bay Buccaneers", "days": 0.064, "resolves": "2026-10-09T04:15:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.127, "capital": 25.0, "shares": 25.2, "edge": 0.005, "fees": 0.0746, "buy": 0.932, "sell": 0.94}]}
+{"checked_at": "2026-10-09T02:44:05Z", "watched": 877, "hits": []}
+{"checked_at": "2026-10-09T02:47:18Z", "watched": 877, "hits": []}
+{"checked_at": "2026-10-09T02:50:28Z", "watched": 877, "hits": []}
+{"checked_at": "2026-10-09T02:53:40Z", "watched": 877, "hits": []}
+{"checked_at": "2026-10-09T02:56:50Z", "watched": 877, "hits": []}
+{"checked_at": "2026-10-09T03:00:07Z", "watched": 876, "hits": []}
+{"checked_at": "2026-10-09T03:03:24Z", "watched": 875, "hits": []}
+{"checked_at": "2026-10-09T03:06:34Z", "watched": 875, "hits": []}
+{"checked_at": "2026-10-09T03:09:44Z", "watched": 875, "hits": []}
+{"checked_at": "2026-10-09T03:12:55Z", "watched": 875, "hits": []}
+{"checked_at": "2026-10-09T03:16:06Z", "watched": 875, "hits": []}
+{"checked_at": "2026-10-09T03:19:16Z", "watched": 875, "hits": []}
+{"checked_at": "2026-10-09T03:22:32Z", "watched": 873, "hits": []}
+{"checked_at": "2026-10-09T03:25:44Z", "watched": 873, "hits": []}
+{"checked_at": "2026-10-09T03:28:55Z", "watched": 873, "hits": []}
+{"checked_at": "2026-10-09T03:32:06Z", "watched": 873, "hits": []}
+{"checked_at": "2026-10-09T03:35:16Z", "watched": 873, "hits": []}
+{"checked_at": "2026-10-09T03:38:28Z", "watched": 873, "hits": []}
+{"checked_at": "2026-10-09T03:41:45Z", "watched": 872, "hits": []}
+{"checked_at": "2026-10-09T03:44:56Z", "watched": 872, "hits": []}
+{"checked_at": "2026-10-09T03:48:06Z", "watched": 872, "hits": [{"symbol": "MLB_26OCT08_CLECWS_SP.CLE_2", "slug": "mlb-cle-cws-2026-10-08-spread-away-2pt5", "event": "Guardians vs White Sox, Oct 8, Spreads", "outcome": "Cleveland Guardians -2.5", "days": 0.008, "resolves": "2026-10-09T04:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.0407, "capital": 4.95, "shares": 5.0, "edge": 0.0081, "fees": 0.0043, "buy": 0.981, "sell": 0.99}]}
+{"checked_at": "2026-10-09T03:51:18Z", "watched": 872, "hits": []}
+{"checked_at": "2026-10-09T03:54:28Z", "watched": 872, "hits": []}
+{"checked_at": "2026-10-09T03:57:40Z", "watched": 872, "hits": []}
+{"checked_at": "2026-10-09T04:00:55Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T04:04:06Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T04:07:15Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T04:10:26Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T04:13:36Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T04:16:47Z", "watched": 858, "hits": []}
+{"checked_at": "2026-10-09T04:20:01Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T04:23:12Z", "watched": 857, "hits": []}
+{"checked_at": "2026-10-09T04:26:21Z", "watched": 857, "hits": [{"symbol": "NHL_26OCT08_TORVGK_ML.TOR", "slug": "nhl-tor-las-2026-10-08", "event": "Maple Leafs vs Golden Knights, Oct 8, Moneyline", "outcome": "Toronto Maple Leafs", "days": 0.065, "resolves": "2026-10-09T06:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.1514, "capital": 25.0, "shares": 25.6, "edge": 0.0059, "fees": 0.4371, "buy": 0.407, "sell": 0.43}]}
