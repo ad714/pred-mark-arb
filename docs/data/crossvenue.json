@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-09T07:06:39Z",
- "pairs_joined": 3349,
- "pairs_watched": 845,
+ "checked_at": "2026-10-09T07:54:31Z",
+ "pairs_joined": 3345,
+ "pairs_watched": 841,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "ATP_26OCT09_HALBLO_ML.HAL",
+   "slug": "atp-halys-blockx-2026-10-09",
+   "event": "Halys vs Blockx, Match Winner",
+   "outcome": "Quentin Halys",
+   "days": 0.15,
+   "resolves": "2026-10-09T11:30:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 1.8001,
+   "capital": 25.0,
+   "shares": 27.2,
+   "edge": 0.0661,
+   "fees": 0.433,
+   "buy": 0.588,
+   "sell": 0.67
+  }
+ ]
 }

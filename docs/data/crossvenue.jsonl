@@ -4291,3 +4291,18 @@
 {"checked_at": "2026-10-09T07:00:10Z", "watched": 846, "hits": []}
 {"checked_at": "2026-10-09T07:03:26Z", "watched": 845, "hits": [{"symbol": "NOBEL_PEACE_2026.NAVALNAYA", "slug": "will-yulia-navalnaya-win-the-nobel-peace-prize-in-2026-261", "event": "Nobel Peace Prize winner 2026", "outcome": "Yulia Navalnaya", "days": 0.081, "resolves": "2026-10-09T09:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 2.2663, "capital": 25.0, "shares": 27.7, "edge": 0.0817, "fees": 0.4776, "buy": 0.384, "sell": 0.482}, {"symbol": "NOBEL_PEACE_2026.WCK", "slug": "will-world-central-kitchen-win-the-nobel-peace-prize-in-2026", "event": "Nobel Peace Prize winner 2026", "outcome": "World Central Kitchen", "days": 0.081, "resolves": "2026-10-09T09:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.2585, "capital": 25.0, "shares": 25.3, "edge": 0.0102, "fees": 0.0708, "buy": 0.038, "sell": 0.051}]}
 {"checked_at": "2026-10-09T07:06:39Z", "watched": 845, "hits": []}
+{"checked_at": "2026-10-09T07:09:55Z", "watched": 845, "hits": []}
+{"checked_at": "2026-10-09T07:13:05Z", "watched": 845, "hits": []}
+{"checked_at": "2026-10-09T07:16:18Z", "watched": 845, "hits": []}
+{"checked_at": "2026-10-09T07:19:34Z", "watched": 842, "hits": []}
+{"checked_at": "2026-10-09T07:22:43Z", "watched": 842, "hits": []}
+{"checked_at": "2026-10-09T07:25:54Z", "watched": 842, "hits": []}
+{"checked_at": "2026-10-09T07:29:02Z", "watched": 842, "hits": [{"symbol": "ATP_26OCT09_ZVEWU_ML.ZVE", "slug": "atp-zverev-wu-2026-10-09", "event": "Zverev vs Wu, Match Winner", "outcome": "Alexander Zverev", "days": 0.167, "resolves": "2026-10-09T11:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.0396, "capital": 25.0, "shares": 25.1, "edge": 0.0016, "fees": 0.086, "buy": 0.947, "sell": 0.952}]}
+{"checked_at": "2026-10-09T07:32:13Z", "watched": 842, "hits": []}
+{"checked_at": "2026-10-09T07:35:30Z", "watched": 841, "hits": []}
+{"checked_at": "2026-10-09T07:38:39Z", "watched": 841, "hits": []}
+{"checked_at": "2026-10-09T07:41:50Z", "watched": 841, "hits": []}
+{"checked_at": "2026-10-09T07:44:59Z", "watched": 841, "hits": []}
+{"checked_at": "2026-10-09T07:48:10Z", "watched": 841, "hits": []}
+{"checked_at": "2026-10-09T07:51:20Z", "watched": 841, "hits": []}
+{"checked_at": "2026-10-09T07:54:31Z", "watched": 841, "hits": [{"symbol": "ATP_26OCT09_HALBLO_ML.HAL", "slug": "atp-halys-blockx-2026-10-09", "event": "Halys vs Blockx, Match Winner", "outcome": "Quentin Halys", "days": 0.15, "resolves": "2026-10-09T11:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 1.8001, "capital": 25.0, "shares": 27.2, "edge": 0.0661, "fees": 0.433, "buy": 0.588, "sell": 0.67}]}
