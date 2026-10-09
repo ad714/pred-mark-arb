@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-09T18:56:32Z",
+ "checked_at": "2026-10-09T19:03:01Z",
  "pairs_joined": 3320,
  "pairs_watched": 816,
  "capital_cap": 25.0,
@@ -8,20 +8,20 @@
  "unread_poly": 0,
  "hits": [
   {
-   "symbol": "CS2_26OCT09_FALSPT_ML.FAL",
-   "slug": "cs2-fal2-ts7-2026-10-09",
-   "event": "Team Falcons vs Spirit, Match Winner",
-   "outcome": "Team Falcons",
-   "days": 0.128,
+   "symbol": "LOL_26OCT09_MKFTLNP_M3ML.MKF",
+   "slug": "lol-koia-tlnpir-2026-10-09-game3",
+   "event": "Movistar KOI F\u00e9nix vs TLN Pirates, Map 3 Winner",
+   "outcome": "Movistar KOI F\u00e9nix",
+   "days": 0.123,
    "resolves": "2026-10-09T22:00:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.0303,
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.1295,
    "capital": 25.0,
-   "shares": 25.1,
-   "edge": 0.0012,
-   "fees": 0.0198,
-   "buy": 0.01,
-   "sell": 0.012
+   "shares": 25.3,
+   "edge": 0.0051,
+   "fees": 0.1741,
+   "buy": 0.886,
+   "sell": 0.898
   }
  ]
 }
