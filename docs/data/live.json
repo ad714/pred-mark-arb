@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T13:44:14Z",
+ "generated_at": "2026-10-09T13:49:02Z",
  "matches": [
   {
    "cb_id": 151576,
@@ -11,7 +11,7 @@
    "format": "T20",
    "date": "2026-10-09",
    "start_ms": 1791552600000,
-   "last_ball_min": 0.7,
+   "last_ball_min": 5.6,
    "balls_flowing": true
   },
   {
@@ -24,7 +24,7 @@
    "format": "T20",
    "date": "2026-10-09",
    "start_ms": 1791550800000,
-   "last_ball_min": 1.5,
+   "last_ball_min": 6.3,
    "balls_flowing": true
   },
   {
@@ -54,25 +54,12 @@
    "teams": "AUSCH v SACH",
    "teams_full": "Australia Champions v South Africa Champions",
    "state": "In Progress",
-   "status": "South Africa Champions need 138 runs in 88 balls",
+   "status": "South Africa Champions need 129 runs in 85 balls",
    "series": "World Championship of Legends 2026",
    "format": "T20",
    "date": "2026-10-09",
    "start_ms": 1791545400000,
-   "last_ball_min": 1.4,
-   "balls_flowing": true
-  },
-  {
-   "cb_id": 169910,
-   "teams": "OMAN v CAN",
-   "teams_full": "Oman v Canada",
-   "state": "In Progress",
-   "status": "Oman won by 41 runs",
-   "series": "ICC Cricket World Cup League Two 2023-27",
-   "format": "ODI",
-   "date": "2026-10-09",
-   "start_ms": 1791523800000,
-   "last_ball_min": 0.5,
+   "last_ball_min": 3.0,
    "balls_flowing": true
   },
   {
@@ -162,14 +149,14 @@
    "state": "In Progress",
    "prices": {
     "India": {
-     "bid": 0.84,
-     "ask": 0.85,
-     "mid": 0.845
+     "bid": 0.77,
+     "ask": 0.78,
+     "mid": 0.775
     },
     "West Indies": {
-     "bid": 0.15,
-     "ask": 0.16,
-     "mid": 0.155
+     "bid": 0.22,
+     "ask": 0.23,
+     "mid": 0.225
     }
    }
   },
@@ -181,14 +168,14 @@
    "state": "In Progress",
    "prices": {
     "Pakistan": {
-     "bid": 0.7,
-     "ask": 0.72,
-     "mid": 0.71
+     "bid": 0.69,
+     "ask": 0.71,
+     "mid": 0.7
     },
     "Sri Lanka": {
-     "bid": 0.28,
-     "ask": 0.3,
-     "mid": 0.29000000000000004
+     "bid": 0.29,
+     "ask": 0.31,
+     "mid": 0.3
     }
    }
   },
@@ -200,14 +187,14 @@
    "state": "In Progress",
    "prices": {
     "Australia Champions": {
-     "bid": 0.15,
-     "ask": 0.23,
-     "mid": 0.19
+     "bid": 0.1,
+     "ask": 0.13,
+     "mid": 0.115
     },
     "South Africa Champions": {
-     "bid": 0.77,
-     "ask": 0.85,
-     "mid": 0.81
+     "bid": 0.87,
+     "ask": 0.9,
+     "mid": 0.885
     }
    }
   },
@@ -237,14 +224,6 @@
    "teams": "Bangladesh v Afghanistan",
    "series": "Afghanistan vs Bangladesh in UAE, 2026",
    "state": "Stumps",
-   "date": "2026-10-09",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 169910,
-   "teams": "Oman v Canada",
-   "series": "ICC Cricket World Cup League Two 2023-27",
-   "state": "In Progress",
    "date": "2026-10-09",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -303,8 +282,8 @@
  "coverage": {
   "seen_total": 163,
   "ever_paired": 63,
-  "balls_flowing": 4,
-  "state_says_live": 4
+  "balls_flowing": 3,
+  "state_says_live": 3
  },
  "trader": {
   "state": "idle",
@@ -312,7 +291,7 @@
   "run_number": 105,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
   "started_at": "2026-10-06T06:49:04Z",
-  "elapsed_s": 252542,
+  "elapsed_s": 252830,
   "elapsed_means": "idle for",
   "runs_total": 105
  }
