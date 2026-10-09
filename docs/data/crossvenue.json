@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-09T13:09:25Z",
- "pairs_joined": 3325,
- "pairs_watched": 820,
+ "checked_at": "2026-10-09T14:16:25Z",
+ "pairs_joined": 3342,
+ "pairs_watched": 838,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "CS2_26OCT09_VITPRV_ML.VIT",
-   "slug": "cs2-vit-prv-2026-10-09",
-   "event": "Vitality vs PARIVISION, Match Winner",
-   "outcome": "Vitality",
-   "days": 0.16,
-   "resolves": "2026-10-09T17:00:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.0525,
-   "capital": 25.0,
-   "shares": 25.1,
-   "edge": 0.0021,
-   "fees": 0.0228,
-   "buy": 0.986,
-   "sell": 0.989
-  }
- ]
+ "hits": []
 }
