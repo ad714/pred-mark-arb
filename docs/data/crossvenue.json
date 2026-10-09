@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-09T20:26:22Z",
- "pairs_joined": 3307,
- "pairs_watched": 803,
+ "checked_at": "2026-10-09T20:51:57Z",
+ "pairs_joined": 3306,
+ "pairs_watched": 802,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "LAL_26OCT09_MGAESP_ML.DRAW",
+   "slug": "lal-mala-esp-2026-10-09-draw",
+   "event": "M\u00e1laga CF vs RCD Espanyol de Barcelona, Moneyline - Reg Time",
+   "outcome": "Draw",
+   "days": 0.047,
+   "resolves": "2026-10-09T22:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 0.2052,
+   "capital": 25.0,
+   "shares": 25.2,
+   "edge": 0.0081,
+   "fees": 0.0219,
+   "buy": 0.981,
+   "sell": 0.99
+  }
+ ]
 }

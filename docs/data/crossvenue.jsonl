@@ -4499,3 +4499,11 @@
 {"checked_at": "2026-10-09T20:20:01Z", "watched": 803, "hits": []}
 {"checked_at": "2026-10-09T20:23:09Z", "watched": 803, "hits": [{"symbol": "BUND_26OCT09_BVBSVW_ML.BVB", "slug": "bun-dor-wer-2026-10-09-dor", "event": "BV Borussia 09 Dortmund vs SV Werder Bremen, Moneyline - Reg Time", "outcome": "BV Borussia 09 Dortmund", "days": 0.047, "resolves": "2026-10-09T21:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.3414, "capital": 25.0, "shares": 25.6, "edge": 0.0133, "fees": 0.2733, "buy": 0.181, "sell": 0.205}]}
 {"checked_at": "2026-10-09T20:26:22Z", "watched": 803, "hits": []}
+{"checked_at": "2026-10-09T20:29:36Z", "watched": 803, "hits": []}
+{"checked_at": "2026-10-09T20:32:47Z", "watched": 803, "hits": []}
+{"checked_at": "2026-10-09T20:36:04Z", "watched": 802, "hits": []}
+{"checked_at": "2026-10-09T20:39:14Z", "watched": 802, "hits": []}
+{"checked_at": "2026-10-09T20:42:25Z", "watched": 802, "hits": []}
+{"checked_at": "2026-10-09T20:45:37Z", "watched": 802, "hits": []}
+{"checked_at": "2026-10-09T20:48:47Z", "watched": 802, "hits": [{"symbol": "LAL_26OCT09_MGAESP_ML.ESP", "slug": "lal-mala-esp-2026-10-09-esp", "event": "M\u00e1laga CF vs RCD Espanyol de Barcelona, Moneyline - Reg Time", "outcome": "RCD Espanyol de Barcelona", "days": 0.05, "resolves": "2026-10-09T22:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.0585, "capital": 25.0, "shares": 25.2, "edge": 0.0023, "fees": 0.1177, "buy": 0.923, "sell": 0.93}]}
+{"checked_at": "2026-10-09T20:51:57Z", "watched": 802, "hits": [{"symbol": "LAL_26OCT09_MGAESP_ML.DRAW", "slug": "lal-mala-esp-2026-10-09-draw", "event": "M\u00e1laga CF vs RCD Espanyol de Barcelona, Moneyline - Reg Time", "outcome": "Draw", "days": 0.047, "resolves": "2026-10-09T22:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.2052, "capital": 25.0, "shares": 25.2, "edge": 0.0081, "fees": 0.0219, "buy": 0.981, "sell": 0.99}]}
