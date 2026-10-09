@@ -4446,3 +4446,4 @@
 {"checked_at": "2026-10-09T17:30:02Z", "watched": 821, "hits": []}
 {"checked_at": "2026-10-09T17:33:18Z", "watched": 821, "hits": []}
 {"checked_at": "2026-10-09T17:36:35Z", "watched": 820, "hits": [{"symbol": "CS2_26OCT09_FALSPT_M1W.FAL", "slug": "cs2-fal2-ts7-2026-10-09-game1", "event": "Team Falcons vs Spirit, Map 1 Winner", "outcome": "Team Falcons", "days": 0.183, "resolves": "2026-10-09T22:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.1302, "capital": 25.0, "shares": 25.2, "edge": 0.0052, "fees": 0.0714, "buy": 0.04, "sell": 0.048}]}
+{"checked_at": "2026-10-09T17:39:50Z", "watched": 820, "hits": []}
