@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-09T11:30:49Z",
- "pairs_joined": 3343,
+ "checked_at": "2026-10-09T13:06:09Z",
+ "pairs_joined": 3324,
  "pairs_watched": 819,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "BLAST8_26OCT09_TSAUR_ML.TS",
+   "slug": "dota2-ts8-aur1-2026-10-09",
+   "event": "Team Spirit vs Aurora, Match Winner",
+   "outcome": "Team Spirit",
+   "days": 0.079,
+   "resolves": "2026-10-09T15:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 0.2642,
+   "capital": 25.0,
+   "shares": 25.6,
+   "edge": 0.0103,
+   "fees": 0.3506,
+   "buy": 0.716,
+   "sell": 0.74
+  }
+ ]
 }
