@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-09T05:11:09Z",
+ "checked_at": "2026-10-09T05:14:26Z",
  "pairs_joined": 3361,
  "pairs_watched": 857,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "ATP_26OCT09_SAKRUB_ML.SAK",
-   "slug": "atp-sakamot-rublev-2026-10-09",
-   "event": "Sakamoto vs Rublev, Match Winner",
-   "outcome": "Rei Sakamoto",
-   "days": 0.201,
-   "resolves": "2026-10-09T10:00:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.9145,
-   "capital": 25.0,
-   "shares": 26.4,
-   "edge": 0.0347,
-   "fees": 0.4568,
-   "buy": 0.418,
-   "sell": 0.47
-  }
- ]
+ "hits": []
 }
