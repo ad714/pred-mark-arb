@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-09T10:58:51Z",
+ "checked_at": "2026-10-09T11:02:04Z",
  "pairs_joined": 3329,
  "pairs_watched": 805,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "ATP_26OCT09_KHAFER_ML.KHA",
-   "slug": "atp-khachan-fery-2026-10-09",
-   "event": "Khachanov vs Fery, Match Winner",
-   "outcome": "Karen Khachanov",
-   "days": 0.084,
-   "resolves": "2026-10-09T13:00:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.3304,
-   "capital": 25.0,
-   "shares": 25.6,
-   "edge": 0.0129,
-   "fees": 0.3106,
-   "buy": 0.77,
-   "sell": 0.795
-  }
- ]
+ "hits": []
 }
