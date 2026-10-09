@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-09T08:01:03Z",
+ "checked_at": "2026-10-09T08:04:16Z",
  "pairs_joined": 3345,
  "pairs_watched": 841,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "ATP_26OCT09_ZVEWU_ML.ZVE",
+   "slug": "atp-zverev-wu-2026-10-09",
+   "event": "Zverev vs Wu, Match Winner",
+   "outcome": "Alexander Zverev",
+   "days": 0.143,
+   "resolves": "2026-10-09T11:30:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 0.6172,
+   "capital": 25.0,
+   "shares": 25.7,
+   "edge": 0.024,
+   "fees": 0.0766,
+   "buy": 0.936,
+   "sell": 0.963
+  }
+ ]
 }
