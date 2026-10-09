@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-09T05:33:44Z",
+ "checked_at": "2026-10-09T05:43:22Z",
  "pairs_joined": 3361,
  "pairs_watched": 857,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "ATP_26OCT09_GEAHUM_ML.GEA",
+   "slug": "atp-gea-humbert-2026-10-09",
+   "event": "Gea vs Humbert, Match Winner",
+   "outcome": "Arthur Gea",
+   "days": 0.178,
+   "resolves": "2026-10-09T10:00:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.1635,
+   "capital": 25.0,
+   "shares": 25.2,
+   "edge": 0.0065,
+   "fees": 0.0636,
+   "buy": 0.96,
+   "sell": 0.969
+  }
+ ]
 }
