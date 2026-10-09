@@ -1,43 +1,10 @@
 {
- "checked_at": "2026-10-09T05:30:28Z",
+ "checked_at": "2026-10-09T05:33:44Z",
  "pairs_joined": 3361,
  "pairs_watched": 857,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "ATP_26OCT09_SAKRUB_ML.SAK",
-   "slug": "atp-sakamot-rublev-2026-10-09",
-   "event": "Sakamoto vs Rublev, Match Winner",
-   "outcome": "Rei Sakamoto",
-   "days": 0.187,
-   "resolves": "2026-10-09T10:00:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.3503,
-   "capital": 25.0,
-   "shares": 25.5,
-   "edge": 0.0138,
-   "fees": 0.108,
-   "buy": 0.93,
-   "sell": 0.948
-  },
-  {
-   "symbol": "ATP_26OCT09_SHEALT_ML.SHE",
-   "slug": "atp-shelton-altmaie-2026-10-09",
-   "event": "Shelton vs Altmaier, Match Winner",
-   "outcome": "Ben Shelton",
-   "days": 0.187,
-   "resolves": "2026-10-09T10:00:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.5304,
-   "capital": 25.0,
-   "shares": 25.6,
-   "edge": 0.0208,
-   "fees": 0.0319,
-   "buy": 0.966,
-   "sell": 0.988
-  }
- ]
+ "hits": []
 }
