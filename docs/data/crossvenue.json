@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-09T20:16:45Z",
+ "checked_at": "2026-10-09T20:23:09Z",
  "pairs_joined": 3307,
  "pairs_watched": 803,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "BUND_26OCT09_BVBSVW_ML.BVB",
+   "slug": "bun-dor-wer-2026-10-09-dor",
+   "event": "BV Borussia 09 Dortmund vs SV Werder Bremen, Moneyline - Reg Time",
+   "outcome": "BV Borussia 09 Dortmund",
+   "days": 0.047,
+   "resolves": "2026-10-09T21:30:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.3414,
+   "capital": 25.0,
+   "shares": 25.6,
+   "edge": 0.0133,
+   "fees": 0.2733,
+   "buy": 0.181,
+   "sell": 0.205
+  }
+ ]
 }
