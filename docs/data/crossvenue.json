@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-09T11:02:04Z",
- "pairs_joined": 3329,
- "pairs_watched": 805,
+ "checked_at": "2026-10-09T11:21:09Z",
+ "pairs_joined": 3337,
+ "pairs_watched": 813,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "ATP_26OCT09_DJOHUR_ML.DJO",
+   "slug": "atp-djokovi-hurkacz-2026-10-09",
+   "event": "Djokovic vs Hurkacz, Match Winner",
+   "outcome": "Novak Djokovic",
+   "days": 0.194,
+   "resolves": "2026-10-09T16:00:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 1.2256,
+   "capital": 25.0,
+   "shares": 26.5,
+   "edge": 0.0463,
+   "fees": 0.2294,
+   "buy": 0.13,
+   "sell": 0.185
+  }
+ ]
 }
