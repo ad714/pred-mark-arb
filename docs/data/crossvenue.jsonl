@@ -4480,3 +4480,18 @@
 {"checked_at": "2026-10-09T19:19:08Z", "watched": 816, "hits": []}
 {"checked_at": "2026-10-09T19:22:20Z", "watched": 816, "hits": [{"symbol": "LIGUE1_26OCT09_RCLLYO_ML.DRAW", "slug": "fl1-rcl-lyo-2026-10-09-draw", "event": "RC Lens vs Olympique Lyonnais, Moneyline - Reg Time", "outcome": "Draw", "days": 0.099, "resolves": "2026-10-09T21:45:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.3309, "capital": 8.55, "shares": 9.0, "edge": 0.0368, "fees": 0.1191, "buy": 0.24, "sell": 0.29}]}
 {"checked_at": "2026-10-09T19:25:41Z", "watched": 807, "hits": []}
+{"checked_at": "2026-10-09T19:28:57Z", "watched": 807, "hits": []}
+{"checked_at": "2026-10-09T19:32:08Z", "watched": 807, "hits": []}
+{"checked_at": "2026-10-09T19:35:18Z", "watched": 807, "hits": []}
+{"checked_at": "2026-10-09T19:38:28Z", "watched": 807, "hits": []}
+{"checked_at": "2026-10-09T19:41:39Z", "watched": 807, "hits": []}
+{"checked_at": "2026-10-09T19:44:48Z", "watched": 807, "hits": []}
+{"checked_at": "2026-10-09T19:47:59Z", "watched": 807, "hits": []}
+{"checked_at": "2026-10-09T19:51:10Z", "watched": 807, "hits": []}
+{"checked_at": "2026-10-09T19:54:23Z", "watched": 807, "hits": []}
+{"checked_at": "2026-10-09T19:57:33Z", "watched": 807, "hits": []}
+{"checked_at": "2026-10-09T20:00:44Z", "watched": 807, "hits": []}
+{"checked_at": "2026-10-09T20:03:55Z", "watched": 807, "hits": []}
+{"checked_at": "2026-10-09T20:07:06Z", "watched": 807, "hits": [{"symbol": "LOL_26OCT09_MKFTLNP_ML.MKF", "slug": "lol-koia-tlnpir-2026-10-09", "event": "Movistar KOI F\u00e9nix vs TLN Pirates, Match Winner", "outcome": "Movistar KOI F\u00e9nix", "days": 0.079, "resolves": "2026-10-09T22:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.0241, "capital": 19.77, "shares": 19.9, "edge": 0.0012, "fees": 0.1153, "buy": 0.904, "sell": 0.911}]}
+{"checked_at": "2026-10-09T20:10:16Z", "watched": 807, "hits": []}
+{"checked_at": "2026-10-09T20:13:32Z", "watched": 803, "hits": [{"symbol": "LOL_26OCT09_MKFTLNP_M4ML.MKF", "slug": "lol-koia-tlnpir-2026-10-09-game4", "event": "Movistar KOI F\u00e9nix vs TLN Pirates, Map 4 Winner", "outcome": "Movistar KOI F\u00e9nix", "days": 0.074, "resolves": "2026-10-09T22:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 2.0316, "capital": 25.0, "shares": 27.4, "edge": 0.0743, "fees": 0.3207, "buy": 0.76, "sell": 0.846}, {"symbol": "LOL_26OCT09_MKFTLNP_ML.MKF", "slug": "lol-koia-tlnpir-2026-10-09", "event": "Movistar KOI F\u00e9nix vs TLN Pirates, Match Winner", "outcome": "Movistar KOI F\u00e9nix", "days": 0.074, "resolves": "2026-10-09T22:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.4616, "capital": 25.0, "shares": 25.6, "edge": 0.018, "fees": 0.1795, "buy": 0.88, "sell": 0.905}]}
