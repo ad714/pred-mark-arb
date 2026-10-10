@@ -1,27 +1,27 @@
 {
- "checked_at": "2026-10-10T18:05:49Z",
- "pairs_joined": 3390,
- "pairs_watched": 832,
+ "checked_at": "2026-10-10T18:09:08Z",
+ "pairs_joined": 3384,
+ "pairs_watched": 831,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
  "hits": [
   {
-   "symbol": "CS2_26OCT10_MOUZSPT_M1W.MOUZ",
-   "slug": "cs2-mouz-ts7-2026-10-10-game1",
-   "event": "MOUZ vs Spirit, Map 1 Winner",
-   "outcome": "MOUZ",
-   "days": 0.204,
-   "resolves": "2026-10-10T23:00:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.5908,
+   "symbol": "NCAAF_26OCT10_ARIZWVU_ML.ARIZ",
+   "slug": "cfb-arz-wvir-2026-10-10",
+   "event": "Arizona vs West Virginia, Oct 10, Moneyline",
+   "outcome": "Arizona Wildcats",
+   "days": 0.077,
+   "resolves": "2026-10-10T20:00:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.5486,
    "capital": 25.0,
-   "shares": 25.9,
-   "edge": 0.0228,
-   "fees": 0.2891,
-   "buy": 0.776,
-   "sell": 0.81
+   "shares": 25.7,
+   "edge": 0.0213,
+   "fees": 0.1715,
+   "buy": 0.83,
+   "sell": 0.858
   }
  ]
 }
