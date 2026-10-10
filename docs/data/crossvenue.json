@@ -1,10 +1,59 @@
 {
- "checked_at": "2026-10-10T13:22:22Z",
+ "checked_at": "2026-10-10T13:38:18Z",
  "pairs_joined": 3463,
  "pairs_watched": 937,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "BUND_26OCT10_M05B04_ML.B04",
+   "slug": "bun-mai-b04-2026-10-10-b04",
+   "event": "1. FSV Mainz 05 vs Bayer 04 Leverkusen, Moneyline - Reg Time",
+   "outcome": "Bayer 04 Leverkusen",
+   "days": 0.119,
+   "resolves": "2026-10-10T16:30:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 4.5252,
+   "capital": 25.0,
+   "shares": 29.9,
+   "edge": 0.1515,
+   "fees": 0.3434,
+   "buy": 0.667,
+   "sell": 0.83
+  },
+  {
+   "symbol": "BUND_26OCT10_M05B04_ML.DRAW",
+   "slug": "bun-mai-b04-2026-10-10-draw",
+   "event": "1. FSV Mainz 05 vs Bayer 04 Leverkusen, Moneyline - Reg Time",
+   "outcome": "Draw",
+   "days": 0.119,
+   "resolves": "2026-10-10T16:30:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 1.2127,
+   "capital": 25.0,
+   "shares": 26.5,
+   "edge": 0.0458,
+   "fees": 0.2423,
+   "buy": 0.14,
+   "sell": 0.195
+  },
+  {
+   "symbol": "BUND_26OCT10_M05B04_ML.M05",
+   "slug": "bun-mai-b04-2026-10-10-mai",
+   "event": "1. FSV Mainz 05 vs Bayer 04 Leverkusen, Moneyline - Reg Time",
+   "outcome": "1. FSV Mainz 05",
+   "days": 0.119,
+   "resolves": "2026-10-10T16:30:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 1.3086,
+   "capital": 25.0,
+   "shares": 26.5,
+   "edge": 0.0494,
+   "fees": 0.1745,
+   "buy": 0.09,
+   "sell": 0.146
+  }
+ ]
 }
