@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-09T23:16:55Z",
+ "generated_at": "2026-10-10T02:31:52Z",
  "matches": [
   {
    "cb_id": 147920,
@@ -22,6 +22,39 @@
    "format": "TEST",
    "date": "2026-10-09",
    "start_ms": 1791525600000
+  },
+  {
+   "cb_id": 173887,
+   "teams": "HKC v SAU",
+   "teams_full": "Hong Kong, China v Saudi Arabia",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 11, 01:15 GMT",
+   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier B 2026",
+   "format": "T20",
+   "date": "2026-10-11",
+   "start_ms": 1791681300000
+  },
+  {
+   "cb_id": 173891,
+   "teams": "MLY v MDV",
+   "teams_full": "Malaysia v Maldives",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 11, 01:15 GMT",
+   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier B 2026",
+   "format": "T20",
+   "date": "2026-10-11",
+   "start_ms": 1791681300000
+  },
+  {
+   "cb_id": 173901,
+   "teams": "CHN v SIN",
+   "teams_full": "China v Singapore",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 11, 01:15 GMT",
+   "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier B 2026",
+   "format": "T20",
+   "date": "2026-10-11",
+   "start_ms": 1791681300000
   },
   {
    "cb_id": 175010,
@@ -57,26 +90,17 @@
    "start_ms": 1791648000000
   },
   {
-   "cb_id": 166583,
-   "teams": "VIC v SAUS",
-   "teams_full": "Victoria v South Australia",
-   "state": "Stumps",
-   "status": "Day 3: Stumps - Victoria trail by 89 runs",
-   "series": "Sheffield Shield 2026-27",
-   "format": "TEST",
-   "date": "2026-10-06",
-   "start_ms": 1791329400000
-  },
-  {
    "cb_id": 166587,
    "teams": "TAS v NSW",
    "teams_full": "Tasmania v New South Wales",
-   "state": "Stumps",
-   "status": "Day 2: Stumps - New South Wales lead by 196 runs",
+   "state": "In Progress",
+   "status": "Day 3: 2nd Session - Tasmania trail by 212 runs",
    "series": "Sheffield Shield 2026-27",
    "format": "TEST",
    "date": "2026-10-07",
-   "start_ms": 1791415800000
+   "start_ms": 1791415800000,
+   "last_ball_min": 1.7,
+   "balls_flowing": true
   },
   {
    "cb_id": 166600,
@@ -109,18 +133,10 @@
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 166583,
-   "teams": "Victoria v South Australia",
-   "series": "Sheffield Shield 2026-27",
-   "state": "Stumps",
-   "date": "2026-10-06",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
    "cb_id": 166587,
    "teams": "Tasmania v New South Wales",
    "series": "Sheffield Shield 2026-27",
-   "state": "Stumps",
+   "state": "In Progress",
    "date": "2026-10-07",
    "reason": "no open two outcome cricket market to compare against"
   },
@@ -135,10 +151,10 @@
  ],
  "next_fixture": null,
  "coverage": {
-  "seen_total": 165,
+  "seen_total": 168,
   "ever_paired": 63,
-  "balls_flowing": 0,
-  "state_says_live": 0
+  "balls_flowing": 1,
+  "state_says_live": 1
  },
  "trader": {
   "state": "idle",
@@ -146,7 +162,7 @@
   "run_number": 105,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
   "started_at": "2026-10-06T06:49:04Z",
-  "elapsed_s": 286902,
+  "elapsed_s": 298600,
   "elapsed_means": "idle for",
   "runs_total": 105
  }
