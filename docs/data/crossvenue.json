@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-10T18:09:08Z",
+ "checked_at": "2026-10-10T18:12:20Z",
  "pairs_joined": 3384,
  "pairs_watched": 831,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "NCAAF_26OCT10_ARIZWVU_ML.ARIZ",
-   "slug": "cfb-arz-wvir-2026-10-10",
-   "event": "Arizona vs West Virginia, Oct 10, Moneyline",
-   "outcome": "Arizona Wildcats",
-   "days": 0.077,
-   "resolves": "2026-10-10T20:00:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.5486,
-   "capital": 25.0,
-   "shares": 25.7,
-   "edge": 0.0213,
-   "fees": 0.1715,
-   "buy": 0.83,
-   "sell": 0.858
-  }
- ]
+ "hits": []
 }
