@@ -4871,3 +4871,21 @@
 {"checked_at": "2026-10-10T15:47:27Z", "watched": 905, "hits": []}
 {"checked_at": "2026-10-10T15:50:38Z", "watched": 905, "hits": [{"symbol": "EPL_26OCT10_IPSFUL_ML.DRAW", "slug": "epl-ips-ful-2026-10-10-draw", "event": "Ipswich Town FC vs Fulham FC, Moneyline - Reg Time", "outcome": "Draw", "days": 0.048, "resolves": "2026-10-10T17:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.0258, "capital": 4.96, "shares": 5.0, "edge": 0.0052, "fees": 0.0142, "buy": 0.04, "sell": 0.048}, {"symbol": "EPL_26OCT10_SUNBHA_ML.BHA", "slug": "epl-sun-bri-2026-10-10-bri", "event": "Sunderland AFC vs Brighton & Hove Albion FC, Moneyline - Reg Time", "outcome": "Brighton & Hove Albion FC", "days": 0.048, "resolves": "2026-10-10T17:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.1369, "capital": 25.0, "shares": 25.4, "edge": 0.0054, "fees": 0.2438, "buy": 0.825, "sell": 0.84}]}
 {"checked_at": "2026-10-10T15:53:53Z", "watched": 905, "hits": []}
+{"checked_at": "2026-10-10T15:57:07Z", "watched": 905, "hits": []}
+{"checked_at": "2026-10-10T16:00:20Z", "watched": 905, "hits": []}
+{"checked_at": "2026-10-10T16:03:32Z", "watched": 905, "hits": []}
+{"checked_at": "2026-10-10T16:06:43Z", "watched": 905, "hits": []}
+{"checked_at": "2026-10-10T16:09:56Z", "watched": 905, "hits": []}
+{"checked_at": "2026-10-10T16:13:09Z", "watched": 905, "hits": []}
+{"checked_at": "2026-10-10T16:16:23Z", "watched": 905, "hits": []}
+{"checked_at": "2026-10-10T16:19:35Z", "watched": 905, "hits": []}
+{"checked_at": "2026-10-10T16:22:52Z", "watched": 894, "hits": []}
+{"checked_at": "2026-10-10T16:26:03Z", "watched": 894, "hits": []}
+{"checked_at": "2026-10-10T16:29:16Z", "watched": 894, "hits": []}
+{"checked_at": "2026-10-10T16:32:34Z", "watched": 870, "hits": [{"symbol": "LOL_26OCT10_SLYG2N_M1ML.SLY", "slug": "lol-sly-g2nord-2026-10-10-game1", "event": "Solary vs G2 NORD, Map 1 Winner", "outcome": "Solary", "days": 0.228, "resolves": "2026-10-10T22:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.0565, "capital": 25.0, "shares": 25.4, "edge": 0.0022, "fees": 0.2985, "buy": 0.21, "sell": 0.224}]}
+{"checked_at": "2026-10-10T16:35:45Z", "watched": 870, "hits": []}
+{"checked_at": "2026-10-10T16:39:02Z", "watched": 869, "hits": []}
+{"checked_at": "2026-10-10T16:42:11Z", "watched": 869, "hits": []}
+{"checked_at": "2026-10-10T16:45:23Z", "watched": 869, "hits": []}
+{"checked_at": "2026-10-10T16:48:33Z", "watched": 869, "hits": []}
+{"checked_at": "2026-10-10T16:51:45Z", "watched": 869, "hits": [{"symbol": "CFB_26OCT10_TAMUMIZ_ML.TAMU", "slug": "cfb-txam-missr-2026-10-10", "event": "Texas A&M vs Missouri, Oct 10, Moneyline", "outcome": "Texas A&M Aggies", "days": 0.131, "resolves": "2026-10-10T20:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.1366, "capital": 25.0, "shares": 25.4, "edge": 0.0054, "fees": 0.2699, "buy": 0.3, "sell": 0.316}]}
