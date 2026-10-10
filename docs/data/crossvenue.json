@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-10T13:19:03Z",
- "pairs_joined": 3456,
- "pairs_watched": 930,
+ "checked_at": "2026-10-10T13:22:22Z",
+ "pairs_joined": 3463,
+ "pairs_watched": 937,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "ATP_26OCT10_VDZMIC_ML.VDZ",
-   "slug": "atp-zandsch-michels-2026-10-09",
-   "event": "van de Zandschulp vs Michelsen, Match Winner",
-   "outcome": "Botic van de Zandschulp",
-   "days": 0.07,
-   "resolves": "2026-10-10T15:00:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.335,
-   "capital": 25.0,
-   "shares": 25.5,
-   "edge": 0.0132,
-   "fees": 0.1233,
-   "buy": 0.92,
-   "sell": 0.938
-  }
- ]
+ "hits": []
 }
