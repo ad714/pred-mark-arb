@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-10-10T19:03:45Z",
- "pairs_joined": 3364,
+ "checked_at": "2026-10-10T19:22:50Z",
+ "pairs_joined": 3350,
  "pairs_watched": 810,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
@@ -8,20 +8,36 @@
  "unread_poly": 0,
  "hits": [
   {
-   "symbol": "LIGUE1_26OCT10_PSGLMF_ML.LMF",
-   "slug": "fl1-psg-lmf-2026-10-10-lmf",
-   "event": "Paris Saint-Germain vs Le Mans FC, Moneyline - Reg Time",
-   "outcome": "Le Mans FC",
-   "days": 0.112,
+   "symbol": "SERIEA_26OCT10_NAPFRO_ML.DRAW",
+   "slug": "sea-nap-fro-2026-10-10-draw",
+   "event": "SSC Napoli vs Frosinone Calcio, Moneyline - Reg Time",
+   "outcome": "Draw",
+   "days": 0.099,
    "resolves": "2026-10-10T21:45:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.0148,
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 0.0358,
+   "capital": 9.92,
+   "shares": 10.0,
+   "edge": 0.0036,
+   "fees": 0.0442,
+   "buy": 0.062,
+   "sell": 0.07
+  },
+  {
+   "symbol": "CS2_26OCT10_MOUZSPT_M2W.MOUZ",
+   "slug": "cs2-mouz-ts7-2026-10-10-game2",
+   "event": "MOUZ vs Spirit, Map 2 Winner",
+   "outcome": "MOUZ",
+   "days": 0.151,
+   "resolves": "2026-10-10T23:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 1.0226,
    "capital": 25.0,
-   "shares": 25.1,
-   "edge": 0.0006,
-   "fees": 0.0353,
-   "buy": 0.02,
-   "sell": 0.022
+   "shares": 26.4,
+   "edge": 0.0387,
+   "fees": 0.4044,
+   "buy": 0.286,
+   "sell": 0.34
   }
  ]
 }
