@@ -4654,3 +4654,19 @@
 {"checked_at": "2026-10-10T04:24:59Z", "watched": 787, "hits": []}
 {"checked_at": "2026-10-10T04:28:15Z", "watched": 786, "hits": [{"symbol": "CFB_26OCT09_WSUUSU_ML.WSU", "slug": "cfb-washst-utahst-2026-10-09", "event": "Washington State vs Utah State, Oct 9, Moneyline", "outcome": "Washington State Cougars", "days": 0.022, "resolves": "2026-10-10T05:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.4956, "capital": 25.0, "shares": 25.7, "edge": 0.0193, "fees": 0.1981, "buy": 0.18, "sell": 0.207}]}
 {"checked_at": "2026-10-10T04:31:26Z", "watched": 786, "hits": []}
+{"checked_at": "2026-10-10T04:34:39Z", "watched": 786, "hits": []}
+{"checked_at": "2026-10-10T04:37:49Z", "watched": 786, "hits": []}
+{"checked_at": "2026-10-10T04:41:00Z", "watched": 786, "hits": []}
+{"checked_at": "2026-10-10T04:44:08Z", "watched": 786, "hits": []}
+{"checked_at": "2026-10-10T04:47:18Z", "watched": 786, "hits": []}
+{"checked_at": "2026-10-10T04:50:26Z", "watched": 786, "hits": []}
+{"checked_at": "2026-10-10T04:53:37Z", "watched": 786, "hits": []}
+{"checked_at": "2026-10-10T04:56:48Z", "watched": 786, "hits": []}
+{"checked_at": "2026-10-10T05:00:01Z", "watched": 786, "hits": []}
+{"checked_at": "2026-10-10T05:03:16Z", "watched": 770, "hits": []}
+{"checked_at": "2026-10-10T05:06:24Z", "watched": 770, "hits": []}
+{"checked_at": "2026-10-10T05:09:36Z", "watched": 770, "hits": []}
+{"checked_at": "2026-10-10T05:12:44Z", "watched": 770, "hits": []}
+{"checked_at": "2026-10-10T05:15:54Z", "watched": 770, "hits": []}
+{"checked_at": "2026-10-10T05:19:07Z", "watched": 770, "hits": []}
+{"checked_at": "2026-10-10T05:22:18Z", "watched": 770, "hits": [{"symbol": "NCAAF_26OCT09_ISUBYU_ML.ISU", "slug": "cfb-iowast-byu-2026-10-09", "event": "Iowa State vs BYU, Oct 9, Moneyline", "outcome": "Iowa State Cyclones", "days": 0.037, "resolves": "2026-10-10T06:15:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.0914, "capital": 25.0, "shares": 25.1, "edge": 0.0036, "fees": 0.0342, "buy": 0.025, "sell": 0.03}, {"symbol": "NCAAF_26OCT09_ISUBYU_SP.BYU_13", "slug": "cfb-iowast-byu-2026-10-09-spread-home-13pt5", "event": "Iowa State vs BYU, Oct 9, Spreads", "outcome": "BYU Cougars -13.5", "days": 0.037, "resolves": "2026-10-10T06:15:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.6545, "capital": 25.0, "shares": 25.9, "edge": 0.0252, "fees": 0.2791, "buy": 0.3, "sell": 0.336}]}
