@@ -1,43 +1,10 @@
 {
- "checked_at": "2026-10-10T13:09:23Z",
+ "checked_at": "2026-10-10T13:12:33Z",
  "pairs_joined": 3365,
  "pairs_watched": 839,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "SERIEA_26OCT10_GENFIO_ML.FIO",
-   "slug": "sea-gen-fio-2026-10-10-fio",
-   "event": "Genoa CFC vs ACF Fiorentina, Moneyline - Reg Time",
-   "outcome": "ACF Fiorentina",
-   "days": 0.119,
-   "resolves": "2026-10-10T16:00:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 4.1059,
-   "capital": 25.0,
-   "shares": 29.5,
-   "edge": 0.1391,
-   "fees": 0.41,
-   "buy": 0.24,
-   "sell": 0.393
-  },
-  {
-   "symbol": "SERIEA_26OCT10_GENFIO_ML.GEN",
-   "slug": "sea-gen-fio-2026-10-10-gen",
-   "event": "Genoa CFC vs ACF Fiorentina, Moneyline - Reg Time",
-   "outcome": "Genoa CFC",
-   "days": 0.119,
-   "resolves": "2026-10-10T16:00:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 5.1957,
-   "capital": 25.0,
-   "shares": 30.7,
-   "edge": 0.1692,
-   "fees": 0.5141,
-   "buy": 0.307,
-   "sell": 0.46
-  }
- ]
+ "hits": []
 }
