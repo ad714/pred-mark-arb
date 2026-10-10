@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-10T17:36:57Z",
+ "checked_at": "2026-10-10T17:40:13Z",
  "pairs_joined": 3406,
  "pairs_watched": 834,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "CFB_26OCT10_BSUNW_TT.53",
-   "slug": "cfb-ballst-nw-2026-10-10-total-53pt5",
-   "event": "Ball State vs Northwestern, Oct 10, Totals",
-   "outcome": "Total Over 53.5",
-   "days": 0.12,
-   "resolves": "2026-10-10T20:30:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.138,
-   "capital": 25.0,
-   "shares": 25.4,
-   "edge": 0.0054,
-   "fees": 0.2685,
-   "buy": 0.69,
-   "sell": 0.706
-  }
- ]
+ "hits": []
 }
