@@ -4897,3 +4897,5 @@
 {"checked_at": "2026-10-10T17:11:05Z", "watched": 838, "hits": []}
 {"checked_at": "2026-10-10T17:14:21Z", "watched": 837, "hits": [{"symbol": "LOL_26OCT10_KCBANB_M2ML.KCB", "slug": "lol-kcb-anb-2026-10-10-game2", "event": "Karmine Corp Blue vs Anubis Gaming, Map 2 Winner", "outcome": "Karmine Corp Blue", "days": 0.199, "resolves": "2026-10-10T22:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.2303, "capital": 25.0, "shares": 25.6, "edge": 0.009, "fees": 0.3582, "buy": 0.27, "sell": 0.293}]}
 {"checked_at": "2026-10-10T17:17:40Z", "watched": 834, "hits": []}
+{"checked_at": "2026-10-10T17:20:52Z", "watched": 834, "hits": []}
+{"checked_at": "2026-10-10T17:24:05Z", "watched": 834, "hits": [{"symbol": "LOL_26OCT10_SLYG2N_M2ML.SLY", "slug": "lol-sly-g2nord-2026-10-10-game2", "event": "Solary vs G2 NORD, Map 2 Winner", "outcome": "Solary", "days": 0.192, "resolves": "2026-10-10T22:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 1.0597, "capital": 25.0, "shares": 26.4, "edge": 0.0401, "fees": 0.3674, "buy": 0.71, "sell": 0.764}]}

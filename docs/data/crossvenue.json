@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-10T17:17:40Z",
+ "checked_at": "2026-10-10T17:24:05Z",
  "pairs_joined": 3411,
  "pairs_watched": 834,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "LOL_26OCT10_SLYG2N_M2ML.SLY",
+   "slug": "lol-sly-g2nord-2026-10-10-game2",
+   "event": "Solary vs G2 NORD, Map 2 Winner",
+   "outcome": "Solary",
+   "days": 0.192,
+   "resolves": "2026-10-10T22:00:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 1.0597,
+   "capital": 25.0,
+   "shares": 26.4,
+   "edge": 0.0401,
+   "fees": 0.3674,
+   "buy": 0.71,
+   "sell": 0.764
+  }
+ ]
 }
