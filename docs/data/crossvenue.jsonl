@@ -4673,3 +4673,11 @@
 {"checked_at": "2026-10-10T05:25:29Z", "watched": 770, "hits": []}
 {"checked_at": "2026-10-10T05:28:44Z", "watched": 770, "hits": [{"symbol": "NCAAF_26OCT09_ISUBYU_SP.BYU_13", "slug": "cfb-iowast-byu-2026-10-09-spread-home-13pt5", "event": "Iowa State vs BYU, Oct 9, Spreads", "outcome": "BYU Cougars -13.5", "days": 0.032, "resolves": "2026-10-10T06:15:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.8002, "capital": 25.0, "shares": 26.0, "edge": 0.0308, "fees": 0.1603, "buy": 0.13, "sell": 0.167}]}
 {"checked_at": "2026-10-10T05:31:55Z", "watched": 770, "hits": []}
+{"checked_at": "2026-10-10T05:35:11Z", "watched": 770, "hits": []}
+{"checked_at": "2026-10-10T05:38:19Z", "watched": 770, "hits": []}
+{"checked_at": "2026-10-10T05:41:30Z", "watched": 770, "hits": []}
+{"checked_at": "2026-10-10T05:44:38Z", "watched": 770, "hits": []}
+{"checked_at": "2026-10-10T05:47:48Z", "watched": 770, "hits": []}
+{"checked_at": "2026-10-10T05:51:03Z", "watched": 768, "hits": []}
+{"checked_at": "2026-10-10T05:54:11Z", "watched": 768, "hits": []}
+{"checked_at": "2026-10-10T05:57:22Z", "watched": 768, "hits": [{"symbol": "ATP_26OCT10_TIRJOD_ML.TIR", "slug": "atp-tirante-jodar-2026-10-09", "event": "Tirante vs Jodar, Match Winner", "outcome": "Thiago Agustin Tirante", "days": 0.169, "resolves": "2026-10-10T10:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.4228, "capital": 25.0, "shares": 25.9, "edge": 0.0164, "fees": 0.4304, "buy": 0.367, "sell": 0.4}]}
