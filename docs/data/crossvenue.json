@@ -1,27 +1,27 @@
 {
- "checked_at": "2026-10-10T18:02:33Z",
- "pairs_joined": 3400,
- "pairs_watched": 834,
+ "checked_at": "2026-10-10T18:05:49Z",
+ "pairs_joined": 3390,
+ "pairs_watched": 832,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
  "hits": [
   {
-   "symbol": "CFB_26OCT10_WAKENCST_ML.WAKE",
-   "slug": "cfb-wake-ncst-2026-10-10",
-   "event": "Wake Forest vs NC State, Oct 10, Moneyline",
-   "outcome": "Wake Forest Demon Deacons",
-   "days": 0.082,
-   "resolves": "2026-10-10T20:00:00+00:00",
+   "symbol": "CS2_26OCT10_MOUZSPT_M1W.MOUZ",
+   "slug": "cs2-mouz-ts7-2026-10-10-game1",
+   "event": "MOUZ vs Spirit, Map 1 Winner",
+   "outcome": "MOUZ",
+   "days": 0.204,
+   "resolves": "2026-10-10T23:00:00+00:00",
    "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.8949,
+   "profit": 0.5908,
    "capital": 25.0,
-   "shares": 26.2,
-   "edge": 0.0341,
-   "fees": 0.3106,
-   "buy": 0.584,
-   "sell": 0.63
+   "shares": 25.9,
+   "edge": 0.0228,
+   "fees": 0.2891,
+   "buy": 0.776,
+   "sell": 0.81
   }
  ]
 }
