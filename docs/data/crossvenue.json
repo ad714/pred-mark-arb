@@ -1,27 +1,27 @@
 {
- "checked_at": "2026-10-10T18:22:08Z",
- "pairs_joined": 3384,
- "pairs_watched": 824,
+ "checked_at": "2026-10-10T19:00:30Z",
+ "pairs_joined": 3365,
+ "pairs_watched": 810,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
  "hits": [
   {
-   "symbol": "NCAAF_26OCT10_ARIZWVU_ML.ARIZ",
-   "slug": "cfb-arz-wvir-2026-10-10",
-   "event": "Arizona vs West Virginia, Oct 10, Moneyline",
-   "outcome": "Arizona Wildcats",
-   "days": 0.068,
+   "symbol": "CFB_26OCT10_TAMUMIZ_ML.TAMU",
+   "slug": "cfb-txam-missr-2026-10-10",
+   "event": "Texas A&M vs Missouri, Oct 10, Moneyline",
+   "outcome": "Texas A&M Aggies",
+   "days": 0.041,
    "resolves": "2026-10-10T20:00:00+00:00",
    "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.0716,
+   "profit": 0.2101,
    "capital": 25.0,
    "shares": 25.2,
-   "edge": 0.0028,
-   "fees": 0.13,
-   "buy": 0.88,
-   "sell": 0.888
+   "edge": 0.0083,
+   "fees": 0.0169,
+   "buy": 0.01,
+   "sell": 0.019
   }
  ]
 }
