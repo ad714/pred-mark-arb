@@ -4854,3 +4854,15 @@
 {"checked_at": "2026-10-10T14:52:48Z", "watched": 920, "hits": []}
 {"checked_at": "2026-10-10T14:55:58Z", "watched": 920, "hits": [{"symbol": "BUND_26OCT10_FCAFCB_ML.FCB", "slug": "bun-aug-bay-2026-10-10-bay", "event": "FC Augsburg vs FC Bayern M\u00fcnchen, Moneyline - Reg Time", "outcome": "FC Bayern M\u00fcnchen", "days": 0.065, "resolves": "2026-10-10T16:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.1778, "capital": 25.0, "shares": 25.6, "edge": 0.0069, "fees": 0.4108, "buy": 0.35, "sell": 0.373}]}
 {"checked_at": "2026-10-10T14:59:10Z", "watched": 920, "hits": []}
+{"checked_at": "2026-10-10T15:02:31Z", "watched": 913, "hits": [{"symbol": "LAL_26OCT10_ALAATM_ML.DRAW", "slug": "lal-ala-mad-2026-10-10-draw", "event": "Deportivo Alav\u00e9s vs Club Atl\u00e9tico de Madrid, Moneyline - Reg Time", "outcome": "Draw", "days": 0.092, "resolves": "2026-10-10T17:15:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.006, "capital": 14.79, "shares": 15.0, "edge": 0.0004, "fees": 0.204, "buy": 0.26, "sell": 0.274}]}
+{"checked_at": "2026-10-10T15:05:40Z", "watched": 913, "hits": []}
+{"checked_at": "2026-10-10T15:08:54Z", "watched": 913, "hits": []}
+{"checked_at": "2026-10-10T15:12:07Z", "watched": 913, "hits": []}
+{"checked_at": "2026-10-10T15:15:17Z", "watched": 913, "hits": []}
+{"checked_at": "2026-10-10T15:18:26Z", "watched": 913, "hits": []}
+{"checked_at": "2026-10-10T15:21:37Z", "watched": 913, "hits": []}
+{"checked_at": "2026-10-10T15:24:50Z", "watched": 913, "hits": []}
+{"checked_at": "2026-10-10T15:28:01Z", "watched": 913, "hits": []}
+{"checked_at": "2026-10-10T15:31:11Z", "watched": 913, "hits": []}
+{"checked_at": "2026-10-10T15:34:23Z", "watched": 913, "hits": []}
+{"checked_at": "2026-10-10T15:37:40Z", "watched": 906, "hits": [{"symbol": "CS2_26OCT10_AURVIT_M2W.AUR", "slug": "cs2-aur1-vit-2026-10-10-game2", "event": "Aurora Gaming vs Team Vitality, Map 2 Winner", "outcome": "Aurora Gaming", "days": 0.172, "resolves": "2026-10-10T19:45:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.2052, "capital": 25.0, "shares": 25.2, "edge": 0.0081, "fees": 0.0219, "buy": 0.01, "sell": 0.019}]}
