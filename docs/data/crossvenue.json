@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-10-10T19:00:30Z",
- "pairs_joined": 3365,
+ "checked_at": "2026-10-10T19:03:45Z",
+ "pairs_joined": 3364,
  "pairs_watched": 810,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
@@ -8,20 +8,20 @@
  "unread_poly": 0,
  "hits": [
   {
-   "symbol": "CFB_26OCT10_TAMUMIZ_ML.TAMU",
-   "slug": "cfb-txam-missr-2026-10-10",
-   "event": "Texas A&M vs Missouri, Oct 10, Moneyline",
-   "outcome": "Texas A&M Aggies",
-   "days": 0.041,
-   "resolves": "2026-10-10T20:00:00+00:00",
+   "symbol": "LIGUE1_26OCT10_PSGLMF_ML.LMF",
+   "slug": "fl1-psg-lmf-2026-10-10-lmf",
+   "event": "Paris Saint-Germain vs Le Mans FC, Moneyline - Reg Time",
+   "outcome": "Le Mans FC",
+   "days": 0.112,
+   "resolves": "2026-10-10T21:45:00+00:00",
    "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.2101,
+   "profit": 0.0148,
    "capital": 25.0,
-   "shares": 25.2,
-   "edge": 0.0083,
-   "fees": 0.0169,
-   "buy": 0.01,
-   "sell": 0.019
+   "shares": 25.1,
+   "edge": 0.0006,
+   "fees": 0.0353,
+   "buy": 0.02,
+   "sell": 0.022
   }
  ]
 }
