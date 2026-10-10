@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-10T01:33:25Z",
+ "checked_at": "2026-10-10T01:36:35Z",
  "pairs_joined": 3319,
  "pairs_watched": 793,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "NHL_26OCT09_PITCBJ_ML.PIT",
-   "slug": "nhl-pit-cbj-2026-10-09",
-   "event": "Penguins vs Blue Jackets, Oct 9, Moneyline",
-   "outcome": "Pittsburgh Penguins",
-   "days": 0.06,
-   "resolves": "2026-10-10T03:00:00+00:00",
-   "side": "buy Polymarket, buy NO on Pascal",
-   "profit": 0.9489,
-   "capital": 25.0,
-   "shares": 26.4,
-   "edge": 0.0359,
-   "fees": 0.4603,
-   "buy": 0.48,
-   "sell": 0.522
-  }
- ]
+ "hits": []
 }
