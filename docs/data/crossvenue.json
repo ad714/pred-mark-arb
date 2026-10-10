@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-10T13:54:19Z",
- "pairs_joined": 3459,
- "pairs_watched": 933,
+ "checked_at": "2026-10-10T14:10:47Z",
+ "pairs_joined": 3455,
+ "pairs_watched": 929,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "EPL_26OCT10_AVLBRE_ML.BRE",
+   "slug": "epl-ast-bre-2026-10-10-bre",
+   "event": "Aston Villa FC vs Brentford FC, Moneyline - Reg Time",
+   "outcome": "Brentford FC",
+   "days": 0.118,
+   "resolves": "2026-10-10T17:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 0.4584,
+   "capital": 25.0,
+   "shares": 25.9,
+   "edge": 0.0177,
+   "fees": 0.4484,
+   "buy": 0.525,
+   "sell": 0.56
+  }
+ ]
 }

@@ -4833,3 +4833,9 @@
 {"checked_at": "2026-10-10T13:48:01Z", "watched": 933, "hits": []}
 {"checked_at": "2026-10-10T13:51:10Z", "watched": 933, "hits": []}
 {"checked_at": "2026-10-10T13:54:19Z", "watched": 933, "hits": []}
+{"checked_at": "2026-10-10T13:54:43Z", "watched": 933, "hits": []}
+{"checked_at": "2026-10-10T13:57:56Z", "watched": 933, "hits": []}
+{"checked_at": "2026-10-10T14:01:13Z", "watched": 929, "hits": []}
+{"checked_at": "2026-10-10T14:04:24Z", "watched": 929, "hits": []}
+{"checked_at": "2026-10-10T14:07:36Z", "watched": 929, "hits": []}
+{"checked_at": "2026-10-10T14:10:47Z", "watched": 929, "hits": [{"symbol": "EPL_26OCT10_AVLBRE_ML.BRE", "slug": "epl-ast-bre-2026-10-10-bre", "event": "Aston Villa FC vs Brentford FC, Moneyline - Reg Time", "outcome": "Brentford FC", "days": 0.118, "resolves": "2026-10-10T17:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.4584, "capital": 25.0, "shares": 25.9, "edge": 0.0177, "fees": 0.4484, "buy": 0.525, "sell": 0.56}]}
