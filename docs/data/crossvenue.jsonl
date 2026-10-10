@@ -4904,3 +4904,10 @@
 {"checked_at": "2026-10-10T17:33:45Z", "watched": 834, "hits": []}
 {"checked_at": "2026-10-10T17:36:57Z", "watched": 834, "hits": [{"symbol": "CFB_26OCT10_BSUNW_TT.53", "slug": "cfb-ballst-nw-2026-10-10-total-53pt5", "event": "Ball State vs Northwestern, Oct 10, Totals", "outcome": "Total Over 53.5", "days": 0.12, "resolves": "2026-10-10T20:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.138, "capital": 25.0, "shares": 25.4, "edge": 0.0054, "fees": 0.2685, "buy": 0.69, "sell": 0.706}]}
 {"checked_at": "2026-10-10T17:40:13Z", "watched": 834, "hits": []}
+{"checked_at": "2026-10-10T17:43:29Z", "watched": 834, "hits": []}
+{"checked_at": "2026-10-10T17:46:40Z", "watched": 834, "hits": []}
+{"checked_at": "2026-10-10T17:49:52Z", "watched": 834, "hits": []}
+{"checked_at": "2026-10-10T17:53:01Z", "watched": 834, "hits": []}
+{"checked_at": "2026-10-10T17:56:12Z", "watched": 834, "hits": []}
+{"checked_at": "2026-10-10T17:59:22Z", "watched": 834, "hits": []}
+{"checked_at": "2026-10-10T18:02:33Z", "watched": 834, "hits": [{"symbol": "CFB_26OCT10_WAKENCST_ML.WAKE", "slug": "cfb-wake-ncst-2026-10-10", "event": "Wake Forest vs NC State, Oct 10, Moneyline", "outcome": "Wake Forest Demon Deacons", "days": 0.082, "resolves": "2026-10-10T20:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.8949, "capital": 25.0, "shares": 26.2, "edge": 0.0341, "fees": 0.3106, "buy": 0.584, "sell": 0.63}]}

@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-10T17:40:13Z",
- "pairs_joined": 3406,
+ "checked_at": "2026-10-10T18:02:33Z",
+ "pairs_joined": 3400,
  "pairs_watched": 834,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "CFB_26OCT10_WAKENCST_ML.WAKE",
+   "slug": "cfb-wake-ncst-2026-10-10",
+   "event": "Wake Forest vs NC State, Oct 10, Moneyline",
+   "outcome": "Wake Forest Demon Deacons",
+   "days": 0.082,
+   "resolves": "2026-10-10T20:00:00+00:00",
+   "side": "buy Pascal, buy NO on Polymarket",
+   "profit": 0.8949,
+   "capital": 25.0,
+   "shares": 26.2,
+   "edge": 0.0341,
+   "fees": 0.3106,
+   "buy": 0.584,
+   "sell": 0.63
+  }
+ ]
 }
