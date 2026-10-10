@@ -1,27 +1,10 @@
 {
- "checked_at": "2026-10-10T05:57:22Z",
+ "checked_at": "2026-10-10T06:00:32Z",
  "pairs_joined": 3294,
  "pairs_watched": 768,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": [
-  {
-   "symbol": "ATP_26OCT10_TIRJOD_ML.TIR",
-   "slug": "atp-tirante-jodar-2026-10-09",
-   "event": "Tirante vs Jodar, Match Winner",
-   "outcome": "Thiago Agustin Tirante",
-   "days": 0.169,
-   "resolves": "2026-10-10T10:00:00+00:00",
-   "side": "buy Pascal, buy NO on Polymarket",
-   "profit": 0.4228,
-   "capital": 25.0,
-   "shares": 25.9,
-   "edge": 0.0164,
-   "fees": 0.4304,
-   "buy": 0.367,
-   "sell": 0.4
-  }
- ]
+ "hits": []
 }
