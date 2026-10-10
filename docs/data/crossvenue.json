@@ -1,10 +1,27 @@
 {
- "checked_at": "2026-10-10T16:55:00Z",
- "pairs_joined": 3424,
- "pairs_watched": 869,
+ "checked_at": "2026-10-10T17:14:21Z",
+ "pairs_joined": 3411,
+ "pairs_watched": 837,
  "capital_cap": 25.0,
  "horizon_days": 7.0,
  "unread_pascal": 0,
  "unread_poly": 0,
- "hits": []
+ "hits": [
+  {
+   "symbol": "LOL_26OCT10_KCBANB_M2ML.KCB",
+   "slug": "lol-kcb-anb-2026-10-10-game2",
+   "event": "Karmine Corp Blue vs Anubis Gaming, Map 2 Winner",
+   "outcome": "Karmine Corp Blue",
+   "days": 0.199,
+   "resolves": "2026-10-10T22:00:00+00:00",
+   "side": "buy Polymarket, buy NO on Pascal",
+   "profit": 0.2303,
+   "capital": 25.0,
+   "shares": 25.6,
+   "edge": 0.009,
+   "fees": 0.3582,
+   "buy": 0.27,
+   "sell": 0.293
+  }
+ ]
 }
