@@ -4840,3 +4840,13 @@
 {"checked_at": "2026-10-10T14:07:36Z", "watched": 929, "hits": []}
 {"checked_at": "2026-10-10T14:10:47Z", "watched": 929, "hits": [{"symbol": "EPL_26OCT10_AVLBRE_ML.BRE", "slug": "epl-ast-bre-2026-10-10-bre", "event": "Aston Villa FC vs Brentford FC, Moneyline - Reg Time", "outcome": "Brentford FC", "days": 0.118, "resolves": "2026-10-10T17:00:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 0.4584, "capital": 25.0, "shares": 25.9, "edge": 0.0177, "fees": 0.4484, "buy": 0.525, "sell": 0.56}]}
 {"checked_at": "2026-10-10T14:14:03Z", "watched": 929, "hits": []}
+{"checked_at": "2026-10-10T14:17:18Z", "watched": 929, "hits": []}
+{"checked_at": "2026-10-10T14:20:37Z", "watched": 925, "hits": []}
+{"checked_at": "2026-10-10T14:23:57Z", "watched": 922, "hits": []}
+{"checked_at": "2026-10-10T14:27:08Z", "watched": 922, "hits": []}
+{"checked_at": "2026-10-10T14:30:21Z", "watched": 922, "hits": []}
+{"checked_at": "2026-10-10T14:33:31Z", "watched": 922, "hits": []}
+{"checked_at": "2026-10-10T14:36:42Z", "watched": 922, "hits": []}
+{"checked_at": "2026-10-10T14:39:53Z", "watched": 922, "hits": []}
+{"checked_at": "2026-10-10T14:43:10Z", "watched": 920, "hits": []}
+{"checked_at": "2026-10-10T14:46:20Z", "watched": 920, "hits": [{"symbol": "BUND_26OCT10_M05B04_ML.B04", "slug": "bun-mai-b04-2026-10-10-b04", "event": "1. FSV Mainz 05 vs Bayer 04 Leverkusen, Moneyline - Reg Time", "outcome": "Bayer 04 Leverkusen", "days": 0.072, "resolves": "2026-10-10T16:30:00+00:00", "side": "buy Pascal, buy NO on Polymarket", "profit": 4.7085, "capital": 25.0, "shares": 30.2, "edge": 0.1559, "fees": 0.4848, "buy": 0.498, "sell": 0.67}, {"symbol": "BUND_26OCT10_M05B04_ML.M05", "slug": "bun-mai-b04-2026-10-10-mai", "event": "1. FSV Mainz 05 vs Bayer 04 Leverkusen, Moneyline - Reg Time", "outcome": "1. FSV Mainz 05", "days": 0.072, "resolves": "2026-10-10T16:30:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.1742, "capital": 4.79, "shares": 5.0, "edge": 0.0348, "fees": 0.0358, "buy": 0.104, "sell": 0.146}]}
