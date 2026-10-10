@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-10-10T09:01:12Z",
+ "generated_at": "2026-10-10T13:00:56Z",
  "matches": [
   {
    "cb_id": 147920,
    "teams": "AUS v RSA",
    "teams_full": "Australia v South Africa",
    "state": "In Progress",
-   "status": "Day 2: 1st Session",
+   "status": "Day 2: 2nd Session",
    "series": "Australia tour of South Africa, 2026",
    "format": "TEST",
    "date": "2026-10-09",
    "start_ms": 1791531000000,
-   "last_ball_min": 0.8,
+   "last_ball_min": 1.0,
    "balls_flowing": true
   },
   {
@@ -19,12 +19,12 @@
    "teams": "BAN v AFG",
    "teams_full": "Bangladesh v Afghanistan",
    "state": "In Progress",
-   "status": "Day 2: 2nd Session - Afghanistan trail by 292 runs",
+   "status": "Day 2: 3rd Session - Afghanistan trail by 154 runs",
    "series": "Afghanistan vs Bangladesh in UAE, 2026",
    "format": "TEST",
    "date": "2026-10-09",
    "start_ms": 1791525600000,
-   "last_ball_min": 0.2,
+   "last_ball_min": 0.4,
    "balls_flowing": true
   },
   {
@@ -39,10 +39,43 @@
    "start_ms": 1791646200000
   },
   {
+   "cb_id": 155455,
+   "teams": "INDA v AUSA",
+   "teams_full": "India A v Australia A",
+   "state": "Preview",
+   "status": "Match starts at Oct 11, 03:30 GMT",
+   "series": "Australia A tour of India 2026",
+   "format": "ODI",
+   "date": "2026-10-11",
+   "start_ms": 1791689400000
+  },
+  {
+   "cb_id": 163550,
+   "teams": "AP v KAR",
+   "teams_full": "Andhra v Karnataka",
+   "state": "Preview",
+   "status": "Match starts at Oct 11, 04:00 GMT",
+   "series": "Ranji Trophy Elite 2026-27",
+   "format": "TEST",
+   "date": "2026-10-11",
+   "start_ms": 1791691200000
+  },
+  {
+   "cb_id": 170690,
+   "teams": "PAK v SL",
+   "teams_full": "Pakistan v Sri Lanka",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 11, 13:00 GMT",
+   "series": "Sri Lanka tour of Pakistan, 2026",
+   "format": "T20",
+   "date": "2026-10-11",
+   "start_ms": 1791723600000
+  },
+  {
    "cb_id": 173773,
    "teams": "KUW v MMR",
    "teams_full": "Kuwait v Myanmar",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 11, 06:00 GMT",
    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
    "format": "T20",
@@ -53,7 +86,7 @@
    "cb_id": 173783,
    "teams": "BTN v QAT",
    "teams_full": "Bhutan v Qatar",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 11, 06:00 GMT",
    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
    "format": "T20",
@@ -64,7 +97,7 @@
    "cb_id": 173791,
    "teams": "BHR v MGL",
    "teams_full": "Bahrain v Mongolia",
-   "state": "Upcoming",
+   "state": "Preview",
    "status": "Match starts at Oct 11, 06:00 GMT",
    "series": "ICC Men's T20 World Cup Asia Sub Regional Qualifier A 2026",
    "format": "T20",
@@ -116,6 +149,17 @@
    "start_ms": 1791696600000
   },
   {
+   "cb_id": 175020,
+   "teams": "AUSCH v WICH",
+   "teams_full": "Australia Champions v West Indies Champions",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 11, 11:30 GMT",
+   "series": "World Championship of Legends 2026",
+   "format": "T20",
+   "date": "2026-10-11",
+   "start_ms": 1791718200000
+  },
+  {
    "cb_id": 173307,
    "teams": "MPR v WPR",
    "teams_full": "Mpumalanga Rhinos v Western Province",
@@ -136,6 +180,39 @@
    "format": "T20",
    "date": "2026-10-10",
    "start_ms": 1791648000000
+  },
+  {
+   "cb_id": 173320,
+   "teams": "TIT v ESTORM",
+   "teams_full": "Titans v Eastern Storm",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 11, 11:00 GMT",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-10-11",
+   "start_ms": 1791716400000
+  },
+  {
+   "cb_id": 173327,
+   "teams": "SAEP v BOL",
+   "teams_full": "South Africa Emerging Players v Boland",
+   "state": "Upcoming",
+   "status": "Match starts at Oct 11, 11:00 GMT",
+   "series": "CSA T20 Challenge 2026",
+   "format": "T20",
+   "date": "2026-10-11",
+   "start_ms": 1791716400000
+  },
+  {
+   "cb_id": 163521,
+   "teams": "BIH v UP",
+   "teams_full": "Bihar v Uttar Pradesh",
+   "state": "Preview",
+   "status": "Match starts at Oct 11, 03:30 GMT",
+   "series": "Ranji Trophy Elite 2026-27",
+   "format": "TEST",
+   "date": "2026-10-11",
+   "start_ms": 1791689400000
   },
   {
    "cb_id": 163561,
@@ -160,15 +237,48 @@
    "start_ms": 1791689400000
   },
   {
-   "cb_id": 163521,
-   "teams": "BIH v UP",
-   "teams_full": "Bihar v Uttar Pradesh",
+   "cb_id": 163520,
+   "teams": "GOA v BRD",
+   "teams_full": "Goa v Baroda",
    "state": "Preview",
-   "status": "Match starts at Oct 11, 03:30 GMT",
+   "status": "Match starts at Oct 11, 04:00 GMT",
    "series": "Ranji Trophy Elite 2026-27",
    "format": "TEST",
    "date": "2026-10-11",
-   "start_ms": 1791689400000
+   "start_ms": 1791691200000
+  },
+  {
+   "cb_id": 163530,
+   "teams": "JK v MP",
+   "teams_full": "Jammu and Kashmir v Madhya Pradesh",
+   "state": "Preview",
+   "status": "Match starts at Oct 11, 04:00 GMT",
+   "series": "Ranji Trophy Elite 2026-27",
+   "format": "TEST",
+   "date": "2026-10-11",
+   "start_ms": 1791691200000
+  },
+  {
+   "cb_id": 163531,
+   "teams": "VID v PDC",
+   "teams_full": "Vidarbha v Puducherry",
+   "state": "Preview",
+   "status": "Match starts at Oct 11, 04:00 GMT",
+   "series": "Ranji Trophy Elite 2026-27",
+   "format": "TEST",
+   "date": "2026-10-11",
+   "start_ms": 1791691200000
+  },
+  {
+   "cb_id": 163540,
+   "teams": "HYD v TRI",
+   "teams_full": "Hyderabad v Tripura",
+   "state": "Preview",
+   "status": "Match starts at Oct 11, 04:00 GMT",
+   "series": "Ranji Trophy Elite 2026-27",
+   "format": "TEST",
+   "date": "2026-10-11",
+   "start_ms": 1791691200000
   },
   {
    "cb_id": 163551,
@@ -259,72 +369,6 @@
    "start_ms": 1791691200000
   },
   {
-   "cb_id": 163520,
-   "teams": "GOA v BRD",
-   "teams_full": "Goa v Baroda",
-   "state": "Preview",
-   "status": "Match starts at Oct 11, 04:00 GMT",
-   "series": "Ranji Trophy Elite 2026-27",
-   "format": "TEST",
-   "date": "2026-10-11",
-   "start_ms": 1791691200000
-  },
-  {
-   "cb_id": 163530,
-   "teams": "JK v MP",
-   "teams_full": "Jammu and Kashmir v Madhya Pradesh",
-   "state": "Preview",
-   "status": "Match starts at Oct 11, 04:00 GMT",
-   "series": "Ranji Trophy Elite 2026-27",
-   "format": "TEST",
-   "date": "2026-10-11",
-   "start_ms": 1791691200000
-  },
-  {
-   "cb_id": 163531,
-   "teams": "VID v PDC",
-   "teams_full": "Vidarbha v Puducherry",
-   "state": "Preview",
-   "status": "Match starts at Oct 11, 04:00 GMT",
-   "series": "Ranji Trophy Elite 2026-27",
-   "format": "TEST",
-   "date": "2026-10-11",
-   "start_ms": 1791691200000
-  },
-  {
-   "cb_id": 163540,
-   "teams": "HYD v TRI",
-   "teams_full": "Hyderabad v Tripura",
-   "state": "Preview",
-   "status": "Match starts at Oct 11, 04:00 GMT",
-   "series": "Ranji Trophy Elite 2026-27",
-   "format": "TEST",
-   "date": "2026-10-11",
-   "start_ms": 1791691200000
-  },
-  {
-   "cb_id": 163550,
-   "teams": "AP v KAR",
-   "teams_full": "Andhra v Karnataka",
-   "state": "Preview",
-   "status": "Match starts at Oct 11, 04:00 GMT",
-   "series": "Ranji Trophy Elite 2026-27",
-   "format": "TEST",
-   "date": "2026-10-11",
-   "start_ms": 1791691200000
-  },
-  {
-   "cb_id": 155455,
-   "teams": "INDA v AUSA",
-   "teams_full": "India A v Australia A",
-   "state": "Preview",
-   "status": "Match starts at Oct 11, 03:30 GMT",
-   "series": "Australia A tour of India 2026",
-   "format": "ODI",
-   "date": "2026-10-11",
-   "start_ms": 1791689400000
-  },
-  {
    "cb_id": 166587,
    "teams": "TAS v NSW",
    "teams_full": "Tasmania v New South Wales",
@@ -339,21 +383,19 @@
    "cb_id": 166600,
    "teams": "QL v WA",
    "teams_full": "Queensland v Western Australia",
-   "state": "In Progress",
-   "status": "Day 3: 3rd Session - Western Australia need 84 runs",
+   "state": "Stumps",
+   "status": "Day 3: Stumps - Western Australia need 67 runs",
    "series": "Sheffield Shield 2026-27",
    "format": "TEST",
    "date": "2026-10-08",
-   "start_ms": 1791426600000,
-   "last_ball_min": 7.5,
-   "balls_flowing": true
+   "start_ms": 1791426600000
   },
   {
    "cb_id": 163097,
    "teams": "SKM v MGLY",
    "teams_full": "Sikkim v Meghalaya",
-   "state": "Upcoming",
-   "status": "Match starts at Oct 11, 04:00 GMT",
+   "state": "Preview",
+   "status": "Match starts at Oct 11, 02:45 GMT",
    "series": "Ranji Trophy Plate 2026-27",
    "format": "TEST",
    "date": "2026-10-11",
@@ -395,6 +437,82 @@
  ],
  "pairings": [
   {
+   "slug": "crint-inda-ausa-2026-10-11",
+   "cb_id": 155455,
+   "question": "Australia A Tour of India Unofficial ODIs: India A vs Australia A",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "India A": {
+     "bid": 0.52,
+     "ask": 0.57,
+     "mid": 0.5449999999999999
+    },
+    "Australia A": {
+     "bid": 0.43,
+     "ask": 0.48,
+     "mid": 0.45499999999999996
+    }
+   }
+  },
+  {
+   "slug": "crint-kwt-mmr-2026-10-11",
+   "cb_id": 173773,
+   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Kuwait vs Myanmar",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Kuwait": {
+     "bid": 0.931,
+     "ask": 0.96,
+     "mid": 0.9455
+    },
+    "Myanmar": {
+     "bid": 0.04,
+     "ask": 0.069,
+     "mid": 0.05450000000000001
+    }
+   }
+  },
+  {
+   "slug": "crint-btn-qat-2026-10-11",
+   "cb_id": 173783,
+   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Bhutan vs Qatar",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Bhutan": {
+     "bid": 0.07,
+     "ask": 0.1,
+     "mid": 0.085
+    },
+    "Qatar": {
+     "bid": 0.9,
+     "ask": 0.93,
+     "mid": 0.915
+    }
+   }
+  },
+  {
+   "slug": "crint-bhr-mng-2026-10-11",
+   "cb_id": 173791,
+   "question": "T20 World Cup Asia Sub-Regional Qualifier A: Bahrain vs Mongolia",
+   "score": 1.0,
+   "state": "Preview",
+   "prices": {
+    "Bahrain": {
+     "bid": 0.93,
+     "ask": 0.95,
+     "mid": 0.94
+    },
+    "Mongolia": {
+     "bid": 0.05,
+     "ask": 0.07,
+     "mid": 0.060000000000000005
+    }
+   }
+  },
+  {
    "slug": "crint-mys-mdv-2026-10-10",
    "cb_id": 173891,
    "question": "T20 World Cup Asia Sub-Regional Qualifier B: Malaysia vs Maldives",
@@ -402,14 +520,14 @@
    "state": "Preview",
    "prices": {
     "Malaysia": {
-     "bid": 0.93,
-     "ask": 0.97,
-     "mid": 0.95
+     "bid": 0.92,
+     "ask": 0.94,
+     "mid": 0.9299999999999999
     },
     "Maldives": {
-     "bid": 0.03,
-     "ask": 0.07,
-     "mid": 0.05
+     "bid": 0.06,
+     "ask": 0.08,
+     "mid": 0.07
     }
    }
   },
@@ -421,14 +539,14 @@
    "state": "Preview",
    "prices": {
     "China": {
-     "bid": 0.022,
+     "bid": 0.028,
      "ask": 0.039,
-     "mid": 0.0305
+     "mid": 0.0335
     },
     "Singapore": {
      "bid": 0.961,
-     "ask": 0.978,
-     "mid": 0.9695
+     "ask": 0.972,
+     "mid": 0.9664999999999999
     }
    }
   },
@@ -440,33 +558,14 @@
    "state": "Preview",
    "prices": {
     "Canada": {
-     "bid": 0.36,
-     "ask": 0.43,
-     "mid": 0.395
+     "bid": 0.4,
+     "ask": 0.41,
+     "mid": 0.405
     },
     "Nepal": {
-     "bid": 0.57,
-     "ask": 0.64,
-     "mid": 0.605
-    }
-   }
-  },
-  {
-   "slug": "crint-inda-ausa-2026-10-11",
-   "cb_id": 155455,
-   "question": "Australia A Tour of India Unofficial ODIs: India A vs Australia A",
-   "score": 1.0,
-   "state": "Preview",
-   "prices": {
-    "India A": {
-     "bid": 0.53,
-     "ask": 0.61,
-     "mid": 0.5700000000000001
-    },
-    "Australia A": {
-     "bid": 0.39,
-     "ask": 0.47,
-     "mid": 0.43
+     "bid": 0.59,
+     "ask": 0.6,
+     "mid": 0.595
     }
    }
   },
@@ -478,14 +577,14 @@
    "state": "Preview",
    "prices": {
     "Hong Kong": {
-     "bid": 0.18,
-     "ask": 0.7,
-     "mid": 0.43999999999999995
+     "bid": 0.44,
+     "ask": 0.51,
+     "mid": 0.475
     },
     "Saudi Arabia": {
-     "bid": 0.3,
-     "ask": 0.82,
-     "mid": 0.5599999999999999
+     "bid": 0.49,
+     "ask": 0.56,
+     "mid": 0.525
     }
    }
   }
@@ -516,6 +615,22 @@
    "reason": "cricwcl-ind-sou-2026-10-06 matched on names but its date does not fit this fixture"
   },
   {
+   "cb_id": 163550,
+   "teams": "Andhra v Karnataka",
+   "series": "Ranji Trophy Elite 2026-27",
+   "state": "Preview",
+   "date": "2026-10-11",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 163521,
+   "teams": "Bihar v Uttar Pradesh",
+   "series": "Ranji Trophy Elite 2026-27",
+   "state": "Preview",
+   "date": "2026-10-11",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
    "cb_id": 163561,
    "teams": "Jharkhand v Kerala",
    "series": "Ranji Trophy Elite 2026-27",
@@ -532,8 +647,32 @@
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 163521,
-   "teams": "Bihar v Uttar Pradesh",
+   "cb_id": 163520,
+   "teams": "Goa v Baroda",
+   "series": "Ranji Trophy Elite 2026-27",
+   "state": "Preview",
+   "date": "2026-10-11",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 163530,
+   "teams": "Jammu and Kashmir v Madhya Pradesh",
+   "series": "Ranji Trophy Elite 2026-27",
+   "state": "Preview",
+   "date": "2026-10-11",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 163531,
+   "teams": "Vidarbha v Puducherry",
+   "series": "Ranji Trophy Elite 2026-27",
+   "state": "Preview",
+   "date": "2026-10-11",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 163540,
+   "teams": "Hyderabad v Tripura",
    "series": "Ranji Trophy Elite 2026-27",
    "state": "Preview",
    "date": "2026-10-11",
@@ -604,46 +743,6 @@
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 163520,
-   "teams": "Goa v Baroda",
-   "series": "Ranji Trophy Elite 2026-27",
-   "state": "Preview",
-   "date": "2026-10-11",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 163530,
-   "teams": "Jammu and Kashmir v Madhya Pradesh",
-   "series": "Ranji Trophy Elite 2026-27",
-   "state": "Preview",
-   "date": "2026-10-11",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 163531,
-   "teams": "Vidarbha v Puducherry",
-   "series": "Ranji Trophy Elite 2026-27",
-   "state": "Preview",
-   "date": "2026-10-11",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 163540,
-   "teams": "Hyderabad v Tripura",
-   "series": "Ranji Trophy Elite 2026-27",
-   "state": "Preview",
-   "date": "2026-10-11",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
-   "cb_id": 163550,
-   "teams": "Andhra v Karnataka",
-   "series": "Ranji Trophy Elite 2026-27",
-   "state": "Preview",
-   "date": "2026-10-11",
-   "reason": "no open two outcome cricket market to compare against"
-  },
-  {
    "cb_id": 166587,
    "teams": "Tasmania v New South Wales",
    "series": "Sheffield Shield 2026-27",
@@ -655,13 +754,13 @@
    "cb_id": 166600,
    "teams": "Queensland v Western Australia",
    "series": "Sheffield Shield 2026-27",
-   "state": "In Progress",
+   "state": "Stumps",
    "date": "2026-10-08",
    "reason": "no open two outcome cricket market to compare against"
   },
   {
-   "cb_id": 163087,
-   "teams": "Mizoram v Manipur",
+   "cb_id": 163097,
+   "teams": "Sikkim v Meghalaya",
    "series": "Ranji Trophy Plate 2026-27",
    "state": "Preview",
    "date": "2026-10-11",
@@ -670,6 +769,14 @@
   {
    "cb_id": 163103,
    "teams": "Arunachal Pradesh v Nagaland",
+   "series": "Ranji Trophy Plate 2026-27",
+   "state": "Preview",
+   "date": "2026-10-11",
+   "reason": "no open two outcome cricket market to compare against"
+  },
+  {
+   "cb_id": 163087,
+   "teams": "Mizoram v Manipur",
    "series": "Ranji Trophy Plate 2026-27",
    "state": "Preview",
    "date": "2026-10-11",
@@ -696,10 +803,10 @@
   "start_ms": 1791681300000
  },
  "coverage": {
-  "seen_total": 193,
-  "ever_paired": 69,
-  "balls_flowing": 3,
-  "state_says_live": 3
+  "seen_total": 197,
+  "ever_paired": 72,
+  "balls_flowing": 2,
+  "state_says_live": 2
  },
  "trader": {
   "state": "idle",
@@ -707,7 +814,7 @@
   "run_number": 105,
   "url": "https://github.com/ad714/pred-mark-arb/actions/runs/37425892857",
   "started_at": "2026-10-06T06:49:04Z",
-  "elapsed_s": 321960,
+  "elapsed_s": 336344,
   "elapsed_means": "idle for",
   "runs_total": 105
  }
