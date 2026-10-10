@@ -4624,3 +4624,25 @@
 {"checked_at": "2026-10-10T02:52:07Z", "watched": 790, "hits": []}
 {"checked_at": "2026-10-10T02:55:16Z", "watched": 790, "hits": []}
 {"checked_at": "2026-10-10T02:58:24Z", "watched": 790, "hits": []}
+{"checked_at": "2026-10-10T02:59:00Z", "watched": 790, "hits": []}
+{"checked_at": "2026-10-10T03:02:16Z", "watched": 781, "hits": []}
+{"checked_at": "2026-10-10T03:05:24Z", "watched": 781, "hits": []}
+{"checked_at": "2026-10-10T03:08:36Z", "watched": 781, "hits": []}
+{"checked_at": "2026-10-10T03:11:44Z", "watched": 781, "hits": []}
+{"checked_at": "2026-10-10T03:14:54Z", "watched": 781, "hits": []}
+{"checked_at": "2026-10-10T03:18:08Z", "watched": 779, "hits": []}
+{"checked_at": "2026-10-10T03:21:23Z", "watched": 790, "hits": []}
+{"checked_at": "2026-10-10T03:24:33Z", "watched": 790, "hits": []}
+{"checked_at": "2026-10-10T03:27:42Z", "watched": 790, "hits": []}
+{"checked_at": "2026-10-10T03:30:49Z", "watched": 790, "hits": []}
+{"checked_at": "2026-10-10T03:34:02Z", "watched": 790, "hits": []}
+{"checked_at": "2026-10-10T03:37:11Z", "watched": 790, "hits": []}
+{"checked_at": "2026-10-10T03:40:22Z", "watched": 790, "hits": []}
+{"checked_at": "2026-10-10T03:43:30Z", "watched": 790, "hits": []}
+{"checked_at": "2026-10-10T03:46:41Z", "watched": 790, "hits": []}
+{"checked_at": "2026-10-10T03:49:50Z", "watched": 790, "hits": []}
+{"checked_at": "2026-10-10T03:53:04Z", "watched": 790, "hits": []}
+{"checked_at": "2026-10-10T03:56:12Z", "watched": 790, "hits": []}
+{"checked_at": "2026-10-10T03:59:25Z", "watched": 790, "hits": []}
+{"checked_at": "2026-10-10T04:02:36Z", "watched": 790, "hits": []}
+{"checked_at": "2026-10-10T04:05:46Z", "watched": 790, "hits": [{"symbol": "CFB_26OCT09_WSUUSU_ML.WSU", "slug": "cfb-washst-utahst-2026-10-09", "event": "Washington State vs Utah State, Oct 9, Moneyline", "outcome": "Washington State Cougars", "days": 0.038, "resolves": "2026-10-10T05:00:00+00:00", "side": "buy Polymarket, buy NO on Pascal", "profit": 0.6124, "capital": 25.0, "shares": 25.9, "edge": 0.0236, "fees": 0.3212, "buy": 0.53, "sell": 0.566}]}
